@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>6-30-2006</title>
+    <expansionState>0,3,4,6,8,10,12,13,15,16,19,21,23</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Widgets VS. Gadgets" MediaLinks="Widget vs. Gadgets  &lt;http://www.aeroxp.org/board/index.php?act=ST&amp;f=50&amp;t=4188&amp;st=0#entry48243&gt;">
+        <outline text="“ While checking out gadgets last night, I noticed that Mac Widgets are pretty much the same thing as gadgets, a little html with some Java code to get things done. My question is, has anyone been working on or is anyone even though of possibly porting their widgets to gadgets for use in the sidebar? ”"/>
+      </outline>
+      <outline text="The WAS System" MediaLinks="W.A.S System &lt;http://www.tacowidgets.com/&gt;">
+        <outline text="“ The W.A.S (Widget Alert System) was created by Taco Widgets. Taco Widgets is an innovative company that is always trying to come out with the latest technology both for their own widgets but for the dashboard in general. The W.A.S system is a way of adding alerts into your widget that will prompt the user for a response. This is a cool way to auto update a widget, or adding a time event. ”"/>
+      </outline>
+      <outline text="Earthlink Shopping Widget" MediaLinks="Earthlink Shopping Widget Review &lt;http://www.apple.com/downloads/dashboard/shopping/earthlinkshoppingwidget.html&gt;">
+        <outline text="“The “EarthLink Shopping Widget”, is available for download from the Apple site. It aggregates shopping results from Amazon, eBay and Shopping.com in one place: It tries to cut through the clutter of some online marketplaces, while bringing useful comparison-shopping information to our fingertips, right into dashboard, in a pleasant, compact, usable interface. ”"/>
+      </outline>
+      <outline text="Dashboard Dev : Info.plist &amp; Default Image Continued" MediaLinks="Dashboard Dev : Info.plist &amp; Default Image Continued &lt;http://dashdev.djupet.se/dashboard_widget_tutorial_1.html&gt;">
+        <outline text="There are 5 properties that should be included in a widget. 1. CFBundleDisplayName - The widget display-name 2. CFBundleIdentifier - The widget identifier 3. CFBundleName - The widget name 4. CFBundleVersion - The widget version 5. MainHTML - A link to the html file it should load on start, if you are into web, you can think of the file as index.html ”&#10;When the plist file is ready, we should make a background image for your widget. Think carefully now because this will be the foundation of your widget. There are some things you should think about when you make the graphics for your widget.&#10;1. Don’t make it larger than it has to be! 2. Try to make it blend in with dashboard if it suits the widget. 3. Make the shadow look somewhat the same as the rest of the widgets&#10;When you are done with the background for your widget, save it as 24-bit PNG. This image format supports alpha channel and is the best choice."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="The Earthlink Shopping Widget" MediaLinks="Earthlink Shopping Widget Review &lt;http://www.apple.com/downloads/dashboard/shopping/earthlinkshoppingwidget.html&gt;">
+        <outline text="“The “EarthLink Shopping Widget”, is available for download from the Apple site. It aggregates shopping results from Amazon, eBay and Shopping.com in one place:&#10;It tries to cut through the clutter of some online marketplaces, while bringing useful comparison-shopping information to our fingertips, right into dashboard, in a pleasant, compact, usable interface. ”"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

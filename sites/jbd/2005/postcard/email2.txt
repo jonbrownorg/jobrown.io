@@ -1,0 +1,13 @@
+Dear %%%SENDER%%%,
+
+Just a little note to inform you that the Postcard you sent to
+%%%RECIPIENT%%% was picked up on %%%SHORTDATE%%%.
+
+
+Thank you for sending a Jon Brown E-Greeting!
+
+
+Sincerely,
+Jon Brown
+Professional Graphic / Web Designer
+Webmaster of http://www.jonbrown.org

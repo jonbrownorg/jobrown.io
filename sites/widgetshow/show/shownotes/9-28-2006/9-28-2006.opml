@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>9-28-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,15,17,18,21,23,25</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Drag and Drop to Dashboard Widgets" MediaLinks="www.macworld.com—index.php &lt;http://www.macworld.com/weblogs/macosxhints/2006/09/dragboard/index.php?lsrc=mwrss&gt;">
+        <outline text="If you’re using OS X 10.4, here’s something you may not have realized about Dashboard: It supports drag-and-drop. Many widgets will accept dropped objects; for those who like using drag-and-drop, this is welcome news. Dragging text and images to Dashboard is just about as a simple as dragging them anywhere else—just select the object or text you wish to drag, click-and-hold, start dragging, press F12 to activate Dashboard, and then navigate to the desired widget’s work area and drop the selection. Note that the desired widget must already be open in Dashboard; you can’t open a widget from the Dashboard bar while dragging something."/>
+      </outline>
+      <outline text="Pirate Translator for OSX" MediaLinks="pirate.monkeyness.com &lt;http://pirate.monkeyness.com/&gt;">
+        <outline text="Arrrrgh! Ye may be lookin' for lots o' loot, but all that's here be a lousy English t' Pirate translator."/>
+      </outline>
+      <outline text="Closing Widgets in Dev Mode" MediaLinks="fredric.vox.com—how-to-close-widgets-in-when-you-are-in-devolper-mode-in-dashboard.html &lt;http://fredric.vox.com/library/post/how-to-close-widgets-in-when-you-are-in-devolper-mode-in-dashboard.html/&gt;">
+        <outline text="I have enabled Devolper Mode in Dashboard on my PowerBook. When I did, I noticed a little trick that will allow you to close widgets without having to go back to the dashboard. First drag a widget to the desktop.Next hover your mouse over the widget while pressing &quot;option+shift.&quot; A little x will appear on the top left corner. Click the X. "/>
+      </outline>
+      <outline text="Google Desktop" MediaLinks="desktop.google.com—features.html &lt;http://desktop.google.com/features.html#gadgets&gt;">
+        <outline text="Want a clock on your computer desktop? How about a calendar, a WiFi indicator, a TV, or anything else you can dream up?&#10;Say hello to Google Gadgets. These interactive mini-applications can be anything from games to search tools to media players, and they can be any shape and size – use a weather globe to show you the latest forecast. We’ve got a lot of ready-made gadgets you can add to your desktop, but they’re also so easy to create that you can probably figure out how to build your own.&#10;You can also save your gadget content and settings online to protect your info from computer crashes and be able to access it from your other computers by logging into your Google Account with Google Desktop. For instance, you can now ‘synch’ the To Do list on both your laptop and your desktop."/>
+      </outline>
+      <outline text="On Tour" MediaLinks="concerts.ontour.net &lt;http://concerts.ontour.net/&gt;">
+        <outline text="OnTour, which offers concert listings for your town. Concerts of artists in your iTunes will be highlighted in the “My Artists” section of results so that you’ll be sure to see them."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Eben Eliason talks about the GAS widget" MediaLinks="www.interdimensionmedia.com—index.html &lt;http://www.interdimensionmedia.com/gas3/index.html&gt;">
+        <outline text="Ever since I have started using widgets in the Dashboard interface one of the widgets that really amazed me was the Gas Widget. This widget is super functional for a quick and easy task that we all need on a daily basis and that is finding reasonable or the cheapest gas price within a certain radius or zip code location. Now I have been using this widget now for about a year and it has saved me lots of time, money and frustration. I really love the simple interface, the super fast scrolling numbers when it refreshes to look for my latest search and I also love the ability to search with any zip code in the USA.&#10;If you are like me and want to save some cash, as well as have a functional widget on your dashboard that does what it does well than look no further. You will be instantly amazed! Version 3.0 will be coming soon and will boast a lot of new features so check that out also!" MediaLinks="www.interdimensionmedia.com—widgets.html &lt;http://www.interdimensionmedia.com/widgets.html&gt;"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,244 @@
+body {
+scrollbar-3dlight-color:#5699dd;
+scrollbar-base-color:'#5699dd';
+scrollbar-darkshadow-color:'#5699dd';
+scrollbar-face-color:'#5699dd';
+scrollbar-arrow-color: white;
+scrollbar-highlight-color:white;
+scrollbar-shadow-color: #f5f5f5;
+scrollbar-track-color: #dcdcdc;
+}
+
+
+.menubar {
+background-color: #none;
+color: #none;
+}
+
+A.menubar:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+}
+
+A.menubar:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+}
+
+A.menubar:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+
+}
+
+
+.small {
+background-color: #none;
+color: #none;
+Font-Style:  bold;
+}
+
+A.small:link {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+A.small:visited {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+
+A.small:hover {
+color: black; 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+
+
+a:link { 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:visited { 
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:hover {
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+.normal {
+background-color: #none;
+color: #none;
+}
+
+A.normal:link {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 13px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+A.normal:visited {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 13px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+
+A.normal:hover {
+color: black; 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 13px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+.font {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+
+}
+
+.small {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 11px;
+        Font-Style:  bold;
+
+}
+
+.tab {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 12px;
+	text-indent: 20px;
+}
+
+.font2 {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+	color: white;
+	
+}
+
+.menulinks {
+	Color: white;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 10px;
+
+	}
+
+.webpage {
+	Position: Absolute;
+	Top: 0px;
+	Left: 70px;
+}
+
+.menubottom {
+	
+	Color: White;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+	
+}
+A.menubottom:link {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 13px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+A.menubottom:visited {
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+A.menubottom:hover {
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+.copyright {
+	Position: Absolute;
+	Top: 450px;
+	Left: 10px;
+	Color: black;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 11px;
+        width: 780px;
+	
+}
+.counter {
+	Color: white;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 10px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px black;
+	
+}
+
+

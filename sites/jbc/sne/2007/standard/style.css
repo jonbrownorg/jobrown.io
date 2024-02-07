@@ -1,0 +1,145 @@
+
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+body { background:#CFCFCF;}
+
+td, input, textarea{
+	font-family:Tahoma;
+	font-size:9px;
+	line-height:12px;  
+	color:#242424;	
+	vertical-align:top;
+}
+
+a { color:#FFFFFF;}
+a:hover { text-decoration: none;}
+a img { border:0;}
+
+.clear { clear:both;}
+
+.auto { width:auto; height:auto;}
+
+input, submit { vertical-align:middle;}
+
+table { 
+	border:0px;
+	border-collapse:collapse;
+	width:100%;
+	height:100%;
+}
+
+.left_tall { background:url(images/foot_bgd.gif) repeat-x bottom; width:50%;}
+.right_tall {background:url(images/bgd_foot.gif) repeat-x bottom; width:50%;}
+
+ul { list-style:none;}
+li a { line-height:18px; text-decoration:underline;}
+li a:hover { text-decoration:none;}
+
+.title { margin-bottom:29px;}
+.img_indent { margin-right:18px;}
+
+.link1 { color:#D13B0E; text-transform:uppercase; text-decoration:none;}
+.link1:hover { text-decoration:underline;}
+
+.date { margin-top:14px; margin-bottom:6px;}
+.line_hor { background:url(images/point.gif) repeat-x; margin-bottom:12px;}
+
+.input1 {width:132px; height:21px; color:#6B6968; margin-right:6px; padding:2px 10px; border-color:#DBDBDB;}
+.input2 {width:152px; height:21px; color:#6B6968; margin-right:6px; padding:4px 8px; border-color:#DBDBDB;}
+
+.form { height:24px; margin-bottom:6px;}
+.form input {width:229px; height:21px; padding:2px 0px 4px 8px; color:#222222; border-color:#DBDBDB;}
+textarea { width:229px; height:153px; padding-left:8px; color:#222222; overflow:auto; border-color:#DBDBDB; padding-top:4px;}
+
+#content .sep { width:21px;}
+
+#main {height:940px; width:780px; margin:0 auto;}
+#center { width:780px;}
+
+/* header */
+#header { height:382px;}
+#header .row1 { height:146px; background:url(images/head_row1.jpg) no-repeat;}
+#header .row1 .c1 { padding:36px 9px 0 31px;}
+#header .row1 .c2 { padding:33px 149px 0 0;}
+#header .row1 .c3 { padding:43px 56px 0 0;}
+#header .row1 .c4 { padding:43px 58px 0 0;}
+#header .row1 .c5 { padding:43px 49px 0 0;}
+#header .row2 { height:167px; background:url(images/head_row2.jpg) no-repeat; text-align:right;}
+#header .row2 img {margin:97px 57px 0 0;}
+
+/*footer*/
+#footer {background:url(images/foot_bgd.gif) repeat-x; padding:50px 57px 48px 53px;}
+#footer a { color:#FFFFFF; text-decoration: none;}
+
+/*content*/
+#content { padding:35px 26px 42px 28px; background:url(images/bgd_content.gif) repeat-x #CFCFCF;}
+
+/* page1 */
+#page1 #content .row1 .col1 { width:228px;}
+#page1 #content .row1 .col2 { width:228px;}
+#page1 #content .row1 .col2 a { text-decoration:none;}
+#page1 #content .row1 .col2 a:hover { text-decoration:underline;}
+#page1 #content .row1 .col2 .title { margin-bottom:40px;}
+#page1 #content .row1 .col2 .img_indent { margin:16px 0 15px 0;}
+#page1 #content .row1 .col3 { width:228px;}
+#page1 #content .row1 .col3 .img_indent { margin:0 0 28px 0;}
+#page1 #content .row1 .col3 a { text-decoration:none;}
+#page1 #content .row1 .col3 a:hover { text-decoration:underline;}
+#page1 #content .row2 .c1 {width:249px; padding-top:28px;}
+#page1 #content .row2 .c1 span { color:#D13B0E;}
+#page1 #content .row2 .c2 {width:249px; padding-top:28px;}
+#page1 #content .row2 .c2 span { color:#D13B0E;}
+#page1 #content .row2 .c3 {width:228px; padding-top:11px;}
+
+/* page2 */
+#page2 #content { padding:35px 26px 40px 28px;}
+#page2 #content .row1 .col1 { width:457px; padding-right:20px;}
+#page2 #content span a{ text-decoration:none;}
+#page2 #content span a:hover{ text-decoration:underline;}
+#page2 #content .row1 .col2 { width:228px;}
+#page2 #content .row1 .col2 .img_indent { margin:22px 0 23px 0;}
+#page2 #content .row1 .col2  .title { margin-bottom:26px;}
+
+/* page3 */
+#page3 #content { padding:35px 26px 31px 28px;}
+#page3 #content .title { margin-bottom:26px;}
+#page3 span a { text-decoration:none;}
+#page3 span:hover { text-decoration:underline;}
+#page3 .link2 { color:#222222;}
+#page3 #content .c1 { width:387px; padding-bottom:15px;}
+#page3 #content .c2 { width:94px; text-align:center; padding-right:10px;}
+#page3 #content .c3 { width:78px; text-align:center; padding-right:20px;}
+#page3 #content .c4 { padding-left:23px;}
+
+/* page4 */
+#page4 #content { padding:35px 26px 40px 28px;}
+#page4 #content .row1 .col1 { width:353px;}
+#page4 #content .row1 .col1 .title { margin-bottom:26px;}
+#page4 #content .row1 .col2 { }
+#page4 #content .row1 .col2 .title { margin-bottom:26px; }
+
+/* page5*/
+#page5 #content { padding:35px 26px 40px 28px;}
+#page5 #content { padding-top:34px;}
+#page5 #content .row2 .c1{ width:249px; padding-top:23px;}
+#page5 #content .row2 .c2{ padding-top:4px;}
+
+/* page6*/
+#page6 #content { padding:35px 26px 36px 28px;}
+#page6 #content .row1 .col1 { width:228px;}
+#page6 #content .row1 .col1 .img_indent { margin:0 0 19px 0 ;}
+#page6 #content .row1 .col2 { width:228px;}
+#page6 #content .row1 .col2 a { text-decoration:none;}
+#page6 #content .row1 .col2 a:hover { text-decoration:underline;}
+#page6 #content .row1 .col3 a { text-decoration:none;}
+#page6 #content .row1 .col3 a:hover { text-decoration:underline;}
+#page6 #content .row1 .col2 .title { margin-bottom:26px;}
+#page6 #content .row1 .col3 .title { margin-bottom:26px;}
+
+/* page7*/
+#page7 #content { padding:35px 26px 36px 28px;}
+#page7 #content .row1 .col1 a { text-decoration:none;} 
+#page7 #content .row1 .col1 a:hover { text-decoration:underline;}
+#page7 #content .row1 .col1 .title { margin-bottom:26px;}

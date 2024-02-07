@@ -1,0 +1,90 @@
+/* Slider CSS */
+#text-area {
+	padding-left: 38px;
+	padding-top: 28px;
+}
+.plist {
+	color: #4d5564;
+	line-height: 1.3em;
+	width: 100%;
+	margin-left: -40px;
+	list-style: none;
+}
+#text-area p {
+	color: #4d5564;
+	line-height: 1.3em;
+	width: 100%;
+}
+.circle-back {
+	height: 400px;
+	background-image: url(../images/backgrounds/circles.png);
+}
+.widget-back {
+	background-image: url(../images/backgrounds/whitey.png);
+}
+.little-knob {
+	background-image: url(../images/backgrounds/littleknobs.png);
+}
+#ccounter {
+	width: 100%;
+	height: 360px;
+	background-image: url(../images/products/ccounter.png);
+	background-repeat: no-repeat;
+	background-position-x: 45px;
+	background-position-y: 8px;
+	background-position: 45px 8px;
+}
+#ctracker {
+	width: 100%;
+	height: 360px;
+	background-image: url(../images/products/tracker.png);
+	background-repeat: no-repeat;
+	background-position-x: 45px;
+	background-position-y: 8px;
+	background-position: 45px 8px;
+}
+#befit {
+	width: 100%;
+	height: 360px;
+	background-image: url(../images/products/befit.png);
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -10px;
+	background-position: 0 -10px;
+}
+#headline-ct {
+	font-family: Arial;
+	font-size: 35px;
+	margin-bottom: -10px;
+	color: #4d5564;
+}
+#headline {
+	font-family: Arial;
+	font-size: 45px;
+	margin-bottom: -10px;
+	color: #4d5564;
+}
+#slide-show-cont {
+	z-index:1;
+	position:relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.drop-shadow-slideshow {
+    position:relative;
+    width:95%;    
+	height: 330px;
+    background-color: #fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin: 0 auto;
+    margin-top: 23px;
+    padding-top: 30px;       
+}
+.drop-shadow-slideshow:before,
+.drop-shadow-slideshow:after {
+    content:"";
+    position:absolute; 
+    z-index:-2;
+}

@@ -1,0 +1,167 @@
+<HTML>
+<HEAD>
+<TITLE>Error 500</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY BGCOLOR=#597798 LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<style>
+body {
+	margin-top: 60px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+<!-- ImageReady Slices (header.psd) -->
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0 align=center>
+	<TR>
+		<TD COLSPAN=3 background="images/top.gif">
+			<a href="/" border=0><IMG SRC="images/index_01.gif" WIDTH=811 HEIGHT=112 ALT="" border=0></a></TD>
+	</TR>
+	<TR valign=top>
+		<TD>
+			<IMG SRC="images/index_02.gif" WIDTH=162 HEIGHT=413 BORDER=0 ALT="" USEMAP="#index_02_Map"></TD>
+		<TD>
+			
+
+<table WIDTH=650 HEIGHT=413 bgcolor="#ffffff" cellspacing=0 cellpadding=0>
+<tr>
+<td>
+<TABLE WIDTH=650 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3 BGCOLOR=#597798>
+			<IMG SRC="images/test_01.gif" WIDTH=187 HEIGHT=9 ALT=""></TD>
+		<TD ROWSPAN=2 BGCOLOR=#597798 width="69%">
+			<IMG SRC="images/bluecolor.gif" WIDTH=430 HEIGHT=31 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD align=right bgcolor="#597798">
+			<IMG SRC="images/test_03.gif" WIDTH=33 HEIGHT=22 ALT=""></TD>
+		<TD bgcolor="#90AFD0" align=center>
+			<Table WIDTH=100% HEIGHT=22 BORDER=0 CELLPADDING=0 CELLSPACING=0 align=center>
+
+<tr><td align=center><font size=1 face="times"><b>Error Page 500</b></font></td></table>
+</TD>
+		<TD bgcolor="#597798">
+			<IMG SRC="images/test_05.gif" WIDTH=30 HEIGHT=22 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 bgcolor="#90AFD0">
+			<IMG SRC="images/colorstripe.gif" WIDTH=617 HEIGHT=4 ALT=""></TD>
+	</TR>
+</TABLE></td>
+<tr>
+<td>
+<table width="650" height="413" bgcolor="#90AFD0" border=0 align=center>
+<tr>
+
+<td width="650" bgcolor="#ffffff">
+
+
+<table width="100%" height="413" bgcolor="#ffffff" border=0>
+<tr valign=center>
+
+
+<td height=1><font size=2>
+<CENTER><h1>Error 500</h1>
+<br>
+
+Double check to make sure that you put the entire URL in your brower.<BR>
+If this error persists, then the page was deleted from our server.<BR><BR>
+
+
+<b>1:</b>If you reach this then the page may have expired.<br> 
+<br>
+<br>
+
+<b>2:</b>We may be updating or servicing our site,<br> try back in 2-3 hours and if this problem persists then refer to <b>1</b>
+<BR><BR>
+
+
+</font>
+
+
+<CENTER>
+
+   
+
+
+
+
+
+
+</td>
+</table>
+
+
+
+
+
+
+
+
+
+</td>
+
+</table>
+
+
+
+</td>
+</table>
+
+
+</TD>
+		<TD>
+			<IMG SRC="images/index_04.gif" WIDTH=32 HEIGHT=413 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 background="images/bottom.gif" align=center>
+			<IMG SRC="images/index_05.gif" WIDTH=811 HEIGHT=75 ALT=""></TD>
+	</TR>
+</TABLE>
+<MAP NAME="index_02_Map">
+<AREA SHAPE="rect" ALT="" COORDS="53,291,107,311" HREF="stuff.html">
+<AREA SHAPE="rect" ALT="" COORDS="43,260,115,282" HREF="contact.html">
+<AREA SHAPE="rect" ALT="" COORDS="53,231,109,252" HREF="link.html">
+<AREA SHAPE="rect" ALT="" COORDS="38,201,124,222" HREF="faq.html">
+<AREA SHAPE="rect" ALT="" COORDS="52,171,110,189" HREF="pearl.html">
+<AREA SHAPE="rect" ALT="" COORDS="46,140,115,161" HREF="resume.html">
+<AREA SHAPE="rect" ALT="" COORDS="43,110,118,131" HREF="#">
+<AREA SHAPE="rect" ALT="" COORDS="40,78,122,102" HREF="down.html">
+<AREA SHAPE="rect" ALT="" COORDS="41,50,119,71" HREF="me.html">
+</MAP>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
+
+
+

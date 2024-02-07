@@ -1,0 +1,97 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+border-bottom-width: 0px;
+width: 600px; /*width of featured content slider*/
+height: 300px;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+
+background: white;
+width: 600px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+.pagination{
+width: 590px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: right;
+background-color: white;
+padding: 5px 10px;
+}
+
+.pagination a{
+font-family: tahoma, veranda, arial, helvetica, sans-serif;
+font-size: 11px;
+padding: 2px 5px 2px 5px;
+text-decoration: none; 
+color: #436976;
+background: white;
+}
+
+.pagination a:hover, .pagination a.selected{
+font-size: 11px;
+font-family: tahoma, veranda, arial, helvetica, sans-serif;
+color: #000;
+background-color: #dcdcdc;
+}
+
+#breadcrumbs {
+
+   font-size: 14px;
+   color: #000;
+
+}
+
+.wp-caption-text {
+        font-size:xx-small;
+        color:#000;
+        vertical-align:top;
+}
+
+.color1 {
+	background-color: #cae1ea;
+}
+.color2 {
+	background-color: #eef3f5;
+}  
+
+.wp-caption {
+  	background:#F7F7F7;
+  	border: 1px solid #E7E8E6;
+  	border-radius: 4px;
+  	-moz-border-radius: 4px;
+  	padding-top:5px;
+  	margin:4px 10px;
+  	text-align:center;
+  	color: #8d8b8b;
+}
+
+.wp-caption img, .post .postbody .wp-caption img{
+  	margin: 0;
+  	border: 0;
+  	padding: 0;
+}
+
+.wp-caption.alignleft{ margin-left: 0; }
+.wp-caption.alignright{ margin-right: 0; }
+
+
+.alignleft {
+  	float: left;
+  	padding-right: 10px;
+}
+
+.alignright {
+  	float: right;
+  	padding-left: 10px;
+}

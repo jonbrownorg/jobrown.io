@@ -1,0 +1,1363 @@
+ <!-- Testimonials -->
+    <!-- 
+      The testimonials section uses Alpine.js and SwiperJS for the carousel slider. If you're not familiar with Swiper you can check out their documentation here: https://swiperjs.com/
+    -->
+    <section
+      x-data="{
+        progress: 0,
+        init() {
+          this.swiper = new Swiper('.swiper', {
+            navigation: {
+              nextEl: '.carousel-next',
+              prevEl: '.carousel-prev',
+            },
+            scrollbar: {
+              draggable: true 
+            },
+            spaceBetween: 0,
+            slidesPerView: 'auto',
+            grabCursor: true,
+            loop: false,
+            centeredSlides: false,
+            initialSlide: 0,
+            on: {
+              slideChange: (swiper) => {
+                this.progress = swiper.progress
+              }
+            }
+          })
+        },
+
+      }"
+      class="relative py-20 overflow-hidden bg-slate-50 sm:py-24 lg:pt-32"
+    >
+      <!-- Section Header -->
+      <div class="relative max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
+        <div
+          class="grid max-w-xl gap-6 mx-auto lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-16"
+        >
+          <div>
+            <h2
+              class="text-4xl font-semibold font-display text-slate-900 sm:text-5xl"
+            >
+              Here’s what past customers are saying about me
+            </h2>
+
+            <!-- Carousel progess bar -->
+            <div
+              class="mt-10 hidden h-[7px] w-full rounded-full bg-slate-200 lg:mt-16 lg:block"
+            >
+              <div
+                class="w-0 h-full duration-200 rounded-full bg-slate-900"
+                x-bind:style="'width:' + (progress * 100) + '%'"
+              ></div>
+            </div>
+          </div>
+          <div class="lg:ml-auto lg:max-w-sm">
+            <p class="text-lg text-slate-700">
+              Time to put money where my mouth is. Don't just take my word for it, I've worked with hundreds of companies and individuals to help them reach their potential. 
+            </p>
+
+            <!-- Carousel navigation buttons -->
+            <div class="mt-14 flex gap-2.5 lg:mt-12">
+              <!-- Prev -->
+              <button
+                class="inline-flex items-center justify-center w-12 h-12 duration-200 bg-white rounded-full shadow-sm carousel-prev shadow-sky-200/75 ring-1 ring-slate-200/60 hover:bg-sky-50/50"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-6 h-6 text-sky-700/70"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <!-- Next -->
+              <button
+                class="inline-flex items-center justify-center w-12 h-12 duration-200 bg-white rounded-full shadow-sm carousel-next shadow-sky-200/75 ring-1 ring-slate-200/60 hover:bg-sky-50/50"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-6 h-6 text-sky-700/70"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative mt-8 lg:mt-24">
+        <!-- Testimonials carousel container -->
+        <div class="relative max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
+          <div class="!overflow-visible swiper">
+            <!-- Testimonials list -->
+            <div class="flex w-full swiper-wrapper">
+              <!-- 1st testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “Jon excels as a leader and he has the ability to solve complex issues”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon has many unique talents! I've witnessed his wide range of abilities; Jon is incredibly technical, excels as a leader, and he has the ability to solve complex issues. It has been a privilege to work alongside him!
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Shaun Smallwood
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Technology Advisor
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1703041700895.png"
+                        alt="Shaun Smallwood"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2nd testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “Jon is equal parts mac genius, conflict negotiator & dreamer”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon is equal parts mac genius, conflict negotiator, dreamer and karaoke singer. He changed the way we relate to IT at BSD in a way that has allowed us to work more seamlessly, more securely, and with greater speed. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Ben Murray
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Advocacy & Technology | Consultant to Causes
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1692942102955.png"
+                        alt="Ben Murray"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3rd testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “He solved the problem that had been frustrating my team for weeks!”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      I found and contacted Jon through his website, which has been a fantastic resource for me over the past year. He was exceptionally knowledgeable and friendly to work with. He solved the problem that had been frustrating my team for weeks in a few hours. We couldn't recommend him highly enough!
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Tony Banta
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Chief Success Officer
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1670730040011.png"
+                        alt="Tony Banta"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “He breaks down complex problems and works with amazing diligence!”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon is an incredible IT leader with a strong customer service outlook. He breaks down complex problems and works with amazing diligence and personal commitment to implement solutions. These strong skills are matched with a rarer quality: compassion for the users he serves.
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Jascha Franklin-Hodge
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Chief of Streets for the city of Boston
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1663953921648.png"
+                        alt="Jascha Franklin-Hodge"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “Jon Brown is a brilliant leader and manager”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon Brown is a brilliant leader and manager. Having worked in a supervisor position myself, I really understand the effort and skill Jon put into managing our department. Jon helped me through my inexperience by providing me with training, pointing me towards resources, providing documentation, and reinforcing that he was there to help. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Malcolm Moore
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Senior AV Specialst
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1632281789736.png"
+                        alt="Malcolm Moore"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “Jon is a great communicator”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Not only is Jon a technological expert, able to solve problems from hardware and security issues to helping us design, build and launch new websites. But he is also a great communicator. He breaks down complex technical issues and explains them in a way that is easy to understand. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Nick Field
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Finance Specialist
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1573747712224.png"
+                        alt="Nick Field"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “He's proactive and planful for the long-term”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon is by far the best IT person I've worked with over the past 15 years. He's proactive and planful for the long-term, he documents changes well for remarkably smooth company-wide transitions, and he is always patient and approachable one-on-one, no matter how basic the question. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Diane Kaplan
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Software Engineer at Ginkgo Bioworks
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1551885454282.png"
+                        alt="Diane Kaplan"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 8th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “Jon Brown is a consummate IT professional”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon Brown is a consummate IT professional who was generous with his time and wealth of knowledge. He was a pleasure to work with as we improved operational efficiencies, documentation, and standardization at Interlaced. I relied heavily on him for his understanding of new technologies and MSP space.
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Darius Jones
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Project Manager
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1545348589689.png"
+                        alt="Darius Jones"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 9th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “He's straightforward, thoughtful, and effective”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Over the last seven years, Jon has been my supervisor, my colleague, and my friend. He will go above and beyond to find an IT solution that works, even in the face of ridiculous challenges and demands. He won't say NO ... he'll rise to the occasion and work quickly and efficiently to solve the issue of the moment. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Kate Zawidzki
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Copy Editor at Cooley
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1517549446714.png"
+                        alt="Kate Zawidzki"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 10th testimonial -->
+              <div
+                class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-10 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r"
+              >
+                <div class="flex h-full w-full max-w-[272px] flex-1 flex-col">
+                  <!-- Testimonial content -->
+                  <div class="flex-1">
+                    <!-- Testimonial rating -->
+                    <div class="flex gap-0.5">
+                      <!-- 1st star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 2nd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 3rd star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 4th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <!-- 5th star -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="w-5 h-5 text-yellow-400"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h4
+                      class="text-xl font-medium mt-7 font-display text-slate-900"
+                    >
+                      “He has the patience of a saint”
+                    </h4>
+                    <p class="mt-3 text-sm leading-7 text-slate-700">
+                      Jon is meticulous and thorough. He has the patience of a saint and a dedication to a job done well AND correctly. Additionally, he is personable and a good communicator. His passion for his work is evident. I would welcome the opportunity to work with him again and have only the highest regard for him personally and professionally. 
+                    </p>
+                  </div>
+
+                  <!-- Author info -->
+                  <div>
+                    <hr class="w-full h-px my-6 bg-slate-200" />
+                    <div class="flex items-center justify-between">
+                      <div class="">
+                        <p
+                          class="font-medium font-display text-md text-slate-900"
+                        >
+                          Annie Jaxon
+                        </p>
+                        <p class="mt-1.5 text-sm text-slate-600">
+                          Technical Project Manager at One Door
+                        </p>
+                      </div>
+                      <img
+                        src="{{ site.site_url }}/images/avatars/1516788059084.png"
+                        alt="Annie Jaxon"
+                        class="rounded-full h-14 w-14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right edge fade effect -->
+        <div
+          class="absolute inset-y-0 right-0 z-10 hidden bg-gradient-to-r from-slate-50/0 to-slate-50/80 2xl:block 2xl:w-64"
+        ></div>
+      </div>
+
+      <!-- Container -->
+      <div class="max-w-screen-xl px-5 mx-auto mt-16 sm:mt-20 sm:px-6 lg:px-8">
+        <div class="max-w-xl mx-auto lg:mx-0 lg:max-w-none">
+          <h3
+            class="relative max-w-xs font-writing text-[27px] tracking-wide text-slate-600"
+          >
+            These are some <span class="text-sky-700">companies</span> I have
+            worked with
+
+            <!-- Arrow -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="124"
+              height="101"
+              viewBox="0 0 124 101"
+              fill="none"
+              class="absolute top-0 hidden h-auto translate-x-full -right-1 w-28 text-slate-600 sm:block"
+            >
+              <g clip-path="url(#clip0_46_948)">
+                <path
+                  d="M13.1589 30.5605C25.87 29.4569 33.2606 30.8618 39.6091 42.3857C43.633 49.6899 46.4183 59.3311 46.3238 67.7073C46.2691 72.5626 42.2892 65.9515 41.6704 64.6273C34.5099 49.3076 36.8933 29.794 50.6002 18.9635C59.5333 11.9051 68.6204 16.8471 75.1399 24.5336C85.0823 36.2557 86.6911 53.2905 83.9281 67.8963C83.0089 72.755 81.0734 87.6248 74.4798 88.4661C69.0168 89.1631 70.7054 79.5464 71.3591 76.6577C72.2912 72.5391 74.6187 63.7152 78.7577 61.7025C84.694 58.8161 90.7263 68.0342 92.566 72.2364C96.0595 80.2162 97.0519 90.0519 98.5548 98.5871C98.6653 99.2155 96.1022 96.1168 95.6489 95.5787C94.3499 94.0379 92.4806 93.0934 91.3132 91.4383C90.4471 90.2104 87.3106 82.7634 91.0886 86.4645C92.4201 87.7691 96.7405 98.7863 97.1778 98.7038C98.9644 98.3683 102.67 87.2815 103.339 85.227C104.949 80.2795 94.9776 86.3346 93.782 87.3542"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_46_948">
+                  <rect
+                    width="106"
+                    height="67"
+                    fill="white"
+                    transform="matrix(0.932551 0.361039 0.361039 -0.932551 0 62.481)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </h3>
+
+          <!-- Logo cloud -->
+          <div
+            class="mt-12 grid grid-cols-2 gap-2.5 sm:mt-14 lg:mt-20 lg:grid-cols-5"
+          >
+            <!-- 1st logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/eleven-peppers.png"
+                alt="Eleven Peppers Studios"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 2nd logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/dc-brau.png"
+                alt="Intercom"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 3rd logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/fathom.png"
+                alt="Coursera"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 4th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/fraym.png"
+                alt="Unbounce"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 5th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/hrc.png"
+                alt="Prismic"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 6th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/social-driver.png"
+                alt="Codesee"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 7th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/dhs_logo_2021.svg"
+                alt="Booqable"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 8th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/FEEA-Logo_Horz.png"
+                alt="Tapcart"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 9th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/blue-state.png"
+                alt="Mailchimp"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+
+            <!-- 10th logo -->
+            <div
+              class="flex items-center justify-center border shadow-sm rounded-xl border-slate-200/90 py-7 shadow-sky-100/50"
+            >
+              <img
+                src="{{ site.site_url }}/images/logos/Fortalice.png"
+                alt="Instagram"
+                class="w-32 h-auto sm:w-36"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

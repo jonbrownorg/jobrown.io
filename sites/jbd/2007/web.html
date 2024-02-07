@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head><STYLE TYPE="text/css">
+<!-- 
+BODY {margin: 0} 
+-->
+</STYLE>                
+ <style type="text/css" media="screen">
+      @import url('glide-scroll-h.css');
+      @import url('slidelist/main.css');
+      @import url('slidelist/menu.css');
+    </style>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Use a Slider as a Scrollbar Demo</title>
+		<script src="javascripts/prototype.js" type="text/javascript"></script>
+		<script src="javascripts/slider.js" type="text/javascript"></script>
+		<style type="text/css" media="screen" >
+						
+			/* scrollable div area */
+			#scrollable2 {
+				float: left;
+				width: 525px;
+				height: 200px;
+				
+				overflow: hidden;
+				white-space: nowrap;
+			}
+			
+						
+			/* wrap to make sure that image area is clickable */
+			#wrap4 {
+				float: left;
+				clear: both;
+				width: 525px;
+				height: 19px;
+				background: transparent url(images/scrollback.png) no-repeat top right;
+			}
+			
+			/* left image of track */
+			#track4-left {
+				position: absolute;
+				width: 15px;
+				height: 19px;
+				background: transparent url(images/endscroll.png)  no-repeat top left;
+			}
+			
+			/* horizontal track */
+			#track4 {
+				position: absolute;
+				width: 525px;
+				height: 19px;
+			}
+			
+			/* horizontal track handle */
+			#handle4 {
+				width: 93px;
+				height: 19px;
+			}
+
+		</style>
+	</head>
+	<body>
+			<style>
+body {
+	margin-top: 50px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>	
+		<table cellpadding=0 cellspacing=0><tr><td></td><td>
+		<div id="scrollable2">
+			
+<table cellpadding=0 cellspacing=0><tr>
+<td><a href="#" onclick="window.open('port/rtbamt/index.html','mywindow','width=924,height=603,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')"> 
+<img src="port/rtba.png" border=0></a>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+<td><a href="#" onclick="window.open('http://www.widgetshow.com','mywindow','width=924,height=603,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')"> 
+<img src="port/flipside.png" border=0></a>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<a href="#" onclick="window.open('port/RCG/index.html','mywindow','width=1006,height=603,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')">
+
+<img src="port/rcg.png" border=0></a>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<a href="#" onclick="window.open('http://www.seacoastchapel.com','mywindow','width=924,height=603,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')">
+
+<img src="port/seacoast.png" border=0></a>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<a href="#" onclick="window.open('port/od/index.html','mywindow','width=904,height=602,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')">
+
+<img src="port/od.png" border=0></a>
+</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="#" onclick="window.open('port/ESL/eslmain.html','mywindow','width=668,height=573,toolbar=no,location=no,directories=no,s tatus=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=yes')">
+<img src="port/eslweb.png" border=0></a></td>
+
+</table>
+
+		</div>
+		
+		
+		
+		<div id="wrap4">
+			<div id="track4-left"></div>
+			<div id="track4">
+				<div id="handle4"><img src="images/scroll.png" alt="" /></div>
+			</div>
+		</div>
+		</td><td width=20>&nbsp;&nbsp;&nbsp;&nbsp;</td></table>
+		<br style="clear: both;" />
+		<br style="clear: both;" />
+		
+		<script type="text/javascript" language="javascript">
+		// <![CDATA[
+					
+			// horizontal slider control
+			var slider4 = new Control.Slider('handle4', 'track4', {
+				onSlide: function(v) { scrollHorizontal(v, $('scrollable2'), slider4);  },
+				onChange: function(v) { scrollHorizontal(v, $('scrollable2'), slider4); }
+			});
+			
+			
+			
+			// scroll the element horizontally based on its width and the slider maximum value
+			function scrollHorizontal(value, element, slider) {
+				element.scrollLeft = Math.round(value/slider.maximum*(element.scrollWidth-element.offsetWidth));
+			}
+			
+			// disable vertical scrolling if text doesn't overflow the div
+			if ($('scrollable1').scrollHeight <= $('scrollable1').offsetHeight) {
+				slider1.setDisabled();
+				$('track1').hide();
+			}
+			
+			// disable horizontal scrolling if text doesn't overflow the div
+			if ($('scrollable1').scrollWidth <= $('scrollable1').offsetWidth) {
+				slider2.setDisabled();
+				$('track2').hide();
+			}
+			
+			// disable vertical scrolling if text doesn't overflow the div
+			if ($('scrollable2').scrollHeight <= $('scrollable2').offsetHeight) {
+				slider3.setDisabled();
+				$('wrap3').hide();
+			}
+			
+			// disable horizontal scrolling if text doesn't overflow the div
+			if ($('scrollable2').scrollWidth <= $('scrollable2').offsetWidth) {
+				slider4.setDisabled();
+				$('wrap4').hide();
+			}
+
+		// ]]>
+		</script>
+	
+			</body>
+</html>

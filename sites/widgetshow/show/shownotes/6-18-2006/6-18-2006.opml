@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>6-18-2006</title>
+    <expansionState>0,3,4,6,8,10,11,13,14,17,19,21</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Problems with Dashcode" MediaLinks="meat-eater.blogspot.com—apple-dashcode-widget-creation-for-all.html &lt;http://meat-eater.blogspot.com/2005/11/apple-dashcode-widget-creation-for-all.html&gt;">
+        <outline text="“ From the looks of it, this app is not a consumer oriented app for widget creation. It looks like it will be an IDE for dashboard widgets with very nice WYSIWYG tools. Even the name, which is reminiscent of Xcode, hints at this. Not that it will be a bad thing, but it is not what I first thought it will be. I am confident that there a lot of end users (read as: non-programmers) who have their own ideas for really simple but specialized dashboard widgets. They will benefit greatly from a consumer oriented widget creation app. Sadly, that app won't be dashcode. But the sadder thing is that this mythical consumer oriented widget creating app that I desire, seems nowhere in sight. ”"/>
+      </outline>
+      <outline text="Dashboard Dev : Info.plist Tutorial" MediaLinks="dashdev.djupet.se—dashboard_widget_tutorial_1.html &lt;http://dashdev.djupet.se/dashboard_widget_tutorial_1.html&gt;">
+        <outline text="“ There are 5 properties that should be included in a widget.&#10;1. CFBundleDisplayName - The widget display-name&#10;2. CFBundleIdentifier - The widget identifier&#10;3. CFBundleName - The widget name&#10;4. CFBundleVersion - The widget version&#10;5. MainHTML - A link to the html file it should load on start, if you are into web, you can think of the file as index.html ” "/>
+      </outline>
+      <outline text="App Update Widget" MediaLinks="www.skia.net—dev.php &lt;http://www.skia.net/dev.php&gt;">
+        <outline text="“ Derived from the successful Widget Update, App Update enables you to check for updates to your share- and freeware applications at Apple, MacUpdate and VersionTracker. You will be presented with a tidy list of links to the detail pages of all the updates found. Among the key features are an extensive online-help, a configuration editor to tailor App Update to your very personal collection of applications, limited support for Quicktime Components, Frameworks and Preference Panes, automatic checking for updates and Growl support. Like for Widget Update, graphics were designed by Mike Pogran. ” "/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="App Update Widget Interview">
+        <outline text="“ Derived from the successful Widget Update, App Update enables you to check for updates to your share- and freeware applications at Apple, MacUpdate and VersionTracker. You will be presented with a tidy list of links to the detail pages of all the updates found. Among the key features are an extensive online-help, a configuration editor to tailor App Update to your very personal collection of applications, limited support for Quicktime Components, Frameworks and Preference Panes, automatic checking for updates and Growl support. Like for Widget Update, graphics were designed by Mike Pogran. ” "/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

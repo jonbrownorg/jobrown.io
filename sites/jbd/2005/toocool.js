@@ -1,0 +1,1 @@
+document.write('<style><!-- @import url(toocool.css); --></style>'+ '<div class="FFWB"><img src="images/too_cool_corner.png" width="80" height="80" border="0" usemap="#FFWBLink"></div>'+ '<map name="FFWBLink"><area shape="rect" coords="0,0,80,80,80,71,30,0" href="http://www.w3junkies.com/toocool/" target="_blank"></map>');

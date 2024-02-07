@@ -1,0 +1,139 @@
+#fancymenu {
+	position: relative;
+	width: 558px;
+	padding: 0px;
+	margin: 0px 0;
+	overflow: hidden;
+}
+a:link { 
+Font-Family: Lucida Grande;
+Font-Size: 14px;
+Font-Style:  bold;
+color: #989696; 
+text-shadow: 0px 1px 0px white;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+a:visited  { 
+Font-Family: Lucida Grande;
+Font-Size: 14px;
+Font-Style:  bold;
+color: #989696; 
+text-shadow: 0px 1px 0px white;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a.smlink:link { 
+Font-Family: Lucida Grande;
+Font-Size: 12px;
+Font-Style:  bold;
+color: #434040; 
+text-shadow: 0px 1px 0px white;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+a.smlink:visited  { 
+Font-Family: Lucida Grande;
+Font-Size: 12px;
+Font-Style:  bold;
+color: #434040; 
+text-shadow: 0px 1px 0px white;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+
+#fancymenu ul {
+	padding: 0;
+	margin: 0;
+	list-style:none;
+}
+
+/* Don't apply padding here (offsetWidth will differ in IE)
+    If you need padding add it to the child anchor */
+#fancymenu ul li {
+	float: left;
+	list-style: none;
+}
+
+#fancymenu a  {
+	z-index: 10;
+	display: block;
+	float: left;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+#menu_home a {
+	width: 52px;
+	
+}
+#menu_updates a {
+	width: 102px;
+
+}
+#menu_account a {
+	width: 72px;
+
+}
+#menu_logout a {
+	width: 72px;
+
+}
+#menu_clients a {
+	width: 72px;
+
+}
+#menu_widgets a {
+	width: 72px;
+	}
+#menu_blog a {
+	width: 62px;
+	
+}
+#menu_portfolio a {
+	width: 82px;
+	
+}
+
+#res a {
+	width: 72px;
+	
+}
+#con a {
+	width: 72px;
+	
+}
+#log a {
+	width: 62px;
+	
+}
+
+
+
+
+#fancymenu li.background {
+	background: url('images/bg_menu_right.png') no-repeat top right !important;
+	background: url('images/bg_menu_right.gif') no-repeat top right;
+	z-index: 8;
+	position: absolute;
+	visibility: hidden;
+}
+
+#fancymenu .background .left {
+	background: url('images/bg_menu.png') no-repeat top left !important;
+	background: url('images/bg_menu.gif') no-repeat top left;
+	height: 20px;
+	margin-right: 6px; /* 7px is the width of the rounded shape */
+	margin-left: 0px; 
+}

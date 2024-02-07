@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>7-17-2007</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,20,21,24,26,28</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="iPhone Developer Site" MediaLinks="developer.apple.com—iphone &lt;http://developer.apple.com/iphone/&gt;">
+        <outline text="Developers can create Web 2.0 applications that look and behave just like the applications built into iPhone, and provide seamless integration with iPhone applications and services including making a phone call, sending an email, and displaying a location in Google Maps. Third-party applications created using web standards can extend iPhones capabilities without compromising its reliability or security."/>
+      </outline>
+      <outline text="iWidgetgallery for iPhone widgets" MediaLinks="ipwid.com &lt;http://ipwid.com/&gt;">
+        <outline text="Are you looking for iPhone widgets? Well, youre actually looking at one right now! Yes, our site is an iWidget. Just point your Safari to ipwid.com &lt;http://ipwid.com/&gt; and discover new widgets while youre on the go. Click here to preview what this page looks like on an iPhone!"/>
+      </outline>
+      <outline text="Digiwidge Widget Gallery for iPhone widgets" MediaLinks="www.digiwidge.com—index.html &lt;http://www.digiwidge.com/index.html&gt;">
+        <outline text="Recreate the look and feel of your iPhone interface with www.digiwidge.com—index.html &lt;http://www.digiwidge.com/index.html&gt; A great website designed to make using iPhone widgets easy and user friendly."/>
+      </outline>
+      <outline text="iPhone Widget List" MediaLinks="iphonewidgetlist.com—reference &lt;http://iphonewidgetlist.com/index.php/iPhone/category/reference/&gt;">
+        <outline text="The List is a reference site to find iPhone widget and app concepts on the web. We expect this list to evolve from prototypes and concepts to working web apps formatted specifically for the iPhone. Let us know of additional ones as they become available."/>
+      </outline>
+      <outline text="Mogits are web widgets for your iPhone" MediaLinks="mojits.com &lt;http://mojits.com/&gt;">
+        <outline text="Mojits are mobile widgets, or web applications, designed specifically for iPhone. Heres an Amazon one! If you own an iPhone, then you have to have these! Create a free account and manage your widgets through Safari on iPhone."/>
+      </outline>
+      <outline text="Gridgets more web widgets for your iPhone with style!" MediaLinks="gridgets.com &lt;http://gridgets.com/&gt;">
+        <outline text="Organize your iPhone apps with style. While Jürgen and Oli still tried to find the beeswax, Werner and Chris were already following the Siren’s song of the iPhone. Humming along, they steered the ship towards the island of iPhone application managers. By the time the wax was found, it was already too late: If you like to follow us through the uncharted sea of Safari mobile app development, launch Gridgets.com on your iPhone. As iPhones are not easy to come by in Europe (it might take us another week or two to do our own testing) your feedback is even more appreciated."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Comment on http Request for update checker.">
+        <outline text="Why use XMLHttpRequest to retrieve the version number? Why not just do&#10;widget.system(”/usr/bin/curl www.jonbrown.org—ntracker.php &lt;http://www.jonbrown.org/ntracker.php&gt;”,compareVersion);&#10;and save yourself some code?"/>
+        <outline text="Very true, that is a better alternative to using HTTP Requests, and I encourage everyone to reduce their code-base by using such an alternative. A better tutorial awaits!"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;" MediaLinks=" "/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mac Gurus App</title>
+        <link>http://www.imamac.guru/</link>
+        <description>A feed for the iOS Mac Gurus App</description>
+        <language>en</language>
+        <pubDate>2018-08-26 13:53:31 -0400</pubDate>
+        <lastBuildDate>2018-08-26 13:53:31 -0400</lastBuildDate>
+        <atom:link href="http://www.imamac.guru/app/out.xml" rel="self" type="application/rss+xml"/>
+        
+        <item>
+          <title>13 Essential Trackpad Tricks for Mac Users</title>
+          <description><![CDATA[ A trackpad is not a mouse. In some ways, that’s obvious—you swipe your fingers on it, rather than dragging it around. Less obvious, however, are the many gestures that make using a trackpad on your Mac faster and more fun. These gestures aren’t limited to laptop users, thanks to Apple’s Magic Trackpad 2, which brings gesturing goodness to any desktop Mac. Here’s how to put your fingers to work.
+
+Four Fingers on the Trackpad
+
+
+The four-fingers-down gestures are dramatic and an easy way to appreciate the power of trackpad gestures, so we’ll start with them.
+
+Say you have a lot of windows open, and you want to move them all aside quickly so you can open a file on the Desktop. Place your thumb and three fingers together on your trackpad and then spread them outward. Your windows scurry to the edges of the screen. To bring the windows back, reverse the gesture, pinching your fingers in toward your palm.
+
+
+
+If you haven’t moved windows aside, pinching your thumb and three fingers together instead opens Launchpad, which shows icons for installed apps. Click an icon to open that app, or use the spreading four-fingered gesture to exit Launchpad.
+
+Three Fingers on the Trackpad
+
+
+Move three fingers horizontally on your trackpad and either nothing will happen, or you’ll switch to a different “desktop space.” This state of affairs is most easily seen by making an app full-screen. For instance, open Safari and click the green full-screen button at the upper left of the window. Safari takes over the entire screen, including the menu bar (to put it back, hover the pointer at the very top of the screen to see and click the green button again).
+
+Now swipe left and right horizontally to switch in and out of the Safari space. As you make more apps full-screen, they’ll each create their own space. (If you’ve enabled Apple’s Dashboard, you may see it at the far left.)
+
+What if you swipe vertically with three fingers? Swipe up to enter the All Windows view of Mission Control, which shows all open windows as thumbnails, plus desktop spaces in the top bar. Click any thumbnail to switch to it, or jump to any space by clicking it. You can also click the plus button at the upper right or drag any window into the top bar to create a new space. To move a space’s apps back to the current space, hover over a space on the top bar and click the close button that appears. To exit All Windows view, swipe down with three fingers.
+
+
+
+If you haven’t invoked All Windows view, swiping down with three fingers instead invokes App Exposé view, which displays thumbnails of all open windows in the current app. Click any one to switch to it. Swipe right or left with three fingers while in App Exposé to switch between apps.
+
+Finally, on older MacBooks that don’t have Force Touch-capable trackpads, tap with three fingers on words to look them up, on files to preview them with Quick Look, and more. With newer MacBooks, if you have “Force Click and haptic feedback” enabled in System Preferences  Trackpad  Point ' Click, you can instead “force click” with one finger for these features. That involves clicking on something and then pressing firmly without letting up.
+
+Two Fingers on the Trackpad
+
+
+The two-fingered gestures are easy to get your head around:
+
+
+  
+    In Safari, swipe left on a page to go back in that tab’s page history or right to go forward.
+  
+  
+    Also in Safari, tap two fingers on the trackpad to zoom in on the content. Another two-fingered tap zooms back out.
+  
+  
+    In Photos, and some graphics apps, zoom in and out by pinching with two fingers, and rotate selected objects by putting two fingers on the trackpad and turning them. A two-finger pinch also zooms the page in Safari.
+  
+  
+    To open Notification Center quickly, swipe left from off the right-hand edge of your trackpad. Swipe back to the right to close Notification Center.
+  
+
+
+Changing Your Preferences
+
+
+If you need a refresher on all these gestures, open System Preferences  Trackpad. Look in the Point ' Click, Scroll ' Zoom, and More Gestures panes to see a video for each gesture. You can also adjust which ones are active and how many fingers they require.
+
+
+
+With so many gestures on offer, it’s worth your time to explore everything you can do with your trackpad.
+ ]]></description>
+          <pubDate>Fri, 24 Aug 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Trackpad-Tricks-break-dancer-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/let-your-fingers-do-the-walking/</guid>
+        </item>
+        
+        <item>
+          <title>Being an Apple User Means You’re Not the Product</title>
+          <description><![CDATA[ There’s an Internet saying: “If you’re not the customer, you’re the product.” The point is that, if you’re getting a service for free, the company providing it sees you not as a customer, but as a product to sell, generally to advertisers.
+
+This is how Google, Facebook, and Twitter operate. They provide services for free, collect data about you, and make money by showing you ads. In theory, the more that advertisers know about you, the better they can target ads to you, and the more likely you’ll be to buy. Personalized advertising can seem creepy (or clueless, when it fails), but it isn’t inherently evil, and we’re not suggesting that you stop using ad-supported services.
+
+This ad-driven approach stands in stark contrast to how Apple does business. Apple makes most of its money by selling hardware—iPhones, Macs, and iPads, primarily. Another big chunk of Apple’s revenue comes from App Store and iTunes Store sales, iCloud subscriptions, and Apple Pay fees. Knowing more about you, what Web pages you visit, what you buy, and who you’re friends with doesn’t help Apple’s business, and on its Privacy page, Apple says bluntly, “We believe privacy is a fundamental human right.”
+
+Of course, once your data is out there, it can be lost or stolen—in June 2018, a security researcher discovered that the online data broker Exactis was exposing a database containing 340 million records of data on hundreds of millions of American adults. Ouch!
+
+Let’s look at a few of the ways that Apple protects your privacy.
+
+Siri and Dictation
+
+
+The longer you use Siri and Dictation, the better they work, thanks to your devices transmitting data back to Apple for analysis. However, Apple creates a random identifier for your data rather than associating the information with your Apple ID, and if you reset Siri by turning it off and back on, you’ll get a new random identifier. Whenever possible, Apple keeps Siri functionality on your device, so if you search for a photo by location or get suggestions after a search, those results come from local data only.
+
+Touch ID and Face ID
+
+
+When you register your fingerprints with Touch ID or train Face ID to recognize your face, it’s reasonable to worry about that information being stored where attackers—or some government agency—could access it and use it for nefarious purposes. Apple was concerned about that too, so these systems don’t store images of your fingerprints or face, but instead mathematical signatures based on them. Those signatures are kept only locally, in the Secure Enclave security coprocessor that’s part of the CPU of the iPhone and iPad—and on Touch ID-equipped laptops—in such a way that the images can’t be reverse engineered from the signatures.
+
+And, of course, a major goal of Touch ID and Face ID is to prevent someone from violating your privacy by accessing your device directly.
+
+Health and Fitness
+
+
+People with medical conditions can be concerned about health information impacting health insurance bills or a potential employer’s hiring decision. To assuage that worry, Apple lets you choose what information ends up in Health app, and once it’s there, encrypts it whenever your iPhone is locked. Plus, any Health data that’s backed up to iCloud is encrypted both in transit and when it’s stored on Apple’s servers.
+
+App Store Guidelines
+
+
+A linchpin in Apple’s approach to privacy is its control over the App Store. Since developers must submit apps to Apple for approval, Apple can enforce stringent guidelines that specify how apps can ask for access to your data (location, photos, contacts, etc). This isn’t a blanket protection—for instance, if you allow a social media app Facebook to access your contacts and location, the company behind that app will get lots of data on your whereabouts and can even cross-reference that with the locations of everyone in your contact list who also uses the service.
+
+In the end, only you can decide how much information you want to share with the likes of Google, Facebook, and Twitter, and only you can determine if or when their use of your details feels like an invasion of privacy. But by using Apple products and services, you can be certain that the company that could know more about you than any other is actively trying to protect your privacy.
+ ]]></description>
+          <pubDate>Fri, 10 Aug 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Apple-privacy-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/being-an-apple-user-means-what/</guid>
+        </item>
+        
+        <item>
+          <title>What’s the Deal with Apple’s New Messages in iCloud Feature?</title>
+          <description><![CDATA[ When Apple first announced macOS 10.13 High Sierra and iOS 11, one of the promised features was Messages in iCloud, a way of syncing your conversations in Messages via your iCloud account. Despite the fact that Messages already tries to sync its conversations between your devices, this feature proved difficult for Apple to deliver, and it didn’t appear until the recently released macOS 10.3.5 and iOS 11.4.
+
+The idea behind Messages in iCloud is that it, as the name suggests, stores your conversations and their attachments in your iCloud account, rather than on each device individually. That’s a win because it can offload non-trivial amounts of data to iCloud, freeing up more space on that 16 GB iPhone.
+
+Because the primary source of Messages data is in iCloud, the conversations should also sync perfectly and more quickly than in the past, something that was often frustrating when conversations didn’t quite match up across device. (iOS 11.4 also fixes a bug that could cause some messages to appear out of order.) Even better, deleting a conversation or attachment on one of your devices deletes it from all of them.
+
+The main thing to be aware of before enabling Messages in iCloud is that it does count against your iCloud storage space. That said, if you back up your iOS devices to iCloud, removing Messages data from each device—such as your iPad and iPhone—and storing a single copy in iCloud should result in less overall iCloud usage. (And, realistically, if Messages in iCloud would make you need a higher tier of iCloud storage, you were probably going to need to upgrade soon for other reasons anyway.)
+
+Enabling Messages in iCloud is simple.
+
+
+  On the Mac, open Messages  Preferences  Accounts and select the Enable Messages in iCloud checkbox.
+
+
+
+
+
+  In iOS, go to Settings  Your Name  iCloud, and turn on Messages.
+
+
+There are three quirks to be aware of:
+
+
+  
+    You won’t be able to enable Messages in iCloud unless you’ve enabled two-factor authentication for the Apple ID associated with your iCloud account. It’s a good idea for security reasons anyway!
+  
+  
+    On the Mac, in the Messages account preferences, there’s a Sync Now button you can click if, for some reason, Messages hasn’t synced automatically. We don’t yet know if or when that will be necessary.
+  
+  
+    When you first enable Messages in iCloud in iOS, you may see a note at the bottom of the screen saying that uploading to iCloud requires the device to be plugged in and connected to Wi-Fi. That’s necessary only for the first big upload.
+  
+
+
+
+
+Should you wish to turn off Messages in iCloud, be aware that it may take some time for each device to download all the messages.
+
+For most people, Messages in iCloud is a no-brainer. Its syncing works the way you’d expect, complete with quick updates and universal removal of deleted conversations. The main reason you might not want to enable the feature is if you have only the free 5 GB of iCloud storage and aren’t interested in paying for more space.
+ ]]></description>
+          <pubDate>Mon, 06 Aug 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Messages-icloud-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/how-to-deal-with-apples-new-messages-feature/</guid>
+        </item>
+        
+        <item>
+          <title>Invoke Special Views and Features on the Mac with a Flick of Your Wrist</title>
+          <description><![CDATA[ Most Macs are busy places, with oodles of open windows cluttering the screen. If you want to look at the Desktop or do something different, you may find yourself clicking around or using keyboard shortcuts, but did you know that you can access many of the Mac’s special views with just a flick of your wrist?
+
+A little-known feature called Hot Corners makes this possible. The key to unlocking Hot Corners is in System Preferences, in either the Desktop ' Screen Saver pane or the Mission Control pane. In either pane, click the Hot Corners button to set up your hot corners.
+
+
+
+The Hot Corners dialog displays a pop-up menu for each of the four corners of your screen. Choose an action in one of those menus, and that’s what happens when you move your pointer to that corner. A hyphen, the default, means nothing happens. Here’s the scoop on each action.
+
+
+
+Start Screen Saver
+
+With today’s flat-panel LCD screens, a screen saver isn’t needed to prevent image burn-in, but it does hide the contents of your screen and personalize your Mac. The Start Screen Saver hot corner shows the screen saver immediately, overriding the setting for how long the Mac must sit idle before the screen saver turns on (in System Preferences  Desktop ' Screen Saver  Screen Saver, in the Start After pop-up menu).
+
+Disable Screen Saver
+
+If you normally have your screen saver set to turn on automatically, it may come on when you would prefer it didn’t, such as when you are thinking about what to write in a tough email. To prevent the screen saver from coming on temporarily, use a Disable Screen Saver hot corner.
+
+Mission Control
+
+Once you’re in this bird’s-eye view of all your Mac’s open windows, you can switch to any window by clicking it. You can also set up spaces in Mission Control—a space is a view that contains only windows from the apps that are assigned to that space. Click the plus sign in the top-right corner and then drag windows up into the new space. Switch to a space by clicking it in the top bar.
+
+
+
+Application Windows
+
+For an overview of all open windows for a particular app, use a hot corner to invoke Application Windows. This view displays thumbnails of all open windows in the current app. For some apps, you’ll also see thumbnails of recently opened documents at the bottom of the view. Click any thumbnail to switch to it.
+
+
+
+Desktop
+
+If you like storing documents for in-progress projects on your Desktop, you’ll love the hot corner that invokes Desktop view. It moves all open windows aside, letting you focus on the icons on the Desktop. The windows return when you switch to an app.
+
+Dashboard
+
+Dashboard contains a few rudimentary widgets, like a clock and a calculator. Apple hasn’t updated Dashboard in years, and developers don’t create Dashboard widgets anymore, so it’s not worth learning—or using via a hot corner—if you don’t already rely on it.
+
+Notification Center
+
+Since you can so easily click the Notification Center icon in the far right of your menu bar, it’s seldom worth wasting a hot corner on it. Notification Center has two views: Today and Notifications. Today shows status information and is easily customized; click the Edit button at its bottom. To display an app’s notifications in Notifications, go to System Preferences  Notifications, select the app, and then select the Show in Notification Center checkbox.
+
+Launchpad
+
+If you like using iOS, giving Launchpad a hot corner might make opening apps on your Mac easier. It’s designed to look and work like the Home screen on an iPad or iPhone—just click an app to launch it. To see more apps, scroll horizontally—with a trackpad, swipe with two fingers; with a Magic Mouse, scroll by swiping with one finger on the mouse surface.
+
+Put Display to Sleep
+
+Those who are concerned about energy usage might appreciate this option. Toss your pointer in the associated hot corner, and your screen goes to sleep immediately, consuming less power than a screen saver. It lets you override the “Turn display off after” slider in System Preferences  Energy Saver.
+
+To exit these special views, switch to another app, press the Escape key, put the pointer back in the hot corner again, or just move the mouse.
+
+If you find yourself triggering a hot corner accidentally, try adding a modifier key so its action activates only when the pointer is in the corner and the key is pressed. To set this up, open the Hot Corners dialog, open the corner’s pop-up menu, and press a key (Shift, Control, Option, or Command). The key’s symbol appears in the menu. Keep the key down and choose the desired action.
+
+
+
+The best way to set up your hot corners depends on how you use your Mac, of course. Our favorites are Start Screen Saver because it’s a quick override of the screen saver settings and Desktop because it removes screen clutter that gets in the way of using the Desktop.
+ ]]></description>
+          <pubDate>Fri, 03 Aug 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Hot-Corners-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/invoke-special-views-and-features/</guid>
+        </item>
+        
+        <item>
+          <title>How to Make the Most of Apple’s New AirPlay 2</title>
+          <description><![CDATA[ For many years now, Apple’s AirPlay feature has made it possible to stream audio from an iOS device or Mac to an AirPlay-enabled speaker, AirPort Express base station, or most recently, a HomePod. Because AirPlay transfers sound over a Wi-Fi network, it eliminates the need for stereo wires and lets you put your speakers where you want them.
+
+In June 2017, Apple threw back the curtains on AirPlay 2, saying it would play the same song on multiple speakers (with AirPlay 1, this is possible only in iTunes) or play different songs on different speakers. Subsequently, Apple released the HomePod, promising to add multi-room audio and stereo sound with linked HomePods in the future.
+
+Apple recently released three updates—iOS 11.4, tvOS 11.4, and HomePod 11.4—with an eye toward delivering AirPlay 2 and these promised features. Once you’ve installed these updates, here’s how to start enjoying AirPlay 2’s improvements.
+
+AirPlay 2 in iOS
+
+To take advantage of the multi-room audio capabilities in iOS, start playing some audio. Then open Control Center, press the audio card to expand it, and tap the AirPlay button in the upper right. You see a list of available output devices; those that support AirPlay 2 have a circle to the right of the name. Tap one or more of those circles to send the audio to that speaker. If an app has its own AirPlay button, you can also tap that to access the same controls.
+
+
+
+The iPhone can’t play audio simultaneously with an AirPlay 2 speaker, which is why there’s no circle next to iPhone in the image above. Although AirPlay 1 devices—such as the AirPort Express base station (Speaker Express above)—still work singly, they can’t be included in a multi-room set.
+
+AirPlay 2 in tvOS
+
+Once your Apple TV is running tvOS 11.4, it can become an AirPlay 2 speaker, sending audio through your TV, soundbar, or home theater system. It can also broadcast its own audio to other AirPlay 2 speakers.
+
+To enable an Apple TV for AirPlay 2, go to Settings  AirPlay  Room, and bring your iPhone or iPad close to the Apple TV. Accept the prompt that appears on the iPhone or iPad, and the Apple TV joins other AirPlay 2 devices associated with your Apple ID.
+
+
+
+Once it’s set up, you can send audio from the Apple TV to different speakers. In a video app, swipe down from the top of the Siri Remote, select Audio, and then select one or more speakers (not all video apps offer this feature).
+
+
+
+For music, the steps are a little different. Start playing some music and then, from the Music app’s Now Playing screen, swipe up and to the left to highlight the AirPlay button (if no icons are showing at the top of the screen, press the Menu button to display them). Or—this is much easier!—just press and hold the Play/Pause button on the Siri Remote. Then, as in iOS, select the desired AirPlay 2 speakers with circles to the right of their names by swiping down and clicking the touchpad.
+
+
+
+You can also send all Apple TV audio to AirPlay 2 speakers by going to Settings  Video and Audio  Audio Output and selecting the desired speakers.
+
+Other AirPlay 2 Improvements
+
+AirPlay 2 includes a few welcome performance improvements. A larger streaming buffer makes for fewer audio drops, and tighter device syncing provides a faster response when you play or pause the music. Another plus for iOS users is that taking a phone call or playing a game won’t interrupt playback.
+
+Siri works better with streaming audio as well. You can specify which speaker Siri should play through, as in “play David Bowie’s Hunky Dory on Dining Room,” and play the same music through all your speakers with a command like “play the Brandenburg Concertos everywhere.” You can even move audio from one speaker to another—try asking your HomePod to “move the music to the Apple TV.”
+
+AirPlay 2 speakers are now HomeKit accessories, so you can start and stop them in the Home app. That’s about it for now, but we hope a future update will let us integrate audio into HomeKit scenes and automations, so your HomePod could automatically start playing soft jazz when you walk in the door from work.
+
+Finally, although it’s unclear whether this feature is part of AirPlay 2, a pair of HomePods can now act as stereo speakers. Once each HomePod is running 11.4, a new option to pair them appears in the HomePod settings in the Home app. Select the HomePods, assign them to the left and right sides, and you can enjoy true stereo music.
+
+
+
+It may sound as though all AirPlay 2-compatible speakers come from Apple, but in fact, a wide range of speaker manufacturers—including names like Bang ' Olufsen, Bose, Denon, Marantz, Polk, and Sonos—have committed to supporting AirPlay 2, either with updates to existing products or in new speakers. Look for such products later in 2018, and, in the meantime, we hope you enjoy using AirPlay 2 with HomePods and Apple TVs.
+ ]]></description>
+          <pubDate>Fri, 27 Jul 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/AirPlay-2-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/get-the-most-from-airplay-2/</guid>
+        </item>
+        
+        <item>
+          <title>Have Your Online Passwords Been Stolen? Here’s How to Find Out.</title>
+          <description><![CDATA[ Data breaches have become commonplace, with online thieves constantly breaking into corporate and government servers and making off with millions—or even hundreds of millions!—of email addresses, often along with other personal information like names, physical address, and passwords.
+
+
+
+It would be nice to think that all companies properly encrypt their password databases, but the sad reality is that many have poor data security practices. As a result, passwords gathered in a breach are often easily cracked, enabling the bad guys to log in to your accounts. That may not seem like a big deal—who cares if someone reads the local newspaper under your name? But since many people reuse passwords across multiple sites, once one password associated with an email address is known, attackers use automated software to test that combination against many other sites.
+
+
+
+This is why we keep beating the drum for password managers like 1Password and LastPass. They make it easy to create and enter a different random password for every Web site, which protects you in two ways.
+
+
+  
+    Because password managers can create passwords of any length, you don’t have to rely on short passwords that you can remember and type easily. The longer the password, the harder it is to crack. A password of 16–20 characters is generally considered safe; never use anything shorter than 13 characters.
+  
+  
+    Even if one of your passwords was compromised, having a different password for every site ensures that the attackers can’t break into any of your other accounts.
+  
+
+
+But password security hasn’t always been a big deal on the Internet, and many people reused passwords regularly in the past_._ Wouldn’t it be nice to know if any of your information was included in a data breach, so you’d know which passwords to change?
+
+A free service called Have I Been Pwned does just this (“pwned” is hacker-speak for “owned” or “dominated by”—it rhymes with “owned”). Run by Troy Hunt, Have I Been Pwned gathers the email addresses associated with data breaches and lets you search to see if your address was stolen in any of the archived data breaches. Even better, you can subscribe to have the service notify you if your address shows up in any future breaches.
+
+
+
+Needless to say, you’ll want to change your password on any site that has suffered a data breach, and if you reused that password on any other sites, give them new, unique passwords as well. That may seem like a daunting task, and we won’t pretend that it isn’t a fair amount of work, but both 1Password and LastPass offer features to help.
+
+In 1Password, look in the sidebar for Watchtower, which provides several lists, including accounts where the password may have been compromised in a known breach, passwords that are known to have been compromised, passwords that you reused across sites, and weak passwords.
+
+
+
+LastPass provide essentially the same information through its Security Challenge and rates your overall security in comparison with other LastPass users. It suggests a series of steps for improving your passwords; the only problem is that you need to restart the Security Challenge if you don’t have time to fix all the passwords at once.
+
+
+
+Regardless of which password manager you use, take some time to check for and update compromised, vulnerable, and weak passwords. Start with more important sites, and, as time permits, move on to accounts that don’t contain confidential information.
+ ]]></description>
+          <pubDate>Tue, 24 Jul 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/hacked.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/have-i-been-hacked/</guid>
+        </item>
+        
+        <item>
+          <title>New MacBook Pros Provide More Speed and RAM, plus a Quieter Keyboard and Hey Siri</title>
+          <description><![CDATA[ 
+
+As students prepare to head off to college, Apple has updated the Touch Bar-equipped MacBook Pro line to provide even more powerful options for students and professionals alike. The changes are primarily under the hood, focusing on faster performance, more RAM, and larger SSD-based storage, but there are a few modest physical changes too, including a quieter keyboard and a True Tone display.
+
+
+
+Despite these improvements, pricing remains the same as for last year’s models.
+
+The 13-inch MacBook Pro that has function keys instead of a Touch Bar remains the same, as do the 12-inch MacBook and 13-inch MacBook Air.
+
+Performance Boosts
+
+The new MacBook Pros move to Intel’s 8th-generation Core i7 and Core i9 processors. Previously, the 13-inch MacBook Pro used dual-core CPUs, but they now get quad-core chips. And the 15-inch models jump from quad-core chips to processors sporting 6 cores. More cores are better because more tasks can be split up between them, preventing one processor-intensive task from bogging down others.
+
+
+
+Processing power is just one aspect of overall performance. If your Mac doesn’t have enough RAM for the apps you’re using, it has to fall back on much slower virtual memory. For those who use memory-intensive apps, the new 15-inch MacBook can now take up to 32 GB of RAM, up from a maximum of 16 GB. RAM in the 15-inch models is also DDR4, which is faster and uses less power than the DDR3 RAM used before.
+
+Finally, if you don’t have enough fast SSD storage in a MacBook Pro, you may be forced to store large items like your Photos library and Parallels Desktop virtual machines on a slow external hard disk. The new MacBook Pros can have a lot more built-in SSD storage, but it’s pricey. The 13-inch models max out at 2 TB, which will add $1400 to your bill, and the 15-inch models can go to 4 TB, assuming you have $3400 to spare. The 512 GB ($200) and 1 TB ($600) upgrades are more reasonably priced.
+
+Physical Changes
+
+Apple continues to tweak the controversial butterfly-switch keyboard. Some people haven’t liked the shallow key travel and how much noise it makes, and its keys have a tendency to stick. The new MacBook Pros feature a keyboard that’s quieter and hopefully more reliable.
+
+You’ll also notice the new Retina displays with True Tone. First introduced with the iPad Pro and added to the iPhone in 2017, True Tone adjusts the white balance of the screen based on ambient light to make the screen more comfortable to view. It should be particularly appreciated by students working late into the night.
+
+
+
+Other Improvements
+
+You know how you can issue commands to Apple’s virtual assistant on your iPhone or iPad by saying “Hey Siri”? That’s possible in the new MacBook Pros also, thanks to the inclusion of Apple’s new T2 chip. The T2 also manages the Touch Bar, facilitates a secure boot feature, and encrypts files on the fly to increase security.
+
+These MacBook Pros are the first to support Bluetooth 5.0, which is backward compatible with Bluetooth 4.2. As Bluetooth 5.0 peripherals become more widespread, they’ll be able to communicate with the MacBook Pro at higher data rates and longer ranges—think of Bluetooth working across your entire house, rather than being limited to a single room.
+
+Price and Availability
+
+The entry-level 13-inch MacBook Pro starts at $1799, and the 15-inch model at $2399. With both models, you can choose between silver and space gray, and they’re available now.
+
+Our take is that, like most of Apple’s speed-bump upgrades, these new MacBook Pros are simply better than the previous models—who turns down better performance for the same price? The True Tone display is also welcome, as is the quieter keyboard. And it’s nice that we can finally talk to Siri without having to hold down a key or click a button.
+ ]]></description>
+          <pubDate>Wed, 18 Jul 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/MacBook-Pro-Review-22.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/new-macbook-pro-with-quieter-keyboard/</guid>
+        </item>
+        
+        <item>
+          <title>Try Trello for Group Collaboration and Project Management</title>
+          <description><![CDATA[ Nearly all of us have to work together in a group at some point. Whether it’s for your job, a PTA, a club sports team, or a family trying to organize a vacation, it’s helpful to have a spot where everyone in the group can contribute information, comment on what others say, and build a structure around that information.
+
+Most project management apps and services provide a canned workflow, but unfortunately, these tools are often overly structured. For a more flexible approach, check out Trello, a free online service you can use in any Web browser, or via Mac and iOS apps. You can pay $10 per month for additional features and integrations, but many groups will never need to go beyond the free service.
+
+
+
+What sets Trello apart from so many other systems is that it takes a real-world approach to managing bits of information. Imagine a whiteboard, with columns drawn on it to indicate different stages of a process and sticky notes that represent tasks. You can write on the sticky notes and move them between columns on the whiteboard, so you can always see at a glance where things stand in the overall project.
+
+Trello translates that basic concept into the digital world, with “boards” that are like a whiteboard, “lists” that mimic the hand-drawn columns, and “cards” that are like sticky notes on steroids.
+
+
+
+You can have as many Trello boards as you like, and you can share each board with any number of people. Each board can have lots of lists, and each list can contain as many cards as you want. Don’t go nuts making too many lists or cards—just as with a physical whiteboard, that could make things unwieldy.
+
+Cards are where the magic happens. Each card has a title and an optional description, and its own comment thread for people to discuss the card’s topic. You can add checklists to a card, upload attachments, and even assign a due date. People can be connected to a card so they receive notifications of new comments or attachments via email and via iOS notifications. Labels help you categorize cards in ways beyond putting them in a list. And perhaps best of all, an Activity section tracks everything that anyone does on a card, so you always know what has happened.
+
+
+
+Imagine a Trello board for tracking job applicants through a hiring funnel. It could have a list for each part of the process, starting with receiving an application and going through each interview to the eventual decision. Each applicant would get a card containing their contact information, with the person’s resumé attached and checklists for mandatory questions. Labels might identify applicants for different jobs. After an interview, the interviewer would add a comment with notes about how it went, and move the card on to the next person. At all times, the hiring manager could see where any applicant was in the process and access all pertinent information.
+
+Many Trello boards end up being process-oriented, where each list maps to a particular part of a process, and users move cards from list to list as the process goes along. But that doesn’t have to be the case; for example, you could create a collaborative calendar where each list maps to a week, or you could build a board that tracks client leads with a list for each person in a sales group.
+
+In fact, the possibilities are endless. We’ve heard of Web developers using Trello to manage feature requests and bug reports on a site redesign, lawyers walking contracts through a review process, publishers moving books through multiple editing stages, teachers creating a “newsletter” with a list for each week and a card for each item to share with parents, and more. Give it a try!
+
+
+ ]]></description>
+          <pubDate>Sun, 15 Jul 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Trello-Post-it-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/try-trello-for-group-collaboration/</guid>
+        </item>
+        
+        <item>
+          <title>All about Find My Friends</title>
+          <description><![CDATA[ As iPhones have become ever more prevalent, one of Apple’s bundled apps—Find My Friends—has become significantly more useful. Although there are legitimate concerns about sharing your location willy-nilly, Find My Friends gives everyone full control over what they share, making it truly helpful for families and close friends. So if you’ve ever thought it would be useful to know when your child left their soccer game or wanted them to receive an automatic alert when you leave to pick them up, Find My Friends is the app for you. It’s also great for keeping track of aging parents or for housemates looking out for one another.
+
+
+
+Add and Remove Friends
+
+
+Although you can add friends in the Find My Friends app by tapping Add and selecting their contact card, it’s easier to work from Messages, assuming you want to share your location with someone with whom you regularly text anyway. In their conversation, tap the i button, tap Share My Location, and in the popover that appears, tap Share Indefinitely. (Share for One Hour and Share Until End of Day are useful for temporarily sharing your location while traveling, say, to visit colleagues with whom permanent sharing would be inappropriate.)
+
+However you initiate the sharing, the other person receives a notification and can accept and choose to share their location as well. (If they don’t do so right away, you can tap their name in your Find My Friends list and tap Ask to Follow.) That said, unidirectional sharing is all right, though in families and particularly for children, bidirectional sharing can be more helpful.
+
+Should you ever wish to stop sharing your location with someone, you can either swipe left on their entry in Find My Friends and tap the red Trash button, or go into their conversation details in Messages and tap Stop Sharing My Location.
+
+
+
+Work with Locations
+
+
+Once you have someone in the Find My Friends app, you’ll see their entry in the list and their location on the map. That may be all you need if, for example, your goal is to see where your spouse is on their bike ride so you can figure out when to start dinner. A tip: for a quick location check, ask Siri something like, “Where is my wife?”
+
+But Find My Friends has other features that make it even more useful. To access these features, tap a friend in the list or on the map to focus on them.
+
+
+
+
+  
+    Contact: Tap Contact to view your friend’s contact card. From it, you can start a Messages conversation, phone call, FaceTime call, email message, or money transfer via Apple Pay. You can also edit their details from here.
+  
+  
+    Notify Me: With the Notify Me feature, Find My Friends can tell you when your friend leaves or arrives at a particular location. Two locations—their current location and your current location—are always available for quick selection. Or tap Other, and then either search for a location or press and hold on the map to drop a pin at that spot. You can even expand the orange dropped-pin circle to make the location less precise (and thus less likely to miss, if the person doesn’t quite go where you expect).
+  
+  
+    Notify Friend: On the flip side, Notify Friend (tap More to access this feature) lets you tell your friend of your location right now, or when you leave or arrive at a location. A welcome addition here is a Repeat Every Time switch, so you could, for instance, have Find My Friends alert your mother in advance whenever you decide to stop over at the last minute.
+  
+  
+    Get Directions: Also in the More screen is a car icon; tap it to display directions to your friend’s current location in Maps. It’s a great way to avoid those awkward conversations when you need to pick up your kid after a party and they can’t tell you precisely where they are.
+  
+
+
+It’s easy to be cynical about the privacy implications of location sharing. Obviously, you want to share locations only with people you trust, and who trust you. But once you do that, you’ll likely discover that Find My Friends provides peace of mind, since you know you’ll be on time to pick up your kid after an away game and your spouse knows that if she has a bike accident, you’ll be able to find her.
+ ]]></description>
+          <pubDate>Fri, 06 Jul 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/image001.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/all-about-find-my-friends/</guid>
+        </item>
+        
+        <item>
+          <title>What OS Version Are You Running? Here’s How to Find Out</title>
+          <description><![CDATA[ In Troubleshooting 101, one of the first questions is always, “What version of the operating system are you running?” There’s a big difference between Mac OS X 10.6 Snow Leopard and macOS 10.13 High Sierra, and the solution to any particular problem will likely revolve around knowing what operating system is in play.
+
+The same is true of Apple’s other operating systems: iOS, watchOS, and tvOS. And, although they aren’t quite in the same category, Apple’s AirPods and HomePod both have system software that can be updated as well.
+
+For the next time you’re experiencing a problem, here’s how to find the version of each of Apple’s operating systems.
+
+macOS
+
+
+On the Mac, click the Apple menu in the upper-left corner of the screen and choose About This Mac. A window opens, displaying the name (macOS High Sierra shown here) and version (10.13.4) of the running version of macOS.
+
+
+
+Every now and then, it can be important to learn the build number too—it’s one step more specific than the version number. A new Mac may have a different build number of the same version of macOS, for instance, or Apple may push out a silent security update that changes the build number. To find the build number, simply click the version number—the six-character build number (17E202) appears in parentheses, as above.
+
+iOS
+
+
+On an iPhone, iPad, or iPod touch, you find the version number in Settings  General  About. Scan down the screen until you see the Version line, which tells you both the version of iOS and the build number.
+
+
+
+watchOS
+
+
+There are two ways to find the version of watchOS running on an Apple Watch:
+
+
+  On the watch, open the Settings app, scroll down to and tap General, tap About, and then scroll down until you see Version.
+
+
+
+
+
+  On your iPhone, open the Watch app and make sure My Watch is selected in the bottom button bar. Then go to General  About to see a screen that displays much the same information as the Settings app on the watch, including the version number.
+
+
+
+
+tvOS
+
+
+By now, you can probably guess that on an Apple TV you go to Settings  General  About to find the tvOS version. Apple is nicely consistent in this regard. That said, only the fourth-generation Apple TV and Apple TV 4K run tvOS. The obsolete second- and third-generation Apple TVs are instead based on a stripped-down version of iOS, and the first-generation Apple TV is an entirely different beast yet, with its large white case and internal hard drive.
+
+
+
+AirPods
+
+
+You’re unlikely to need to check the version of your AirPods, but if it ever comes up, make sure the AirPods are either connected to their host iOS device or in their case with the top open. Then, on the host iOS device, go to Settings  General  About  AirPods and look for the Firmware Version line.
+
+
+
+HomePod
+
+
+Although the HomePod shipped only recently, Apple has promised software updates that will allow two HomePods in a room to provide true stereo sound and support multi-room audio if you’ve sprinkled HomePods around your house. To check the version of the HomePod software, open Apple’s Home app, make sure Home is selected in the bottom toolbar, and then press and hold on the HomePod’s tile until it opens. Then tap the Details button in the lower right and scroll down until you see the Version line.
+
+
+ ]]></description>
+          <pubDate>Fri, 29 Jun 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Which-OS-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/what-os-version-are-you-running/</guid>
+        </item>
+        
+        <item>
+          <title>Enable Theater Mode to Prevent Your Apple Watch from Lighting Up at a Show</title>
+          <description><![CDATA[ Attend any live theater presentation, and someone will ask the audience to silence their cell phones. But what about your Apple Watch? You don’t want it lighting up or making noise during the show either. To ensure that doesn’t happen, swipe up on the face to display Control Center, and then tap the theater masks icon to enable Theater mode (you may have to scroll down to see it). That automatically turns on Silent mode and prevents the screen from lighting up unless you tap it, press a button, or on the Apple Watch Series 2 or 3, turn the Digital Crown. To leave Theater mode after the performance, tap the masks icon in Control Center again.
+
+
+ ]]></description>
+          <pubDate>Sun, 24 Jun 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Apple-Watch-Theater-Mode-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/enable-theater-mode-for-your-apple-watch/</guid>
+        </item>
+        
+        <item>
+          <title>How to Deal with macOS Server Losing Many of Its Services</title>
+          <description><![CDATA[ How to Deal with macOS Server Losing Many of Its Services
+
+
+For many years, Apple has sold macOS Server (previously called OS X Server) for those who wanted to run various Unix-based Internet services on a Mac. Server became popular because it put an easy-to-use graphical interface on top of the Unix apps, allowing Mac users to avoid complicated configuration files and reducing the need to work at the command line.
+
+At its peak, Server boasted 24 different Internet services, but since then Apple has pared down what it can do, such that recent versions of macOS Server offer only 13 services. Now, however, Apple has announced that, in a Fall 2018 update, it will be eliminating all but 3 services: Open Directory, Profile Manager, and Xsan storage management.
+
+
+
+To prepare for that, Apple has done two things. First, the most popular features of Server—Caching Server, File Sharing Server, and Time Machine Server—are now part of macOS 10.13 High Sierra. Caching Server reduces Internet usage by sharing software distributed by Apple (updates and apps) and iCloud data from one Mac to other Apple devices on a local network. File Sharing Server lets you create a shared folder that multiple Macs can access. And Time Machine Server lets you specify a shared folder as a destination for Time Machine backups from other Macs on the network.
+
+Second, new installations of the current macOS Server 5.6 and 5.6.1 hide quite a few services, including Calendar, Contacts, DHCP, DNS, Mail, Messages, NetInstall, VPN, Websites, and Wiki. If they were configured in a previous version of Server that’s being upgraded, they’ll still be available. For each of the services to be removed, Apple suggests open-source alternatives, but most don’t have Mac-specific interfaces that simplify management.
+
+What to do? If you’re running Server now, nothing needs to change right away, or perhaps even for some time. Nothing Apple does to a future version of Server will affect your existing installation. The only problem is that you won’t get updates that could be important for security, stability, or interoperability. Contact us to see what solutions we recommend for the services you rely on.
+
+That said, if you’re running Caching Server, File Sharing Server, or Time Machine Server now, it might be worth transitioning those to a Mac running High Sierra, though it’s safest to check with us first in case you have a usage scenario that may not transfer cleanly. The first two are easy to turn on and configure in System Preferences  Sharing; just click the checkbox next to their names in the Service list and adjust the settings in the pane to the right.
+
+
+
+Time Machine Server is a bit more complicated. To enable it, turn on File Sharing, share a folder (likely on an external drive), and then Control- or right-click the folder from within the Sharing preference pane, choose Advanced Options, and select “Share as a Time Machine backup destination.”
+
+
+
+If you’re not currently running Server and are looking to add calendar sharing, a mail server, or an internal wiki, we can’t recommend getting started with Server. It’s not a relationship that will end well, and we can recommend more capable alternatives. Even if you’re just looking for a way of distributing settings to Macs and iOS devices in your organization, Server’s Profile Manager often isn’t the best choice. So again, get in touch and let us know what you’re trying to achieve and we can both make recommendations and help with setup and maintenance.
+ ]]></description>
+          <pubDate>Tue, 19 Jun 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/macos-server-hero-740x400.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/dealing-with-the-loss-of-mac-os-server/</guid>
+        </item>
+        
+        <item>
+          <title>Sneak Preview of What’s Coming from Apple This Fall</title>
+          <description><![CDATA[ At Apple’s Worldwide Developer Conference keynote on June 4th, the company unveiled the first developer versions of all four of its operating systems: macOS 10.14 Mojave, iOS 12, watchOS 5, and tvOS 12. They won’t be available until this fall, likely in September or October, but here is a glimpse of what you can expect.
+
+macOS 10.14 Mojave Adds Dark Mode, Enhances the Finder, and Gains Four iOS Apps
+
+
+With the update to macOS, which Apple is calling “Mojave” after the southern California desert, the company is beefing up the Finder, adding visual enhancements, and bringing some familiar iOS apps to the Mac. Apple is dropping support for some older Macs, so you’ll need a Mac introduced since 2012 to run Mojave.
+
+Productivity mavens with messy Desktops will appreciate a new Finder feature, which, when turned on, automatically gathers all the files on the Desktop into “stacks,” sorting them by file type, date, tag, or other criteria. Click a stack to expand it, much like a Dock stack today.
+
+
+
+Apple has replaced Cover Flow view, which combined a large preview area and a file list, with the new Gallery view. Aimed at helping you browse in a folder of images, Gallery view displays a large preview of the selected file above a row of thumbnails for other items in the folder. A right-hand sidebar in Gallery view shows more information about the current file and lets you edit or mark up the file with Quick Actions (which you can create with Automator) without opening the file in an app. Press Space bar to preview a file with Quick Look, and you can apply appropriate Quick Actions to the file as well, all from the Finder.
+
+
+
+If you find the white backgrounds in the Mac’s windows too bright, you’ll like Mojave’s new Dark Mode (shown above), which intelligently reverses things to display white text in a largely black interface. Additional eye candy comes from Dynamic Desktops, which change the appearance of new Apple-provided Desktop backgrounds based on the time of day.
+
+For those who take a lot of screenshots, Apple has given the Mac’s long-standing screenshot capabilities a visible interface that simplifies taking still screenshots or recording a movie of your actions. Plus, you can preview, edit, share, or delete a screenshot or movie immediately after creating it.
+
+
+
+A new feature called Continuity Camera lets you use your iPhone’s camera in Mac apps, either taking a photo directly into a Mac app or scanning a document as a PDF.
+
+Lastly, although Apple was emphatic that it won’t be replacing macOS with iOS, or merging the two, the company is working to make it easier for developers to create apps that work on both platforms. Independent developers won’t be able to do that until 2019, but Apple is testing the waters by bringing four familiar apps from iOS to the Mac: News, Stocks, Voice Memos, and Home. They look and work very much like their iPad counterparts, but rely on the mouse or trackpad, and use normal Mac interface elements like resizable windows.
+
+
+
+iOS 12 Improves Performance, Provides Time Management Tools, and More
+
+
+In the WWDC keynote, Apple emphasized that one of its main goals for iOS 12 is to improve performance, especially for older devices. Unlike Mojave, iOS 12 will support all the same devices as iOS 11, so those with an iPhone 5s or original iPad Air may benefit the most from this effort.
+
+To address increasing concerns about how much we—and our kids—are using smartphones, Apple has made some important changes. Perhaps most important is the new Screen Time feature, which shows how often you use your iOS devices and how much time you spend in different apps. It also lets you set daily time limits for specific apps, so you can make sure you don’t spend too much time in Facebook, for instance. Even better, you can set such limits for your children’s devices via Family Sharing.
+
+
+
+Do Not Disturb has become a more appealing feature, because you don’t need to worry about accidentally leaving it on for too long—it can now be set to turn off automatically after some time or when you leave a location, such as at the end of a class or when you leave your doctor’s office. (This feature also comes to the Apple Watch with watchOS 5.) Also new is Do Not Disturb During Bedtime, which ensures you won’t see enticing notifications on the Lock screen if you check the time on your iPhone in the middle of the night.
+
+Getting too many notifications? Notification grouping gathers all the notifications from each app together on the Lock screen so it doesn’t fill up, but you can see them all at once when you’re ready. Plus, a new feature called Instant Tuning helps you reduce the number of notifications you see, right from the Lock screen.
+
+
+
+If you’ve always wanted to automate repetitive actions in iOS, you’ll love the new Siri Shortcuts feature. You can use it to string together actions in different apps—send a message to your spouse that you’re leaving work, show the traffic conditions on your commute home, and start playing a podcast app—and then invoke them all via Siri with a custom phrase.
+
+
+
+Other interesting changes in iOS 12 include these:
+
+
+  
+    Apple has renovated the interfaces of several bundled apps, including iBooks (now called Apple Books), News, Stocks, and Voice Memos (which can now sync recordings with the Mac).
+  
+  
+    FaceTime is no longer limited to one-on-one conversations and can now include up to 32 people in a single FaceTime conversation. The Mac version of FaceTime gains this capability too.
+  
+  
+    Photos boasts improved searching, can unearth photos from your library in a new For You tab, and prompts you to share photos with friends who it recognizes in your photos.
+  
+  
+    Apple is working with colleges and universities to add Wallet support for contactless student ID cards so students can use an iPhone (or Apple Watch) for unlocking doors, paying for meals, and more.
+  
+  
+    CarPlay allows apps from non-Apple developers to take over the car’s screen so that you can use alternative mapping apps like Google Maps and Waze in a CarPlay-enabled car.
+  
+
+
+watchOS 5 Improves Workouts, and Adds Walkie-Talkie and Podcasts Apps
+
+
+Apple has realized that the Apple Watch is popular primarily for fitness and communication, so the company focused on those areas for watchOS 5. Alas, watchOS 5 isn’t available on the original Apple Watch.
+
+On the fitness side, the Apple Watch can now start many workout types automatically when it detects that you’re exercising, and end a workout automatically when it sees that you’ve stopped. It even provides retroactive credit for what you did before the workout was detected. Apple has added new Yoga and Hiking workouts, each with their own metrics, and the running and walking workouts now measure cadence (steps per minute).
+
+For those running outside, the Workout app can also display the rolling mile pace—the pace for the last mile—and can sound an alarm if you’re going slower or faster than a specified pace. And for those who do better with social motivation, watchOS 5 provides 7-day activity competitions.
+
+In terms of communication, watchOS 5’s marquee feature is the new Walkie-Talkie app. Once you and a friend have set it up, you can tap a big yellow button to talk to your friend—and they can reply—just as though you were using old-school walkie-talkies. It works over both Wi-Fi and cellular.
+
+
+
+Apple is bringing the Podcasts app to watchOS 5, so you’ll be able to listen to podcasts from your wrist, assuming you have AirPods or a Bluetooth headset. Plus, watchOS 5 makes it possible for other audio apps to store audio on the watch, so it should get easier to listen to audiobooks and the like even when you don’t have your iPhone with you.
+
+Other welcome changes in watchOS 5 include:
+
+
+  
+    The Siri watch face has new options, including sports scores, heart-rate readings after workouts, and commuting times from Maps. Independent apps will also be able to contribute bits of data to appear in the Siri face.
+  
+  
+    Notifications can be interactive, so you could tap on your wrist to check in for a flight, confirm a restaurant reservation, or extend parking time. As with iOS 12, multiple notifications from the same app will be grouped.
+  
+  
+    Web links in Messages or email can be previewed on the Apple Watch.
+  
+  
+    When you raise your wrist to talk to Siri, you no longer have to say “Hey, Siri.
+  
+
+
+tvOS 12 Gains Dolby Atmos Support, Zero Sign-on, and a New Aerial Screensaver
+
+
+Although the Apple TV often receives less attention than Apple’s other platforms, it still gains new capabilities with tvOS 12. Most notable among these is support—on the Apple TV 4K only—for Dolby Atmos audio, which makes audio sound more realistic by going beyond the simple right and left channels to provide 3D sound. You’ll need an Atmos-capable soundbar too, along with Atmos-compliant video content, but Apple will automatically upgrade anything you’ve bought from the iTunes Store to the Atmos version once it’s out.
+
+
+
+Two other new features work on both the Apple TV 4K and the fourth-generation Apple TV but require support from both apps and TV providers: Zero Sign-on and Cloud DVR. Zero Sign-on figures out your Internet provider, and if it’s the same as your TV service, automatically detects apps that need authentication and logs you in to them. It will work only with Charter Spectrum at launch, but Apple is negotiating with more providers. Similarly, the new Cloud DVR feature lets you watch TV you’ve recorded via the Apple TV, if your TV provider supports it. In the U.S., that again means Charter Spectrum to start.
+
+Apple put some work into the Apple TV’s gorgeous aerial screensaver, introducing a new view from space using imagery taken by astronauts on the International Space Station. Also, you can tap the Siri Remote touchpad while a screensaver is showing to see where it was taken.
+
+
+
+Finally, in conjunction with iOS 12, tvOS can autofill passwords saved on your iOS devices so you don’t have to type them on the awkward onscreen keyboard. And if iOS 12 detects an Apple TV, it automatically adds an Apple TV Remote button to Control Center on your iPhone or iPad. (You can do that now, but you have to add the button manually in Settings  Control Center  Customize Controls.)
+
+Getting Ready for These OS Releases
+
+
+Apple usually makes new versions of its operating systems available in September or October, in conjunction with new iPhones. That doesn’t mean you should upgrade immediately, and we always recommend that you hold off on upgrades until Apple had had a chance to address the inevitable bugs that come with the initial release of any major upgrade. So sit tight, and we’ll tell you more when the time is right.
+
+That said, if these features sound enticing and you have a pre-2012 Mac, an iPhone 5 or earlier, an iPad that predates the iPad Air, or an original Apple Watch, some new hardware may be in your future.
+ ]]></description>
+          <pubDate>Sun, 10 Jun 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/WWDC-2018-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/sneak-peak-at-apples-lineup-this-fall/</guid>
+        </item>
+        
+        <item>
+          <title>Tips for Working with the Trash on the Mac</title>
+          <description><![CDATA[ Taking Out the Garbage: Tips for Working with the Trash on the Mac
+One of the great innovations of the Mac, way back when, was the concept of the Trash. Instead of deleting files immediately, you’d put them in the Trash, where they’d sit until you either took them out or removed them for good by emptying the Trash. You undoubtedly know the basics of working with the Trash: drag files in, drag mistakenly trashed files out, and choose Finder  Empty Trash to delete the files and recover the disk space.
+
+But instead of just dragging files to and from the Trash, you can take advantage of a few special techniques that make working with the Trash faster and easier.
+
+Move Files to the Trash
+
+
+The most obvious method of trashing a file is to drop it on the Trash icon in the Dock, but on a large screen that can be fussy. Once you’ve selected one or more files in the Finder, try one of these alternatives:
+
+
+  
+    Press Command-Delete. This is our favorite!
+  
+  
+    Control- or right-click on one of them, and choose Move to Trash.
+  
+  
+    Choose File  Move to Trash.
+  
+
+
+What if you want to live dangerously and delete a file immediately, perhaps because you need to recover the disk space right away? Hold down Option and choose File  Delete Immediately, or press Command-Option-Delete. The Finder always asks whether you want to do this.
+
+
+
+Remove Files from the Trash
+
+
+We all make mistakes and trash files by accident, or sometimes realize later that a file we put in the Trash is still needed. Taking something out is easy: click the Trash icon on the Dock to open its window, and then drag the file out of the window. But, there is more to know about the best ways to remove files from the Trash.
+
+First, if you trash a file and immediately realize it was the wrong thing to do, press Command-Z or choose Edit  Undo Move to Trash to put it back where it started
+
+We like viewing the Trash window in Cover Flow view (open it, and then choose View  as Cover Flow) because of the document preview at the top of the window. We also like to sort by Date Added so that we can see the items we’ve trashed most recently (if the Date Added column isn’t showing, choose View  Show View Options and select the Date Added checkbox).
+
+
+
+In the Trash window, you can select an item and use the Put Back command to return it to its original location. Try one of these techniques:
+
+
+  
+    Press Command-Delete. It’s the same shortcut as for Move to Trash, but does the reverse when the selection is in the Trash window.
+  
+  
+    Control- or right-click on one of them, and choose Put Back.
+  
+  
+    Choose File  Put Back.
+  
+
+
+Empty the Trash
+
+
+The main reason to empty the Trash is if you need to reclaim the disk space its contents occupy. You can do that at any time, as we’ll explain momentarily, but in macOS 10.12 Sierra and later, you can have the Mac automatically remove items from the Trash after they’ve been in there for 30 days. Just choose Finder  Preferences  Advanced, and select the “Remove items from the Trash after 30 days” checkbox.
+
+
+
+To empty the Trash manually, choose Finder  Empty Trash. If “Show warning before emptying the Trash” is selected in the window shown above, you’ll be prompted to confirm the deletion. If you don’t like the prompt, deselect that checkbox. Other shortcuts include:
+
+
+  
+    Click and hold the Trash icon on the Dock, and choose Empty Trash.
+  
+  
+    Press Command-Shift-Delete.
+  
+  
+    To avoid the warning even when it’s enabled, press Command-Shift-Option-Delete.
+  
+
+
+Emptying the Trash doesn’t have to be an all or nothing action. Imagine that you’ve just trashed a few huge files and want to recover their disk space without tossing every other file in the Trash. Just select them, Control- or right-click one, and choose Delete Immediately. You can also press Command-Option-Delete.
+
+
+
+Files in your Mac’s Trash smell better than the inside of a typical garbage can, but that doesn’t mean you want to spend a lot of time fussing with them. With these tips, you can trash files, recover from mistakes, and clear disk space quickly and confidently.
+ ]]></description>
+          <pubDate>Mon, 04 Jun 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/1492004859609.jpeg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/taking-out-the-garbage/</guid>
+        </item>
+        
+        <item>
+          <title>Give the Slack Messaging Tool a Try</title>
+          <description><![CDATA[ Overloaded by Work Email? Give the Slack Messaging Tool a Try.
+
+
+Don’t get us wrong—email is great. But sometimes there’s too much of it at work, as colleagues share information too broadly or chime in unnecessarily, and as marketing offers and other junk fills your inbox. Over the past few years, lots of organizations—including small and large firms, non-profits, academic departments, student project teams, and government agencies—have moved their internal communications to the group messaging service Slack, which is free but includes paid plans with additional features. It’s also possible to make public groups that anyone can join.
+
+Slack, which has apps for macOS, iOS (iPhone and iPad), Windows, and Android, isn’t conceptually all that different from Apple’s Messages app. You type short messages and other people in the conversation can reply. You can share graphics or other files in the discussion, and search through past messages. Slack supports person-to-person voice calls, and if you switch from a free to a paid team, group calls, video conferencing, and screen sharing.
+
+What sets Slack apart from simple messaging apps is that it lets you segment discussions into “channels,” which can either be public, such that everyone in the team can see them, or private, so only invitees can participate. Plus, you can have “direct message” conversations with individuals or small groups.
+
+
+
+The beauty of Slack channels is that they’re easy to create and they bring together all communications relevant to a particular workgroup, project, or topic. You might have a private #marketing channel for everyone in that department, a private #annual-report channel for the people who need to put together that document, and a public #facilities channel to talk about burnt-out lightbulbs and stuck doors. That’s way better than organization-wide mailing lists, since you can pay attention to just those channels that matter to you, and ignore the others.
+
+How do you keep up on discussions? Slack has flexible notifications, letting you choose at the top level to be notified about everything; just direct messages, mentions, and keywords; or nothing. You can also choose to be notified of replies to threads you’re in. Then you can override those defaults for any channel or conversation you’re in, which lets you make sure that important messages get through and water cooler chatter doesn’t interrupt you. Plus, if you leave your computer, Slack can repoint notifications to your mobile devices automatically, with separate settings to make sure you aren’t overly nagged while at your kid’s soccer game.
+
+Slack provides tons of other features that can prove useful in organizations of any size. You can share and comment on files of any type, which is far more effective than sending attachments around in email. You can create “posts” and get others to edit them collaboratively—a boon when trying to craft the perfect bit of text for some purpose. And you can integrate hundreds of Internet services into Slack so it can act as a single dashboard for many other apps.
+
+
+
+There’s no question that setting up Slack for your team is a major step, but the fact that it has become so popular—77% of Fortune 100 companies use it—shows that it can make your organization’s internal communications faster, more targeted, and more effective. It’s not hard to set up and maintain, but give us a call to talk about the best ways to begin.
+ ]]></description>
+          <pubDate>Tue, 29 May 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Slack-meeting-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/give-slack-a-try/</guid>
+        </item>
+        
+        <item>
+          <title>Bluetooth Sharing on MacOS</title>
+          <description><![CDATA[ Continuing our run down of the sharing preference pane, Bluetooth Sharing allows you to easily share files via Bluetooth with other Bluetooth enabled devices. The devices do not have to be Apple products they can be Android phones for example.
+
+It can be a convenient way of transferring files when two computers are not on the same network, however the transfer speeds are quite slow compared with Ethernet or Wi-Fi networking.
+
+Go to:
+
+System Preferences  Sharing
+
+
+
+
+
+Check the Bluetooth Sharing checkbox and set the options:
+
+
+
+
+
+Special attention should be paid to which folder you allow other Bluetooth devices to browse, as if you leave Bluetooth Sharing turned on it is not as secure as other protocols and could allow unwanted people to access your Mac when you are in a public place.
+
+The range of Bluetooth is limited to under 10 meters so the likelihood is small however not impossible. Leaving the default option of “Folders other can browse:” to Public is a good choice although you will need to move any files you want to browse via Bluetooth to the public folder which can be found in Users/YOUR USER NAME/Public
+
+
+
+
+
+You can also set the options “When receiving items” ' “When other devices browse” to “Ask what to do” which would be more secure however this can interrupt the file transfer from some devices.
+
+
+
+
+
+If you only want to send files from your Mac to another device over Bluetooth then setting the options for “When receiving items” ' “When other devices browse” to “Never Allow” is the most secure option.
+
+
+
+
+
+To add a Bluetooth device you will need to click the “Open Bluetooth Preferences…” button:
+
+
+
+
+
+This will open the Bluetooth System Preferences:
+
+When the Bluetooth System Preferences is open the Mac will become discoverable with the same computer name that is set in the Sharing preference pane:
+
+
+
+
+
+To add an Android phone Open Settings  Bluetooth on the device. Then check the box to make the device visible.
+
+Once you have done this the device will be visible in the devices list (click connect):
+
+
+
+
+
+Your android device will now show a message asking you to confirm the number shown matches the one shown on your Mac (if it does tap accept on the android device):
+
+
+
+
+
+If you check the box for “Show Bluetooth in menu bar” you can send files from the Bluetooth menu on your Mac otherwise right click or command click on the device in the devices list and choose “Send File to Device…”:
+
+
+
+Choose the file you want to send and click “Send”:
+
+
+
+
+
+Your Android device will now ask you to accept the incoming file, if you accept it the pop up window on your Mac will close (to interrupt the transfer click the Stop button):
+
+
+
+As for Bluetooth sharing of files to an iPhone or an iPad you must use AirDrop, Handoff or iCloud. And we’ll cover that another day.
+ ]]></description>
+          <pubDate>Thu, 24 May 2018 16:46:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Bluetooth-Hero-960x540.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/bluetooth-sharing-on-macos/</guid>
+        </item>
+        
+        <item>
+          <title>Moment Helps You Gauge Your iPhone Use</title>
+          <description><![CDATA[ Moment Helps You Gauge Your iPhone Use and Offers Parental Oversight Option
+
+Smartphone addiction is real. Do you check your iPhone before you get out of bed? During family dinners? Right before you go to sleep? Constantly during the day even when you’re on vacation? If you—or your family members—feel that you’re disappearing into your phone too often or at inappropriate times, it may be time to do something about it.
+
+To start, you might want to quantify the problem, and for that, you can turn to a free iPhone app called Moment. Written by developer Kevin Holesh, Moment is designed to track three key pieces of data:
+
+
+  How often you pick up your iPhone every day
+  How much time you spend on your iPhone
+  Which apps you use the most
+
+
+It then uses that information to paint a picture (well, not literally) of your iPhone use. Most people underestimate how much time they spend on their iPhones by about 100% (the average Moment user uses their iPhone for nearly 4 hours per day!). Knowing how much time you spend is the first step toward using your phone intentionally, rather than as a conduit to a constant stream of social media updates (look at the stats shown below), email messages, and quick-hit entertainment.
+
+
+
+To get started, use the App Store app to install Moment, and then launch the app. It starts tracking your usage immediately, although once per week you’ll need to take screenshots of Settings  Battery so Moment can figure out how long you use each app. Then ignore Moment for a few days so it can gather some data.
+
+On the main Screen Time screen, Moment shows how much time you’ve spent on your phone today, along with a scrolling bar graph of how much time you spent every day since you installed Moment. Don’t get too hung up on these raw numbers, though, since Moment tracks every second the screen is on. You probably aren’t concerned about time spent reading an ebook or working out with an app that talks you through a routine.
+
+To view both a breakdown by app and a timestamp for each time you picked up your iPhone, tap any day’s entry, and to see how much you use a particular app on average, tap it in the day view. You can answer a Yes/No question about whether you’re happy with how much you use the app, which informs the Time Well Spent aggregate data about which apps people are and are not concerned about.
+
+
+
+All that is helpful, but for a more useful overview, tap Insights and then Week. You’ll see graphs of your usage patterns for screen time, waking life, pickups, most used app, and sleep (this depends on your first and last pickups of the day, so take its data with a grain of salt). Tap any graph to see more detail, but wait until you’ve used Moment for a while.
+
+
+
+Everything we’ve described so far is free, but Moment offers additional features for a one-time $3.99 in-app purchase. They let you exclude certain apps from the app-use detection, if you don’t want to be dinged for using apps that are necessary or otherwise positive. You can receive quick reminders about your usage, and set daily time limits. There is even a 14-day Phone Bootcamp course that helps you rethink your relationship with your phone.
+
+More interesting for parents is Moment Family, a subscription service ($26.99 for 6 months or $44.99 for 12 months) that allows you to monitor your entire family’s screen time with Moment, set phone-free dinner times, and enforce daily limits.
+
+So if you’re perturbed by the amount of time you spend using your iPhone every day, give Moment a try. On its own, it won’t solve your problem but by showing you exactly how often you turn to your phone—and for what apps—it can help you regain control over your usage patterns. And if others in your family have trouble putting their iPhones down at dinner or to do homework, Moment Family could be the answer.
+ ]]></description>
+          <pubDate>Tue, 22 May 2018 09:08:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Moment-Instagram-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/moment-helps-you-gauge-your-iphone-use/</guid>
+        </item>
+        
+        <item>
+          <title>What Is The Best Hard Drive to Use for Your Backups?</title>
+          <description><![CDATA[ What Is The Best Hard Drive to Use for Your Backups?
+Backing up your Mac is like flossing your teeth: everyone knows they should do it every night, but too many people never get around to it. Unlike flossing, once you set up backups, they don’t require daily attention. And turning on Apple’s Time Machine backup feature is easy—simply open System Preferences  Time Machine, click Select Backup Disk, and pick a hard drive to hold your backups.
+
+
+
+Ah, but there’s the rub. If you don’t have an appropriate hard drive, you need to get one, and there are tons of options. Here’s our rundown of what to look for, with recommendations.
+
+How Much Space Do You Need?
+
+
+The first question when looking for a backup drive is how much data it needs to hold. You could put a lot of effort into figuring this out, but for most people, the answer simple. Buy the largest drive you can reasonably afford, as long as it will hold at least two to three times as much data as you have or anticipate creating in the near future.
+
+Say you use a MacBook Pro with a 512 GB SSD. You could get by with a 1 TB backup drive, which would be twice as large as your internal drive. But if a 1 TB drive costs $100 and a 2 TB drive costs $130, it’s worth the extra $30 to double the available space.
+
+How Will You Connect It to Your Mac?
+
+
+With external hard drives, you need to match the ports on your Mac with the ports on the drive. That might sound tricky, what with USB 3, FireWire, USB-C, and Thunderbolt. Luckily, for most people, the right choice is simple: a drive that supports USB 3. They’re inexpensive and plenty fast for backups.
+
+Nearly every Mac sold since 2012 supports USB 3, either via the familiar USB-A port or the newer USB-C/Thunderbolt 3 port. If your Mac has only USB-C ports—as would be the case if you have either a MacBook or a recent MacBook Pro—you may also need an adapter cable that’s USB-A on one end and USB-C on the other.
+
+What Type of Drive Should You Buy?
+
+
+Inside the case, an external hard drive contains either a 2.5-inch or 3.5-inch drive mechanism.
+
+
+  
+    2.5-inch drives are smaller, more portable, and usually bus-powered, meaning they get power from your computer instead of from a wall outlet, which makes them easier to hook up and use. They’re also designed to be more rugged. On the downside, they cost more per gigabyte, max out at 5 TB in size, and are often slower.
+  
+  
+    3.5-inch drives usually need to be plugged into power, and they’re less appropriate to carry around. However, they cost less per gigabyte and can be bought easily in sizes up to 8 TB. Plus, they tend to support more connection types, making them more flexible.
+  
+
+
+If you work mostly on a notebook Mac and lead a mobile lifestyle, carrying a bus-powered 2.5-inch drive ensures you can back up while traveling. Such a drive might also be best for a MacBook-equipped college student. However, if your Mac mostly sits on a desk or you bring your laptop back to the same place every night, you’ll likely be better served by a 3.5-inch drive—they’re faster, cheaper, and store more data.
+
+Putting It All Together
+
+
+Since the hard drive mechanisms are made by a relatively small number companies, the differences between external drives mostly come down to the price, industrial design, and extra ports. We’ve generally had good luck with drives from Other World Computing, LaCie, Seagate, and Western Digital. Feel free to ask us for specific recommendations for your setup.
+ ]]></description>
+          <pubDate>Wed, 16 May 2018 16:16:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/Backup-drive-MacBook-photo.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/what-are-the-best-backup-hard-drives/</guid>
+        </item>
+        
+        <item>
+          <title>Using Internet Sharing in macOS</title>
+          <description><![CDATA[ Internet Sharing
+
+It really does do what it says, you can share the internet connection on your Mac with other computers on the same local network.
+
+Or if you don’t have a local network you can share your Mac’s Internet connection via Ethernet, Wi-Fi, USB ' Bluetooth.
+
+Go to:
+
+System Preferences  Sharing
+
+
+
+
+
+In this article, I’m going to share the iPhone USB connection from my Mac to Wi-Fi ' Ethernet connections, this is useful if say your broadband is offline or you are changing provider.
+
+Before enabling Internet Sharing you should set up which connection(s) you are going to share from and to.
+
+
+
+In the case of sharing to Ethernet you simply need to plug an Ethernet cable from your Mac to another computer, if you’re trying to do this via a router you will need to configure the router to share the internet connection from your Mac. In most instances, you will not need an Ethernet crossover cable but some older network cards will require you to use a crossover cable.
+
+
+
+For sharing by Wi-Fi which is the most likely method you will use to share your Mac’s Internet connection as it’s convenient and supported by the most devices, you need to click the “Wi-Fi Options” button:
+
+
+
+
+
+This will then open up a dialog box with the available options for your new Wi-Fi network, if you have set up a Wi-Fi hotspot using your Mac in the past the options will be set already otherwise fill in the necessary fields:
+
+
+
+
+
+Once everything is set up check the option for Internet sharing:
+
+
+
+And that’s it the green light will show and Internet Sharing will change to On.
+
+For Wi-Fi, Bluetooth, and direct Ethernet sharing things will be fairly straight forward, however as previously mentioned if you want to share your Mac’s Internet connection via a Router you will have more settings to change on your router before internet sharing will work.
+ ]]></description>
+          <pubDate>Sun, 13 May 2018 11:32:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/internetsharing.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/using-internet-sharing-in-macos/</guid>
+        </item>
+        
+        <item>
+          <title>Enabling Remote Apple Events in macOS</title>
+          <description><![CDATA[ Enabling remote Apple events
+
+Continuing our run down of the sharing preference pane we’ll cover remote Apple events, remote Apple events allow apps running on other Macs to send commands directly to the Mac with remote Apple events enabled these commands can include “opening an app”, “printing a document” or even playing music.
+
+Basically, remote Apple events allow you to quickly run a task on another Mac without having to use screen sharing.
+
+Go to:
+
+System Preferences  Sharing
+
+
+
+Check the Remote Apple events option:
+
+
+
+Again, you should specify which users can use remote Apple events using Only these users option to be more specific:
+
+
+
+You will need to know the I.P address of the Mac you have enabled remote Apple events on, you can go back to System Preferences  Network to find the local I.P address or if you want to run these events from outside your local network (home Wi-Fi etc) you will need to obtain your external I.P address from your router and enable port forwarding to your Mac.
+
+
+
+For a simple outline of how to use Apple Script on another Mac to send commands to the Mac you have enabled remote Apple events on:
+
+Firstly, open AppleScript Editor from Applications  Utilities  Script Editor.app
+
+
+
+And for our first simple script we will simply tell iTunes to open and play on the remote machine.
+
+setremotemachineto "eppc://192.168.2.3"
+
+tellapplication"finder" ofmachineremotemachine
+
+open("/applications/iTunes.app" asPOSIX fileasalias)
+
+endtell
+
+using terms fromapplication "iTunes"
+
+tellapplication"iTunes" ofmachineremotemachine
+
+setlocalVariabletoplayplaylistnamed "Rock"
+
+endtell
+
+endusing terms from
+
+Set the I.P address to the machine you have enabled apple Remote events on:
+
+setremotemachine to "eppc://YOUR I.P ADDRESS"
+
+You will also need to change the playlist name from rock to one of your playlists:
+
+setlocalVariabletoplayplaylistnamed "Insert your playlist name”
+
+Alternatively change the command to just play and iTunes will open and play on the remote machine:
+
+setlocalVariabletoplay
+
+Now when you hit run in the Apple Script editor:
+
+
+
+When you first run the script, it will ask you to enter the username and password for the remote machine:
+
+
+
+The remote machine will open iTunes and play the playlist called Rock.
+
+This Apple Script we have custom coded for this tutorial, if you want to learn more go to the Apple Script website Mac OS X Automation.
+
+And for more iTunes commands including building a remote player see the Apple  website.
+ ]]></description>
+          <pubDate>Fri, 04 May 2018 11:32:00 -0400</pubDate>
+          <link>/sites/grove/2017/assets/app-images/2018/remoteevents.jpg</link>
+          <guid isPermaLink="true">/sites/grove/2017/blog/enabling-remote-apple-events/</guid>
+        </item>
+        
+    </channel>
+</rss>

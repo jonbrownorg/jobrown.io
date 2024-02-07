@@ -1,0 +1,207 @@
+/* Side Panel */
+#widgets {
+	background-image: url(../images/icons/81-dashboard.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#product {
+	background-image: url(../images/icons/195-barcode.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#store {
+	background-image: url(../images/icons/192-credit-card.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#homepage {
+	background-image: url(../images/icons/145-persondot.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#aboutus {
+	background-image: url(../images/icons/124-bullhorn.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#wsupport {
+	background-image: url(../images/icons/90-life-buoy.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	text-indent: 17px;
+}
+#stuff {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	-moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+#panel h5 {
+	width: 185px;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+	color: #7d8192;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+	font-size: 10px;
+	font-family: arial;
+	border-bottom: 1px solid rgba(0, 0, 0, .8);
+	border-top: 1px solid rgba(255, 255, 255, .2);
+	cursor: pointer; 
+	cursor: hand;
+	text-transform: uppercase;
+	background:linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:-o-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:-moz-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:-webkit-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:-ms-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:-webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(58,65,81)),color-stop(0.55, rgb(67,74,92)));
+}
+#panel h6 {
+	width: 185px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #c4ccda;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: normal;
+	border-bottom: 1px solid rgba(0, 0, 0, .8);
+	border-top: 1px solid rgba(255, 255, 255, .2);
+	cursor: pointer; 
+	cursor: hand;
+	background-color: #313949;
+}
+#panel {
+ 	position: fixed;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    margin-left: -201px;
+    margin-right: auto;
+	background-color: #313949;
+	height: 100%;
+	clear: left;
+	float: left;
+	width: 200px;
+	-moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    border-right: 1px solid rgba(0, 0, 0, .8);
+	background-image: url(../images/main/treebar.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+#panel-shadow {
+	background-image: url(../images/icons/side-shadow.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    z-index: 999;
+    position: fixed;
+    margin-left: 191px;
+    height: 100%;
+    width: 8px;
+}
+input[type=search] {
+
+	width: 170px;
+	text-shadow: 0 0 2px black;
+}
+#clip {
+	width: 45px;
+	height: 55px;
+	top: 60px;
+	margin-left: 201px;
+	position: absolute;
+	overflow-x: hidden;
+}
+#panelmove {
+	float: left;
+	line-height: .045em;
+	height: 10px;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.4);
+	z-index: 999;
+	padding: 10px;
+	border-radius: 2px;
+	background-color: #b2ccd2;
+	margin-left: -5px;
+	padding-left: 12px;
+	width: 25px;
+	background-image: url(../images/icons/gears.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	-webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.15);
+	-moz-border-radius: 4px;
+	box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.15);
+	cursor: pointer; 
+	cursor: hand;
+	text-indent: 2px;
+}
+.searchform {
+	display: inline-block;
+	zoom: 1; /* ie7 hack for display:inline-block */
+	*display: inline;
+	border: none;
+}
+.searchform input {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+}
+.searchform .searchfield {
+	padding: 6px 6px 6px 8px;
+	width: 140px;
+	border: solid 1px rgba(0,0,0,.5);
+	outline: none;
+	margin-left: -2px;
+	font-family: Arial "Arial Black";
+	font-weight: bold;
+	color: #c4ccda;
+	padding-left: 27px;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	background:url(../images/icons/light.png) 5px no-repeat, -moz-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:url(../images/icons/light.png) 5px no-repeat, linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:url(../images/icons/light.png) 5px no-repeat, -o-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:url(../images/icons/light.png) 5px no-repeat, -webkit-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:url(../images/icons/light.png) 5px no-repeat, -ms-linear-gradient(bottom, rgb(58,65,81) 9%, rgb(67,74,92) 55%);
+	background:url(../images/icons/light.png) 5px no-repeat, -webkit-gradient(linear,left bottom,left top,color-stop(0.09, rgb(58,65,81)),color-stop(0.55, rgb(67,74,92)));
+}
+#wrapper {
+	height:200px;		/* Of course you need to specify the object height */
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined (absolute | relative), */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	width:100%;
+	background:#aaa;
+	overflow:hidden;
+	background-color: #313949;
+}
+#scroller {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	float:left;
+	width:100%;
+	padding:0;
+	background-color: #313949;
+}

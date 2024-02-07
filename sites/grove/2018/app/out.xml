@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Grove Technologies App</title>
+        <link>https://grovetech.co</link>
+        <description>A feed for the iOS Grove Technologies App</description>
+        <language>en</language>
+        <pubDate>2019-07-14 01:15:21 -0400</pubDate>
+        <lastBuildDate>2019-07-14 01:15:21 -0400</lastBuildDate>
+        <atom:link href="/sites/grove/2018/app/out.xml" rel="self" type="application/rss+xml"/>
+        
+         
+        <item>
+          <title>Some May Like It Hot But Your Technology Prefers to Stay Cool</title>
+          <description><![CDATA[ When summer brings sunny days and rising temperatures, you may have
+ditched your business suit for shorts or skirts to stay comfortable, but
+your technological gear can’t do the same. And keeping your tech cool is
+about more than comfort—as temperatures rise, performance can suffer,
+charging may get slower or stop, various components might be disabled,
+and devices can become unreliable.
+
+How Hot Is Too Hot?
+
+You might be surprised by the recommended operating temperatures for
+Apple gear—whether you’re talking about an iPhone X or a MacBook Pro,
+the company recommends staying under 95° F (35° C).
+
+Such temperatures happen regularly throughout the summer. Even in cooler
+climes, the temperature in a parked car in the sunshine can easily hit
+130º F (54º C) in an hour and rise higher as time passes. And no,
+cracking the windows a couple of inches won’t make a significant
+difference. We hope you’re already thinking about that with regard to
+children and pets, but as you can see, tech gear should also be
+protected. Apple says its products shouldn’t even be stored—turned
+off—at temperatures over 113º F (45º C).
+
+It’s not just cars you have to think about. Temperatures in homes and
+offices without air conditioning can also rise higher than electronics
+would prefer, and that’s especially true for computers that stay on most
+of the time and aren’t located in well-ventilated areas.
+
+What’s the Danger?
+
+First off, remember that all electronic devices produce their own heat
+on top of the ambient heat in the environment, so the temperature inside
+a device can be much, much hotter than outside. The CPU in an iMac can
+hit 212º F (100º C) under heavy loads.
+
+Temperatures higher than what components are designed for can have the
+following effects:
+
+
+  
+    Chips of all types can behave unpredictably as increased thermal
+noise (electrons vibrating more) causes a higher bit error rate.
+Because electrical resistance increases with heat, timing errors can
+also occur.
+  
+  
+    Lithium-ion batteries discharge well in high temperatures, but the
+increased rate of chemical reactions within the battery will result
+in a shorter overall lifespan.
+  
+  
+    As devices heat and cool, the uneven thermal expansion of different
+materials can cause microscopic cracks that can lead to a variety of
+failures over time.
+  
+
+
+Some heat-related problems are temporary, so when the device or
+component cools down, it will resume working correctly. But others,
+particularly drops in battery life—are irreversible and particularly
+worth avoiding.
+
+When a Mac gets too hot, it will spin up its fans in an attempt to keep
+its internal components cool. If your Mac’s fans are ever running at
+full tilt, first quit apps you aren’t using, particularly those that
+might be CPU-intensive and thus creating a lot of heat. If that doesn’t
+make a difference, restart it to make sure the problem isn’t some rogue
+process. If the fans come back on at full speed quickly, shut it down
+and let it cool off for a bit. In the worst case, an overheated Mac will
+start acting unpredictably or crash.
+
+iOS devices don’t have fans, so they employ other coping mechanisms. If
+your iPhone or iPad gets too hot, the device will alert you.
+
+
+
+Apple says you might notice some of the following behaviors:
+
+
+  
+    Charging, including wireless charging, slows or stops.
+  
+  
+    The display dims or goes black.
+  
+  
+    Cellular radios enter a low-power state. The signal might weaken
+during this time.
+  
+  
+    The camera flash is temporarily disabled.
+  
+  
+    Performance slows with graphics-intensive apps or features.
+  
+
+
+If you’re using Maps on an overheating iPhone for GPS navigation in the
+car, it may show a “Temperature: iPhone needs to cool down.” screen
+instead of the map. You’ll still get audible turn-by-turn directions,
+and the screen will wake up to guide you through turns,
+
+How to Keep Your Tech Cool
+
+For the most part, keeping Apple devices cool just requires common
+sense, since you’d do the same things for yourself.
+
+
+  
+    As Apple’s specifications recommend, avoid using devices when the
+temperature is over 95º F (35º C). If you can’t avoid it entirely,
+keep usage to a minimum.
+  
+  
+    Don’t leave devices in cars parked in the sun for long periods of
+time. If it happens accidentally, let the device cool before using
+it.
+  
+  
+    Provide good ventilation so air can cool the device. Don’t block
+ventilation ports in the back of desktop Macs, and don’t use Mac
+laptops in bed, propped on a pillow, or under the covers. It can be
+worth vacuuming dust out of ventilation ports every so often.
+  
+  
+    Never put anything on the keyboard of an open Mac laptop.
+  
+  
+    Avoid stacking things on top of a Mac mini.
+  
+  
+    Monitor the temperature of server closets. If they get too hot, keep
+the door open, add a fan, or run the air conditioning.
+  
+
+
+Luckily, the temperatures that cause problems for Apple hardware aren’t
+terribly comfortable for people either, so if you’re way too hot, that’s
+a good sign your gear is as well.
+ ]]></description>
+          <pubDate>Fri, 12 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/nick-baker-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/nick-baker-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#some-may-like-it-hot-but-your-technology-prefers-to-stay-cool/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#some-may-like-it-hot-but-your-technology-prefers-to-stay-cool/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Munki Customization &amp; Branding</title>
+          <description><![CDATA[ Today we’re going to explore branding and customization of a few popular open source Mac management tools Munki and Munki Report. Before we dive into the specifics and get into the weeds it’s important to first recap and review the importance of branding and its role in the IT admin space. Why is branding so key when it comes to our ability to support our users?
+
+When you look at some of the brands on this screen you get a sense, a feeling and it sparks an emotional tone. Branding inherently has a power. A power to pass along these feelings.
+
+Branding at its very core is a system where we foster an environment of trust.
+
+There are a lot of things that go into the psychology of trust, elements like safety, security and stability are all things that are portrayed in a good and positive brand.
+
+You all have employers or are yourselves employers and so you want your brand to pass along, your core values and your beliefs. It’s critical to fostering that environment of trust.
+
+This is something that Apple has done very well as a brand, and inherently expects it’s developers and administrators to embody and personify its core values while they with their products.
+
+Your school, university or creative agency wants its users to be productive and the best environment for that is a safe and trusted one
+
+and so that brand and the IT teams ability to personify that brand is key when it comes to building trust and confidence between yourselves and your users.
+
+Software management, patch management and preference management whether done via a MDM, (branded or not) is a sensitive process that has undertones of mistrust threaded through it. What we have learned is that engaging the end user rather than hiding things from them is the best method in garnering overall user acceptance and trust.
+
+However when your in a position where you need to us a Free tool or an Open Sourced system, it can convey some unintended messages that can hurt your ability to ensure overall adoption and that’s really what we’re talking about. Trustworthiness equals acceptance and adoption.
+
+Munki and MunkiReport are 2 of the best tools made for software and patch management for the Mac platform. Its well supported. They’re free and it’s easy to manage. Branding these tools brings them to the next level. Suddenly you can refer to them by other names. “Penn State University’s Managed App Store” for example conveys a certain element of professionalism, welcomes in the values personified by the university and brings an added level of comfort to the users.
+
+Now they know this is a sanctioned tool, it’s a trusted tool and they should be following directives within the tool.
+
+Now that we have covered branding, let’s talk about how to brand these great tools. Each tool has branding or theming undertones. Some are robust. Others not so much. Let’s start with Munki. Lets walk through the process of creating a MacOS App Icon.
+
+Before I move on the icon I created here was created with a free MacOS icon template that I have linked to. Having an icon is part of the rebranding or theming process we will cover next.
+
+
+
+Munki comes with its subsystem which lives in the /usr/local/munki portion of the users computer and Managed Software Center its user facing front end with all of its Munki icon glory. Munki out of the box has the ability to add banners and customize the sidebar and footer of any section. Per Munki’s own documentation it says “While you can customize anything in Managed Software Center.app, the most common customizations (and the only ones officially supported) are for these template files:
+
+showcase_template.html – controls the banner images and any links
+sidebar_template.html – the right-side sidebar displayed in the main Software view
+footer_template.html – the page footer
+
+While it is possible to customize any of the other template files, it’s possible (or even likely) that a future release of Managed Software Center.app will include changes to the default/included versions of these template files. This could lead to unexpected/undesired behavior if you did not also update your versions of the customized files. Therefore, when you make your archive of customized files, include ONLY those files you actually customize. Do not include any other template files.”
+
+Let’s talk about the code needed for the showcase.html file.
+
+&lt;script type="text/javascript"
+var currentSlide = 0, playing = 1
+
+function slides(){
+    return document.querySelectorAll('div.stageimg')
+}
+
+function showSlide(slideNumber){
+    theSlides = slides()
+    for (c=0; c&lt;theSlides.length; c++) {
+        theSlides[c].style.opacity="0";
+    }
+    theSlides[slideNumber].style.opacity="1";
+}
+
+function showNextSlide(){
+    if (playing) {
+        currentSlide = (currentSlide  slides().length-2) ? 0 : currentSlide + 1;
+        showSlide(currentSlide);
+    }
+}
+
+function stageClicked() {
+    var slide = slides()[currentSlide];
+    var target = slide.getAttribute('target');
+    var link = slide.getAttribute('href')
+    if (target == '_blank') {
+        if ('AppController' in window) {
+            // MSC &lt; version 5 with WebView
+            window.AppController.openExternalLink_(link);
+        } else {
+            // MSC version 5+ with WKWebView
+            window.webkit.messageHandlers.openExternalLink.postMessage(link);
+        }
+    } else {
+        window.location.href = link;
+    }
+}
+
+window.onload=function(){
+    showSlide(0);
+    if (slides().length  1) {
+        setInterval(showNextSlide, 7500);
+    }
+}
+&lt;/script
+
+&lt;div class="showcase"
+    &lt;div class="stage" onClick='stageClicked();'
+        &lt;img target="_blank" href="http://www.apple.com" alt="Apple" src="custom/resources/Apple.png" /
+        &lt;img href="munki://detail-GoogleChrome.html"  alt="Google Chrome" src="custom/resources/Chrome.png" /
+        &lt;img href="munki://developer-Google.html" alt="Google Applications" src="custom/resources/Google.png" /
+    &lt;/div
+&lt;/div
+
+Here you will see the code for the sidebar.html file. This code adds a picker menu and other bookmarked elements to the sidebar.
+
+&lt;div class="sidebar"
+    &lt;div class="chart titled-box quick-links"
+        &lt;h2Quick Links&lt;/h2
+        &lt;div class="content"
+            &lt;ol class="list"
+                &lt;li class="link user-link"&lt;a href="#"Welcome&lt;/a&lt;/li
+                &lt;li class="link user-link"&lt;a href="#"Support&lt;/a&lt;/li
+                &lt;li class="separator"&lt;hr/&lt;/li
+                &lt;li class="popup"
+                    &lt;div class="select links"
+                        &lt;label
+                            &lt;span&lt;/span
+                            &lt;select id="category-selector" onchange="category_select()"
+                                ${category_items}
+                            &lt;/select
+                        &lt;/label
+                    &lt;/div
+                &lt;/li
+                &lt;li class="link"&lt;a href="http://www.apple.com/osx/whats-new/"What's new in Mavericks&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://www.apple.com"Apple&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://google.com"Search Google&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://bing.com"Search Bing&lt;/a&lt;/li
+                &lt;li class="separator"&lt;hr/&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://www.apple.com/support/"Apple support&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://www.apple.com/support/mac/"Mac&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://www.apple.com/support/osx/"OS X&lt;/a&lt;/li
+                &lt;li class="link"&lt;a target="_blank" href="http://www.apple.com/support/mac-apps/"Mac Apps&lt;/a&lt;/li
+            &lt;/ol
+        &lt;/div
+    &lt;/div
+&lt;/div
+
+Finally here the code for the footer.html file. Note that images referenced in these files are located in a folder called resources and the templates folder includes all the html files specified in the Munki documentation. Per the documentation
+
+&lt;div class="bottom-links"
+    &lt;ul class="list" role="presentation"
+        &lt;li&lt;a target="_blank" href="http://www.apple.com"Apple&lt;/a&lt;/li
+        &lt;li&lt;a target="_blank" href="http://www.google.com"Google&lt;/a&lt;/li
+        &lt;li&lt;a href="updates.html"Updates&lt;/a&lt;/li
+    &lt;/ul
+&lt;/div
+
+“managedsoftwareupdate as part of its update check, attempts to download client customization resources. Typically, you can make these available from your Munki repo by creating a “client_resources” directory at the top level of the repo. If you want to make these available at a different URL, you can set Munki’s ClientResourceURL to an alternate base URL. (This follows the pattern of ManifestURL, CatalogURL and PackageURL as alternate base URLs.)
+
+If Munki’s ClientResourcesFilename preference is defined, this filename will be used (appending “.zip”) if needed; otherwise managedsoftwareupdate will request an archive with the same name as the primary manifest (plus “.zip”), falling back to “site_default.zip”.”
+
+zip -r site_default.zip resources/ templates/
+
+Once you associate or deploy a specific client resource with a users computer it downloads and displays those elements. Banners can click out to outbound URLs as can the sidebar links and footer links as well. Let’s demo this process.
+
+
+
+As you can see here may of the elements in the un-modified version of Munki are now modified. Many elements can’t be modified alone with the custom html file overrides.
+
+That’s where our templating script comes in. Our script can override more than just the main elements. Elements like the top menu bar icons and even the ability to list categories on non category enabled pages are now a possibility.
+
+While this is powerful, it still leaves many of the elements like the Name of the App and icon unchanged. Thats where Munki Rebrand comes in. An awesome script that allows you to associate a PNG file to change the custom icon of Munki as well as the name of Managed Software Center. This is handled by Munki Rebrand.
+
+#!/bin/bash
+
+appname='The Grove'  #  Name of your App
+workingdir='/Users/jon/Desktop/munki-theme' ## Where is the script located
+signcert='Developer ID Installer: Jonathan Brown (2D4Z7WQ7RS)' # Name of your Developer Certificate
+icon='icon_512x512@2x.png' #name of icon file
+
+## Dont Edit
+
+mid='/munki/code/apps/Managed Software Center/Managed Software Center' 
+fullpath='/munki/code/apps/Managed Software Center/Managed Software Center/Resources/WebResources'
+templatepath='/munki/code/apps/Managed Software Center/Managed Software Center/Resources/templates'
+resources='/munki/code/apps/Managed Software Center/Managed Software Center/Resources/'
+controllers='/munki/code/apps/Managed Software Center/Managed Software Center/Controllers'
+
+cd $workingdir
+
+git clone https://github.com/munki/munki
+
+#Unlocking File
+sudo chflags -R nouchg "$workingdir$fullpath/base.css"
+
+#Making writeable
+sudo chmod 777 "$workingdir$fullpath/base.css"
+
+#Adding Custom CSS
+cd  "$workingdir$fullpath"
+echo "$(echo "@import 'custom.css';" | cat - base.css)"  base.css
+
+#Copy CSS Files
+sudo cp "$workingdir/Dark-Theme/custom.css" "$workingdir$fullpath"
+sudo rm "$workingdir$templatepath/detail_more_items_template.html"
+sudo cp "$workingdir/Dark-Theme/detail_more_items_template.html" "$workingdir$templatepath"
+
+#Modify PY Script
+sudo rm "$workingdir$mid/mschtml.swift"
+sudo cp "$workingdir/Dark-Theme/mschtml.swift" "$workingdir$mid/mschtml.swift"
+#perl -pi -w -e 's{func buildCategoriesPage}{func buildCategoriesPageOLD}g' "$workingdir$mid/mschtml.swift"
+#cat "$workingdir/Dark-Theme/modification.py"  "$workingdir$mid/mschtml.swift"
+
+#Modify Window Size
+perl -pi -w -e 's{&lt;value key="minSize" type="size" width="1000" height="475"/}{&lt;value key="minSize" type="size" width="1331" height="475"/&lt;value key="maxSize" type="size" width="1331" height="730"/}g' "$workingdir$mid/Base.lproj/MainMenu.xib"
+
+#Modify icons
+perl -pi -w -e 's{updatesTemplate.pdf}{updatesTemplate.png}g' "$workingdir$controllers/MainWindowController.swift"
+sudo rm -rf "$workingdir$resources/toolbarCategoriesTemplate.pdf"
+sudo rm -rf "$workingdir$resources/updatesTemplate.png"
+sudo rm -rf "$workingdir$resources/MyStuffTemplate.png"
+sudo rm -rf "$workingdir$resources/AllItemsTemplate.png"
+sudo cp "$workingdir/Dark-Theme/toolbarCategoriesTemplate.pdf" "$workingdir$resources"
+sudo cp "$workingdir/Dark-Theme/AllItemsTemplate.png" "$workingdir$resources"
+sudo cp "$workingdir/Dark-Theme/MyStuffTemplate.png" "$workingdir$resources"
+sudo cp "$workingdir/Dark-Theme/updatesTemplate.png" "$workingdir$resources"
+
+cd $workingdir/munki
+
+./code/tools/make_munki_mpkg.sh
+
+cd ..
+
+git clone https://github.com/ox-it/munki-rebrand.git
+
+cd munki-rebrand/
+
+echo -n "What is the pkg name that was just built? "
+read result
+mid='/munki/'
+full_pkg_path="$workingdir$mid$result"
+
+sudo ./munki_rebrand.py --appname "$appname" --pkg "$full_pkg_path" --icon-file "$workingdir/$icon" --sign-package "$signcert"
+
+
+
+So what did this script actually do? it replaced the top menu item icons with ones more desire-able. It changed the logo and name of the app via Munki Rebrand and it added a lot of custom CSS elements like rounded buttons and it even added functionality that does not exist. Notice the sidebar in the category view. This is something that normally is null by default.
+
+Before taking questions I want to pivot to Munki Report with the time we have left to talk about how you can modify the look and feel of that tool as well. Obviously we will want to ask, why would we want or need to customize the branding of Munki Report? Isn’t it an admin only tool?
+
+We argue that even an admin tool should consistently follow the tone of its counterpart. Even as a systems administrator you will need to share and show your report view to others at some point in time and having that consistency helps enforce your core brand as well as all the things we talked about earlier.
+
+Munki Report has the ability to set a custom “Company Name” within its .env preferences. This is great because it changes the name pretty much everywhere. But what about logos or imagery? This can easily be done with .js and .css overrides. In the newest version of Munki Report you can enable custom CSS and JS and with Psudeo elements you can show, add or delete content from specific website elements dynamically.
+
+Here you can see that while we have added the logo to Munki Report’s login screen we have also modified its overall position and changed its default styling. We also removed the version number so as to harden and secure our public facing munki report install.
+
+
+
+Slides available for download here.
+
+
+ ]]></description>
+          <pubDate>Wed, 10 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/laptopcode.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/laptopcode.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#penn-state-munki-customization-and-branding/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#penn-state-munki-customization-and-branding/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Did You Know You Can Make a Video of Anything on Your iPhone or iPad Screen</title>
+          <description><![CDATA[ You know how to use the Camera app on your iPhone or iPad to take a
+video, but did you know that you can also record a video of what happens
+on the screen of your device? That’s useful if you’re trying to explain
+the steps of some technical process to a friend or show a tech support
+rep what’s going wrong in an app or Web site. You could also use a
+screen recording to copy a video from Facebook, for instance, that you
+want to send to a social media–averse friend.
+
+First, to get set up, go to Settings  Control Center  Customize
+Controls and tap the green + button next to Screen Recording to add it
+to the list of controls that appear in Control Center. Drag it in the
+list to rearrange where its round Record button will show up in Control
+Center. Here’s a screen recording showing those steps:
+
+
+
+Making your first screen recording is simple. Follow these steps:
+
+
+  
+    Open Control Center. (Swipe up from the bottom edge of the screen,
+or, if you’re using an iPhone X or later, or an iPad running iOS 12,
+swipe down from the top-right corner of the screen.)
+  
+  
+    Press deeply on the Screen Recording button to open a menu. If you
+want to record your voice via the microphone as well, tap the
+Microphone button to turn it on.\
+
+  
+  
+    Tap Start Recording, and then wait for the 3-second countdown.
+  
+  
+    Perform the actions that you want to be recorded.
+  
+  
+    To stop the recording, either enter Control Center again and tap the
+red Record button or tap the red status icon at the upper left of
+the screen and tap Stop. A notification appears, telling you that
+your screen recording was saved to Photos.\
+   
+  
+
+
+In fact, if you want to keep your options for the destination app and
+microphone at their current settings, making a screen recording is even
+easier:
+
+
+  
+    Open Control Center.
+  
+  
+    Tap the Record button instead of pressing deeply.
+  
+  
+    Perform your actions.
+  
+  
+    Stop the recording via Control Center or the red status bar.
+  
+
+
+Told you it was simple. But we bet you have questions, so let’s provide
+some answers.
+
+Where did my screen recording go?
+
+As the notification informs you, screen recordings end up in the Photos
+app, just like any other photo or video. You’ll see them both in the
+Photos view and in Albums  Media Types  Videos.
+
+What are Messenger and Skype doing in the screenshot earlier?
+
+Instead of recording your screen to a video file, you can instead
+broadcast it to a Facebook Messenger or Skype chat. That might be useful
+for a quick show-and-tell while having a conversation.
+
+Can I edit the screen recording?
+
+Yes, although the Photos app limits you to trimming frames from the
+start and end of the video (which actually creates a new video with your
+selection rather than editing the original). For more significant
+editing, tap the ••• button in the Photos edit interface and send the
+video to iMovie.
+
+Is there any way to show my taps and drags in the screen recording?
+
+Yes, but it’s not easy. There’s a trick that relies on iOS’s
+Accessibility
+features, but
+it’s way too clumsy and leaves the Assistive Touch button on the screen
+the entire time. A better approach would be to use a dedicated app like
+ScreenFlow
+(which is what we used above) to insert circles where your fingers touch
+down, but that’s worthwhile only for videos where you need higher
+production values.
+
+For the most part, though, the point of screen recordings is not to make
+the perfect movie—it’s to create and share a video of something that
+would otherwise be difficult or impossible to convey.
+ ]]></description>
+          <pubDate>Mon, 08 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/lifesimply-rocks-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/lifesimply-rocks-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#did-you-know-you-can-make-a-video-of-anything-on-your-iphone-or-ipad-screen/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#did-you-know-you-can-make-a-video-of-anything-on-your-iphone-or-ipad-screen/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Buy Quality Cables to Avoid Possible Device Damage or Even Fires</title>
+          <description><![CDATA[ Apple’s prices for Lightning, USB-C, and Thunderbolt 3 cables often seem
+high—$19 for a USB-C to Lightning
+cable
+or $29 if you want a 2-meter
+version?
+Unfortunately, when it comes to cables, you often get what you pay for.
+Happily, other reputable hardware manufacturers like
+Anker and
+Belkin make
+quality cables and often charge less than Apple.
+
+
+
+Stay away from the bargain basement prices from no-name Chinese
+manufacturers, and if you see a supposedly genuine Apple cable selling
+for a too-good-to-be-true price, consider the possibility that it’s
+counterfeit. Apple has even created a detailed page that explains how
+to identify counterfeit or uncertified Lightning
+accessories.
+
+
+
+The problem with cheap cables is not just that they might break or wear
+out sooner, but that many modern cables carry power as well as data.
+When there’s sufficient juice flowing down those tiny wires, a
+short-circuit can fry hardware or in the worst cases, generate sparks,
+smoke, or even fire. Don’t misunderstand—fires aren’t likely, but over
+the years, there have been numerous headlines about fires caused by
+charging
+iPhones
+and Android smartphones. In fact, Target just recalled 90,000
+Lightning to USB
+cables
+after 14 reports of the cables smoking, sparking, and igniting.
+
+When it comes to damaging hardware, USB-C was a problem early on but is
+less so now, thanks to the efforts of Google engineer Benson Leung in
+2015 and 2016. After a bad USB-C cable fried his Chromebook, he embarked
+on a one-man crusade to identify which USB-C cables were good and which
+were bad. He has moved on from that now, but in part due to his efforts,
+Amazon started prohibiting listings of USB-C cables and adapters that
+weren’t compliant with the USB-C specs. You might still run across bad
+cables that Amazon hasn’t yet identified, or dodgy cables sold through
+other retailers, but the danger is lower than it used to be,
+particularly with cables from name brands.
+
+Lightning cables are incredibly common these days—you can buy them in
+gas stations and drugstores—and as with USB-C cables, you’ll do best
+if you stick with cables from brand name companies. You’ll pay more, but
+do you really trust electronics sold next to Twinkies and Slim Jims? It
+might be worth buying one in a pinch, but don’t rely on it.
+
+Of course, even the best cables will fray and fail if you mistreat them.
+Follow this advice to ensure a long life for even heavily used cables:
+
+
+  
+    Don’t create sharp bends in the cable, especially near the
+connector. Sharp bends can eventually break the insulation and
+reveal the wires inside.
+  
+  
+    When unplugging your device, pull from the plug instead of further
+down on the cord. That avoids stress near the connector.\
+
+  
+  
+    When coiling your cables, avoid wrapping them tightly around
+something that’s not round. A tight wrap can cause kinks that will
+degrade the wires inside.
+  
+  
+    Don’t put heavy objects on cables, or sandwich them between a desk
+and the wall. Anything that compresses the cable can cause damage.
+  
+  
+    iPhones may be fairly water resistant these days, but try to keep
+both the Lighting port and the cable’s pins clean and away from
+liquids because crud or a droplet could cause a short circuit. USB-C
+cables are less susceptible to such problems because of their metal
+jackets, but it’s still worth being careful.
+  
+  
+    If a cable’s insulation ever breaks so you can see the wires inside,
+wrap it with electrical tape right away, and replace it as soon as
+you can.\
+
+  
+
+
+In the end, the advice is pretty simple. Spend a little more on quality
+products from reputable manufacturers so you don’t have to worry about
+your $1000 iPhone XS being damaged by a $3 counterfeit Lightning
+cable.
+ ]]></description>
+          <pubDate>Thu, 04 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/will-porada-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/will-porada-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#buy-quality-cables-to-avoid-possible-device-damage-or-even-fires/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#buy-quality-cables-to-avoid-possible-device-damage-or-even-fires/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Read More Easily on the iPhone with Safari Reader</title>
+          <description><![CDATA[ Do you sometimes find it difficult to read articles on your iPhone
+because of ads, banners, extraneous layout, social media icons, and
+too-small fonts? We certainly do, and there’s often a quick fix for the
+myriad ills of modern Web pages: Safari Reader. Whenever you see the
+Safari Reader icon to the left of the site’s domain name in the
+address bar, tap it to switch to a cleaner view that dispenses with all
+the unnecessary trimmings and presents the content in a larger, more
+readable font. Tap the font icon at the right side of the address
+bar in Safari Reader to change the font, font size, and background
+color. Safari Reader isn’t always available, and it can occasionally
+fail to format an article properly, but it’s a big win when you can use
+it.
+
+
+ ]]></description>
+          <pubDate>Wed, 03 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/tran-mau-tri-tam-tZnbakTUcTI-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#read-more-easily-on-the-iphone-with-safari-reader/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#read-more-easily-on-the-iphone-with-safari-reader/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Customize Your Macs Dock for Increased Productivity</title>
+          <description><![CDATA[ By default, Apple populates your Mac’s Dock with all sorts of apps and
+arranges them in a particular order. But there’s no rhyme or reason to
+the defaults, and you shouldn’t be afraid to add, remove, and rearrange
+apps on your Dock. To add an app, drag its icon from the Applications
+folder to the desired spot on the Dock. To remove an app you never use,
+drag its icon far enough off the Dock that a Remove tag appears above
+the icon and then let go. To arrange the Dock icons in the order that
+makes the most sense to you, just drag each icon to your preferred
+location. We generally like to put our most-used apps in the left-most
+or top-most spots.
+
+
+ ]]></description>
+          <pubDate>Tue, 02 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/customize-Dock-boats-photo.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/customize-Dock-boats-photo.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#customize-your-macs-dock-for-increased-productivity/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#customize-your-macs-dock-for-increased-productivity/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>A Quick Way to Check Battery Levels on Your iOS devices</title>
+          <description><![CDATA[ Apple’s Batteries widget is a little known but highly useful tool for
+quickly assessing which of your small Apple devices is lowest on
+power—something you may wish to do particularly when traveling with
+only one charging cable. To access it, switch to Today view on the
+iPhone, accessible by swiping right on the Home screen or Lock screen.
+If the Batteries widget isn’t already there, scroll to the bottom, tap
+Edit, and tap the green + button to the left of Batteries in the list.
+Of course, if you just want to check the battery status on one device,
+that’s possible too. It’s easy to figure out how much power remains in
+your iPhone’s battery because of the indicator at the top right of the
+screen (swipe down on it to invoke Control Center and see the percentage
+on the iPhone X and later). On the Apple Watch, swipe up on the screen
+to see its battery percentage in Control Center. For AirPods, open the
+case and wait for the pop-up to appear on your iPhone’s screen.
+
+
+ ]]></description>
+          <pubDate>Mon, 01 Jul 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/Battery-widget-photo.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/Battery-widget-photo.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#a-quick-way-to-check-battery-levels-on-your-ios-devices/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#a-quick-way-to-check-battery-levels-on-your-ios-devices/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Heres What You Need to Know about the Butterfly Keyboard</title>
+          <description><![CDATA[ When Apple introduced the 12-inch MacBook in April 2015, the machine was
+the thinnest Mac ever, with a tapered design that starts at a mere 3.5
+mm and grows only to 13.1 mm. A change from previous laptop models that
+made such an incredibly thin design possible was a new keyboard that
+swapped a scissor-style switch under each key for a new “butterfly
+mechanism” that’s 40 percent thinner.
+
+In October 2016, Apple started using a second generation of the
+so-called “butterfly” keyboard in the MacBook Pro line. Then, in July
+2018, Apple updated the keyboard to a third-generation design that added
+a thin silicone membrane under each key to protect from dust and other
+foreign objects. That third-generation keyboard made its way into the
+MacBook Air released in October 2018. Then, in May 2019, Apple once
+again updated the keyboard in the latest models of the MacBook Pro,
+telling journalists that the fourth-generation design has a “materials
+change” in the mechanism.
+
+Why has Apple kept tinkering with the butterfly keyboard? Put frankly,
+because it has had problems. Although there are no independent estimates
+of what percentage of Macs equipped with butterfly keyboards are
+afflicted, many users have complained about keys sticking or feeling
+crunchy, keys failing to fire at all (so no letter is typed when the key
+is pressed), and keys repeating (so multiple letters are typed per
+keypress).
+
+In fact, in June 2018, just before the third-generation design appeared
+in the MacBook Pro, Apple acknowledged that “a small percentage” of
+first- and second-generation butterfly keyboards were affected and
+launched a repair program to fix them for free, even if they were out of
+warranty. (The fact that a class-action suit surrounding the butterfly
+keyboards was filed against Apple in May 2018 might have been related.)
+
+Alas, the silicone membrane didn’t resolve all the issues, and after the
+E and R keys on her MacBook Pro failed, influential tech journalist
+Joanna Stern of the Wall Street Journal wrote a hilarious column
+entitled “Appl Still Hasn’t Fixd Its MacBook Kyboad Problm,” complete
+with interactive switches so you could read it with or without the
+various missing and duplicated letters. Plus, a repair technician tore
+down a MacBook Pro
+keyboard
+to show why he didn’t think dust was an issue. Apple apologized to the
+Wall Street Journal, saying:
+
+
+  We are aware that a small number of users are having issues with their
+third-generation butterfly keyboard and for that we are sorry. The
+vast majority of Mac notebook customers are having a positive
+experience with the new keyboard.
+
+
+So when Apple released the fourth-generation butterfly keyboard with the
+current MacBook Pro models, the company also extended the Keyboard
+Service Program for MacBook, MacBook Air, and MacBook
+Pro
+to cover the third-generation keyboards. The repair program lists the
+exact models that are covered, but it basically comes down to any
+12-inch MacBook, MacBook Air models released in late 2018, and MacBook
+Pro models starting in 2016 and up to 2019.
+
+What’s the practical upshot of all this for you?
+
+
+  
+    If you have a MacBook, MacBook Air, or MacBook Pro with one of these
+butterfly keyboards, and it’s working properly, that’s great! Do
+nothing—hopefully it will keep tip, tap, typing away.
+  
+  
+    If you have one of those Macs and are having problems, contact Apple
+or an Apple Authorized Service Provider for a repair. Before you
+hand over any Mac for
+repair, make sure you
+have at least one and preferably two backups of your data, since
+Apple sometimes replaces storage devices while doing seemingly
+unrelated repairs.
+  
+  
+    If you already paid Apple to have your butterfly keyboard repaired,
+contact Apple to request a
+refund.
+  
+
+
+It’s too soon to know if the fourth-generation butterfly keyboard will
+resolve all the complaints, but whenever we’re not typing, our fingers
+are crossed.
+ ]]></description>
+          <pubDate>Tue, 25 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/MacBook-Pro-butterfly-keyboard.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/MacBook-Pro-butterfly-keyboard.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#heres-what-you-need-to-know-about-the-butterfly-keyboard/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#heres-what-you-need-to-know-about-the-butterfly-keyboard/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Apple Issues Voluntary Recall for Certain 2015 15 inch MacBook Pro Units</title>
+          <description><![CDATA[ Heads up! If you’re using an older 15-inch MacBook Pro—the version
+with lots of ports that predates the current Thunderbolt 3
+models—Apple has started a recall
+program to
+replace batteries that could explode and catch on fire. (We’re not
+kidding.)
+The affected MacBook Pro models were sold primarily between September
+2015 and February 2017. To find out if your 15-inch MacBook Pro is
+affected, enter its serial number into Apple’s recall
+page.
+If it is included in the recall, shut it down and stop using it
+immediately! Contact Apple for a free battery replacement, and if you
+need any assistance, don’t hesitate to get in touch with us.
+ ]]></description>
+          <pubDate>Fri, 21 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/james-mckinven-456632-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/james-mckinven-456632-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#apple-issues-voluntary-recall-for-certain-2015-15-inch-macbook-pro-units/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#apple-issues-voluntary-recall-for-certain-2015-15-inch-macbook-pro-units/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>iCloud Link Photo Sharing</title>
+          <description><![CDATA[ It’s easy to share a single photo from your iPhone or iPad with a
+friend, but if you want to share a bunch of photos or lengthy videos,
+sending them in Messages or Mail might not work or could impact your
+(and your recipients’) data caps. In iOS 12, Apple added a clever
+feature that instead uploads the files to iCloud and lets you share a
+simple link that your recipients can use to view and download. Use this
+approach and your messages will send and be received faster and more
+reliably.
+
+This feature requires that you use iCloud Photos (previously called
+iCloud Photo Library). If you’re not already set up with iCloud Photos,
+you can turn it on in Settings  Photos, but be aware that you will
+likely need to pay for more iCloud
+storage ($0.99
+per month for 50 GB, $2.99 for 200 GB, and $9.99 for 2 TB). Your
+recipients don’t need to use iCloud Photos, though, and in fact, they
+can use any device or operating system.
+
+Send iCloud Links
+
+It’s easy to send an iCloud Link. Follow these steps:
+
+
+  
+    Open the Photos app on an iPhone or iPad running iOS 12.
+  
+  
+    In any view with multiple thumbnails showing, tap Select.
+  
+  
+    Tap one or more photos or videos to select them.
+  
+  
+    Tap the Share  button.
+  
+  
+    In the bottom row of icons in the Share sheet, tap Copy iCloud Link.
+You may have to scroll to the right to see it.
+  
+  
+    After iOS prepares the items for sharing, it puts the iCloud link on
+the clipboard.
+  
+  
+    Switch to whatever app you’re using to communicate and paste the
+link by pressing in a text area and tapping Paste in the control
+that appears. Messages will generate a preview thumbnail for you;
+other apps will display a Web URL to icloud.com.
+  
+
+
+
+
+Manage iCloud Links
+
+By default, items you share via an iCloud link are stored for only 30
+days. That’s a good thing—you don’t have to worry about things hanging
+around forever. However, it does mean that your recipients need to get
+around to viewing or downloading within that time. And what if you want
+to remove access before the 30 days are up? Plus, what if you want to
+send the iCloud link to another person—how do you get it again?
+
+Here’s the trick. In Photos, tap For You, then tap your collection under
+Recently Shared to open it. Then tap the blue more
+ button in the upper-right corner to
+display a menu with two options:
+
+
+  
+    To get the link again to send to another person, tap Copy iCloud
+Link.
+  
+  
+    To remove the files from iCloud, tap Stop Sharing.
+  
+
+
+
+
+Receive iCloud Links
+
+When someone sends you an iCloud link, opening it is as simple as
+tapping or clicking the link, just like any other Web URL. (As with
+other Web links, if you’re receiving an iCloud link in Messages, you’ll
+see a thumbnail preview instead of the URL.)
+
+If you’re receiving the iCloud link on an iOS device, tapping it opens
+the collection in the For You tab of Photos with a convenient Add All
+button for bringing the photos into your own library. If you don’t want
+all of them, you can instead tap Select to pick a few.
+
+
+
+However, opening the iCloud link on a Mac or any other device opens it
+in a Web browser, with a Photos-like display. By default, all the photos
+are selected, although you can click the blue
+ checkmark for any one to deselect it or
+click Deselect All. Clicking the round spot where the checkmark was
+selects an image again. Once the photos you want are selected, click
+Download.
+
+
+
+Alternatively, if you just want to look at the photos online, click any
+photo to expand it. All the other photos appear in a scrolling bar
+below, and you can click them or use the arrow keys to navigate through
+them.
+
+
+
+So next time you have some photos to share and don’t want to waste
+bandwidth or mess around with shared albums, try sending an iCloud link
+instead.
+ ]]></description>
+          <pubDate>Wed, 19 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/kaleidico-754428-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/kaleidico-754428-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#icloud-link-photo-sharing/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#icloud-link-photo-sharing/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Use Dropbox's Selective Sync to Save Space on Small Drives</title>
+          <description><![CDATA[ If you’re like many of our clients who use Dropbox intensively, you have
+a desktop Mac with a large drive and a MacBook with much less drive
+space. How do you prevent your large Dropbox account from overwhelming
+the laptop Mac’s available storage? The answer is Dropbox’s Selective
+Sync feature. On the MacBook, click the Dropbox icon in the menu bar,
+click your avatar in the upper-right corner, and choose Preferences. In
+the Preferences window, click Sync and then click the Choose Folders to
+Sync button. Deselect the folders you want to prevent from syncing to
+the MacBook and click Update. If you need to access any files in those
+folders from the MacBook, go to dropbox.com in your Web browser instead,
+or adjust your Sync preferences to bring in the needed folder.
+
+
+ ]]></description>
+          <pubDate>Fri, 14 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/118-Dropbox-Sync-Featured.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/118-Dropbox-Sync-Featured.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#use-dropboxs-selective-sync-to-save-space-on-small-drives/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#use-dropboxs-selective-sync-to-save-space-on-small-drives/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>New MacBook Pros, New iPod touch, OS Updates</title>
+          <description><![CDATA[ Apple is well known for its splashy media events, now usually held in
+the Steve Jobs Theater at the company’s new Cupertino campus. But Apple
+reserves such events for major announcements. Smaller announcements,
+such as minor updates to particular product lines, operating system
+updates, or new repair programs, get only a press release, if that.
+
+But just because a change doesn’t merit much fuss doesn’t mean it’s
+uninteresting—if you’ve been waiting for the right moment to buy a new
+Mac, for instance, an announcement of a small MacBook Pro revision might
+be exactly what you want to hear.
+
+Here’s a roundup of Apple’s recent announcements in May 2019.
+
+New MacBook Pro Models Feature Faster CPUs and New Butterfly Keyboards
+
+Although Apple has a reputation for innovation, the company should also
+be lauded for its evolutionary changes, which are much more common. To
+wit, Apple quietly updated the 13-inch and 15-inch MacBook
+Pro models equipped
+with a Touch Bar with faster CPUs while keeping the prices the same.
+
+You can now buy a 15-inch MacBook Pro with the latest 9th-generation
+8-core Intel Core i9 processor, making it the fastest MacBook Pro
+ever—the previous model offered only a 6-core processor. The 15-inch
+models also offer faster graphics processors as options.
+
+
+
+The 13-inch MacBook Pro models didn’t receive the same level of changes,
+but they gained slightly faster 8th-generation Intel processors that
+provide minor performance improvements.
+
+Both models now come with the fourth generation of Apple’s controversial
+butterfly keyboard. We’ll have more on that issue soon.
+
+Apple Launches MacBook Pro Repair Program for “Flexgate”
+
+13-inch MacBook Pros from 2016 are susceptible to a display-related
+problem the press has dubbed “Flexgate.” According to Apple, affected
+Macs exhibit one or both of these symptoms:
+
+
+  
+    The display backlight continuously or intermittently shows vertical
+bright areas along the entire bottom of the screen.
+  
+  
+    The display backlight stops working completely.
+  
+
+
+The problem is related to a flex cable connected to the display that’s
+too short and too fragile; some repair experts have suggested that
+failure is inevitable.
+
+If your 13-inch Mac is showing either of these symptoms, you can now
+take advantage of Apple’s new 13-inch MacBook Pro Display Backlight
+Service
+Program
+to get a free repair. You can have your Mac fixed by Apple or an Apple
+Authorized Service Provider, and if you already paid for a repair, you
+can request a refund from
+Apple.
+
+iOS 12.3 and tvOS 12.3 Add New TV App; iOS 12.3.1 Fixes Calling Bug; macOS Addresses ZombieLoad
+
+As you’ve no doubt noticed in your Software Update notifications, Apple
+recently updated all its operating systems: iOS 12.3.1, macOS 10.14.5,
+watchOS 5.2.1, and tvOS 12.3. If you’re already running iOS 12 and macOS
+10.14 Mojave, it’s fine to update.
+
+iOS 12.3 and tvOS 12.3 are notable primarily because they include a new
+version of Apple’s TV app. This app now provides access to “channels,”
+by which Apple means subscription-based streaming video services like
+HBO and Showtime. Apart from letting you subscribe to such services
+inside the app and playing content from them in the app, the new app
+looks and works much like the previous version. The new app will also
+support Apple’s original content on the Apple TV+ service later this
+year.
+
+
+
+Shortly after iOS 12.3 shipped, Apple released iOS 12.3.1, which fixes a
+critical bug that could prevent your iPhone from making or receiving
+phone calls. So if you upgraded to iOS 12.3, be sure to update to iOS
+12.3.1 right away.
+
+Similarly, it’s worth updating to macOS 10.14.5 to protect against a
+security vulnerability called ZombieLoad, and if you’re still running
+10.12 Sierra or 10.13 High Sierra, be sure to install Security Update
+2019-003 for the same protection.
+
+New iPod touch Gains the A10 Chip and a 256 GB Configuration
+
+Finally, Apple showed a little love to the littlest iOS device, the
+diminutive iPod
+touch. In the new
+model, Apple swapped the old A8 chip for a faster A10 chip that promises
+up to twice the performance. That added performance enables the new iPod
+touch to support Group FaceTime calls and enhanced augmented reality
+(AR) games.
+
+
+
+The only other change in the iPod touch is that Apple now sells a 256 GB
+configuration for $399, joining the 32 GB configuration at $199 and
+the 128 GB configuration for $299.
+
+(All images courtesy of Apple)
+ ]]></description>
+          <pubDate>Mon, 10 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/willian-justen-de-vasconcellos-616948-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/willian-justen-de-vasconcellos-616948-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#new-macbook-pros-new-ipod-touch-os-updates/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#new-macbook-pros-new-ipod-touch-os-updates/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Here's What’s Coming from Apple in 2019</title>
+          <description><![CDATA[ Here’s What’s Coming from Apple in 2019
+
+At Apple’s Worldwide Developer Conference on June 3rd, the company
+unveiled the next versions of all its operating systems—macOS 10.15
+Catalina, iOS 13 (and a new iPadOS), watchOS 6, and tvOS 13–along with
+the much-anticipated new Mac Pro and Pro Display XDR.
+
+Nothing that was announced will ship until later this year—probably
+September—but we wanted to give you a quick overview of what’s coming
+down the pike.
+
+macOS 10.15 Catalina
+
+With macOS
+10.15,
+which Apple is calling “Catalina,” the company is working to bring macOS
+and iOS ever closer while preserving what makes the Mac special.
+
+For instance, Catalina replaces the increasingly overloaded iTunes with
+three new apps that mimic those in iOS: Music, Apple Podcasts, and Apple
+TV. Reminders, Notes, and Photos also see significant enhancements that
+are mirrored on the iOS side, and a new Find My app on both platforms
+combines the capabilities of Find My iPhone and Find My Friends. Apple
+is even bringing Screen Time from iOS to the Mac to help you track and
+control your usage—and that of your kids—across all your Apple
+devices.
+
+
+
+Some of these apps exist on the Mac thanks to Project Catalyst, an Apple
+technology that makes it easy for developers to convert iOS apps to the
+Mac. Apple used Catalyst internally last year to bring Home, News,
+Stocks, and Voice Memos to macOS 10.14 Mojave. This year, Apple is
+letting third-party developers use Catalyst, so once Catalina ships,
+we’ll see a flowering of new Mac apps coming over from iOS.
+
+Another new technology, Sidecar, lets you use an iPad as a second screen
+for a Mac, either wired or wirelessly. Sidecar even enables you to use
+the iPad and Apple Pencil as a graphics tablet with apps that support
+such an input method. Two other new features will let you use a
+Sidecar-connected iPad to mark up any PDF or insert a sketch into a Mac
+document.
+
+
+
+Catalina promises many more features, including some that will increase
+macOS security and others that will make the Mac much easier to use for
+people with disabilities. For instance, the new Voice Control capability
+lets you run a Mac (or an iOS device) entirely with your voice—it’s
+amazing.
+
+If you’re running Mojave now, you’ll be able to run Catalina too since
+the system requirements remain the same.
+
+iOS 13
+
+With iOS 13,
+Apple appears to be focusing once again on performance and refinements.
+The company claimed we’ll see faster Face ID recognition, smaller app
+downloads and updates, and quicker app launches.
+
+The most apparent new feature will be Dark Mode, which Apple is bringing
+over from Mojave. It displays light text on a dark background, which can
+be welcome when using an iOS device in a dark room without bothering
+others. It also may increase battery life on OLED-based iPhones like the
+iPhone X, XS, and XS Max. But keep in mind that research shows the human
+eye and brain prefer dark text on light backgrounds, so you may read
+more slowly and with less recall in Dark Mode.
+
+Along with the apps mentioned previously that also improve in iOS, Apple
+said it has rebuilt Maps and its underlying database from the ground up,
+so you’ll see far more detailed maps, and you can zoom in for a
+street-level photographic view called Look Around.
+
+
+
+Camera and Photos received attention as well, giving you faster access
+to effects and letting you apply effects to videos as well. You can even
+crop and rotate videos taken in the wrong orientation—finally!
+
+Other improvements include a new Sign In with Apple option for signing
+in to apps using your Apple ID, full text formatting in Mail, shared
+folders in Notes, SMB sharing in Files, iCloud Drive folder sharing, and
+support for USB thumb drives.
+
+In terms of system requirements, iOS 13 drops support for some older
+devices, leaving the iPhone 6s, 6s Plus, and SE as the oldest iPhones
+supported, along with just the newest iPod touch.
+
+iPadOS
+
+Joining Apple’s other operating systems this year is
+iPadOS, a
+superset of iOS 13 that provides additional iPad-only features. In some
+ways, it’s nothing new, since the iPad has always had unique features,
+but it shows how Apple wants to differentiate the iPad from the iPhone.
+
+In iPadOS, the Home screen holds more icons in a tighter grid, and you
+can pin the Today View widgets on the side of the screen. Safari will be
+able to support complex Web apps like Google Docs, Squarespace, and
+WordPress, and it gains a download manager that lets you download files
+into the Files app.
+
+
+
+Apple enhanced iPad multitasking so you can switch between apps in a
+Slide Over view, open multiple windows from the same app in Split View,
+and use App Exposé to navigate among your app combinations. Plus, text
+editing improves significantly, with direct access to the cursor and
+easier text selection, as well as new three-finger gestures for cut,
+copy, paste, and undo. The iPad even gets full-featured font management,
+and you’ll be able to buy fonts from the App Store.
+
+iPadOS won’t work on many older iPad models, though it is compatible
+with all iPad Pro models, the fifth- and sixth-generation iPad, the iPad
+mini 4 and fifth-generation iPad mini, and the iPad Air 2 and
+third-generation iPad Air.
+
+watchOS 6
+
+With watchOS
+6, Apple
+is working hard on health and fitness capabilities for the Apple Watch.
+The company has added a Noise app that can warn you when sounds approach
+dangerous levels and a Cycle Tracking app that helps women monitor their
+periods and predict windows of optimal fertility. And, the Activity app
+has picked up trending features so you can see how you’re doing across
+time in a number of health metrics.
+
+
+
+Apple has also untethered the Apple Watch from the iPhone to an extent,
+allowing developers to create standalone watch apps that don’t require a
+companion iPhone app and opening an App Store for such apps that you can
+browse and search from your wrist.
+
+Other new watchOS 6 apps include Audiobooks, Calculator, and Voice
+Memos. Plus, once you upgrade to watchOS 6, you’ll be able to choose
+from more faces and additional complications.
+
+As with watchOS 5, watchOS 6 will work on all Apple Watch models other
+than the original unit, but not all features are available on all
+models.
+
+tvOS 13
+
+The big news for tvOS 13 is that it finally gets multi-user support, so
+everyone in a household will be able to have their own personalized
+experience. (Speaking of which, the HomePod will also support multiple
+users with iOS 13.)
+
+Apple has redesigned the tvOS Home screen to show previews, added a
+slide-in Control Center like in iOS and watchOS, and updated the Music
+app to show lyrics in sync with the currently playing song. The
+screensaver also goes under the ocean so your cat can be entertained by
+all the fish.
+
+
+
+Finally, in a move that will significantly enhance the forthcoming Apple
+Arcade game subscription service, both tvOS and iOS will support the
+Xbox One S and PlayStation DualShock 4 game controllers.
+
+Mac Pro and Pro Display XDR
+
+Although the Worldwide Developer Conference is mostly about Apple’s
+operating systems, the company took advantage of the keynote to show off
+the completely redesigned Mac
+Pro and its companion
+screen, the Pro Display
+XDR. The technical
+specs of both are astonishing—Apple has done what looks like a
+fabulous job of designing the most modular, flexible, and powerful Mac
+ever, combined with a display that competes against reference monitors
+costing tens of thousands of dollars.
+
+
+
+The Mac Pro will rely on Intel Xeon W processors with 8 to 28 cores, and
+you’ll be able to configure it with up to 1.5 TB (that’s terabytes!) of
+RAM. It has eight PCI Express expansion slots, into which you can
+install MPX modules that contain up to four AMD Radeon Pro graphics
+cards for massive number crunching performance. Another slot can hold
+Apple’s new Afterburner accelerator card for ProRes and ProRes RAW video
+acceleration, and a half-length slot contains Apple’s I/O card with two
+USB-3 ports, two Thunderbolt 3 ports, and to 10 Gb Ethernet ports; there
+are two more Thunderbolt 3 ports on the top of the case. Storage starts
+at 256 GB of SSD and goes up to 4 TB.
+
+All this fits into a stainless steel frame with an aluminum case that
+lifts off to provide access to all sides of the Mac Pro. It has a
+massive 1.4-kilowatt power supply and relies on three fans and a blower
+to keep the unit cool. It even has handles on the top and optional
+wheels in case you need to move it around regularly.
+
+
+
+Accompanying the Mac Pro will be Apple’s first monitor in years, the Pro
+Display XDR. It’s a 32-inch 6K screen that supports P3 wide and 10-bit
+color that can display more than 1 billion colors accurately. It’s also
+incredibly bright and can sustain 1000 nits of full-screen brightness or
+peak at up to 1600 nits.
+
+
+
+If your eyes glazed over reading those specs, this new hardware isn’t
+for you. Apple is aiming it at high-end professionals, the sort of
+people who happily spend many thousands of dollars on new hardware to
+enable faster video editing, data processing, or other
+performance-intensive tasks. The base-level Mac Pro will start at
+$6000, and the Pro Display adds another $5000. Even the Pro Stand
+(which provides tilt and height adjustment, plus rotates to portrait
+orientation) for the Pro Display costs $1000, so a tricked-out Mac Pro
+setup could easily exceed $20,000. So no, this is not a Mac for “the
+rest of us,” but it’s great to see Apple ensuring that the most
+demanding Mac users can stay on the platform.
+
+(All images courtesy of Apple)
+ ]]></description>
+          <pubDate>Wed, 05 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/today_at_apple_wwdc_2019_michael_steeber.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/today_at_apple_wwdc_2019_michael_steeber.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#heres-whats-coming-from-apple-in-2019/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#heres-whats-coming-from-apple-in-2019/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>5 Reasons Why You Should Be Using a Password Manager</title>
+          <description><![CDATA[ We often recommend using a password manager like 1Password or LastPass,
+but we’ve gotten a few questions asking why we’re so adamant about this.
+Lots of people think that all they need to do to keep their online
+accounts secure is create a single password with some numbers, often
+switching a lowercase L with a 1 and a capital E with a 3. And that’s
+for accounts people care about—for those that they don’t see as
+important, they’re likely to use a simple password like their child’s or
+pet’s name. Plus, most people don’t think they have much to protect or
+that they would be targeted by hackers, so they reuse the same password
+across multiple sites.
+
+Guess what? Such an approach is extremely dangerous on today’s Internet.
+First off, no one is explicitly targeted. The bad guys get passwords by
+stealing them by the millions from Web sites with lax security. Then
+they use sophisticated hardware that can try over 350 billion passwords
+per second to decrypt as many of the stolen passwords as possible. All
+passwords under 13 characters can be cracked easily by such hardware.
+
+Next, imagine you have a password on a shopping site whose passwords are
+stolen. The attackers can log in to that site, change your shipping
+address, and order items with your stored credit card. But they won’t
+stop there. They’ll use automated software to try that username and
+password combination on lots of other high-profile sites: Google, Apple,
+Amazon, eBay, Facebook, many banks, and so on. If they can get in
+anywhere, they’ll take over the account and exploit it in any way they
+can, which could involve stealing money, ordering goods, or using it to
+reset passwords and lock you out of other accounts. It can get ugly
+fast.
+
+Use a password manager to generate, store, and enter strong passwords,
+one for each site, and you’ll never have any of these problems. A
+sufficiently strong password (16 characters minimum, but we recommend 20
+when possible) will withstand cracking efforts for centuries, and if you
+have a different password for every site, even one password being
+compromised won’t expose any of your other accounts to abuse.
+
+Here then are five reasons for using a password manager:
+
+
+  
+    Generate strong passwords: A password should be random, or it
+should be a long collection of words (think 30+ characters).
+Password managers can generate such passwords for you, so it’s
+easy to make a new one for each Web site.
+  
+  
+    Store passwords securely: If you’re going to put all your eggs
+in one basket, you want that basket to be well protected. Password
+managers employ their own strong encryption and various other
+techniques to ensure that your passwords are safe.
+  
+  
+    Enter passwords for you: No one can remember and type long,
+random passwords, but having a password manager enter the password
+for you is even easier than typing a weak password. Log in faster
+than ever before!
+  
+  
+    Audit existing accounts: Password managers learn the credentials
+you use for existing accounts, and they can tell you which
+passwords are weak and which have been reused.
+  
+  
+    Access passwords on all your devices: It’s even harder to type
+passwords on an iPhone or iPad, but good password managers have
+apps for mobile devices that sync with your password archive so
+all your passwords are available whenever you need them.
+  
+
+
+There are many different password managers, but for most people, there
+are three main choices. If you use only Safari on the Mac and in iOS,
+Apple’s built-in iCloud
+Keychain feature
+may be sufficient.
+
+If you’re mostly an Apple user but also need support for Windows and
+Android, or if you want to share some passwords with family members or
+your workgroup, 1Password is the
+best choice. It costs $3 per month for an individual or $5 per month
+for a family, with team and business accounts as well. 1Password also
+offers add-ons for non-Apple browsers like Chrome and Firefox.
+
+And if 1Password is too expensive, or if you’re platform
+agnostic, LastPass offers a
+solid set of features for free. Additional features and password sharing
+cost $3 per month for individuals and $4 per month for families, and
+again, team and enterprise accounts are available.
+
+If you need help choosing among these three or setting them up,
+particularly in the context of a small business, get in touch with us.
+And if you’d like us to write more about each of these options, just
+drop us a note and we’ll see what we can do.
+ ]]></description>
+          <pubDate>Tue, 04 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/cmdr-shane-610506-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/cmdr-shane-610506-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#5-reasons-why-you-should-be-using-a-password-manager/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#5-reasons-why-you-should-be-using-a-password-manager/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>The new Mac Pro Tower: Wheels optional</title>
+          <description><![CDATA[ Dual sided Logic Board
+
+So happy to see that Apple is going back to its ability to allow users to upgrade and customize their Mac Pro tower experience. There was much much love for the old Cheese Grater style Mac Pro and many are still in use because of their overall upgradeability and customization. Not saying that the Trash Can approach was bad. It was in line with their motto, think different. Coming up with a new and unique approach to power computing.
+
+
+
+Unfortunately overall extensibility and the lack of the embrace for the core shape by third party card developers I think forced Apple’s hand a bit but what they came up with is amazing. Lets start with the dual sided logic board. It allows for greater expansion and power. Combine that with the new *28 core capable processor and we are talking about a super computer that would make Tony Stark drool.
+
+Expandability ' Power
+
+The new Mac Pro comes with the ability to have up to 1.5TB of memory and comes with 8 PCI ports that allow for a wide range of customization. The new MPX module is Apple’s answer to a graphics card that gives you the power of 2 GPU’s in one elegant design. Each Mac Pro can accommodate 2 of these modules or 4 GPU’s of raw graphics processing power.
+
+Apple afterburner is a card that allows the real time editing of up to 3 streams of 8K video and or 12 streams of 4K raw video. This is bringing to the industry the ability to edit raw uncompressed footage. A workflow that has never existed until today.
+
+More Power
+
+The Mac Pro now has 1.4 Killowatt power source system with three breezy fans that run quieter or as quiet as an iMac Pro. Its ability to cool this beast is impressive channeling air through the computer from back through to front. The lightweight lattice pattern allows for maximum airflow.
+
+
+
+The new display is amazing. It’s a 32” aluminum vent pattern display that offers 20 million pixels and is the first 8K retina display for use with Mac. The display attaches to the stand via a magnetic mount point. This allows for flexible orientation as the display works in both landscape and portrait mode.
+
+After having to go into the Apple Store and see them promote the various other company displays I am happy to see that they are back in the business of creating an advanced display that yet again blows away the others in the field.
+ ]]></description>
+          <pubDate>Mon, 03 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/es-wwdc-mac0.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/es-wwdc-mac0.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#new-mac-pro-wheels-optional/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#new-mac-pro-wheels-optional/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>MacOS 10.15 Catalina Releasing this Fall</title>
+          <description><![CDATA[ MacOS Catalina 10.15
+
+
+
+Wow things move quickly from year to year. No surprise here. MacOS Catalina brings a whole new level of cool back to the Mac in my honest opinion. I am so happy that Apple has decided to break out iTunes into multiple apps. iTunes back in the day was so awesome, easy to use and simplistic. Now it tends to be a power hungry and semi confusing app to use as its the defacto app for everything. How about that annoying feature that automatically launched iTunes when your phone was connected? Problem no more!
+
+Enter the Podcast app, Apple TV app and Apple Music app. Each doing what they are meant to do with simple elegance. Having an Apple TV app on the Mac is also a welcome feature. The TV app will also finally bring support for 4K HDR video to Macs, something that was only possible with the Apple TV 4K until now. So overall very excited about just these three minor feature tweaks.
+
+Can I use that old iMac as a second monitor?
+
+I get that question more often than you know. While turning an aging computer into a monitor isn’t a reality natively Apple is announcing native support for the use of an iPad as a second display for MacOS Catalina. This is something we have often had to rely on the third party community for and now its built right into the core of the OS, nice!
+
+
+
+Apple is also launching a new app called ‘Find My’ which combines Find My iPhone with Find my Friends. It also converts all your Apple devices into Bluetooth beacons. This means it is now possible to find offline devices based on proximity from anyone in the world.
+
+Cross Platform Development
+
+
+
+While this has been a rumor and a top secret project at Apple for years its slowly becoming a tangible reality for developers and I think its awesome. I remember the days when you were the lone Mac developer in an all Windows or Java development field so this is great we can now see some of those amazing iPad only apps being ported to Mac to further enhance the experience.
+
+So what about 10.14?
+
+We are pleased to announce that Grove Technologies will formally approve and help clients migrate to 10.14. Our firm stance for business grade computers has always been to wait until the 10.14.5 or 10.14.6 releases *(which historically are stable releases) and with the latest news of MacOS Catalina we look forward to making sure computers in offices we manage are up to par with 10.14 and are moved over to ensure overall security and stability standards are met.
+ ]]></description>
+          <pubDate>Mon, 03 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/catalina.png</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/catalina.png" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#mac-os-catalina/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#mac-os-catalina/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>Senior Executives Pose a Danger to Cyber Security</title>
+          <description><![CDATA[ You Can’t Teach an Old Dog…. or Can You?
+
+I remember trying to explain a VCR to older relatives.  It wasn’t that
+they were less intelligent or unable to grasp the overall concept, it
+was that it wasn’t a necessary thing to learn in their opinion.  They
+weren’t interested in the technology; they had fared fine in life so far
+without having to watch a recorded episode of anything.  In fact, most
+of their lives were spent without television altogether.
+
+While not exactly the same, there are similarities in this situation
+with senior executives in today’s workforce and cybersecurity.  But in
+this scenario, there is a risk incurred by lack of interest.
+
+With Age Comes Wisdom
+
+The experience and wisdom that put these senior-level execs at the top
+has likely developed over time, making them a generation or two older
+than their team.  With that level of responsibility comes access to
+information that is usually confidential and most of it integral to a
+company’s success or failure.  Also consider that at that level, these
+individuals are busy, so they have a team doing a lot of work for them,
+and in order to do that successfully, they need access to different
+data.
+
+This means two things:
+
+
+  
+    A lot of people with a lot of different access – leaving a lot of
+gaps for security breaches to occur
+  
+  
+    That senior executive didn’t move through their career with strong
+security habits, so not only is their access easily compromised, but
+they may often pass out access to one set of information without
+realizing it is linked to another set.
+  
+
+
+From the Ground Up
+
+You may not be at the top yourself, and you aren’t going to change the
+habits overnight of someone who has worked without a cybersecurity plan
+for twenty or thirty years, but you can work to accommodate their way of
+working.  As a security advisor, you can ensure that the company is
+ensuring that there is a system of checks and balances along the way, as
+well as a plan that supports the business should there be a breach.
+
+Every generation has a learning curve to work with, this one is
+everyone’s problem and cannot be ignored.  Consider it like employee
+profit sharing, everyone has to work together for the greater good –
+and a company that is still around to work for!
+ ]]></description>
+          <pubDate>Sat, 01 Jun 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/austin-distel-1538966-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/austin-distel-1538966-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#senior-executives-pose-a-danger-to-cyber-security/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#senior-executives-pose-a-danger-to-cyber-security/</guid>
+        </item>
+        
+        
+         
+    
+    	
+        
+         
+        <item>
+          <title>Business Email Compromise Incidents up 133%</title>
+          <description><![CDATA[ Business email compromises (BEC) scams made a big statement in 2018,
+seeing a 133% increase over 2017, according to a
+recent report by
+Beazley Breach Response Services.
+
+The Beazley Breach Briefing looked at information gathered from
+investigations into more than 3,300 data incidents that were reported to
+Beazley in 2018.
+
+The investigations revealed that nearly half (47%) of the data incidents
+investigated were the result of a hack or malware. Diving deeper, the
+investigations revealed that half of those hacking or malware incidents
+were BEC scams.
+
+What is a BEC scam?
+
+BEC scams, also known as CEO fraud, have become a favorite for
+cybercriminals. A BEC scam requires the scammer to do their homework by
+using social engineering tactics to determine who the CEO or CFO is, and
+who the victims will be. Despite the effort it takes to make this scam
+successful, cybercriminals favor it due to the high profits it yields,
+even if only a few attempts are successful.
+
+Typically, the scammer will target an employee working in the finance
+department, or one who would not find a request for a money transfer
+unusual. Then, the cybercriminal sends a fraudulent email to their
+victim, impersonating the CEO or CFO requesting a wire transfer. These
+emails often have a sense of urgency for the transfer and may state that
+the “CEO or CFO” who is sending the email, is in an important business
+meeting and cannot be bothered.
+
+BEC scams can be tricky to detect. Scammers will often create an email
+address very similar to the individual they are impersonating. In some
+cases, scammers may even have control of the CEO’s or CFO’s actual email
+account, making the scam even more convincing.
+
+The goal of the scam is to trick the victim into performing the
+requested function (most often a wire-transfer or electronic payment to
+the criminal’s bank account but could include transferring sensitive
+data) as quickly as possible without giving it a second thought.
+
+The Beazley Breach Briefing reported that 24% of the incidents that were
+investigated from 2018 were the result of a BEC scam, up from 13% in
+
+  The rise in BEC scams year-over-year is a major cause for concern
+and should prompt organizations to take proactive measures to protect
+themselves.
+
+
+How to prevent a BEC scam
+
+
+  
+    Use multi-factor authentication
+  
+  
+    Train employees regularly on cybersecurity
+  
+  
+    Limit employees who can authorize wire transfers
+  
+  
+    If a vendor requests changes to an account, confirm requests by a
+direct phone call using pre-agreed phone numbers
+
+    
+      Review requests by getting them approved by a next-level
+        
+          approver prior to making changes
+        
+      
+      If approved, check that the address or bank account match those
+        
+          that were used previously for payments
+        
+      
+    
+  
+
+ ]]></description>
+          <pubDate>Sun, 28 Apr 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/jay-wennington-2250-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/jay-wennington-2250-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#business-email-compromise-incidents-up-133/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#business-email-compromise-incidents-up-133/</guid>
+        </item>
+        
+        
+         
+        <item>
+          <title>The State of Compliance</title>
+          <description><![CDATA[ We are all aware of federal compliance regulations when it comes to the
+privacy and security of our information.  For example, you’d be hard
+pressed to find someone who hasn’t heard of HIPAA.  Yet are you aware
+that regulations have been put in place at the state level that have the
+same goal – to protect our security and privacy?
+
+This month (March 2019), the state of New York reached the end date for
+the Cybersecurity Regulation of the New York Department of Financial
+Services (NYDFS) regulations.  These required third-party service
+providers to meet certain requirements that address their data security
+and compliance.  A two-year time frame was provided to allow those
+banking, insurance, and other institutions that fell under the Covered
+Entities title to reach that compliance measure. The window to meet the
+Cybersecurity Regulation of the New York Department of Financial
+Services (NYDFS) was established with a generous frame due to the
+complexity of the process, so anyone not meeting that deadline will be a
+target for enforcement.
+
+Written policies and procedures take time and finding qualified people
+to first learn your business and establish your compliance is not
+something you can take on lightly.  The NYDFS required identification,
+risk assessment, establishing minimum cybersecurity practices that
+include encryption, controlled access, contractual protection, and
+finally due diligence processes to evaluate cybersecurity practices of
+third-party vendors.
+
+As of today, 50 states have varying legislatures enacted that outline
+data breach notification laws.  Do you know what your legal requirements
+are if you are hacked? What if you work with clientele across state
+lines?  All very important questions.  It is always wise to go with the
+guideline that is more stringent.  When it comes to cybersecurity and
+privacy there is no limit to how strong your line of defense should be.
+
+Having a plan in place to prevent and remediate damage is key, but you
+also need to ensure that you are covering all of the legalities in your
+process.
+ ]]></description>
+          <pubDate>Sat, 13 Apr 2019 01:00:00 -0400</pubDate>
+          <link>/sites/grove/2018/assets/app-images/2019/samuel-zeller-360588-unsplash.jpg</link>
+          <enclosure url="/sites/grove/2018/assets/app-images/2019/samuel-zeller-360588-unsplash.jpg" length="0" type="image/jpeg"/>
+          <permalink>/sites/grove/2018#the-state-of-compliance/</permalink>
+          <guid isPermaLink="true">/sites/grove/2018#the-state-of-compliance/</guid>
+        </item>
+        
+        
+    </channel>
+</rss>

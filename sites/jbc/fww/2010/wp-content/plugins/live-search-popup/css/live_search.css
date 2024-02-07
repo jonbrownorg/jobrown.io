@@ -1,0 +1,206 @@
+.livesearchpopup {
+    width: 128px;
+
+}
+
+.livesearchpopup .box {
+    position: relative;
+    height: 18px;
+}
+
+.livesearchpopup .form {
+    width: 128px;
+    height: 18px;
+
+    white-space: nowrap;
+}
+
+.livesearchpopup .left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.livesearchpopup .editbox {    
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: #ffffff;
+
+    height: 16px;
+    width: 100px;
+    border: 0px;
+    margin: 0px;
+    overflow: hidden; 
+
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.livesearchpopup .edit {
+    width: 100px;
+    font-size: 11px;
+    background: #ffffff;
+    height: 16px;
+    border: 0px;
+    autocomplete: off;
+    outline-width: 0px;
+}
+
+.livesearchpopup .lupe {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+}
+
+.livesearchpopup #livesearchpopup_box {
+    top: 25px;
+    width: 150px;
+}
+
+#resultlistitem3 {
+    font-size: 11px;
+    color: #000;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: -2px;
+}
+
+#resultlistitem3 a {
+
+
+    color: #000;
+
+}
+
+#resultlistitem3 a:hover {
+
+
+    color: #000;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+#resultlistitem2 {
+    background: #0255cd url(../resultgradient.png) 0 0px repeat-x;
+    font-size: .8em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: -2px;
+}
+
+#resultlistitem2 a {
+
+
+    color: #ffffff;
+
+}
+
+#resultlistitem2 a:hover {
+
+
+    color: #ffffff;
+
+}
+#no {
+
+margin-left: 10px; 
+font-size: 11px;
+margin-top: 5px;
+}
+
+#livesearchpopup_box {
+    color: #f0f0f0;
+    background: #0255cd url(../resultgradient.png) 0 0px repeat-x;
+    right: 0em;
+    text-align: left;
+    padding: 1px;
+    margin: 0px;
+    position: absolute;
+    width: 250px;
+
+    filter:alpha(opacity=95);
+    -moz-opacity:.95;
+    opacity:.95;
+    z-index:100;
+}
+
+#livesearchpopup_box .pfeil {
+    position: absolute;
+    top: -7px;
+    right: 40%;
+}
+
+#livesearchpopup_box h1 {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+#livesearchpopup_results {
+    width: 250px;
+    overflow: hidden;
+    text-align: left;
+    padding: 0em;
+    margin: 0px;
+    color: #000000;
+    background: #f0f0f0;
+
+}
+
+#livesearchpopup_box ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.resultlistitem,
+.resultlistitem_selected {
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #e0e0e0;
+    text-decoration: none; 
+    color: #303030;
+}
+
+.resultlistitem_selected,
+#livesearchpopup_box li:hover {
+    background-color: #dcdcdc;
+    color: #000;
+}
+
+#livesearchpopup_box li a {
+    text-decoration: none;
+    padding: 0.3em;
+    display: block;
+    font-size: 11px;
+
+}
+
+.resultlistitem a,
+.resultlistitem a:visited {
+    color: #303030;
+}
+
+.resultlistitem_selected a, 
+.resultlistitem_selected a:visited,
+.resultlistitem a:hover {
+
+    color: #000;
+}
+
+.livesearchpopup .spiegel {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+}

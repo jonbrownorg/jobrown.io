@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>7-12-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,19,20,23,25,27</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Dashboard Advisory" MediaLinks="Dashboard Advisory Request. &lt;http://www.dashboardwidgets.com/news/comments.php?id=62_0_2_0_C&gt;">
+        <outline text="“With the release of Mac OS X 10.4.7, Apple implemented a new widget authentication tool that seeks to verify that you have not downloaded a malicious widget. The tool, dashboardadvisoryd, contacts Apple’s servers approximately every eight hours and compares your widgets with those available on Apple’s own widget site."/>
+      </outline>
+      <outline text="Possible Problems with 10.4.7" MediaLinks="Possible problems with 10.4.7  &lt;http://www.macintouch.com/readerreports/macosx10_4_7/topic4303.html&gt;">
+        <outline text="After I installed 10.4.7 and restarted the computer, it hung up during the restart. It showed the blue progress bar filling up the blank area all the way to the end and then just stayed there for 2 or 3 minutes. At that point I shut down the computer, let it sit for a 30 seconds or so and then started it up again. Same result. I did this twice before I reverted to backup. I’m back to 10.4.6 now and will probably stay there until I hear how others are doing."/>
+      </outline>
+      <outline text="Dashboard Dev : Coding your HTML File" MediaLinks="Dashboard Dev : Coding your HTML file &lt;http://dashdev.djupet.se/dashboard_widget_tutorial_2.html#&gt;">
+        <outline text="A widget is basically a website, you make it with the same scripting language, that is; xhtml, css and javascript. There are also other methods you can use for certain things that are more advanced and/or talk to the system itself.&#10;But, we will concentrate on the basics, XHTML and CSS in this tutorial, I will also introduce some javascript later.&#10;This is the elements required for the html: (the slash ends html tags)&#10;// defines HTML&#10;// defines the header of the widget, in here you will put the CSS code (Stylesheet, it’s purpose is to design the structure you build with html)&#10;//Tells the widget that you want t import Javascript code from the file “javascript.js” (every widget needs some javascript code to work properly)&#10;&#10;&#10;//defines the body selection, between and , you will build the widgets visible parts.&#10;&#10;Save this file as name.html and remember, the plist file I talked about in the first chapter needs to find this file.&#10;Now, this widget does not work yet, there is one more thing you must implement, and that is the background image named “Default.png”, you do this by creating a file named “stylesheet.css” and write the following code in the file:&#10;body { // Tells the widget that you want to put the following CSS functions into your document’s body tag&#10;background-image: url(’Default.png’); //inserts the image Default.png as background&#10;}&#10;You widget should work now. To start your widget, name the folder containing the files to “name.wdgt” and OS X makes a widget bundle out of it.&#10;To complete this chapter, you’ll need to write “Hello World” icon_smile . It’s done this way:&#10;// defines HTML&#10;// defines the header of the widget, in here you will put the CSS code (Stylesheet, it’s purpose is to design the structure you build with html)&#10;//Tells the widget that you want t import Javascript code from the file “javascript.js” (every widget needs some javascript code to work properly)&#10;&#10;&#10;//defines the body selection, between and , you will build the widgets visible parts.&#10;Hello World! //To write text in a widget, just write it icon_smile&#10;&#10;But, you may want to change the font, this is done by using CSS. Look at the example beneeth:&#10;body { // Again, we add our functions to “body” which makes them apply to the document.&#10;background-image: url(’Default.png’); //inserts the image Default.png as background&#10;font-family: Lucida grande; //sets the standard font of the document to “Lucida grande”&#10;font-size: 14px; //Font Size 14&#10;font-weight: bold; //Makes the text bold&#10;color: #000033; //Set the color of the text, this is done using Hex-code&#10;}&#10;Now, you may choose which of the elements you want to apply and the value of them, for further study of CSS, visit w3schools.com"/>
+      </outline>
+      <outline text="The W.A.S System" MediaLinks="W.A.S System &lt;http://www.tacowidgets.com/&gt;">
+        <outline text="The W.A.S (Widget Alert System) was created by Taco Widgets. Taco Widgets is an innovative company that is always trying to come out with the latest technology both for their own widgets but for the dashboard in general. The W.A.S system is a way of adding alerts into your widget that will prompt the user for a response. This is a cool way to auto update a widget, or adding a time event."/>
+      </outline>
+      <outline text="The Flip Side Badges" MediaLinks="The Flip Side Badges &lt;http://www.widgetshow.com/?page_id=53&gt;">
+        <outline text="“ If you have found our site inspiring, helpful or interesting then why not help share the love with others. Add a badge to your site, blog or forum and tell others about the great tutorials, great widget support and of course the podcast. We have 5 badges to choose from. Also if you feel like desiging more badges for us then please feel free to do so and send them to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; Thanks for all your support! We really appreciate it! ”"/>
+      </outline>
+      <outline text="Running a widget without installation" MediaLinks="Running a widget without installation. &lt;http://www.macosxhints.com/article.php?story=20060703051729927&gt;">
+        <outline text="Did you know that you can run a widget without permanently installing it? After downloading (from Apple’s site or others) and expanding a widget, a double-click launches the widget installer. A dialog then appears with two options: Cancel and Install. Click Cancel, and nothing happens; click Install, and the widget is moved to your user’s Library/Widgets folder, ready for use in Dashboard. However, if you hold Command and Option when the dialog is onscreen, the Install button will change to Run, allowing you to only run the widget. Select this, and it opens in the Dashboard layer, but it’s not moved to your Widgets folder. Ta-da!”"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Simon Whitaker the creator of the Album Art widget." MediaLinks="www.widget-foundry.com—amazonart.htm &lt;http://www.widget-foundry.com/widgets/amazonart.htm&gt;">
+        <outline text="Today we are featuring the widget the Album Art widget. This widget fetches the latest artwork for your widget and imports it into iTunes. Its small, lightweight and does its job well. This is a great widget and I recommend everyone to try it out and tell us what you think. The design is top notch and its form really does follow its function quite well. We give this a 5 out of 5 star rating, its really great and it works well with the Amazon site to get the most accurate album artwork for your music library."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

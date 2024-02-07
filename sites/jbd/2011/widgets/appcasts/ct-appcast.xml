@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:dazzle="http://www.quintusquill.com/specs/dazzle-xmlns/">	
+	<channel>
+		<title>Calorie Tracker Appcast</title>
+		<link>http://www.jonbrown.org/widgets/ct/appcast.xml</link>
+		<description>Appcast for Calorie Tracker</description>
+		<language>en-us</language>
+		<docs>http://www.jonbrown.org/ct.php</docs>
+		<lastBuildDate>Mon, 09 September 2008 15:52:28 GMT</lastBuildDate>
+
+		<item>
+			<title>Calorie Tracker 3.2 Released</title>
+			<pubDate>Mon, 09 September 2008 15:52:28 GMT</pubDate>
+			<link>http://www.jonbrown.org/ct.php</link>
+			<releaseNotesURL>http://www.jonbrown.org/ct.php</releaseNotesURL>
+			<description>
+				Calorie Tracker 3.2 has been released. Many bugs have been fixed, and support for Tiger users has been dropped - Calorie Tracker 3.2 requires Mac OS X Leopard or later.
+			</description>
+			
+			<enclosure url="http://www.jonbrown.org/widgets/downloads/ct.zip" dazzle:version="3.2" dazzle:minimumSystemVersion="10.5" length="1234567" type="application/zip" />
+		</item>
+
+		<item>
+			<title>Calorie Tracker 3.1 Released</title>
+			<pubDate>Sun, 08 September 2008 13:50:28 GMT</pubDate>
+			<link>http://www.jonbrown.org/ct.php/</link>
+	
+			<description>
+				Calorie Tracker 3.1 initial release.
+			</description>
+			
+			<enclosure url="http://www.jonbrown.org/widgets/downloads/ct.zip" dazzle:version="3.1" length="1234567" type="application/zip" />
+		</item>
+		
+	</channel>
+</rss>

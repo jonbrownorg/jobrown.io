@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>11-22-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,19,20,23,25,27</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Solar View Widget" MediaLinks="http://www.ideum.com/portfolio/solar_viewer_widget &lt;http://www.ideum.com/portfolio/solar_viewer_widget&gt;">
+        <outline text="The Solar Viewer widget allows you to see today's images of the Sun on your computer desktop. These near realtime images come from NASA/ESA's SOHO missions, NASA TRACE satellite, and the Big Bear Observatory. A Mac OS X dashboard widget was designed and developed along with a Yahoo! Widget that works with both Mac and PC.&#10;The Yahoo! widget (along with an earlier prototype) developed early in 2006 has received over 80,000 downloads combined. The widget is based on the Sun-Earth Connection Media Viewer, a Flash-based interactive application developed with NASA in 2004."/>
+      </outline>
+      <outline text="Optical Illusion Widget" MediaLinks="mightyillusions.blogspot.com—new-widget-released-version-20.html &lt;http://mightyillusions.blogspot.com/2006/11/new-widget-released-version-20.html&gt;">
+        <outline text="Newsflash! Dear visitors of Mighty Optical Illusions, I'm proud to announce that we have released new version of our &quot;Optical Illusion Of The Day&quot; Mac Dashboard widget! If you are a Mac user, be sure to download the new version and check all those nifty details we've added. The widget pulls the latest illusion form this website, and shows optical illusion of the day on your dashboard. The design is much better now, and also it is more user friendly. If you are using old version, be sure to update it. More info on widget can be found here."/>
+      </outline>
+      <outline text="Widget Factor WCode, V. 2.0" MediaLinks="www.widgetfactor.com &lt;http://www.widgetfactor.com/&gt;">
+        <outline text="Wcode 2.0 looks better and runs smoother than ever. It's new and improved template system allows anyone to design, share, and download their own templates. You can now preview your widgets right inside Wcode. Search bar functionality is also revamped, now with a thorough search of every file you have opened and title search of the ones you haven't. Download Wcode 2.0 and enjoy a tremendous increase in performance and stability, Designing the perfect widget has never been easier!"/>
+      </outline>
+      <outline text="Volkswagen Rabbit Dashboard Widget" MediaLinks="adverlicio.us—volkswagen_vw_rabbit_rabbit_widget_300x250 &lt;http://adverlicio.us/volkswagen_vw_rabbit_rabbit_widget_300x250&gt;">
+        <outline text="Today's smart idea: a VW-branded downloadable widget that pipes in local events and activities. It's persistent (lasts long on your desktop), branded (VW Rabbit), on-strategy (money-saving ideas for city folk), and cool (sweet design and execution). Well done, VW &amp; CP&amp;B!"/>
+      </outline>
+      <outline text="Widget Top" MediaLinks="www.widgetop.com—developerPages.html &lt;http://www.widgetop.com/developerPages.html&gt;">
+        <outline text="Widgetop brings Apple Dashboard widgets to the web so now you can create and publish widgets that can run everywhere. All you need is familiarity with HTML, CSS and JavaScript.&#10;If your thinking of creating a new widget or submitting an already created Apple Dashboard widget you previously authored, please review our Quick Guide to check if your already developed widgets will work without any required changes. Now works with Safari!"/>
+      </outline>
+      <outline text="Thanksgiving Widgets">
+        <outline text="My own rant about why there aren't any thanksgiving widgets. I was sure to find a widget that would let you watch the Macy's thanksgiving day parade in the dashboard. Or perhaps a turkey, or pilgrim or something, but to my dismay, there are not any thanksgiving widgets out there. Where has thanksgiving gone? Have we forgotten about this very important family holiday, a time of gathering together and enjoying each others company. Lets reflect on the true spirit of Thanksgiving this holiday season."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="BeRuler Widget" MediaLinks="Snatch Em’ &lt;http://www.jaij.net/downloads.php&gt;">
+        <outline text="Two of my favorite widgets of all time has been the Snatch Em’ and Snatch It widgets. These widgets allow you to download files from all over the internet in one simple click. Its a great widget backed by a great function. I was simply sick of dealing with pages with loads of media files or links to files and wanted the ability to quickly download all the files referred to on a page, both inline and linked to. Do you recognize any of these situations?&#10;* You get to a page that is basically a “folder view” with 100 of links to files and you have to click every one of them or right/ctrl-click and download every one to be able to view them.&#10;* You get to a page with an inline video and you want to download it. Unfortunately there is no way of downloading the video straight from the page which forces you to go into the source and start looking for the filename.&#10;* You enter a gallery full of images that you want to save to your hard drive all of them being forced to right/ctrl-click all of them to be able to download them. I was in all of those situations ALL the time and the solution for it is a Mac OS X Dashboard Widget that used the XMLHttpRequest object in JavaScript to download the source, Regular Expressions to find the file referrences and the terminal program Curl, built in to BSD and OS X, to download the individual files. Quite simple isn’t it? icon_smile"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

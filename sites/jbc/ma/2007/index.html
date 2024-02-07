@@ -1,0 +1,280 @@
+<html>
+<head>
+
+<title>
+
+Mac Ads: The Mac Advertising Network
+</title>
+<LINK REL="stylesheet" HREF="about.css" TYPE="text/css">
+
+
+<style>
+
+#login {
+
+position: relative;
+margin-top: 50px;
+margin-left: 255px; 
+
+}
+
+</style>
+</head>
+<script>
+window.onload= function(){
+        DisableEnableLinks(true)
+}
+function DisableEnableLinks(xHow){
+  objLinks = document.links;
+  for(i=0;i<objLinks.length;i++){
+    objLinks[i].disabled = xHow;
+    //link with onclick
+    if(objLinks[i].onclick && xHow){  
+        objLinks[i].onclick = 
+        new Function("return false;" + objLinks[i].onclick.toString().getFuncBody());
+    }
+    //link without onclick
+    else if(xHow){  
+      objLinks[i].onclick = function(){return false;}
+    }
+    //remove return false with link without onclick
+    else if
+    (!xHow && objLinks[i].onclick.toString().indexOf("function(){return false;}") != -1){            
+      objLinks[i].onclick = null;
+    }
+    //remove return false link with onclick
+    else if(!xHow && objLinks[i].onclick.toString().indexOf("return false;") != -1){  
+      strClick = objLinks[i].onclick.toString().getFuncBody().replace("return false;","")
+      objLinks[i].onclick = new Function(strClick);
+    }
+  }
+}
+String.prototype.getFuncBody = function(){ 
+  var str=this.toString(); 
+  str=str.replace(/[^{]+{/,"");
+  str=str.substring(0,str.length-1);   
+  str = str.replace(/\n/gi,"");
+  if(!str.match(/\(.*\)/gi))str += ")";
+  return str; 
+}
+</script>
+<body>
+  <style>
+body {
+	margin-top: 55px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0) !important;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none !important;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none !important;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+
+<table width="893px" height="1000px" align=center cellpadding="0" cellspacing="0" border=0>
+<tr>
+
+<td style="background-image:URL(images/header.jpg); background-repeat: no-repeat" width="642px" height="192px">
+
+<div id="login">
+
+<table class="standard" border=0 align="center" cellspacing=0 cellpadding=4 class="formtxt">
+  <tr valign=top align=left>
+<td colspan=2>
+
+<form method="post" action="user.php">
+<input type="hidden" name="action" value="logged_in">
+
+</td><tr>
+    <td class="Text"><b>Username:</b></td>
+    <td><input type="text" size=21 name="username" value=""></td>
+  </tr>
+  <tr valign=top align=left>
+    <td class="Text"><b>Password:</b></td>
+    <td><input type="password" name="password" value="" size=21></td>
+  </tr>
+  <tr>
+    <td class="Text"><b>Remember:</b></td>
+    <td align=right><table cellpadding="0" border=0 width=100% cellspacing="0"><tr><td><input type="checkbox" value="1" name="remember_me"></td><td align=right><input class="button" type="submit" value="Log-In" name="B1"></td></table></td>
+  </tr>
+</table>
+
+</form>
+</div>
+
+</td>
+
+<td rowspan="5" height="1000" width="252" style="background-image:URL(images/notebook.jpg); background-repeat: no-repeat" >
+
+<table width="90%" height="100%" border=0 cellpadding=0 cellspacing=0 align=center>
+<tr valign=top>
+<td colspan=2 height=70></td>
+<tr valign=top>
+<td width="50"></td>
+<td>
+<font>
+<h1>Features</h1>
+<li>Real time statistics, detailed statistic for each banner
+Detailed graphical statistic for each hour, day and month</li>
+
+
+<li>
+Users can get bonus impressions for each click on their pages, so they are concerned to add the banner exchange code to a prominent place</li>
+<li>
+Each user can select all or up to 5 individual categories of banners which should be displayed on his/her pages</li>
+<li>
+Users can stop to show their banners to save impressions for a more intensive campaign.</li>
+<li>
+Each user may have individual exchange ratio and individual number of extra credits for each click</li>
+<li>
+Users can order daily email with their statistic</li>
+<li>
+The choice is easy, the Mac Ads network is the best way to promote your newest product or blog. Joining is 100% Free and all it takes is a little website real-estate!</li>
+
+
+<br><br>
+</font>
+</td>
+
+</table>
+
+</td>
+<tr>
+
+<td width="642px" height="56px">
+
+
+
+
+<table cellspacing="0" cellpadding="0" height="56px">
+<tr>
+
+<td height="56px">
+<img src="images/end.jpg">
+</td>
+
+<td height="56px">
+
+<a href="user_join.php" class="signup"></a>
+
+
+<td height="56px">
+<a href="info.php" class="stats"></a>
+</td>
+
+<td height="56px">
+<a href="user.php" class="ad"></a>
+</td>
+
+<td height="56px">
+<a href="about.html" class="about"></a>
+</td>
+
+<td height="56px">
+<a href="contact.php" class="help"></a>
+</td>
+
+</table>
+
+
+
+
+
+
+</td>
+
+<tr>
+
+<td width="642px" height="342px" style="background-image:URL(images/banback.jpg); background-repeat: no-repeat">
+
+<div id="bannerdiv">
+<font>
+Mac Ad's Banner Exchange is available to the Mac Community. We offer a Mac Only Banner Exchange to insure that your site is promoted on other mac sites, including our own, Mac Ad's. You can see your banner on our site and on other Macintosh related sites at a 3:2 (1.5:1) ratio. For every 3 banners from the exchange that you show on your site, you will earn 2 on other members sites. 
+If you don't already have one, your advertising banner may be a little tricky to create. The dimensions of the banner are 468 pixels wide by 60 pixels high.  The file, usually a .GIF image, is no more than 14k (industry standard is 12 k, but we raised it a little to provide some leniency.  The server will reject anything larger.
+<br><br><div id="button"><a href="http://macads.org/banner/user_join.php"><img src="images/ssignup.png" border="0"></a></div>
+</font>
+</div>
+</td>
+
+<tr>
+
+<td width="642px" height="372px" style="background-image:URL(images/textback.jpg); background-repeat: no-repeat">
+
+<div id="bannerdivtop">
+<font>
+With text ads you can do whatever you want to the text ad; changing the size, colour or font for example. You can put 
+
+</div>
+<div id="textdiv">
+<font>
+the text ad anywhere on your site and you can put multiple adverts on one page. The idea is to make the ad look as integrated into your site as possible.
+
+<br><br>
+Unlike some sites where you pay your money and are at the mercy of the business to be ethical in showing your ads, here you have the opportunity to see the sites that your ads will be placed on. This is a real way of getting your products and services the attention they deserve!
+
+<br><br><div id="button"><a href="http://macads.org/text/user_join.php"><img src="images/ssignup.png" border="0"></a></div>
+</font>
+</div>
+</td>
+
+<tr>
+
+
+<td width="642px" height="38px" style="background-image:URL(images/footer.jpg); background-repeat: no-repeat" style="color: black;">
+
+
+</td>
+<tr>
+<td colspan=3 align=center>
+<table cellpadding=18 style="margin-top:10px; margin-bottom:10px;">
+<tr><td align=center>
+<a href="banner" style="color: black;">Home</a> |
+<a href="info.php" style="color: black;">Statistics</a> |
+<a href="user_join.php" style="color: black;">Join Banner Exchange</a> |
+<a href="user.php?action=password_remind" style="color: black;">Password Reset</a> |
+<a href="list.php?size=1" style="color: black;">All Ads Size 1</a> |
+<a href="list.php?size=2" style="color: black;">All Ads Size 2</a> <br>
+<a href="list.php?size=1" style="color: black;">Top Users Size 1</a> |
+<a href="list.php?size=2" style="color: black;">Top Users Size 2</a> |
+<a href="directory.php" style="color: black;">Directory</a> |
+<a href="contact.php" style="color: black;">Help</a> 
+</td></table>
+</td>
+
+
+
+</table>
+
+
+
+
+
+
+</body>
+
+</html>

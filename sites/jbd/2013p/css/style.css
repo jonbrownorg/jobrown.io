@@ -1,0 +1,17 @@
+/*!
+ * Jon Brown Designs v1.0
+ *
+ * Copyright 2013 JBD, Inc
+ *
+ * Designed and built with all the love in the world by Jon Brown
+ */
+ 
+ body {
+	 
+	 padding: 25px;
+	 background-image: url(../img/whitey.png);
+ }
+ 
+ hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #b8b8b8;
+    margin: 1em 0; padding: 0; }

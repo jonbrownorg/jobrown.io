@@ -1,0 +1,469 @@
+
+
+
+.scroll-track2{
+height:465px;
+width:16px;
+background-image: url('../images/scrolltrack2.png');
+background-repeat: no-repeat;
+margin-bottom: 10px;
+}
+
+
+
+
+.scroll-track{
+height:165px;
+width:16px;
+background-image: url('../images/scrolltrack.png');
+background-repeat: no-repeat;
+margin-bottom: 10px;
+}
+
+
+
+
+.scroll-handle{
+border: 0px
+height:1px;
+width:16px;
+background-image: url('../images/scrollfill.png');
+background-repeat: repeat;
+cursor:pointer;
+}
+
+#scroll-handle-bot-1{
+height:9px;
+width:16px;
+background-image: url('../images/scrollbot.png');
+}
+
+#scroll-handle-top-1{
+height:9px;
+width:16px;
+background-image: url('../images/scrolltop.png');
+background-repeat: no-repeat;
+}
+
+#scroll-handle-bot-2{
+height:9px;
+width:16px;
+background-image: url('../images/scrollbot.png');
+}
+
+#scroll-handle-top-2{
+height:9px;
+width:16px;
+background-image: url('../images/scrolltop.png');
+background-repeat: no-repeat;
+}
+
+#scroll-handle-bot-3{
+height:9px;
+width:16px;
+background-image: url('../images/scrollbot.png');
+}
+
+#scroll-handle-top-3{
+height:9px;
+width:16px;
+background-image: url('../images/scrolltop.png');
+background-repeat: no-repeat;
+}
+
+#dropmenudiv{
+position:absolute;
+margin-left: -20px;
+background-image: url('../images/menu.png');
+background-position: top center;
+width: 175px;
+height: 168px;
+font:normal 14px Lucida Grande, arial;
+z-index:100;
+line-height: 1.8;
+}
+
+#dropmenudiv a{
+width: 100%;
+color: white;
+margin-left: 10px;
+display: block;
+text-indent: 18px;
+text-decoration: none;
+font-weight: bold;
+}
+
+#dropmenudiv a:hover{
+width: 100%;
+margin-left: 10px;
+background-image: url('../images/hoverbar.png');
+background-repeat: no-repeat;
+display: block;
+text-indent: 18px;
+text-decoration: none;
+font-weight: bold;
+color: #353535;
+text-shadow: 0px 1px 1px #fff;
+}
+
+
+.more a:link {
+white-space: nowrap; padding-bottom: 2px; padding-right: 8px; background: url(../images/arrow.png) no-repeat 100% 50%; zoom: 1;
+color: 376eac;
+
+text-decoration: none;
+font-face: lucida grande, arial;
+}
+
+.more a:hover {
+color: 376eac;
+
+text-decoration: underline;
+font-face: lucida grande, arial;
+}
+
+.more a:visited {
+color: 376eac;
+
+text-decoration: none;
+font-face: lucida grande, arial;
+}
+
+
+
+.tabcontent{
+display:none;
+color: white;
+}
+
+.tabcontent2{
+display:none;
+color: black;
+}
+
+.tabcontent3{
+display:none;
+color: black;
+
+
+}
+
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+
+
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. Remove if not using ######### */
+
+.modernbricksmenu2{
+padding: 0;
+margin-left: 5px;
+width: 1018px;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu2 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu2 a{
+float: left;
+text-decoration: none;
+font-size: 20px;
+height: 48;
+margin-bottom: 28px;
+padding-top: 10px;
+display: block;
+color: white;
+text-align: center;
+white-space: nowrap;
+}
+
+.modernbricksmenu2 a:hover{
+
+color: white;
+}
+
+.modernbricksmenu2 a.selected{ /*currently selected tab*/
+
+color: white;
+font-size: 20px;
+height: 48;
+margin-bottom: 28px;
+padding-top: 10px;
+background-image:url(../images/tri.png);
+background-repeat: no-repeat;
+background-position: top center;
+text-align: center;
+}
+
+
+
+
+
+.modernbricksmenu3{
+padding: 0;
+margin-left: 5px;
+width: 1018px;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu3 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu3 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu3 a{
+float: left;
+text-decoration: none;
+font-size: 20px;
+height: 48;
+margin-top: 7px;
+margin-bottom: 28px;
+padding-top: 10px;
+display: block;
+color: white;
+text-align: center;
+white-space: nowrap;
+}
+
+.modernbricksmenu3 a:hover{
+
+color: white;
+}
+
+.modernbricksmenu3 a.selected{ /*currently selected tab*/
+
+color: white;
+font-size: 20px;
+height: 17;
+margin-top: 7px;
+margin-bottom: -20px;
+background-image:url(../images/shadtip.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modernbricksmenu4{
+padding: 0;
+margin-left: 5px;
+width: 200px;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu4 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu4 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu4 a{
+margin-right: -9px;
+text-decoration: none;
+font-size: 20px;
+padding-top: 10px;
+display: block;
+color: white;
+text-align: center;
+white-space: nowrap;
+}
+
+.modernbricksmenu4 a:hover{
+
+color: white;
+}
+
+.modernbricksmenu4 a.selected{ /*currently selected tab*/
+
+color: white;
+font-size: 20px;
+
+margin-right: -9px;
+background-image:url(../images/shadtip2.jpg);
+background-repeat: no-repeat;
+background-position: right center;
+text-align: center;
+}
+
+
+
+
+
+.modernbricksmenu6{
+padding: 0;
+margin-left: 5px;
+width: 1018px;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu6 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu6 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu6 a{
+float: left;
+text-decoration: none;
+font-size: 20px;
+height: 18;
+margin-top: -5px;
+margin-bottom: 48px;
+padding-top: 23px;
+display: block;
+color: white;
+text-align: center;
+white-space: nowrap;
+}
+
+.modernbricksmenu6 a:hover{
+
+color: white;
+}
+
+.modernbricksmenu6 a.selected{ /*currently selected tab*/
+
+color: white;
+font-size: 20px;
+height: 18;
+padding-top: 26px;
+margin-top: -8px;
+background-image:url(../images/glow.png);
+background-repeat: no-repeat;
+background-position: top center;
+text-align: center;
+}
+
+
+
+
+
+
+.slidemenu2{
+padding: 0;
+margin-left: 909px;
+
+width: 89px;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.slidemenu2 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.slidemenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.slidemenu2 a{
+
+float: left;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/dotie.jpg") 0 0 no-repeat;
+    text-decoration: none;
+}
+
+.slidemenu2 a:hover{
+
+color: white;
+}
+
+.slidemenu2 a.selected{ /*currently selected tab*/
+
+background-position: -14px 0;
+}
+
+
+
+
+
+a.srollover {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/dotie.jpg") 0 0 no-repeat;
+    text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+

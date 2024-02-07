@@ -1,0 +1,10 @@
+.current {color:#fff; background:#aecd9e; border:1px solid #89adcf; margin-right:4px; padding:3px 6px; font-size: 10px;}
+
+a.page {background:#ddd; border:1px solid #ccc; color:#666; margin-right:4px; padding:3px 6px; text-align:center; text-decoration:none; font-size: 10px;}
+a.page:hover, a.page:active {background:#ccc; color:#888; font-size: 10px;}
+
+a.previouspostslink {background:#ddd; border:1px solid #ccc; color:#666; margin-right:4px; padding:3px 6px; text-align:center; text-decoration:none; font-size: 10px;}
+a.previouspostslink:hover {background:#ccc; color:#888; font-size: 10px;}
+
+a.nextpostslink {background:#ddd; border:1px solid #ccc; color:#666; margin-right:4px; padding:3px 6px; text-align:center; text-decoration:none; font-size: 10px;}
+a.nextpostslink:hover {background:#ccc; color:#888; font-size: 10px;}

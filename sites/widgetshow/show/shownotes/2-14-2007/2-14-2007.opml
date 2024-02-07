@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>2-14-2007</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,19,20,23,25,27</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Lexink finally releases version 1.0 of their Lexink Widget" MediaLinks="www.lexink.com—Widgets &lt;http://www.lexink.com/Site/Widgets/&gt;">
+        <outline text="Offering a diversity of content from feeds such as: American Entertainment, BBC Entertainment, Cinema Blend, Library Journal, Lexink Reviews, Variety, Apple - latest movie trailers, iTunes - Top Ten songs and iTunes - Top Ten albums Lexink Widget lets you personalize your Dashboard even more by giving you a choice from 9 different skins.&#10;Simply flip Lexink Widget over to select your feed and the skin you prefer before enjoying the slick design and all the latest entertainment info of your choice at your finger tips! "/>
+      </outline>
+      <outline text="MacTactic Widget" MediaLinks="mactactic.com &lt;http://mactactic.com/&gt;">
+        <outline text="A simple stunning widget that lets you track mac releases from inside the dashboard. Simply enter your make and model of mac and it will tell you when its time for an upgrade and also the best time to sell your mac for the highest return on your dollar."/>
+      </outline>
+      <outline text="Ron Miller: Stupid OSX Tricks" MediaLinks="byronmiller.typepad.com—stupid_osx_tric.html &lt;http://byronmiller.typepad.com/byronmiller/2007/02/stupid_osx_tric.html&gt;">
+        <outline text="Ron Miller has put together a brief walkthrough of some of the basic features of dashboard in Mac OSX Tiger. Quoted &quot;If like me, you are new to the Mac, you might have a hard time understanding how the Dashboard works. The trouble is, the Dashboard doesn't behave like any other Mac program, so you may find it confusing figuring out how to configure a widget, or add or remove one from the Dashboard. Follow the instructions below and you should be all set.&quot; "/>
+      </outline>
+      <outline text="The Shredder Widget" MediaLinks="www.emeraldion.it—3diplookup &lt;http://www.emeraldion.it/software/widgets/3diplookup/&gt;">
+        <outline text="3D IP Lookup Widget visualizes the geographical location of the hosts from a traceroute output in Google Earth. 3D IP Lookup web service is an experimental tool to generate Google Earth plugins from traceroute outputs. Have you ever wondered where the heck in the world was the IP Address 158.42.4.23 that you see in your blog statistics? Once there was an app called Visualroute that tried to plot on a 2D world map each hop on the route from your computer to that IP address. But, man... 2D sucks! I want to see the route in that gorgeous Google Earth 3D map! So I built this service that creates Google Earth Plugins using geographical information from My IP Address lookup service.&#10;3D IP Lookup widget brings the 3D IP Lookup web service to your Dashboard in a compact, easy to use interface.&#10;Minimum system requirements are Mac OS X 10.4 “Tiger” or later, Google Earth, an Internet connection (broadband recommended) and a lot of patience (the traceroute command can take a very long time to run sometimes).&#10;3D IP Lookup web service is based on My IP Address lookup and is still in early beta phase. Any feedback is highly appreciated."/>
+      </outline>
+      <outline text="Convert Google Widgets" MediaLinks="google-code-updates.blogspot.com—convert-google-gadgets-to-other-widget.html &lt;http://google-code-updates.blogspot.com/2007/02/convert-google-gadgets-to-other-widget.html&gt;">
+        <outline text="The Google Gadgets directory contains thousands of gadgets you can use on various google.com sites. In October 2006, we released Google Gadgets For Your Page, allowing you to embed your favorite gadgets in your blogs, websites, and other webpages. Now you can take Google Gadgets and convert them to run in your Windows Vista Sidebar or Mac OS X Dashboard. With the use of third-party utility applications, this is trivial to do.&#10;&#10;Mesa Dynamics offers a free widget converter application called Amnesty Generator which converts Google Gadgets to Mac OS X Dashboard Widgets. On February 2nd, they announced a public beta release that's capable of converting Google Gadgets to Windows Vista Sidebar Gadgets as well. This increases distribution of Google Gadgets further and gives gadget authors access to an even wider audience. In addition to Amnesty Generator, Widgetops Universal Google Gadget Widget is a Mac OS X Dashboard Widget that converts Google Gadgets to run on the dashboard.&#10;&#10;Viewing Google Gadgets on different sites or platforms does not require any changes. The answer to the question &quot;Why should I write a Google Gadget?&quot; is hopefully becoming more and more clear as rendering platforms become increasingly available."/>
+      </outline>
+      <outline text="Widgipedia" MediaLinks="www.widgipedia.com &lt;http://www.widgipedia.com/&gt;">
+        <outline text="Widgipedia covers all widgets web, mac, windows, vista and more! Upload your widget to their gallery and see the thousands of others on there. The cool part is that some of these widgets are for both dashboard and the web so you can place this widget on your website as well as on the dashboard."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Dashcode Tutorial #2">
+        <outline text="Today we cover the basics of creating a countdown widget using dashcode. Lots of people have asked me how to create various widgets so this is part two in an eight part series on dashcode."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,33 @@
+/* CSS Document */
+
+label {
+	color: #000;
+	display:block;
+	float:left;
+	padding-right: 10px;
+	width: 85px;
+	text-align: right;
+	height: 20px;
+	line-height: 20px;
+}
+
+
+p.message {
+	font: normal 1.2em "lucida sans", verdana, sans-serif;
+	color: #000000;
+	background: #CCCCCC;
+	display: block;
+	padding: 10px;
+	width: 90%;
+}
+p.explanation {
+	font-size: 10px;
+	font-weight: normal;
+	color: #003300;
+}
+
+select {
+	font: .9em "lucida sans", verdana, sans-serif;
+}
+
+

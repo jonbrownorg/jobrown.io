@@ -1,0 +1,30 @@
+[
+ 
+    {
+      "client": "83503",
+      "expense_number": "0983092",
+      "amount": "29.99",
+      "billed": "Yes",
+      "receipt": "{{ site.site_cdn }}/assets/reciepts/mpp_002.pdf",
+      "date": "12/06/2017"
+    },
+  
+    {
+      "client": "83503",
+      "expense_number": "0983093",
+      "amount": "575.00",
+      "billed": "Yes",
+      "receipt": "{{ site.site_cdn }}/assets/reciepts/mpp_001.pdf",
+      "date": "12/23/2017"
+    },
+  
+    {
+      "client": "83503",
+      "expense_number": "0983095",
+      "amount": "534.10",
+      "billed": "Yes",
+      "receipt": "https://drive.google.com/file/d/1fjOESzX1Y5k_zDc2lRNk9Pf-_rJJQMfY/view?usp=sharing",
+      "date": "04/02/2018"
+    }
+  
+]

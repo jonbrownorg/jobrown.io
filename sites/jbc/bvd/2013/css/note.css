@@ -1,0 +1,121 @@
+.note {
+   position:relative;
+   width:83%;
+   margin-top: 4px;
+   margin-bottom: 10px;
+   margin-left: 11px;
+   color:#545454;
+   overflow:hidden;
+   text-shadow: 0px -1px 0px rgba(255,255,255,.5);
+   min-height: 80px;
+   padding-left: 15px;
+   padding-bottom: 5px;
+   padding-right: 15px;
+   background-image: url(../images/backgrounds/soft_wallpaper.png);
+}
+.note p {
+	padding: 0px;
+	line-height: 1.1em;
+	line-height: 1.2;
+	margin-top: -5px;
+	display:block;
+}
+.note.rounded {
+   -webkit-border-radius:5px 0 5px 5px;
+   -moz-border-radius:5px 0 5px 5px;
+   border-radius:5px 0 5px 5px;
+}
+.news {
+	border: 8px solid white;
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+.note.white {   
+	background-image: url(../images/backgrounds/soft_wallpaper.png);
+	}
+.note.red {background:#e79d99;}
+.note.blue {background:#99cce7;}
+.note.taupe {background:#e1e799;}
+
+#newsarea {
+	width: 90%;
+	height: 300px;
+	margin: 0 auto;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border: 0px solid rgba(0,0,0,0.25);
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	margin-top: -4px;
+}
+
+#scrollnews {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	float:left;
+	width:100%;
+	padding:0;
+}
+#year {
+	-webkit-transform: rotate(-90deg);
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 0px -1px 0px rgba(255,255,255,1);
+	position: relative;
+	float: right;
+	margin-top: 3px;
+	clear: both;
+	font-stretch: ultra-condensed;
+	background-color: #4e4e4e;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 6px;
+}
+#yearbox {
+	width: 30px;
+	margin-top: -42px;
+	height: 47px;
+	padding:1em 1.5em; 
+	margin-left: -24px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 26px;
+}
+#month {
+	font-family: Helvetica;
+	background-color: #4e4e4e;
+	font-size: 25px;
+	color: #fff;
+	text-shadow: 0px -1px 0px rgba(255,255,255,1);
+	float: left;
+	position: relative;
+	width: 54px;
+	margin-top: 15px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 3px;
+	z-index: 999;
+	text-align: center;
+}
+#day {
+	float: left;
+	position: relative;
+	background-color: #4e4e4e;
+	width: 54px;
+	margin-top: -15px;
+	font-family: Georgia;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 0px -1px 0px rgba(255,255,255,1);
+	padding-left: 8px;
+	padding-bottom: 6px;
+	padding-right: 8px;
+	text-align: center;
+	z-index: 1;
+}
+#readmore {
+	margin-bottom: 8px; 
+	margin-right: -3px;
+}

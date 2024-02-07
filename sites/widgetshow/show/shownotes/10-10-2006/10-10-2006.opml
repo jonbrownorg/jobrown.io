@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>10-10-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,18,19,21,22,25,27,29</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Multi Bit Torrent Site Search Widget for OSX" MediaLinks="torrentfreak.com—multi-bittorrent-site-search-widget-for-osx &lt;http://torrentfreak.com/multi-bittorrent-site-search-widget-for-osx/&gt;">
+        <outline text="The widget allows you to search for torrents on 17 BitTorrent search engines, directly from Dashboard. The widget is created by TyrantBuilt, he also included quick links to torrentfreak’s latest articles, and the torrentfreak homepage. The widget currently supports the following sites:&#10;bitoogle.com, bittorrent.com, fenopy.com, btjunkie.orgdemonoid.com, hypertorrent.com, btmon.com, mininova.org, mybittorrent.com, newtorrents.info, thepiratebay.org, torrentportal.com, torrentreactor.net, torrentspy.com, torrentz.com, yotoshi.com. This is the first release of the widget, TyrantBuilt is planning to add more BitTorrent search engines in the near future."/>
+      </outline>
+      <outline text="Bit Sticks Bit torrent download status Widget" MediaLinks="www.vanillasoap.com—widgets &lt;http://www.vanillasoap.com/widgets/&gt;">
+        <outline text="Stand-alone BitTorrent Client. This is pretty cool to use in conjunction with the above widget. "/>
+      </outline>
+      <outline text="Nordic Design Blog dashboard widget" MediaLinks="www.polyakov.org—792 &lt;http://www.polyakov.org/wordpress/archives/792&gt;">
+        <outline text="For our readers who using mac computers: we got some candy for your dashboards: the Nordic Design Blog widget. This simple widget retrieves latest 5 Nordic Design Blog entries, so you never miss them!"/>
+      </outline>
+      <outline text="Amnesty Generator" MediaLinks="www.mesadynamics.com—amnesty_generator.htm &lt;http://www.mesadynamics.com/amnesty_generator.htm&gt;">
+        <outline text="Double the size of your widget universe.&#10;Amnesty Generator is a free utility that converts any Google webpage gadget into a Dashboard widget.&#10;Using Google's new Add to your webpage feature, select a webpage gadget, copy and paste its HTML code directly into the Amnesty Generator window, tweak some settings (if you wish) and generate a new widget with the click of a button. From there, you can install your new widgets into Apple's Dashboard, Amnesty Widget Browser, or even convert them into a standalone OS X applications with Amnesty Singles.&#10;With over a thousand gadgets to choose from, you better get started."/>
+      </outline>
+      <outline text="On Tour" MediaLinks="concerts.ontour.net &lt;http://concerts.ontour.net/&gt;">
+        <outline text="OnTour, which offers concert listings for your town. Concerts of artists in your iTunes will be highlighted in the “My Artists” section of results so that you’ll be sure to see them."/>
+      </outline>
+      <outline text="Mac compatible google software." MediaLinks="irumors.wordpress.com—mac-compatible-google-applications &lt;http://irumors.wordpress.com/2006/10/09/mac-compatible-google-applications/&gt;">
+        <outline text="While searching Google, I noticed they have some great applications like Sketch up, Picasa, Google talk, and more. The sad thing was, they were only Windows-compatible. While trying many different ways to see if I could get any of these Google applications on my Mac, I type in the address bar, www.google.com—mac. &lt;http://www.google.com/mac.&gt; And it works! A whole page with all of the Mac-comptible Google applications (Google notifier, Google toolbar, Google SketchUp, Picasa Web Albums Uploader, Google Earth, Google Widgets). I highly recommend trying these free applications out because they pack a lot for freeware. I just wish I could of found this page of Mac-comptible Google apps earlier."/>
+      </outline>
+      <outline text="Top 10 Dashboard Widgets" MediaLinks="winnopeg.com—top-ten-dashboard-widgets &lt;http://winnopeg.com/archives/152/top-ten-dashboard-widgets/&gt;">
+        <outline text="In the past few months, there have been a hell fo a lot of top ten lists. No joke, thousands have been made. There’s been everything from the top ten most buitiful apps, to the top ten Web 2.0 losers (and winners), to the top ten Pink for October reboots. But thoughout all the top ten lists I’ve seen make the front page of Digg, I have yet to see one for dashboard widgets. So, I now introduce to you my list of the top ten dashboard widgets available for Dashboard."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="We sit down with the creator of Widget World" MediaLinks="www.widgetworld.nl &lt;http://www.widgetworld.nl/&gt;">
+        <outline text="If you are a fan of the Dashboard, like I am then you already know there are some great sites for listing and downloading widgets. This site is no exception. Widget World, is a great website that is always updated and displays download links to widgets on the web. They have many widgets listed, and you have the choice as a developer to link your widget to your own server or upload it to their servers for hosting. Thats a very useful feature. They display the top most downloaded widgets as well as the top ten most recent widgets and they also have a members area that allows you to get information from Widget World directly. They also have a great widget news area that serves as a blog about widgets and also about widget related topics."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

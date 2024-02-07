@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-US"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	>
+	<title type="text">Comments on BeFit</title>
+	<subtitle type="text">Just another WordPress weblog</subtitle>
+
+	<updated>2012-01-15T09:17:48Z</updated>
+
+	<link rel="alternate" type="text/html" href="/sites/jbd/2012/befit/#comments" />
+	<link rel="self" type="application/atom+xml" href="/sites/jbd/2012/befit/feed/atom/" />
+	<id>/sites/jbd/2012/befit/feed/atom/</id>
+<generator uri="http://wordpress.org/" version="3.5.1">WordPress</generator>
+	<entry>
+		<title>By: 60% off BeFit &#124; Mac App Deals &#124; Find Deals On Mac Software</title>
+		<link rel="alternate" href="/sites/jbd/2012/befit/comment-page-1/#comment-3" type="text/html" />
+
+		<author>
+			<name>60% off BeFit &#124; Mac App Deals &#124; Find Deals On Mac Software</name>
+			<uri>http://macappdeals.com/2010/12/30/60-off-befit/</uri>
+		</author>
+
+		<id>http://www.jonbrown.org/?page_id=11#comment-3</id>
+		<updated>2010-12-30T07:40:41Z</updated>
+		<published>2010-12-30T07:40:41Z</published>
+		<content type="html" xml:base="/sites/jbd/2012/befit/comment-page-1/#comment-3"><![CDATA[<p>[...] is offering BeFit today for $6 (60% off the regular price of [...]</p>
+]]></content>
+		<thr:in-reply-to ref="http://www.jonbrown.org/?page_id=11" href="/sites/jbd/2012/befit/" type="text/html" />
+	</entry>
+	<entry>
+		<title>By: 50% off BeFit &#124; Mac App Deals &#124; Find Deals On Mac Software</title>
+		<link rel="alternate" href="/sites/jbd/2012/befit/comment-page-1/#comment-2" type="text/html" />
+
+		<author>
+			<name>50% off BeFit &#124; Mac App Deals &#124; Find Deals On Mac Software</name>
+			<uri>http://macappdeals.com/2010/12/19/50-off-befit/</uri>
+		</author>
+
+		<id>http://www.jonbrown.org/?page_id=11#comment-2</id>
+		<updated>2010-12-19T09:14:14Z</updated>
+		<published>2010-12-19T09:14:14Z</published>
+		<content type="html" xml:base="/sites/jbd/2012/befit/comment-page-1/#comment-2"><![CDATA[<p>[...] &#8220;BeFit is the ultimate calorie tracking tool. Based on the nutrition data for the foods that you eat.&#8221; [...]</p>
+]]></content>
+		<thr:in-reply-to ref="http://www.jonbrown.org/?page_id=11" href="/sites/jbd/2012/befit/" type="text/html" />
+	</entry>
+</feed>

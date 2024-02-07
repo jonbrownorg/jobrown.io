@@ -1,0 +1,394 @@
+head {
+<link rel="alternate" type="application/rss+xml" title="RSS" href="#">
+}
+
+body {
+scrollbar-3dlight-color:#5699dd;
+scrollbar-base-color:'#5699dd';
+scrollbar-darkshadow-color:'#5699dd';
+scrollbar-face-color:'#5699dd';
+scrollbar-arrow-color: white;
+scrollbar-highlight-color:white;
+scrollbar-shadow-color: #f5f5f5;
+scrollbar-track-color: #dcdcdc;
+}
+
+.nounder {
+background-color: #none;
+color: #none;
+}
+
+A.nounder:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+}
+
+A.nounder:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+}
+
+A.nounder:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid black; 
+font-weight: bold;
+
+}
+
+.menubar {
+background-color: #none;
+color: #none;
+}
+
+A.menubar:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+}
+
+A.menubar:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+}
+
+A.menubar:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+
+}
+
+.menubar1 {
+background-color: #none;
+color: #none;
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+text-shadow: 0px 0px 0px black;
+}
+
+A.menubar1:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font: bold;
+text-shadow: 0px 0px 0px black;
+}
+
+A.menubar1:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+text-shadow: 0px 0px 0px black;
+}
+
+A.menubar1:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+text-shadow: 0px 0px 0px white;
+
+}
+
+
+.small {
+background-color: #none;
+color: #none;
+}
+
+A.small:link {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+A.small:visited {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+
+A.small:hover {
+color: black; 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 10px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+
+
+a:link { 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:visited { 
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:hover {
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+.font {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+
+
+}
+.fontheadline {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 11px;
+	font-weight: bold;
+	color: black;
+
+
+}
+.tab {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 12px;
+	text-indent: 20px;
+}
+
+.font2 {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+	color: white;
+	
+}
+
+.fontradio {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+	color: white;
+	text-shadow: 0px 1px 0px black;
+}
+
+
+
+.menulinks {
+	Color: white;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 10px;
+
+	}
+
+.webpage {
+	Position: Absolute;
+	Top: 0px;
+	Left: 70px;
+}
+
+.menubottom {
+	
+	Color: White;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+	
+}
+A.menubottom:link {
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 13px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+}
+
+A.menubottom:visited {
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+A.menubottom:hover {
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+.copyright {
+	Position: Absolute;
+	Top: 450px;
+	Left: 10px;
+	Color: black;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 11px;
+        width: 780px;
+	
+}
+.counter {
+	Color: white;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 10px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px black;
+	
+}
+.eslmenu {
+background-color: #none;
+color: #none;
+}
+
+A.eslmenu:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+}
+
+A.eslmenu:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+}
+
+A.eslmenu:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+
+}
+
+
+
+.eslnav {
+background-color: #none;
+color: #none;
+}
+
+A.eslnav:link {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 16px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+}
+
+A.eslnav:visited {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 16px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+}
+
+A.eslnav:hover {
+Font-Family: helvetica neu,helvetica;
+Font-Style:  bold;
+Font-Size: 16px;
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+text-shadow: 0px 1px 0px black;
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>10-20-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,15,17,18,21,23,25</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Google 2 in 1 Widget" MediaLinks="www.lexink.com—Widgets &lt;http://www.lexink.com/Site/Widgets/&gt;">
+        <outline text="Find what you are looking for on the web with this handy widget in your Dashboard. Keep it on your desktop to stay on top of the latest news. &lt;a href=&quot;www.lexink.com—Widgets &lt;http://www.lexink.com/Site/Widgets/&gt;&quot;&gt;Google 2 in 1 widget&lt;/a&gt; lets you choose on the back-side which headline news to search such as Top Stories, U.S, Entertainment, Sports, Health, Sci/tech... Flip it over to select which category you wish to search in such as Web, Images, videos... and get your results. Enjoy its slick design including an all translucent interface which will fit perfectly on your desktop and in your Dashboard."/>
+      </outline>
+      <outline text="On Tour Widget" MediaLinks="concerts.ontour.net &lt;http://concerts.ontour.net/&gt;">
+        <outline text="OnTour, which offers concert listings for your town. Concerts of artists in your iTunes will be highlighted in the “My Artists” section of results so that you’ll be sure to see them."/>
+      </outline>
+      <outline text="Deep Sleep Widget" MediaLinks="deepsleep.free.fr &lt;http://deepsleep.free.fr/&gt;">
+        <outline text="Deep Sleep is a simple Dashboard widget which allows users to put their computer into hibernation mode, also sometimes called software suspend mode. This widget only works on a limited number of Apple computer models. Please read the included documentation for more details."/>
+      </outline>
+      <outline text="Widget Top" MediaLinks="www.widgetop.com—developerPages.html &lt;http://www.widgetop.com/developerPages.html&gt;">
+        <outline text="Widgetop brings Apple Dashboard widgets to the web so now you can create and publish widgets that can run everywhere. All you need is familiarity with HTML, CSS and JavaScript.&#10;If your thinking of creating a new widget or submitting an already created Apple Dashboard widget you previously authored, please review our Quick Guide to check if your already developed widgets will work without any required changes."/>
+      </outline>
+      <outline text="Minesweeper Widget" MediaLinks="www.apple.com—minesweeper.html &lt;http://www.apple.com/downloads/dashboard/games/minesweeper.html&gt;">
+        <outline text="A fun and challenging game for all ages. The object is simple. Click on the blocks, and don’t hit a mine. When you click on a block, and it shows a blank spot, you’re fine. There are no mines next to you, and by next to you, that means left, right, up, down, or diagonal of that square. A “1” means that square is next to one mine. A “2” means two, and so on. Try to clear all the spots without hitting any mines! If you think you know where a mine is, right click (CTRL+click) on the square once. If you aren’t sure, enable question markers on the backside, then right click on a square twice. It’s simple, fun, and sleek."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Mad about the Mad Libs Widget" MediaLinks="www.tacowidgets.com—index.html &lt;http://www.tacowidgets.com/widgets/madlibs/index.html&gt;">
+        <outline text="Helps you waste hours of time by letting you replace certain words to make otherwise reasonable passages hysterical. Read Your Creation&#10;After you enter your words, you can of course read what you've done. Verbs, Nouns, Adjectives Replace different words of a passage for hours of entertainment. Generate Words If you're too lazy to come up with random words, MadLibs can do it for you. Save It! If you've created an especially good one, you can save it with a simple click."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

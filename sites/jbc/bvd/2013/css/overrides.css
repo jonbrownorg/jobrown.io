@@ -1,0 +1,39 @@
+@-moz-document url-prefix() {
+#panelmove {
+	line-height: .35em;
+	font-size: 30px;
+	outline: none;
+	outline-offset: 0px; 
+}
+#ios {
+		line-height: .9em;
+		padding-top: 4px;
+	}
+	#thankyou p {
+		margin-top: 100px;
+	}
+	#success {
+		padding-top: 5px;
+	}
+		#month {
+		padding-top:6px;
+	}
+	#dwnarrow {
+		position: relative;
+		top: 8px;
+		left: 8px;
+	}
+	.nav-link-prod {
+		background-position: 131px center;
+	}
+	#hideshadow {
+  	width: 158px;
+  	margin-top: -1px;
+  	}
+}
+@media only screen and (device-width: 768px) {
+	#hideshadow {
+	width: 159px;
+	margin-top: -1px;
+	}
+}

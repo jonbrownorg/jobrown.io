@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>2-1-2007</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,19,20,23,25,27</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Dashcode finally available legally!" MediaLinks="developer.apple.com—dashcode &lt;http://developer.apple.com/tools/dashcode/&gt;">
+        <outline text="Dashcode is a new application for developing Dashboard widgets coming in Mac OS X 10.5 (Leopard). Dashcode is everything you need to create great Dashboard widgets.&#10;With Dashcode you will have your widget running in minutes, even if you've never written a line of code. You will start your project by selecting one of the bundled templates, creating a valuable widget that is ready to run - and ready to be customized. The integrated workspace will have you smoothly transitioning from design and layout, to editing code, to debugging JavaScript, and finally deploying your great new widget."/>
+      </outline>
+      <outline text="Prototype Reference Widget" MediaLinks="www.bartelme.at—prototype_reference_widget &lt;http://www.bartelme.at/journal/archive/prototype_reference_widget/&gt;">
+        <outline text="So what about usage? Well as you might have expected, it’s quite simple: For instance if you are looking for documentation on “Event”, just type “event” - if you want some details on “Event.observe”, just enter “Event.observe”… wow ;) Actually you can also omit the separating dots and just use spaces instead. That’s it. Enjoy."/>
+      </outline>
+      <outline text="iPhone Widget released by Lexink." MediaLinks="lexink.com—Widgets &lt;http://lexink.com/Site/Widgets/&gt;">
+        <outline text="The must have gadget of 2007 Apple's iPhone is state of the art, smart and darned good looking. No self respecting tech buff will be without one. Show you are in the know with the iPhone Widget on your Dashboard."/>
+      </outline>
+      <outline text="The Shredder Widget" MediaLinks="www.interdimensionmedia.com—widgets &lt;http://www.interdimensionmedia.com/widgets/&gt;">
+        <outline text="ntroducing the digital document shredder. &#10;&#10;You're familiar with them around the office - those loud devices that leave mountains of finely shredded paper in their wake. Not you can have the convenience and security of a digital document shredder right in your Dashboard; even better, its 100% silent and doesn't leave shredded bits about for you to clean up later. It's variable shred levels give you just the amount of protection you need. &#10;&#10;Low: Bypass the trash can. Though this isn't as secure a deletion of your files, it is a quick way to get rid of those files you know you don't need, leaving the trash can for those things you just might want to dig out later. &#10;&#10;Medium: Secure erase. This mode overwrites your shredded documents with a US Department of Defence compliant 7 pass procedure. &#10;&#10;High: Virtual Paper Pulp. Use this setting for only the most sensetive files. Though it might be slow, the 35 pass Gutmann algorithm will ensure that no data from these files is ever recovered. &#10;&#10;The digital document shredder is everything you need to feel secure while sitting in front of your Mac. And, with the upcoming release of Mac OSX 10.5 Leopard with Time Machine, this widget will step up to the task of making sure that not even travel backward through time can recover the data you want to permanently remove from your system. Be careful, though: shredding is total and permanent, and Interdimension Media assumes no responsibility for any loss of data that you may incur through its use (that's the point, though, right?). Just watch out; the desire to round up some digital scraps of paper just for the satisfaction of watching them shred to bits may overtake you. &#10;&#10;To shred a document, click and drag a file from the Finder. Then use a hotkey (F12 by default) to call up Dashboard, keeping the document in hand. Drop it on the shredder to permanently erase it from your system. "/>
+      </outline>
+      <outline text="Geek Proposes via Dashboard Widget" MediaLinks="crunchgear.com—geek-proposes-via-dashboard-widget &lt;http://crunchgear.com/2007/01/30/geek-proposes-via-dashboard-widget/&gt;">
+        <outline text="Some would call this a story of love between two geeks. Apparently, some dork who goes by the username “Bjorn” on Flickr proposed to his girl by coding out a custom Dashboard widget. Shaped like a ring box, the widget has an image of a diamond engagement ring and the message “Jennifer Christensen Will You marry me?” He told her to hit F12 and the rest is history.&#10;Awwww. Who says geek romance is dead. I wonder where the reception is being held - Fry’s or Circuit City?"/>
+      </outline>
+      <outline text="Apple changes webpage design">
+        <outline text="If you have been watching the osx apple widget page you will have noticed that instead of showing each widget with a small thumbnail of the actual widget but rather the widget icon. Who knows why this has been but it does in my mind look a bit cleaner and more professional. It also reduces space on the page for scrolling and lets you see just enough to tease you so that you are intrigued enough to actually find more information on that mysterious widget."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Dashcode Tutorial #1">
+        <outline text="I have had a lot of emails from people wanting me to do a tutorial over some of the uses of the new beta of dashcode. I will be covering the first which is an RSS widget. This is available for download on the website and its viewable also through the website."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

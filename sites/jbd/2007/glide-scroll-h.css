@@ -1,0 +1,41 @@
+
+/* Styles for scrolling layers  
+	 Specify width and height in hold and wn, and in clip for wn */
+div#hold	{ 
+	position:relative; overflow:hidden;
+	width:522px; height:174px; z-index:100
+	}
+div#wn	{ 
+	position:absolute; 
+	left:0px; top:0px; 
+	width:522px; height:174px; 
+	clip:rect(0px, 522px, 174px, 0px); 
+	overflow:hidden;	
+	z-index:1; 
+	}
+div#lyr1	{ 
+	position:absolute; visibility:hidden; 
+	left:0px; top:0px; 
+	z-index:1; 
+	}
+  
+/* table containing images. adjust according to your images' sizes and numbers */
+table#t1 { width:1800px }
+table#t1 td { width:522px; vertical-align:middle; text-align:center }  
+
+/* Styles for demo, not necessary for scrolling layers */  
+
+body, td { font: 12px verdana, arial, helvetica, sans-serif; }
+h1 { 
+  font-size:1.4em; 
+  margin:1.5em 0 2em 0; 
+  }
+
+
+table.main { 
+  width:522px; margin:auto;
+  background-color:#eee; border:1px dashed #666 
+  }
+td.arrows a { padding:0 1em }
+td.spacer { width:38px }
+td.footer { text-align:center; margin:.8em 0 .6em }  

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>10-30-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,18,20,21,23,24,27,29,31</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Delivery Status Widget" MediaLinks="www.apple.com—deliverystatus.html &lt;http://www.apple.com/downloads/dashboard/shopping/deliverystatus.html&gt;">
+        <outline text="Can’t wait for your online order? No need to check the site constantly, just load up this widget and enter your order number. The status will update automatically for you, and even count down the days! Works with Apple.com (including all international stores), Amazon.com, Amazon.ca, Amazon.co.uk, Amazon.co.jp, Amazon.de, Amazon.at, and Amazon.fr, as well as FedEx, UPS, USPS (United States Postal Service), and DHL (US only). "/>
+      </outline>
+      <outline text="CSS Cheat Sheet Widget" MediaLinks="www.methodarts.com—css_cheat_sheet &lt;http://www.methodarts.com/downloads/post/css_cheat_sheet/&gt;">
+        <outline text="Introducing CSS Cheat Sheet version 1.0 for Mac OS X Dashboard.This is a cross post from Brian’s Blog but we wanted to make sure we could share it with you here.This widget displays much of the essential information from the CSS Cheat Sheet from I love Jack Daniels."/>
+      </outline>
+      <outline text="DashQuit Widget" MediaLinks="www.dashboardwidgets.com—details.php &lt;http://www.dashboardwidgets.com/showcase/details.php?wid=1846&gt;">
+        <outline text="DashQuit is a small widget able to free ram by quitting DashBoard. It displays the amount of ram used by all your widgets. It allows you to quit Dashboard by a simple click, with or without asking confirmation"/>
+      </outline>
+      <outline text="Google Calendar Widget" MediaLinks="www.manastungare.com—dashboard-calendar &lt;http://www.manastungare.com/projects/dashboard-calendar/&gt;">
+        <outline text="Keep an eye on today's events on your desktop. With this dashboard widget, you don't need to logon to Google Calendar in a dedicated browser window. Clicking on an event takes you directly to the event in Google Calendar, ready for you to edit."/>
+      </outline>
+      <outline text="Widget Top" MediaLinks="www.widgetop.com—developerPages.html &lt;http://www.widgetop.com/developerPages.html&gt;">
+        <outline text="Widgetop brings Apple Dashboard widgets to the web so now you can create and publish widgets that can run everywhere. All you need is familiarity with HTML, CSS and JavaScript.&#10;If your thinking of creating a new widget or submitting an already created Apple Dashboard widget you previously authored, please review our Quick Guide to check if your already developed widgets will work without any required changes."/>
+      </outline>
+      <outline text="Possible New Widget Making App... Code name Widget Kit" MediaLinks="www.jasperhauser.nl—icon &lt;http://www.jasperhauser.nl/icon/&gt;">
+        <outline text="This is pure speculation but if you go to Jasper Hauser's website you will see an icon that he created for a new application called Widget Kit. This looks like it is being made by Neometric Software and is under the umbrella of the great apps out there like App Zapper and the newly created Disco. Although there is no information on Neometrics website about the product one can only assume that one is in the works."/>
+      </outline>
+      <outline text="Ohhhhhh Scarrryyyy...." MediaLinks="www.widgetshow.com &lt;http://www.widgetshow.com/&gt;">
+        <outline text="Halloween is here, and there are quite a few widgets out there to celebrate halloween and keep your Mac nice and festive. The Halloween Countdown widget is a great widget that lets you count down to halloween as well as change the appearance of its cleverly designed pumpkin interface. There is another smaller version of this widget wich shows the numbers more prominently it is also called the Halloween Countdown widget. The Gothtober widget is a fun widget that gives you tips and information with each day that approaches closer to Halloween. No dashboard would be complete this holiday season without the Skull and Bones widget that looks very nice and adds that spooky touch. The last widget I recommend is the Random Halloween Costume Generator. It looks like a cool widget however I have not been able to download it and test it myself due to the error I get every time I try to download it. If anyone has had any luck please let me know!"/>
+      </outline>
+      <outline text="Who invented the Widget?" MediaLinks="www.irintech.com—blogarchive.php &lt;http://www.irintech.com/x1/blogarchive.php?id=498&gt;">
+        <outline text="Konfabulator co-founder Arlo Rose claims to have invented the widget, but the concept emerged years before Konfabulator shipped.&#10;&#10;Some claim Apple invented the widget. The company's &quot;Desk Accessories,&quot; conceived in 1981 and bundled with the 1984 version of the Mac OS, were small programs that brought useful tools and innovative multitasking to a non-multitasking environment. Many of today's widgets copy the functionality of the original Desk Accessories -- clocks and calculators for instance. But the Desk Accessories feature doesn't count as a real widget engine because Desk Accessories couldn't stream information from the Internet and wasn't end-user-created or shared.&#10;&#10;The whole widget craze was predicted by the CEO of the company that invented it. In June 1996, years before the current boom of widget engines emerged, this CEO was quoted by Dow Jones International News as saying that &quot;the future of computing will revolve around&quot; these small, Internet-connected applications that would live on the desktop, &quot;blurring the distinction&quot; between individual PCs and network and Internet servers.&#10;&#10;That CEO was none other than -- wait for it! -- Bill Gates, and the company was, of course, Microsoft Corp.&#10;&#10;Microsoft introduced the &quot;Active Desktop&quot; as part of the 1997 release of Windows Desktop Update, which was an optional component of the Internet Explorer 4.0 browser download and was built into all subsequent versions of Windows.&#10;&#10;Microsoft's mini-applets weren't called widgets, but &quot;Active Desktop Items.&quot; Microsoft and other companies offered a download site for &quot;items&quot; they created, including weather widgets, news updates, financial info, a comic strip of the day, and others. In researching this article, I discovered -- to my shock and horror -- that a vestigial version of this site still exists."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="BeRuler Widget" MediaLinks="www.bewidget.com &lt;http://www.bewidget.com/&gt;">
+        <outline text="The simplest widgets are the most powerful and the most inspiring. Over at BeWidgets they are making simple and functional widgets that do a function and do it well. This innovation is not new however to us Mac users, we love it, thrive on it and expect it from our software developers so when we see it, we are appreciative. The BeRuler is a widget that lives up to all of our expectations here. This might be a widget that you saw a while back but it is a great widget that does just what it says. “Its a simple yet useful scalable horizontal-vertical on-screen ruler”. Amazing idea, simple and practical. How many times have you wondered how large something was on screen and did not want to put an actual ruler on your screen. Its something that all of us can relate to and now we have an amazing solution to help us."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

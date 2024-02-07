@@ -1,0 +1,177 @@
+body{ 
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+
+} 
+
+h3 { 
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+ }
+h1 { 
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 16px;
+ }
+h2 { 
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+ }
+
+
+
+.menubar {
+background-color: #none;
+color: #none;
+}
+
+A.menubar:link {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+}
+
+A.menubar:visited {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+}
+
+A.menubar:hover {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: white; 
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+font-weight: bold;
+
+}
+.font {
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 13px;
+
+
+}
+.counter {
+	Color: white;
+	Font-Family: Helveitca Neu,helvetica;
+	Font-Size: 10px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px black;
+	
+}
+a:link { 
+Font-Family: Helveitca Neu,helvetica;
+Font-Size: 12px;
+color: black; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:visited { 
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+
+}
+
+a:hover {
+Font-Family: Helveitca Neu,helvetica;
+color: black; 
+Font-Size: 12px;
+background-color: none;
+text-decoration: underline;
+border: 0px solid black; 
+
+}
+
+pre {
+	border: dotted 1px black;
+	background: #ffffff;
+	padding: 0.5em;
+}
+
+/* mattes and drop shadowss for images */
+
+div.shadows {
+  padding: 0 1px;
+  background: #aaacab;
+  border-left: 1px solid #cacaca;
+  border-right: 1px solid #cacaca;
+  position: relative;
+  margin: 0 auto;
+}
+
+div.shadows img {
+  padding: 5px 5px 9px 5px;
+  background: white url(http://www.jonbrown.org/blog/skins/default/images/shad_bottom1.png) repeat-x bottom left;
+}
+
+div.shadows img.nomatte {
+  padding: 0 0 4px 0;
+  background: white url(http://www.jonbrown.org/blog/skins/default/images/shad_bottom1.png) repeat-x bottom left;
+}
+
+div.shadows div.topleft {
+  width: 2px;
+  height: 4px;
+  background: url(http://www.jonbrown.org/blog/skins/default/images/shad_tlcorner.png) no-repeat top left;
+  position: absolute;
+  top: 0px;
+  left: -1px;
+}
+
+div.shadows div.topright {
+  width: 2px;
+  height: 4px;
+  background: url(http://www.jonbrown.org/blog/skins/default/images/shad_trcorner.png) no-repeat top right;
+  position: absolute;
+  top: 0px;
+  right: -1px;
+}
+
+div.shadows div.bottomleft {
+  width: 4px;
+  height: 4px;
+  background: url(http://www.jonbrown.org/blog/skins/default/images/shad_blcorner.png) no-repeat bottom left;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+}
+
+html>body div.shadows div.bottomleft {
+  bottom: 0px;
+}
+
+div.shadows div.bottomright {
+  width: 4px;
+  height: 4px;
+  background: url(http://www.jonbrown.org/blog/skins/default/images/shad_brcorner.png) no-repeat bottom right;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+
+html>body div.shadows div.bottomright {
+  bottom: 0px;
+}

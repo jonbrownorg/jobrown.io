@@ -1,0 +1,474 @@
+<!doctype html>
+
+<!--[if IE 6]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if (gt IE 6)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Bluevine Design</title>
+	<meta name="description" content="Easy HTML5 Template">
+	<meta name="author" content="">
+	<meta name="viewport" content="user-scalable=no">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<script type='text/javascript' src='https://www.google.com/jsapi'></script> 
+	<script type='text/javascript' src='js/jquery.min.js'></script> 
+	<!--[if !IE]><!--><script type='text/javascript' src='js/jquery.mobile-1.0rc2.customized.min.js'></script><!--<![endif]-->
+	<script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+	<script type='text/javascript' src='js/waypoints.min.js'></script> 
+	<script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script> 
+	<script type='text/javascript' src='js/diapo.js'></script> 
+	<script type='text/javascript' src='js/iscroll.js'></script>
+	<script type='text/javascript' src='js/apprise-1.5.min.js'></script>
+	<script type='text/javascript' src='js/custom.js'></script>
+</head>
+<script>
+window.onload= function(){
+        DisableEnableLinks(true)
+}
+function DisableEnableLinks(xHow){
+  objLinks = document.links;
+  for(i=0;i<objLinks.length;i++){
+    objLinks[i].disabled = xHow;
+    //link with onclick
+    if(objLinks[i].onclick && xHow){  
+        objLinks[i].onclick = 
+        new Function("return false;" + objLinks[i].onclick.toString().getFuncBody());
+    }
+    //link without onclick
+    else if(xHow){  
+      objLinks[i].onclick = function(){return false;}
+    }
+    //remove return false with link without onclick
+    else if
+    (!xHow && objLinks[i].onclick.toString().indexOf("function(){return false;}") != -1){            
+      objLinks[i].onclick = null;
+    }
+    //remove return false link with onclick
+    else if(!xHow && objLinks[i].onclick.toString().indexOf("return false;") != -1){  
+      strClick = objLinks[i].onclick.toString().getFuncBody().replace("return false;","")
+      objLinks[i].onclick = new Function(strClick);
+    }
+  }
+}
+String.prototype.getFuncBody = function(){ 
+  var str=this.toString(); 
+  str=str.replace(/[^{]+{/,"");
+  str=str.substring(0,str.length-1);   
+  str = str.replace(/\n/gi,"");
+  if(!str.match(/\(.*\)/gi))str += ")";
+  return str; 
+}
+</script>
+<body class="home">
+    <style>
+body {
+	margin-top: 55px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0) !important;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none !important;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none !important;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+<div id="panel" class="panel3">
+
+	<div id="panel-shadow"></div>
+
+			<h6>
+				<form class="searchform">
+				<input class="searchfield" type="text" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+				</form>
+			</h6>
+			
+<div id="wrapper">
+<div id="scroller">		
+			<h5>Links</h5>
+			
+			<h6 id="homepage">Home</h6>
+			
+			<h6 id="aboutus">About</h6>
+			
+			<h6 id="product">Products</h6>
+			
+			<h6 id="store">Store</h6>
+			
+			<h5>Free Products</h5>
+			
+			<h6 id="widgets">Widgets</h6>
+			
+			<h5>Support</h5>
+			
+			<h6 id="wsupport">Widget Support</h6>
+</div>
+</div>
+
+	<div id="clip">
+
+		<div id="panelmove"></div>
+
+	</div>
+
+</div>
+
+<div id="stuff">
+
+	<div class="hd1">
+	
+		<div id="nav-container">
+		
+			<div class="drop-shadow-nav curved curved-vt-2">
+			
+				<div id="span-cont">
+			
+					<div id="logo">
+				
+            			<a class="myButtonLink" href="#">Bluevine<br>Design</a>
+            			
+            		</div>
+            	
+            		<div id="navigation">
+            		
+            		<ul id="nav">
+            			<li class="sub" id="dropdown"><span id="hideshadow" class="hideshadow hdmnu"></span><a class="nav-link-prod active" href="#LinkURL">Products</a>
+            			<ul class="submenu hdmnu">
+				            <li class="befit-icon"><a href="#" class="border">Be Fit 2<div id="next-menu">></div></a></li>
+				            <li class="ccounter-icon"><a href="#" class="border">Calorie Counter<div id="next-menu">></div></a></li>
+				            <li class="ctracker-icon"><a href="#">Calorie Tracker<div id="next-menu">></div></a></li>
+				        </ul>
+    					</li>
+            			<li><a class="nav-link" href="#LinkURL">About</a></li>
+            			<li><a class="nav-link" href="#LinkURL">Blog</a></li>
+            		</ul>
+            		
+            		</div>
+            	
+				</div>
+            	
+			</div>
+		
+		</div>
+		
+	</div>
+
+
+<div class="main">
+	
+	<div id="main-container">
+		
+		<div class="drop-shadow curved curved-vt-2">
+           
+			<div id="slide-show-cont">
+					
+				<div class="drop-shadow-slideshow curved curved-hz-2">
+						
+					<div class="pix_diapo">
+					
+						<div data-thumb="images/thumbs/fork.png" class="circle-back">
+							
+							<div id="cols">
+								<div id="cola">
+									<div id="text-area">
+									<div id="headline">BeFit 2</div>
+									<p>BeFit is the ultimate tool for tracking your caloric intake in the everyday foods that you eat everyday. Track food data found on the Nutrition Facts label. Create lists, track results and get in shape!</p>
+									<a class="large awesome">Buy &raquo;</a> 
+							   		<a class="large blue awesome">Try &raquo;</a>
+							   		</div>
+								</div>
+								<div id="colb"><div id="befit"></div></div>
+							</div>
+							<div class="caption elemHover fromLeft">
+"BeFit really helped me hit my weight loss goal with its simple easy to use interface. Fun & Easy to use software!"
+		                    </div>
+						</div>
+						
+						
+						<div data-thumb="images/thumbs/food.png" class="widget-back">
+							
+							<div id="cols">
+								<div id="colc">
+									<div id="text-area">
+									<div id="headline-ct">Calorie Tracker</div>
+									<p>Calorie Tracker is the best way to track how many calories that you gain by eating food.
+									<ul class="plist">
+									<li>Add custom foods to an online public database.</li>
+									<li>Keep a custom food quick list stored in the cloud.</li>
+									<li>New food ratings in search list for guidance.</li>
+									<li>Graph total calories from food in online food list.</li>
+									</ul>
+									</p>
+									<a class="large awesome">Buy &raquo;</a> 
+							   		<a class="large blue awesome">Try &raquo;</a>
+							   		</div>
+								</div>
+								<div id="cold"><div id="ctracker"></div></div>
+							</div>
+							<div class="caption elemHover fromLeft">
+"The Calorie Tracker is a great way to lookup food data and manage an online cloud based food list from anywhere."
+		                    </div>
+						</div>
+						
+						
+							<div data-thumb="images/thumbs/run.png" class="little-knob">
+							<img src="images/diapo/placeholder.png" width="1" height="1" style="display: none;"/>
+							<div id="cols">
+								<div id="colc">
+									<div id="text-area">
+									<div id="headline-ct">Calorie Counter</div>
+									<p>Calorie Counter lets you track calories burned from your exercise routine. 
+									<ul class="plist">
+									<li>Calculate calories burned based on activities.</li>
+									<li>Track calories burned by running and distance.</li>
+									<li>Calculate BMI for any body type.</li>
+									<li>Carb Calculator, One Max Rep and much more.</li>
+									</ul>
+									</p>
+									<a class="large awesome">Buy &raquo;</a> 
+							   		<a class="large blue awesome">Try &raquo;</a>
+							   		</div>
+								</div>
+								<div id="cold"><div id="ccounter"></div></div>
+							</div>
+							<div class="caption elemHover fromLeft">
+"With the Calorie Counter I can finally calculate calories burned over time and based on activities, awesome!"
+		                    </div>
+						</div>
+		                    
+					</div><!-- #pix_diapo -->
+
+				</div>
+					
+			</div>
+					
+		</div>
+		
+	</div>
+	
+</div>
+
+<div class="stripe">
+	
+		<div id="stripe-container">
+		
+				<div class="drop-shadow-stripe curved curved-vt-2">
+			
+					<div id="question">Check out our current projects</div>
+        		</div>
+		
+		</div>
+	
+</div>
+
+<div class="stripe_med">
+	
+		<div id="stripe-container-med">
+		
+				<div class="drop-shadow-stripe-med curved curved-vt-2">
+				
+					<div id="hover-box-cont">
+						
+					<div id="hovera">
+					
+					<div id="basic-top" class="one"><div class="wtitle">Pig Latin Translator</div><div id="next">></div></div>
+					<div id="basic-mid" class="two"><div class="wtitle">Population Counter</div><div id="next">></div></div>
+					<div id="basic-mid" class="three"><div class="wtitle">Deficit Counter</div><div id="next">></div></div>
+					<div id="basic-mid" class="four"><div class="wtitle">Time Machine</div><div id="next">></div></div>
+					<div id="basic-mid" class="five"><div class="wtitle">Dog Age Converter</div><div id="next">></div></div>
+					<div id="basic-mid" class="six"><div class="wtitle">Cron Age Converter</div><div id="next">></div></div>
+					<div id="basic-bottom" class="seven"><div class="wtitle">Birthstone Picker</div><div id="next">></div></div>
+					
+					</div>
+					
+					<div id="hoverb">&nbsp</div>
+					<div id="hoverc">
+					
+					<div id="right-panel" class="demobox">
+
+						<div class="details1 details detaillist">
+							<p><b>Pig Latin Translator</b></p>
+							<p>Enter any text and with a quick click you can translate it into pig latin fun for all ages.</p>
+							<a class="large awesome slidebutt">Download &raquo;</a>
+							
+							<a id="popuplink" class="tooltip navy-tooltip large blue awesome">Review &raquo;<span class="pigreview hide cwidth1"><h2 class="large white awesometip left" id="macupdate-pig">Macupdate &raquo;</h2><h2 class="large white awesometip right bbutton" id="dbwidget-pig">Widgets &raquo;</h2></span></a>
+							
+							<div class="pig"></div>	
+						</div>
+						
+						<div class="details2 details detaillist">
+							<p><b>Population Counter</b></p>
+							<p>Watch as the population of the earth increases over time. Takes into account birth and death rates.</p>
+							<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>	
+							<div class="pop"></div><div class="caption2 captions"><div>"&#9733;&#9733;&#9733;&#9733;&#9733;" -- Love this widget, simple and fun.</div></div>					</div>
+						
+						<div class="details3 details detaillist">
+							<p><b>Deficit Counter</b></p>
+							<p>Watch as we go deeper in debt, also shows in contrast the very low social security fund, depressing.</p>
+							<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>	
+							<div class="def"></div>			
+						</div>		
+						
+						<div class="details4 details detaillist">
+							<p><b>Time Machine</b></p>
+							<p>Easily find the day for any date past, present or future. This is a great tool for planing events or for historical purposes.</p>
+							<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>		
+							<div class="time"></div><div class="caption1 captions"><div>"&#9733;&#9733;&#9733;&#9733;&#9733;" -- Love this widget, simple and fun.</div></div>					</div>
+						
+						<div class="details5 details detaillist">
+							<p><b>Dog Age Converter</b></p>
+							<p>Simply calculates the age of your dog and converts it from people years into dog years. Fun for all ages.</p>
+							<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>
+							<div class="dog"></div><div class="caption3 captions"><div>"&#9733;&#9733;&#9733;&#9733;&#9733;" -- Love this widget, simple and fun.</div></div>					</div>
+						
+						<div class="details6 details detaillist">
+							<p><b>Cron Age Converter</b></p>
+							<p>Calculate your chronological age. Enter your birthday, and today's date and see what the chronological difference is in days, months and years.</p>					<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>
+							<div class="cron"></div>			
+						</div>
+						
+						<div class="details7 details detaillist">
+							<p><b>Birthstone Picker</b></p>
+							<p>Lookup a gemstone by month or by stone, it also shows you the current months stone includes a birthstone chart.</p>
+							<p><a class="large awesome">Download &raquo;</a><a class="large blue awesome">Review &raquo;</a></p>		
+							<div class="birth"></div>	
+						</div>
+					</div>
+					
+					</div>
+            
+					</div>
+					
+        		</div>
+		</div>
+	
+</div>
+	
+<div class="stripe_lg">
+	
+		<div id="stripe-container-lg">
+
+				<div class="drop-shadow-stripe-lg curved curved-vt-2">
+
+            		<div id="hover-box-cont">
+						
+						
+						<div id="hovera">
+						<div id="minihead" style="margin-left: 40px;"> Need Help?</div>
+						
+						<div id="formcontainer">
+						<div id="formpush">
+						<form id="contact" name="contact" method="post" action="mail.php">
+						<div id="form-top"><div class="ftitle">Name</div><div class="form"><input type="text" id="name" name="name" maxlength="20"></div></div>
+						<div id="form-mid"><div class="ftitle">Email</div><div class="form"><div id="check" class="check"></div>
+						<input type="text" id="email" onkeyup="validate();" onkeydown="validate();" name="email" maxlength="20">
+						</div></div>
+						<div id="form-textarea"><div class="form"><textarea id="body" name="body"></textarea></div></div>
+						<div id="form-bottom"><a class="large awesome right" id="send">Send &raquo;</a></div>
+						<input type="text" id="names" name="names" value="">
+						</form>
+						</div>
+						<div id="thankyou">
+						
+						<script type="text/javascript">
+							if (navigator.userAgent.indexOf("Firefox")!=-1)
+							document.write("<a class='large awesome left' id='back'>&laquo; Back</a>")
+							else
+							document.write("<a class='button back black' id='back'><span></span>Back</a>")
+						</script>
+						
+						<p id="success" class="success"></p></div>
+						</div>
+						</div>
+						<div id="hovere">
+						<div id="minihead">New & Noteworthy</div>
+						
+						<div id="newsarea">
+						<div id="scrollnews">
+						<div class="note white news">
+    					<p><div id="yearbox"><div id="month">JUN</div><div id="day">15</div></div><p><b>Sample Headline</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac malesuada neque. Donec eu ante at lacus pellentesque semper. Sed lacus erat, ultrices eu lacinia in. <a class="large awesome right" id="readmore">Read More &raquo;</a></p>
+						</div>				
+						<div class="note white news">
+    					<p><div id="yearbox"><div id="month">AUG</div><div id="day">31</div></div><p><b>Sample Headline</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac malesuada neque. Donec eu ante at lacus pellentesque semper. Sed lacus erat, ultrices eu lacinia in, adipiscing eu sem. <a class="large awesome right" id="readmore">Read More &raquo;</a></p>
+						</div>						
+						<div class="note white news">
+    					<p><div id="yearbox"><div id="month">JAN</div><div id="day">05</div></div><p><b>Sample Headline</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac malesuada neque. Donec eu ante at lacus pellentesque semper. Sed lacus erat, ultrices eu lacinia in, adipiscing eu sem. Praesent dolor lectus. <a class="large awesome right" id="readmore">Read More &raquo;</a></p>
+						</div>				
+						<div class="note white news">
+    					<p><div id="yearbox"><div id="month">NOV</div><div id="day">25</div></div><p><b>Sample Headline</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac malesuada neque. Donec eu ante at lacus pellentesque semper. Sed lacus erat, ultrices eu lacinia in. <a class="large awesome right" id="readmore">Read More &raquo;</a></p>
+						</div>	
+						</div>
+							
+						</div>
+
+						</div>
+						
+					</div>
+					
+        		</div>
+		
+		</div>
+	
+</div>
+	
+<footer>
+	
+		<div id="footer-container">
+		
+				<div class="drop-shadow-footer curved curved-hz-2">
+				
+				<div class="contact panel">
+					<div class="front">
+					<a class="myButtonLink" href="#form">Bluevine<br>Design</a>
+					<div id="founder"><b>Jon Brown</b> Founder</div>
+					</div>
+					<div class="back" id="contact">
+					<div class="pad">
+					<div id="theback"><span id="leafback"></span><h2>We design with vines in mind.</h2>
+					<span id="leafback2"></span></div>
+					</div>
+					</div>
+				</div>
+		            
+           	 	<div id="copy">© 
+           	 	
+           	 	<script type="text/javascript">
+				var theDate=new Date();
+				document.write(theDate.getFullYear())
+				</script> Bluevine Design, Inc.</div>
+           	 	
+				<div id="mission">Our mission is to create products that enrich peoples lives through design.</div>
+				<div id="contactus">Drop us a line at hello@jonbrown.org | About | Terms & Conditions | Privacy Policy</div>
+				<div id="optimized"><div id="ios"></div><div id="safari"></div><div id="chrome"></div><div id="fire"></div><div id="html5"></div><div id="css3"></div></div>
+        		</div>
+		
+		</div>
+	
+</footer>
+</div>
+	
+</body>
+</html>

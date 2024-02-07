@@ -1,0 +1,20 @@
+/* CSS Document */
+			
+div.FFWB			{
+		position:fixed;
+		left:100%;
+		bottom:0px;
+		overflow:visible;
+		height:80px;
+		width:80px;
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		background-color:transparent;
+		margin:0 0 0 -80px;
+		padding:0;
+		color:#000;
+		font-family:helvetica,verdana,arial,tahoma,sans-serif;
+		z-index:1000000000;
+		border:0px none;
+		float:none;
+			}

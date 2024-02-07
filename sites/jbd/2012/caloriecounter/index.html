@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Calorie Counter &laquo;  Jon Brown Designs</title>
+    	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+
+	<link rel="stylesheet" type="text/css" href="/sites/jbd/2012/wp-content/themes/jonbrown/js/fancybox/jquery.fancybox-1.2.6.css" media="screen" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="/sites/jbd/2012/wp-content/themes/jonbrown/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/sites/jbd/2012/wp-content/themes/jonbrown/js/fancybox/jquery.fancybox-1.2.6.js"></script>
+	<script type="text/javascript" src="/sites/jbd/2012/wp-content/themes/jonbrown/js/fancybox/jquery.fancybox-1.2.6.pack.js"></script>
+	<script type="text/javascript" src="/sites/jbd/2012/wp-content/themes/jonbrown/js/box.js"></script>
+	<script src="/sites/jbd/2012/wp-content/themes/jonbrown/js/help.js" type="text/javascript"></script>
+	
+
+<script type="text/javascript">
+
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+}
+
+
+$(document).ready(function() {
+
+// assuming all checkboxes are unchecked at first
+$("span[class='checkbox']").addClass("unchecked");
+
+	$(".checkbox").click(function(){
+
+		if($(this).children("input").attr("checked")){
+			// uncheck
+			$(this).children("input").attr({checked: ""});
+			$(this).removeClass("checked");
+			$(this).addClass("unchecked");
+		}else{
+			// check
+			$(this).children("input").attr({checked: "checked"});
+			$(this).removeClass("unchecked");
+			$(this).addClass("checked");
+		}
+
+	});
+});
+
+
+$(document).ready(function() {
+$('#single-nav').toggle(function() {
+    $('#search').fadeIn('slow');
+    return false;
+  },
+function() {
+    $('#search').fadeOut('slow');
+    return false;
+  });
+});
+</script>
+
+
+
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/sites/jbd/2012/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="/sites/jbd/2012/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/sites/jbd/2012/feed/atom/" />
+	<link rel="pingback" href="/sites/jbd/2012/xmlrpc.php" />
+
+
+
+	<style type="text/css" media="screen">
+		@import url( /sites/jbd/2012/wp-content/themes/jonbrown/style.css);
+	</style>
+
+
+
+	<link rel="alternate" type="application/rss+xml" title="Jon Brown Designs &raquo; Calorie Counter Comments Feed" href="/sites/jbd/2012/caloriecounter/feed/" />
+<link rel='stylesheet' id='wp-paginate-css'  href='/sites/jbd/2012/wp-content/plugins/wp-paginate/wp-paginate.css?ver=1.2.4' type='text/css' media='screen' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/sites/jbd/2012/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/sites/jbd/2012/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Company' href='/sites/jbd/2012/company/' />
+<link rel='next' title='OSX Widgets' href='/sites/jbd/2012/widgets/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='/sites/jbd/2012/caloriecounter/' />
+
+<script language="javascript" type="text/javascript">
+
+function toggleme(obj)
+{
+
+	if (obj.className== 'uncheck') {
+	obj.className = 'check';
+	} else {
+	obj.className = 'uncheck';
+	}
+}
+
+</script>
+
+<script type="text/javascript">
+function setfocus(){
+    document.forms[0].s.focus()
+}
+</script>
+
+<style>
+.uncheck {
+background-image:url(/sites/jbd/2012/wp-content/themes/jonbrown/images/spotlight.png); background-repeat: no-repeat; margin-top: -15px; margin-left: 18px; margin-right: -25px; background-position: center center; width: 10px; height: 47px;
+}
+.check{
+background-image:url(/sites/jbd/2012/wp-content/themes/jonbrown/images/spotback.jpg); background-repeat: no-repeat; margin-top: -15px; margin-left: 18px; margin-right: -25px; background-position: center center; width: 10px; height: 47px;
+}
+
+</style>
+
+</head>
+
+<body style="height: 100%:">
+<style>
+body {
+	margin-top: 50px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+    
+
+           
+<div id="nav">
+	<div id="main-container">
+	<a href="/sites/jbd/2012/"><div id="logo-container"></div></a>
+	<div id="link-container"> 
+
+	<div onclick="setfocus(); toggleme(this); toggle_visibility('search'); return false" onmouseout="setfocus();" id="single-nav" class="uncheck"></div>
+	<div id="single-nav"><a href="#" class="main-nav" id="blog">Blog</a></div>
+	<div id="single-nav"><a href="/sites/jbd/2012/company/" class="main-nav" id="company"  >Company</a></div>
+	<div id="single-nav"><a href="/sites/jbd/2012/" class="main-nav" id="software"  style="color: #5083d1;"  >Software</a></div>
+
+
+</div>
+
+
+	</div>
+
+
+	</div>
+
+<div id="search-container"> 
+
+
+
+<div id="search" style="float: right; margin-right: 30px; display: none; margin-top: -16px; background-image:url('/sites/jbd/2012/wp-content/themes/jonbrown/images/spotbar.png'); height: 31px; width: 269px;">
+
+
+<form method="get" id="searchform" action="/sites/jbd/2012/index.php">
+<div style="margin-top: 6px; margin-left: 15px; float: left; color: #fff; font-size: 13px;">Spotlight</div>
+<div style="margin-top: 3px; margin-right: 5px; float: right;"><input type="search" value="" name="s" id="s" placeholder="Search..." autosave="bsn_srch" results="5" />
+
+</div>
+</form>
+
+</div>
+
+</div>
+
+
+
+<div id="side-container">
+
+
+
+<div id="software-title-cc"> 
+
+
+		
+
+
+		<div id="title-cc">
+
+
+
+		Calorie Counter</div>
+
+
+
+		<div id="description-cc">
+
+
+
+		<p>A OSX Dashboard widget that lets you track calories burned from your exercise routine. BMI, Max-Rep, Carb Calc &amp; Much more&#8230;</p>
+
+		<hr id="spacer">
+
+		
+
+
+
+<div id="gallery-cc"> 
+		<div id="gallery-images-cc"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/eye.jpg"></div>
+
+
+	<div id="left" style="margin-right: 10px;"><a class="zoom" title="Includes a great distance calculator" href="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc1.png"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc-1.png" border="0" style="border: #ccc 1px solid; padding: 2px;"></a></div>
+	<div id="left" style="margin-right: 10px;"><a class="zoom" title="My Exercise Journal records calories burned, distance and time, daily." href="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc2.png"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc-2.png" border="0" style="border: #ccc 1px solid; padding: 2px;"></a></div>
+	<div id="left" style="margin-right: 10px;"><a class="zoom" title="See your grand totals in an easy to view graph" href="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc3.png"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/cc-3.png" border="0" style="border: #ccc 1px solid; padding: 2px;"></a></div>
+
+
+
+		</div>
+
+
+
+
+		</div>
+
+		<div id="button-container"> 
+
+		<a class="button" href="/sites/jbd/2012/wp-content/themes/jonbrown/m-site/caloriecounter/store/" name="B1" onclick="document.login.submit();return false;" id="button-space">
+		<span>Purchase $4</span>
+		</a>
+
+		<a class="button" href="/sites/jbd/2012/wp-content/themes/jonbrown/m-site/caloriecounter/download/" name="B1" onclick="document.login.submit();return false;" id="button-space">
+		<span>Download</span>
+		</a>
+
+		<a class="button2" href="/sites/jbd/2012/wp-content/themes/jonbrown/m-site/caloriecounter/support/" name="B1" onclick="document.login.submit();return false;" id="button-space">
+		<span>Support</span>
+		</a>
+
+
+
+	</div>
+	</div>
+
+
+<div id="product-screenshot-cc"> </div>
+<div style="float: right; font-size: 10px; margin-right: 42px;">*Current owners do not need to re-purchase, simply register the demo widget.</div>
+
+	
+
+		<div id="table-container">
+
+
+<div id="table-cell-1"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/clock_icon.jpg"></div>&nbsp;Activity Calculator</div>
+<div id="light-color">
+This calculator estimates the number of calories you'll burn performing a range of activities at varying intensity levels, over a certain period of time.
+</div>
+</div>
+
+<div id="table-cell-2"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/speed_icon.jpg"></div>&nbsp;Distance Calculator</div>
+<div id="light-color">
+Use the distance calorie calculator to estimate the number of calories burned in your most recent workout. </div>
+</div>
+
+<div id="table-cell-3"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/scale_icon.jpg"></div>&nbsp;BMI Calculator</div>
+<div id="light-color">
+Body Mass Index or BMI is based on your height and weight. Doctors often use BMI to determine if a person is underweight or at a healthy weight. 
+</div>
+</div>
+
+
+<div id="table-cell-4"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/weight_icon.jpg"></div>&nbsp;One Rep Max</div>
+<div id="light-color">
+You can use the Rep Max Calculator to accurately find out how much weight you should lift if you know the number of repetitions and your one rep max.  
+</div>
+</div>
+
+<div id="table-cell-5"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/bread_icon.jpg"></div>&nbsp;Carb Calculator</div>
+<div id="light-color">
+A Low carb Calculator to find unlisted carbs based on a food products nutrition label. This calculator will tell you if there are any hiding carbs. 
+</div>
+</div>
+
+<div id="table-cell-6"> 
+<div id="cell-space"><div style="margin-top: 1px; float: left;"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/metric_icon.jpg"></div>&nbsp;Metric Support</div>
+<div id="light-color">
+Every calculator in the widget offers standard and metric support in regards to weights and measurements so there is no need to make manual conversions.
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div id="footer-box">
+
+	<div id="box"> 
+	<div id="box-space">Calorie Tracker<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/new_icon.jpg" style="float: right; opacity:0.5;"></div>
+	<div id="light-color">
+	A OSX Dashboard widget that lets you lookup and track food data.
+	<div id="box-height">
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> Single List Food Tracker
+	<br>
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> 75K Food Database
+	</div>
+	<div id="right"><br><a href="/sites/jbd/2012/calorietracker/" class="learnmore">Learn More</a></div>
+	</div>
+	</div>
+
+
+
+
+	<div id="box"> 
+	<div id="box-space">BeFit</div>
+	<div id="light-color">
+	The ultimate calorie tracking tool. Based on nutrition data for the food you eat. 
+	<div id="box-height">
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> 70K Food Database
+	<br>
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> Unlimited food tracking
+	</div>
+	<div id="right"><br><a href="/sites/jbd/2012/befit/" class="learnmore">Learn More</a></div>
+	</div>
+	</div>
+
+
+
+	<div id="box"> 
+	<div id="box-space">Free Widgets<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/new_icon.jpg" style="float: right; opacity:0.5;"></div>
+	<div id="light-color">
+	We have a large collection of free widgets for you to enjoy. Try them out and enjoy.<br>
+	<div id="box-height-2"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/widget.jpg"></div>
+	<div id="box-height-3">
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> Deficit Counter
+	<br>
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> Population Counter
+	</div>
+	<div id="right"><br><a href="/sites/jbd/2012/widgets/" class="learnmore">View More</a></div>
+	</div>
+	</div>
+
+
+
+	<div id="box-end"> 
+	<div id="box-space">Support</div>
+	<div id="light-color">
+	We try our best to offer free customer support on all the products that we sell.<br>
+	<div id="box-height-2"><img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/support_icon.jpg"></div>
+	<div id="box-height-3">
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> Updated FAQ Area
+	<br>
+	<img src="/sites/jbd/2012/wp-content/themes/jonbrown/images/check.jpg"> License Retrieval
+	</div>
+	<div id="right"><br><a href="/sites/jbd/2012/wp-content/themes/jonbrown/m-site/befit/support/gen.html" class="learnmore2">Get Support</a></div>
+	</div>
+	</div>
+	</div>
+
+		<div id="copyright">
+		Copyright 
+
+<script>
+<!--
+var year=new Date();
+year=year.getYear();
+if (year<1900) year+=1900;
+document.write(year);
+//-->
+</script>
+
+
+ All Rights Reserved, Jon Brown Designs | Spam protected by <a href="http://www.mxguarddog.com/" class="learnmore">MX Guard Dog</a> a free service.
+		<br><br><br>
+		</div>
+		</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4180626-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+
+</html>

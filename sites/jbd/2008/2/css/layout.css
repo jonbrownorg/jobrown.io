@@ -1,0 +1,46 @@
+@import url('text.css');
+@import url('errors.css');
+
+}
+
+#container {width:150px;}
+
+div.row {
+  clear: both;
+  padding-top: 10px;
+  }
+
+div.row span.label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  }
+
+div.row span.formw {
+  float: right;
+  width: 235px;
+  text-align: left;
+} 
+
+fieldset {
+	padding: 0px;
+	
+}
+	
+
+.options input {
+	float: none;
+	padding-left: 0;
+}
+div.buttons {
+	clear: both;
+	float: left;
+	width: 300px;
+	padding-top: 20px;
+}
+
+
+
+.clearthis {
+	clear: both;
+}

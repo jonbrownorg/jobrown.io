@@ -1,0 +1,7 @@
+{
+  "name": "Grove Technologies",
+  "short_name": "Grove Technologies",
+  "gcm_sender_id": "111180847648",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}

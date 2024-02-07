@@ -1,0 +1,253 @@
+/* Begin CSS Drop Down Menu */
+
+.menubar{
+	position:relative;
+	background-image: url('images/backbut.gif');
+	background-repeat: repeat-x;
+	
+}
+
+#menuh
+	{
+	background-image: url('images/backbut.gif');
+	font-size: small;
+	font-family: arial, helvetica, sans-serif;
+	width:780;
+	float:left;
+		}
+
+#menuh a.submenu:hover	/* menu at mouse-over  */
+	{
+	z-index:1000;
+	width: 150px;
+	background-image: url('images/behind.jpg');
+	background-repeat: repeat-x;
+	color: #000000;
+	}	
+	
+#menuh a.submenu  /* attaches down-arrow to all top-parents */
+	{
+	background: #666a6e;
+	z-index:1000;
+	width: 150px;
+	color: #fff;
+	border-width: 2px; 
+	border-color: #000000;
+	border-style: solid;
+	display: block;
+	font-size: 13px;
+	padding:0px;
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	margin-top: 1px;
+	}
+
+
+
+		
+#menuh a
+	{
+	text-align: left;
+	display:block;
+	white-space:nowrap;
+	margin:0;
+	width: 200px;
+	}
+	
+#menuh a, #menuh a:visited	/* menu at rest */
+	{
+	color: white;
+	background-color: black;
+	text-decoration:none;
+	}
+	
+#menuh a:hover	/* menu at mouse-over  */
+	{
+	color: white;
+	background-color: black;
+	}	
+	
+#menuh a.mechanical:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c1_f2.gif');
+	width: 132px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.mechanical  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c1.gif');
+	width: 132px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+#menuh a.locations:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c2_f3.gif');
+	width: 132px;
+	vertical-align: left;
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.locations  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c2_f2.gif');
+	width: 132px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+
+
+#menuh a.edu:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c3_f4.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.edu  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c3_f3.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+
+
+
+
+
+
+#menuh a.apt:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c4_f5.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.apt  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c4_f6.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+
+
+
+#menuh a.tires:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c5_f6.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.tires  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c5_f5.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+
+
+
+#menuh a.contact:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c6_f7.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.contact  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c6_f6.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+
+#menuh a.top_parent:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c1_f2.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+		
+#menuh a.top_parent  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url('images/new_r1_c1.gif');
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+	
+#menuh a.parent, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
+	{
+	background-image: url(https://staging.jonbrown.org/sne/standard/nav_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	
+	}
+
+#menuh li
+	{
+	position:relative;
+    min-height: 1px; 	/* Sophie Dennis contribution for IE7 */
+    vertical-align: bottom; /* Sophie Dennis contribution for IE7 */
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */

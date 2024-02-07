@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>5-10-2006</title>
+    <expansionState>0,3,4,6,8,10,11,13,14,17,19,21</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Next Gen iPods might use widgets" MediaLinks="The Next Gen iPods, might have widgets?  &lt;http://www.macosrumors.com/20060322A.php&gt;">
+        <outline text="The former would be in line with previous rumors about a 16:10 widescreen iPod with its entire front face dedicated to a four-inch touchscreen, with the traditional iPod scroll-wheel interface implemented in the operating system as a touch-screen widget."/>
+      </outline>
+      <outline text="Doomsday Widget" MediaLinks="Doomsday Widget &lt;http://www.crazyapplerumors.com/?p=502&gt;">
+        <outline text="“ Concerned sources close to Konfabulator creator Arlo Rose indicate that the Mac developer is working on a Doomsday widget that will utterly destroy the Macintosh desktop. In a fit of pique over the announcement that Apple will include functionality similar to Konfabulator in the upcoming update to OS X code-named Tiger, Rose is adopting a scorched-earth strategy.”"/>
+      </outline>
+      <outline text="Dashboard Detection in Safari" MediaLinks="Dashboard Detection in Safari  &lt;http://www.macrumors.com/pages/2005/09/20050928125215.shtml&gt;">
+        <outline text="“ Appleinsider reports that upcoming Mac OS X 10.4.3 updates appear to include special Dashboard buttons in the newest version of Safari.”"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Widgetarium is one of the best widget making apps out there today!">
+        <outline text="Widgetarium is an IDE for developing Dashboard Widgets. It includes everything you need to make a Widget, including: Syntax coloring Editor, with function pop-up navigation, auto completion, regex search/replace, etc… Graphics generates to make the panels and icons&#10;Project manager to manage files, build packages, set Info.plist files&#10;Dashboard emulator and interactive JavaScript interpreter to test and inspect the Widget DOM Source level debugger, complete with breakpoints, view/set local and global variables&#10;&#10;Online Widget and JavaScript documentation&#10;Special custom native code extensions&#10;And much more…"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,349 @@
+<HTML><HEAD>
+<SCRIPT LANGUAGE="JAVASCRIPT">	<!-- hide JavaScript code from browsers that are not JavaScript enabled		function checkform() {	var message = ""; // create error message string variable, with nothing in it		// Test the Card Holder's Name Length	if (document.Form1.HoldersName.value.length == 0) {		message = message + "Please enter the name on the credit card!\n";		}	// Test the Card Number 	if (document.Form1.CardNumber.value.length < 16) {		message = message + "Please type in all 16 digits of the credit card number!\n";		}	else if (isNaN(document.Form1.CardNumber.value)) { 			// test for numeric digits only			message = message + "The Card Number must contain only numbers.\n";			}
+		// Test the Card Expiry Month	if (document.Form1.CardMonth.value.length < 2) { 		// test to make sure two characters where entered		message = message + "Please type in both digits of the expiry month!\n";		}	else if (isNaN(document.Form1.CardMonth.value)) { 			// test for numeric digits only			message = message + "The Month value needs to be between 1 and 12\n";			}		 else if (document.Form1.CardMonth.value < 1 || 					document.Form1.CardMonth.value > 12 ) {				// test the values to make sure they are between 1 and 12				message = message + "The Month value needs to be between 1 and 12\n";				}	// Test the Card Expiry Year	if (document.Form1.CardYear.value.length < 4) {		message = message + "Please type in all Four digits of the expiry year!\n";		}	else if (isNaN(document.Form1.CardYear.value)) { 			// test for numeric digits only			message = message + "The Year value needs to be only digits.\n";			}		 else if (document.Form1.CardYear.value < 1999) {				// test the values to make sure they are greater than 99				message = message + "The Year value needs to be greater than 1999\n";				}	if ( message.length > 0 ) { // is there an error message?	   	alert( message ); // display error message		return false; // return bad, not ok to process		}		else {		return true; // no error message to display, return ok to process		}	} // end of the function checkform()	//end hiding of JavaScript code -->	</SCRIPT>  
+</head><TITLE>Online Design Work Order Form</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" /></HEAD><BODY BGCOLOR="#FFFFFF" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH=0" MARGINHEIGHT="0" BACKGROUND="images1/orderback.jpg" onLoad="document.Form1.Firstname1.focus()"><!-- ImageReady Slices (order.psd) -->
+
+<SCRIPT LANGUAGE="JavaScript">
+function DownDeposit() {
+var q9_Int  = parseInt(document.Form1.Total.value);
+var Down = 0;
+document.Form1.Down.value= q9_Int/2;
+
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript"><!-- begining of script
+function CalcTotals() {
+  var p1_Int  = parseInt(document.Form1.Price1.value);
+  var p2_Int  = parseInt(document.Form1.Price2.value);
+  var p3_Int  = parseInt(document.Form1.Price3.value);
+  var q1_Int  = parseInt(document.Form1.Quantity1.value);
+  var q2_Int  = parseInt(document.Form1.Quantity2.value);
+  var q3_Int  = parseInt(document.Form1.Quantity3.value);
+  var Total = 0;
+  document.Form1.SubTotal1.value = q1_Int*p1_Int;
+  document.Form1.SubTotal2.value = q2_Int*p2_Int;
+  document.Form1.SubTotal3.value = q3_Int*p3_Int;
+  document.Form1.Total.value = (q1_Int*p1_Int)+(q2_Int*p2_Int)+(q3_Int*p3_Int);
+
+  
+}
+<!-- end of script --></SCRIPT>
+<TABLE WIDTH="95%" BORDER="0" CELLPADDING="0" CELLSPACING="0" bgcolor="#ffffff" align=center>	<TR>		<TD>			<IMG SRC="images1/order_01.gif" WIDTH="380" HEIGHT="32" ALT="" /></TD>	</TR>	<TR>		<TD><form name="Form1" onsubmit="return checkform()";><table width="95%" height="407" cellpadding=0 cellspacing=0 border=0 bgcolor="#ffffff">	<tr>		<td><table width="95%" cellpadding=2 cellspacing=2 border=0 bgcolor="#ffffff" align=center><tr>
+<td align=center bgcolor="#93a8bd" colspan=5><font size=2><b>Personal Information</b></font></td>	<tr>
+<td align=center colspan=5>
+<table width=330>
+<tr>
+<td>	<font size=2>First Name:</font><input type="text" name="Firstname1" size=11></td>	<td><font size=2>Last Name:</font><input type="text" name="Lastname" size=11></td><tr>	<td>	<font size=2>Address:</font><input type="text" name="Address" size=11></td>	<td><font size=2>City:</font><input type="text" name="City" size=11></td><tr>	<td>	<font size=2>Zip Code:</font><input type="text" name="zip" size=6>	<font size=2>State:</font><input type="text" name="zip" size=3>	</td>	<td><font size=2>Phone Number:</font><input type="text" name="Phone Number" size=11></td>
+</table>
+</td><tr>
+<td align=center bgcolor="#dcdcdc" colspan=5><font size=2><b>Company Information</b></font></td>
+<tr>
+	<td align=center colspan=5>
+<table width=330 align=center>
+<tr>
+<td>	<font size=2>Company Name:</font><input type="text" name="compname" size=11></td>	<td><font size=2>E-Mail:</font><input type="text" name="E-Mail" size=11></td><tr>	<td>	<font size=2>Address:</font><input type="text" name="Address" size=11></td>	<td><font size=2>City:</font><input type="text" name="City" size=11></td><tr>	<td>	<font size=2>Zip Code:</font><input type="text" name="zip" size=6>	<font size=2>State:</font><input type="text" name="zip" size=3>	</td>	<td><font size=2>Phone Number:</font><input type="text" name="Phone Number" size=11></td>
+</table>
+</td>
+<tr><td colspan=5 bgcolor="#93a8bd" align=center><font size=2><b>Job Description and Needs</b></font></td><tr>
+<td align=center colspan=5><textarea cols=40 rows=4 name=Text>Describe Your specific Project in Detail here! Also if there are additional supplies that we don't normally use that you would like us to use please list those here as well.</textarea>
+</td>
+<tr>
+<td colspan=5 bgcolor="#dcdcdc" align=center><font size=2><b>Timeline</b></font></td><tr>
+<td align=center colspan=5><textarea cols=40 rows=4 name=Text>What is your jobs projected due date or what time period do we have to work on your project!</textarea>
+</td>
+
+<tr>
+<td colspan=5 bgcolor=#93a8bd align=center><font size=2><b>Supplying Artwork</b></font>
+<table width="100%" align=center bgcolor="white">
+<tr>
+<td bgcolor="red" colspan=3 align=center><font size=2 color=white><b>Unacceptable </b></font></td>
+<tr>
+<td align=center>
+<img src="images/screentintun.jpg">
+
+</td>
+<td align=center>
+<img src="images/finelinesun.jpg">
+
+</td>
+<td align=center>
+<img src="images/raisedprntun.jpg">
+
+</td>
+<tr>
+<td bgcolor="#000000" align=center><font size=2 color=white><b>Screen Tints</b></font></td>
+
+<td bgcolor="#000000" align=center><font size=2 color=white><b>Fine Lines</b></font></td>
+
+
+<td bgcolor="#000000" align=center><font size=2 color=white><b>Raised Lines</b></font></td>
+<tr>
+<td bgcolor="green" align=center><font size=2 color=white><b>Acceptable</b></font></td>
+
+<td bgcolor="#93a8bd" colspan=2 align=center><font size=2 color=black><b>File Format Information</b></font></td>
+<tr valign=center>
+<td align=center>
+<img src="images/acceptable1.jpg">
+
+</td>
+<td align=center colspan=2><font size=2>
+Different file computer platforms dictates the need to specify what we can
+and cannot accept as far as artwork in file format's as well as with quality
+level. Please be sure to check the list to make sure you can comply with our
+request. Check the list
+<script>function openpopup99999(){var popurl="info.html"winpops=window.open(popurl,"","width=380,height=400,scrollbars,")}</script><a href="javascript:openpopup99999()">here.</a></font>
+
+</td>
+<tr>
+<td bgcolor="#000000" align=center><font size=2 color=white><b>Solid Lines</b></font></td>
+<tr>
+
+</table>
+</td>
+<tr><td colspan=5 bgcolor="#93a8bd" align=center><font size=2><b>Give us your files!</b></font></td><tr>
+<td align=center colspan=5><input type="Upload" name="Files" size=20>
+<input type="Submit" name="Browse" value="Browse">
+<input type="Submit" name="Upload" value="Upload">
+</td>
+<tr><td colspan=5 bgcolor="#93a8bd" align=center><font size=2><b>What do you need to order?</b></font></td>
+<tr><td bgcolor="#dcdcdc" align=center ><font size=2><b>Services (tax included)</b></font></td><td bgcolor="#93a8bd" align=center> <font size=2><b>QTY</b></font></td> <td bgcolor="#93a8bd" align=center colspan=3><font size=2><b>TOTAL</B></font></td><tr><td bgcolor="#93a8bd"align=center><select name="Price1"><option value="0"><b>-------Logos------</b><option value="160.99">Vector Logo Design (large)
+<option value="100.99">Vector Logo Design (medium)
+<option value="60.99">Vector Logo Design (small)<option value="155.99">Raster Logo Design (large)
+<option value="100.99">Raster Logo Design (medium)
+<option value="55.99">Raster Logo Design (small)<option value="100.50">Pre-Desined Logo (large)
+<option value="60.99">Pre-Desined Logo (medium)
+<option value="45.99">Pre-Desined Logo (small)<option value="0"><b>------Web Sites-------</b><option value="350.01">Pre-Designed Corporate<option value="310.01">Pre-Designed Small Business<option value="175.01">Pre-Designed Personal<option value="450.99">Custom Web Site / page<option value="15.99">Web Hosting Monthly<option value="165.99">Web Hosting Yearly<option value="390.99">E-Commerce Solutions Yearly<option value="179.99">Non-Business Hosting Yearly<option value="0"><b>-------Illustrations------</b><option value="35.10">Vector Design BW 3" X 5"
+<option value="65.10">Vector Design BW 8" X 10"
+<option value="65.10">Vector Design Color 3" X 5"
+<option value="115.99">Vector Design Color 8" X 10"
+<option value="25.99">Custom Clip Art 3" X 5"
+<option value="35.99">Custom Clip Art 8" X 10"<option value="35.00">Raster Design 3" X 5"
+<option value="79.99">Raster Design 8" X 10"<option value="0"><b>-------Flyers------</b><option value="255.10">8.5 X 11 Flyers BW 200qty
+<option value="155.99">8.5 X 11 Flyers BW 100qty
+<option value="70.99">8.5 X 11 Flyers BW 50qty<option value="455.10">8.5 X 11 Flyers Color 200qty
+<option value="355.99">8.5 X 11 Flyers Color 100qty
+<option value="170.99">8.5 X 11 Flyers Color 50qty<option value="220.99">Quarter sheet BW 200qty
+<option value="125.99">Quarter sheet BW 100qty
+<option value="67.99">Quarter sheet BW 50qty<option value="330.99">Quarter sheet color 200qty
+<option value="179.99">Quarter sheet color 100qty
+<option value="90.99">Quarter sheet color 50qty<option value="0"><b>------Animation-------</b><option value="100.99">Web Animation (large)
+<option value="60.99">Web Animation (medium)
+<option value="45.99">Web Animation (small)<option value="125.99">Computer Animation (large)
+<option value="79.99">Computer Animation (medium)
+<option value="64.99">Computer Animation (small)
+<option value="150.99">Corporate Animation (large)
+<option value="100.99">Corporate Animation (large)
+<option value="79.99">Corporate Animation (large)<option value="0"><b>-----Flash--------</b><option value="299.99">Corporate Pres<option value="189.99">Small Bussiness Pres<option value="499.99">Interactive Games<option value="0"><b>-----Novelties--------</b><option value="179.99">Foam Fingers (gross)<option value="210.99">Pencil's or Pens (gross)<option value="299.99">Beach Balls (gross)<option value="179.99">Frisbees (gross)<option value="249.99">Mouse Pads (gross)<option value="0"><b>------Photos-------</b><option value="3.00">BW Prints (matte) 4" X 3.5"
+<option value="3.00">BW Prints (glossy) 4" X 3.5"
+<option value="3.00">Color Prints (matte) 4" X 3.5"
+<option value="3.00">Color Prints (glossy) 4" X 3.5"
+<option value="4.00">BW Prints (matte) 8" X 10"
+<option value="5.00">BW Prints (glossy) 8" X 10"
+<option value="3.00">Color Prints (matte) 8" X 10"
+<option value="3.00">Color Prints (glossy) 8" X 10"<option value="0"><b>------Tee shirt------</b><option value="129.99">White  one clor (front) 200qty
+<option value="179.99">White  one clor (front) 100qty
+<option value="259.99">White  one clor (front) 50qty<option value="125.99">White  Color (front) 200qty
+<option value="179.99">White  Color (front) 100qty
+<option value="325.99">White  Color (front) 50qty<option value="165.99">One color (Frt & Bck) 200qty
+<option value="225.99">One color (Frt & Bck) 100qty
+<option value="299.99">One color (Frt & Bck) 50qty<option value="265.99">Color (Frt & Bck) 200qty
+<option value="325.99">Color (Frt & Bck) 100qty
+<option value="399.99">Color (Frt & Bck) 50qty
+<option value="0"><b>------Stationary------------</b><option value="229.99">8.5" X 11" Letter BW 200qty
+<option value="189.99">8.5" X 11" Letter BW 100qty
+<option value="89.99">8.5" X 11" Letter BW 50qty
+<option value="229.99">8.5" X 11" Letter Color 200qty
+<option value="189.99">8.5" X 11" Letter Color 100qty
+<option value="89.99">8.5" X 11" Letter Color 50qty<option value="229.99">Bus Cards (Color) 200qty
+<option value="189.99">Bus Cards (Color) 100qty
+<option value="89.99">Bus Cards (Color) 50qty
+<option value="189.99">Pamphlets (Color) 200qty
+<option value="129.99">Pamphlets (Color) 100qty
+<option value="89.99">Pamphlets (Color) 50qty<option value="125.99">Envelopes 200qty
+<option value="79.99">Envelopes 100qty
+<option value="59.99">Envelopes 50qty</select></b></font></td>
+ <td bgcolor="#dcdcdc" align=center><font size=2>
+<select name="Quantity1"><option value="0">0<option value="1">1
+<option value="2">2
+<option value="3">3<option value="4">4
+<option value="5">5
+<option value="6">6<option value="7">7
+<option value="8">8
+<option value="9">9
+</select>
+
+</font></td><td width=1 bgcolor="#dcdcdc"><font size=2><b>$</b></font></td><td bgcolor="#dcdcdc" align=center><font size=2><i><input type="" name="SubTotal1" size=5 maxsize=4></i></font></td>
+<td bgcolor="#dcdcdc">.00</td>
+<tr><td bgcolor="#93a8bd"align=center><select name="Price2"><option value="0"><b>-------Logos------</b><option value="160.99">Vector Logo Design (large)
+<option value="100.99">Vector Logo Design (medium)
+<option value="60.99">Vector Logo Design (small)<option value="155.99">Raster Logo Design (large)
+<option value="100.99">Raster Logo Design (medium)
+<option value="55.99">Raster Logo Design (small)<option value="100.50">Pre-Desined Logo (large)
+<option value="60.99">Pre-Desined Logo (medium)
+<option value="45.99">Pre-Desined Logo (small)<option value="0"><b>------Web Sites-------</b><option value="350.01">Pre-Designed Corporate<option value="310.01">Pre-Designed Small Business<option value="175.01">Pre-Designed Personal<option value="450.99">Custom Web Site / page<option value="15.99">Web Hosting Monthly<option value="165.99">Web Hosting Yearly<option value="390.99">E-Commerce Solutions Yearly<option value="179.99">Non-Business Hosting Yearly<option value="0"><b>-------Illustrations------</b><option value="35.10">Vector Design BW 3" X 5"
+<option value="65.10">Vector Design BW 8" X 10"
+<option value="65.10">Vector Design Color 3" X 5"
+<option value="115.99">Vector Design Color 8" X 10"
+<option value="25.99">Custom Clip Art 3" X 5"
+<option value="35.99">Custom Clip Art 8" X 10"<option value="35.00">Raster Design 3" X 5"
+<option value="79.99">Raster Design 8" X 10"<option value="0"><b>-------Flyers------</b><option value="255.10">8.5 X 11 Flyers BW 200qty
+<option value="155.99">8.5 X 11 Flyers BW 100qty
+<option value="70.99">8.5 X 11 Flyers BW 50qty<option value="455.10">8.5 X 11 Flyers Color 200qty
+<option value="355.99">8.5 X 11 Flyers Color 100qty
+<option value="170.99">8.5 X 11 Flyers Color 50qty<option value="220.99">Quarter sheet BW 200qty
+<option value="125.99">Quarter sheet BW 100qty
+<option value="67.99">Quarter sheet BW 50qty<option value="330.99">Quarter sheet color 200qty
+<option value="179.99">Quarter sheet color 100qty
+<option value="90.99">Quarter sheet color 50qty<option value="0"><b>------Animation-------</b><option value="100.99">Web Animation (large)
+<option value="60.99">Web Animation (medium)
+<option value="45.99">Web Animation (small)<option value="125.99">Computer Animation (large)
+<option value="79.99">Computer Animation (medium)
+<option value="64.99">Computer Animation (small)
+<option value="150.99">Corporate Animation (large)
+<option value="100.99">Corporate Animation (large)
+<option value="79.99">Corporate Animation (large)<option value="0"><b>-----Flash--------</b><option value="299.99">Corporate Pres<option value="189.99">Small Bussiness Pres<option value="499.99">Interactive Games<option value="0"><b>-----Novelties--------</b><option value="179.99">Foam Fingers (gross)<option value="210.99">Pencil's or Pens (gross)<option value="299.99">Beach Balls (gross)<option value="179.99">Frisbees (gross)<option value="249.99">Mouse Pads (gross)<option value="0"><b>------Photos-------</b><option value="2.95">BW Prints (matte) 4" X 3.5"
+<option value="2.95">BW Prints (glossy) 4" X 3.5"
+<option value="2.95">Color Prints (matte) 4" X 3.5"
+<option value="2.95">Color Prints (glossy) 4" X 3.5"
+<option value="3.99">BW Prints (matte) 8" X 10"
+<option value="4.99">BW Prints (glossy) 8" X 10"
+<option value="1.99">Color Prints (matte) 8" X 10"
+<option value="2.99">Color Prints (glossy) 8" X 10"<option value="0"><b>------Tee shirt-----</b><option value="129.99">White  one clor (front) 200qty
+<option value="179.99">White  one clor (front) 100qty
+<option value="259.99">White  one clor (front) 50qty<option value="125.99">White  Color (front) 200qty
+<option value="179.99">White  Color (front) 100qty
+<option value="325.99">White  Color (front) 50qty<option value="165.99">One color (Frt & Bck) 200qty
+<option value="225.99">One color (Frt & Bck) 100qty
+<option value="299.99">One color (Frt & Bck) 50qty<option value="265.99">Color (Frt & Bck) 200qty
+<option value="325.99">Color (Frt & Bck) 100qty
+<option value="399.99">Color (Frt & Bck) 50qty
+<option value="0"><b>------Stationary------------</b><option value="229.99">8.5" X 11" Letter BW 200qty
+<option value="189.99">8.5" X 11" Letter BW 100qty
+<option value="89.99">8.5" X 11" Letter BW 50qty
+<option value="229.99">8.5" X 11" Letter Color 200qty
+<option value="189.99">8.5" X 11" Letter Color 100qty
+<option value="89.99">8.5" X 11" Letter Color 50qty<option value="229.99">Bus Cards (Color) 200qty
+<option value="189.99">Bus Cards (Color) 100qty
+<option value="89.99">Bus Cards (Color) 50qty
+<option value="189.99">Pamphlets (Color) 200qty
+<option value="129.99">Pamphlets (Color) 100qty
+<option value="89.99">Pamphlets (Color) 50qty<option value="125.99">Envelopes 200qty
+<option value="79.99">Envelopes 100qty
+<option value="59.99">Envelopes 50qty</select></b></font></td>
+ <td bgcolor="#dcdcdc" align=center><font size=2>
+<select name="Quantity2"><option value="0">0<option value="1">1
+<option value="2">2
+<option value="3">3<option value="4">4
+<option value="5">5
+<option value="6">6<option value="7">7
+<option value="8">8
+<option value="9">9
+</select></font></td><td width=1 bgcolor="#dcdcdc"><font size=2><b>$</b></font></td><td bgcolor="#dcdcdc" align=center><font size=2><i><input type="" name="SubTotal2" size=5 maxsize=4></i></font></td>
+<td bgcolor="#dcdcdc">.00</td><tr><td bgcolor="#93a8bd"align=center><select name="Price3"><option value="0"><b>-------Logos------</b><option value="160.99">Vector Logo Design (large)
+<option value="100.99">Vector Logo Design (medium)
+<option value="60.99">Vector Logo Design (small)<option value="155.99">Raster Logo Design (large)
+<option value="100.99">Raster Logo Design (medium)
+<option value="55.99">Raster Logo Design (small)<option value="100.50">Pre-Desined Logo (large)
+<option value="60.99">Pre-Desined Logo (medium)
+<option value="45.99">Pre-Desined Logo (small)<option value="0"><b>------Web Sites-------</b><option value="350.01">Pre-Designed Corporate<option value="310.01">Pre-Designed Small Business<option value="175.01">Pre-Designed Personal<option value="450.99">Custom Web Site / page<option value="15.99">Web Hosting Monthly<option value="165.99">Web Hosting Yearly<option value="390.99">E-Commerce Solutions Yearly<option value="179.99">Non-Business Hosting Yearly<option value="0"><b>-------Illustrations------</b><option value="35.10">Vector Design BW 3" X 5"
+<option value="65.10">Vector Design BW 8" X 10"
+<option value="65.10">Vector Design Color 3" X 5"
+<option value="115.99">Vector Design Color 8" X 10"
+<option value="25.99">Custom Clip Art 3" X 5"
+<option value="35.99">Custom Clip Art 8" X 10"<option value="35.00">Raster Design 3" X 5"
+<option value="79.99">Raster Design 8" X 10"<option value="0"><b>-------Flyers------</b><option value="255.10">8.5 X 11 Flyers BW 200qty
+<option value="155.99">8.5 X 11 Flyers BW 100qty
+<option value="70.99">8.5 X 11 Flyers BW 50qty<option value="455.10">8.5 X 11 Flyers Color 200qty
+<option value="355.99">8.5 X 11 Flyers Color 100qty
+<option value="170.99">8.5 X 11 Flyers Color 50qty<option value="220.99">Quarter sheet BW 200qty
+<option value="125.99">Quarter sheet BW 100qty
+<option value="67.99">Quarter sheet BW 50qty<option value="330.99">Quarter sheet color 200qty
+<option value="179.99">Quarter sheet color 100qty
+<option value="90.99">Quarter sheet color 50qty<option value="0"><b>------Animation-------</b><option value="100.99">Web Animation (large)
+<option value="60.99">Web Animation (medium)
+<option value="45.99">Web Animation (small)<option value="125.99">Computer Animation (large)
+<option value="79.99">Computer Animation (medium)
+<option value="64.99">Computer Animation (small)
+<option value="150.99">Corporate Animation (large)
+<option value="100.99">Corporate Animation (large)
+<option value="79.99">Corporate Animation (large)<option value="0"><b>-----Flash--------</b><option value="299.99">Corporate Pres<option value="189.99">Small Bussiness Pres<option value="499.99">Interactive Games<option value="0"><b>-----Novelties--------</b><option value="179.99">Foam Fingers (gross)<option value="210.99">Pencil's or Pens (gross)<option value="299.99">Beach Balls (gross)<option value="179.99">Frisbees (gross)<option value="249.99">Mouse Pads (gross)<option value="0"><b>------Photos-------</b><option value="2.95">BW Prints (matte) 4" X 3.5"
+<option value="2.95">BW Prints (glossy) 4" X 3.5"
+<option value="2.95">Color Prints (matte) 4" X 3.5"
+<option value="2.95">Color Prints (glossy) 4" X 3.5"
+<option value="3.99">BW Prints (matte) 8" X 10"
+<option value="4.99">BW Prints (glossy) 8" X 10"
+<option value="1.99">Color Prints (matte) 8" X 10"
+<option value="2.99">Color Prints (glossy) 8" X 10"<option value="0"><b>------Tee shirt------</b><option value="129.99">White  one clor (front) 200qty
+<option value="179.99">White  one clor (front) 100qty
+<option value="259.99">White  one clor (front) 50qty<option value="125.99">White  Color (front) 200qty
+<option value="179.99">White  Color (front) 100qty
+<option value="325.99">White  Color (front) 50qty<option value="165.99">One color (Frt & Bck) 200qty
+<option value="225.99">One color (Frt & Bck) 100qty
+<option value="299.99">One color (Frt & Bck) 50qty<option value="265.99">Color (Frt & Bck) 200qty
+<option value="325.99">Color (Frt & Bck) 100qty
+<option value="399.99">Color (Frt & Bck) 50qty
+<option value="0"><b>------Stationary------------</b><option value="229.99">8.5" X 11" Letter BW 200qty
+<option value="189.99">8.5" X 11" Letter BW 100qty
+<option value="89.99">8.5" X 11" Letter BW 50qty
+<option value="229.99">8.5" X 11" Letter Color 200qty
+<option value="189.99">8.5" X 11" Letter Color 100qty
+<option value="89.99">8.5" X 11" Letter Color 50qty<option value="229.99">Bus Cards (Color) 200qty
+<option value="189.99">Bus Cards (Color) 100qty
+<option value="89.99">Bus Cards (Color) 50qty
+<option value="189.99">Pamphlets (Color) 200qty
+<option value="129.99">Pamphlets (Color) 100qty
+<option value="89.99">Pamphlets (Color) 50qty<option value="125.99">Envelopes 200qty
+<option value="79.99">Envelopes 100qty
+<option value="59.99">Envelopes 50qty</select></b></font></td>
+ <td bgcolor="#dcdcdc" align=center><font size=2>
+<select name="Quantity3"><option value="0">0<option value="1">1
+<option value="2">2
+<option value="3">3<option value="4">4
+<option value="5">5
+<option value="6">6<option value="7">7
+<option value="8">8
+<option value="9">9
+</select>
+
+</font></td><td width=1 bgcolor="#dcdcdc"><font size=2><b>$</b></font></td><td bgcolor="#dcdcdc" align=center><input type="" name="SubTotal3" size=5 maxsize=4></font></td>
+<td bgcolor="#dcdcdc">.00</td><tr><td align=center colspan=5><INPUT TYPE="BUTTON" NAME="Button1" VALUE="Calculate Price" ONCLICK="CalcTotals(),DownDeposit(),document.Form1.SubTotal1.focus()"></td><tr><td colspan=5 bgcolor="#93a8bd" align=center><font size=2><b>Payment Information</b></font></td>
+<tr>
+<td colspan=5>
+<table align=center>
+<tr>
+<td>
+<font size=2><b>Payment Type</b></font>
+<select name=card type>
+<option value=master>Mastercard
+<option value=visa>Visa
+<option value=Amex>American Express
+<option value=Discover>Discover
+<option value=ATM>ATM Bank Card
+<option value=Pp>Pay Pall
+<option value=money>Money Order
+</select>
+</td>
+<tr>
+<td align=center>
+<font size=2><b>Enter Cardholders Name:</b> </font><INPUT TYPE="TEXT" NAME="HoldersName"></td>
+<tr>
+<td align=center><font size=2><b>Card Number:</b></font> <INPUT TYPE="TEXT" NAME="CardNumber" SIZE="26" MAXLENGTH="16"></td>
+<tr>
+<td align=center><font size=2><b>Card Expiry Date:</b></font> <INPUT TYPE="TEXT" NAME="CardMonth" SIZE="4" MAXLENGTH="2">/<INPUT TYPE="TEXT" NAME="CardYear" SIZE="6" MAXLENGTH="4"></td>
+<tr>
+<td align=center><font size=2><b>(for ATM) Bank Account Number:</b></font> <INPUT TYPE="TEXT" NAME="BankNumber" SIZE="16" MAXLENGTH="16"></td>
+<tr>
+<td align=center><font size=2><b>(for ATM) Routing Number:</b></font> <INPUT TYPE="TEXT" NAME="RoutNumber" SIZE="16" MAXLENGTH="16"></td>
+<tr>
+<tr>
+</table>
+</td>
+<tr><td colspan=5 align=right bgcolor="#dcdcdc"><font size=2><B>TOTAL</b>&nbsp&nbsp&nbsp$</font><input type="text" name="Total" size=5 maxsize=4>.00</td><tr>
+<td colspan=5 align=right bgcolor="#dcdcdc"><font size=2><B>REQUIRED DEPOSIT 50%</b>&nbsp&nbsp&nbsp$</font><input type="text" name="Down" size=5 maxsize=4>.00</td>
+
+<tr><td colspan=5 align=right>
+
+<input type="submit" name="Submit" value="Start My Job!"><input type="Reset" name="Reset" value="Reset">
+</td></table></td>		</table>	</form>			</TD>	</TABLE>
+<!-- End ImageReady Slices --></BODY></HTML>

@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd"><html><head>
+
+
+<!--[if lt IE 7]><style type="text/css" media="screen">#menuh{float:none;}body{behavior:url(standard/csshover.htc); font-size:100%;}#menuh ul li{float:left; width: 100%;}#menuh a{height:1%;font:bold 0.7em/1.4em arial, sans-serif;}</style><![endif]--><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+<title>Don Foshay's Discount Tire & Alignment</title>  
+
+
+<link href="standard/cssmenu1.css" rel="stylesheet" type="text/css"><link href="standard/style.css" rel="stylesheet" type="text/css">  </head>
+
+<script>
+window.onload= function(){
+        DisableEnableLinks(true)
+}
+function DisableEnableLinks(xHow){
+  objLinks = document.links;
+  for(i=0;i<objLinks.length;i++){
+    objLinks[i].disabled = xHow;
+    //link with onclick
+    if(objLinks[i].onclick && xHow){  
+        objLinks[i].onclick = 
+        new Function("return false;" + objLinks[i].onclick.toString().getFuncBody());
+    }
+    //link without onclick
+    else if(xHow){  
+      objLinks[i].onclick = function(){return false;}
+    }
+    //remove return false with link without onclick
+    else if
+    (!xHow && objLinks[i].onclick.toString().indexOf("function(){return false;}") != -1){            
+      objLinks[i].onclick = null;
+    }
+    //remove return false link with onclick
+    else if(!xHow && objLinks[i].onclick.toString().indexOf("return false;") != -1){  
+      strClick = objLinks[i].onclick.toString().getFuncBody().replace("return false;","")
+      objLinks[i].onclick = new Function(strClick);
+    }
+  }
+}
+String.prototype.getFuncBody = function(){ 
+  var str=this.toString(); 
+  str=str.replace(/[^{]+{/,"");
+  str=str.substring(0,str.length-1);   
+  str = str.replace(/\n/gi,"");
+  if(!str.match(/\(.*\)/gi))str += ")";
+  return str; 
+}
+</script>
+
+
+<body id="page1">
+
+<style>
+body {
+	margin-top: 55px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+
+
+	<table style="height:800px;">
+		<tr>
+			<td class="left_tall"><img src="images/l-t.jpg" alt="" width="100%" height="382" /></td>
+			<td class="center">
+				<table id="main" align="center">
+					<tr>
+						<td id="header">
+							<table border=0>
+								<tr valign=top>
+									<td class="row1"><div>
+<a href="index.php.html" style="width: 780px; height:142px;" border=0> <img src='images/head_row1.jpg' style="width: 780px; height:142px;">
+</a> 
+
+
+</div>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class="row2"><div>
+<a href="index.php.html" style="width: 780px; height:146px;"> 
+</a> 
+
+
+</div></td>
+								</tr>
+								<tr>
+									<td class="menubar">
+
+
+
+
+<div id="menuh-container">
+<div id="menuh">
+	<ul>
+		<li><a href="mech.html" class="mechanical" style="height: 70px; width: 124px;"></a>
+		<ul>
+			
+
+
+
+<li><a href="scheduledmaint.html" title="Scheduled Maintenance" class="submenu">Scheduled Maintenance</a></li>
+<li><a href="suspension.html" title="Suspension Systems" class="submenu">Suspension Systems</a></li>
+<li><a href="brakes.html" title="Brake Systems" class="submenu">Brake Systems</a></li>
+<li><a href="coolant.html" title="Cool/Heat Systems" class="submenu">Cool / Heat Systems</a></li>
+<li><a href="exhaust.html" title="Exhaust Systems" class="submenu">Exhaust Systems</a></li>
+<li><a href="electrical.html" title="Eletrical Systems" class="submenu">Electrical Systems</a></li>
+<li><a href="fuel.html" title="Fuel Systems" class="submenu">Fuel Systems</a></li>
+<li><a href="carcare.html" title="Car Care Services" class="submenu">Car Care Services</a></li>
+
+
+
+
+		</ul>
+		</li>
+	</ul>
+	
+
+
+
+
+
+
+	<ul>	
+		<li><a href="locations.html" class="locations" style="height: 70px; width: 127px;"></a>
+
+<ul>
+			
+
+
+
+<li><a href="#" title="South Portland" class="submenu">South Portland</a></li>
+<li><a href="#" title="Biddeford" class="submenu">Biddeford</a></li>
+<li><a href="#" title="Brunswick" class="submenu">Brunswick</a></li>
+<li><a href="#" title="Camden" class="submenu">Camden</a></li>
+
+
+
+		</ul>
+
+	</ul>
+
+
+
+
+
+
+
+
+<ul>	
+		<li><a href="education.html" class="edu" style="height: 70px; width: 123px;"></a>
+
+<ul>
+			
+
+
+
+<li><a href="#" title="South Portland" class="submenu">Cooper Tire Online</a></li>
+<li><a href="#" title="Biddeford" class="submenu">Tire Fitment Guide</a></li>
+<li><a href="#" title="Brunswick" class="submenu">General Tire Education</a></li>
+<li><a href="#" title="Camden" class="submenu">General Mechanical Info</a></li>
+
+
+
+		</ul>
+
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+<ul>	
+		<li><a href="apt.html" class="apt" style="height: 70px; width: 129px;"></a>
+
+<ul>
+			
+
+
+
+<li><a href="#" title="South Portland" class="submenu">South Portland</a></li>
+<li><a href="#" title="Biddeford" class="submenu">Biddeford</a></li>
+<li><a href="#" title="Brunswick" class="submenu">Brunswick</a></li>
+<li><a href="#" title="Camden" class="submenu">Camden</a></li>
+
+
+
+		</ul>
+
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+<ul>	
+		<li><a href="tires.html" class="tires" style="height: 70px; width: 124px;"></a>
+
+<ul>
+			
+
+
+
+<li><a href="performance.html" title="Performance Tires" class="submenu">Performance Tires</a></li>
+<li><a href="lt.html" title="Light Truck Tires" class="submenu">Light Truck Tires</a></li>
+<li><a href="snows.html" title="Snow Tires" class="submenu">Snow Tires</a></li>
+<li><a href="allseason.html" title="All Season Tires" class="submenu">All Season Tires</a></li>
+<li><a href="passenger.html" title="Passenger Tires" class="submenu">Passenger Tires</a></li>
+
+
+
+		</ul>
+
+	</ul>
+
+
+
+
+
+
+
+
+
+<ul>	
+		<li><a href="contact.html" class="contact" style="height: 70px; width: 134px;"></a>
+
+<ul>
+			
+
+
+
+<li><a href="#" title="South Portland" class="submenu">Website Feedback</a></li>
+<li><a href="#" title="Biddeford" class="submenu">Questions & Comments</a></li>
+
+
+
+		</ul>
+
+	</ul>
+		
+		
+	
+</div> </div>	
+
+
+
+
+
+
+
+</td>						</tr>							
+</table>						</td>					</tr>					<tr>						<td id="content">							
+<table>								<tr>									<td class="row1">										
+<table class="auto">										<tr valign=top>											<td class="col1">	
+											<img  alt="" src="images/welcome.jpg"><br /><br />
+                      <div style="text-align:justify;"><font size="2" face="arial">							
+                      					Welcome to Don Foshay's Discount Tire & Alignment®. We are a Maine family owned business serving local communities for over 20 years. Our store managers live in the communites they serve and have a vested interest in providing the highest levles of service and value for their customers. we stock Cooper®, Toyo® & Sumitomo® tires but have access to every tire brand at low low pricing. <br><br>We have the most modern installation equiptment and TIA® trained tire technicians to make sure that your car is well cared for. We also are a full service mechanical repair facility. We service all makes & models of vehicles. Let us handle any of your reventative maintanence needs, along with shocks, struts, brakes & exhaust. <br><br>Our stores are AAA® certified employing ASE® certified technicians also we have been a member of the Better Business Bureau® for many years.<br><br></div></font></div>											</td>											<td class="sep"><img alt="" src="images/spacer.gif" width="1" height="1" /></td>											<td class="col2">												<img  alt="" src="images/ourtires.jpg"><br /><br />												<div style="text-align:justify;"><font size="2" face="arial">												We are proud to be parters with Cooper Tire® and we pride ourselves in selling such a top of the line tire product. <br><br>For more than eight decades, good merchandise, fair play and a square deal have been the pillars of our business, and we don't plan on changing that. With that foundation, our technological edge, <br><br>our global expansion and our worldwide reputation in motorsports from your dealer experience to your drive we're making the tires you put on your cars better every day.<img class="img_indent"alt="" src="https://staging.jonbrown.org/images/tiretread.jpg" style="border-width: 4px; border-style: double; border-color: black;"><br>Toyo has a worldwide reputation for building high-quality tires that deliver a unique combination of superior performance, outstanding ride quality, excellent fuel efficiency, and high mileage.</div></font>											</td>											<td class="sep"><img alt="" src="images/spacer.gif" width="1" height="1" /></td>											<td class="col3">												<img alt="" src="images/contactus.jpg"><br /><br />												<br><br><div style="text-align:left;"><font size="2" face="arial"></b>Don Foshay's Discount Tire</b><hr><br><b>South Portland</b><br>380 Main St, <br>So. Portland, Me 04106<br><b>207-773-0112</b><br><br><b>Biddeford</b><br>640 Elm St, <br>Biddeford, Me 04005<br><b>207-282-5192</b><br><br><b>Brunswick</b><br>175 Pleasant St, <br>Brunswick, Me 04011<br><b>207-721-0009</b><br><br><b>Camden</b><br>99 Elm St, <br>Camden, Me 04843<br><b>207-230-0011</b></div>											</td>										</tr>									</table>									</td>																								</tr>							</table>						</td>					</tr>					<tr>						<td id="footer">							<table>								<tr>									<td style="color:#919191;"></td>									<td style="text-align:right;"><a href="https://staging.jonbrown.org/sne/index-6.html">Privacy Policy</a></td>								</tr>							</table>						</td>					</tr>				</table>			</td>			<td class="right_tall"><img src="images/r-t.jpg" alt="" width="100%" height="382"  /></td>		</tr>	</table></body></html>

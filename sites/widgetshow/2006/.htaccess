@@ -1,0 +1,164 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+# Prevent scraping from archive for free demo
+RewriteCond %{HTTP_USER_AGENT} (ia_archiver) [NC]
+RewriteRule . - [F,L]
+
+# Add a trailing slash (/) to a URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]*$
+RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+
+# Specific redirections
+RewriteRule ^index\.html$ / [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id=63$
+RewriteRule ^/?$ page_id-63/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=3$
+RewriteRule ^/?$ page_id-3/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=113$
+RewriteRule ^/?$ p-113/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=53$
+RewriteRule ^/?$ page_id-53/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=112$
+RewriteRule ^/?$ p-112/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=110$
+RewriteRule ^/?$ p-110/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=109$
+RewriteRule ^/?$ p-109/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=108$
+RewriteRule ^/?$ p-108/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=107$
+RewriteRule ^/?$ p-107/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=106$
+RewriteRule ^/?$ p-106/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=8$
+RewriteRule ^/?$ page_id-8/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=46$
+RewriteRule ^/?$ page_id-46/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=51$
+RewriteRule ^/?$ page_id-51/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=9$
+RewriteRule ^/?$ page_id-9/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=74$
+RewriteRule ^/?$ page_id-74/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=82$
+RewriteRule ^/?$ page_id-82/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=86$
+RewriteRule ^/?$ page_id-86/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=90$
+RewriteRule ^/?$ page_id-90/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=85$
+RewriteRule ^/?$ page_id-85/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=52$
+RewriteRule ^/?$ page_id-52/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=99$
+RewriteRule ^/?$ page_id-99/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=38$
+RewriteRule ^/?$ page_id-38/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=2$
+RewriteRule ^/?$ page_id-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=88$
+RewriteRule ^/?$ p-88/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=10$
+RewriteRule ^/?$ cat-10/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=5$
+RewriteRule ^/?$ cat-5/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=7$
+RewriteRule ^/?$ cat-7/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=12$
+RewriteRule ^/?$ cat-12/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=6$
+RewriteRule ^/?$ cat-6/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=11$
+RewriteRule ^/?$ cat-11/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=4$
+RewriteRule ^/?$ cat-4/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=8$
+RewriteRule ^/?$ cat-8/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=13$
+RewriteRule ^/?$ cat-13/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=1$
+RewriteRule ^/?$ cat-1/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=3$
+RewriteRule ^/?$ cat-3/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=2$
+RewriteRule ^/?$ cat-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200702$
+RewriteRule ^/?$ m-200702/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200701$
+RewriteRule ^/?$ m-200701/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200612$
+RewriteRule ^/?$ m-200612/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200611$
+RewriteRule ^/?$ m-200611/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200610$
+RewriteRule ^/?$ m-200610/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200609$
+RewriteRule ^/?$ m-200609/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200608$
+RewriteRule ^/?$ m-200608/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200607$
+RewriteRule ^/?$ m-200607/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200606$
+RewriteRule ^/?$ m-200606/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200605$
+RewriteRule ^/?$ m-200605/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200604$
+RewriteRule ^/?$ m-200604/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200603$
+RewriteRule ^/?$ m-200603/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200602$
+RewriteRule ^/?$ m-200602/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200601$
+RewriteRule ^/?$ m-200601/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200512$
+RewriteRule ^/?$ m-200512/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^paged=2$
+RewriteRule ^index\.php$ index_paged-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.php$ index_php/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=93$
+RewriteRule ^/?$ p-93/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=89$
+RewriteRule ^/?$ p-89/ [L,R=301,QSD]
+
+# Create pretty URLs
+RewriteRule ^([^/]+)/$ $1.html [S=9]
+RewriteRule ^([^/]+)/([^/]+)/$ $1/$2.html [S=8]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3.html [S=7]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4.html [S=6]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5.html [S=5]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6.html [S=4]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7.html [S=3]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8.html [S=2]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9.html [S=1]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9/$10.html
+# End: Create pretty URLs
+
+# Redirect all extensions to html
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.shtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.phtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jhtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.htm$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.php$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.aspx$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.asp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jsp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.apk$ $1.html [L,NC,R=301]
+# End: Redirect all extensions to html

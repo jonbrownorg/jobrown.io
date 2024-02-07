@@ -1,0 +1,22 @@
+Dear %%%RECIPIENT%%%,
+
+%%%SENDER%%% has just sent you a Jon Brown E-Greeting!
+To pick up your card, simply click on the link listed below or cut and paste the web address into your web browser.
+
+%%%url_of_card%%%
+
+How about sending %%%SENDER%%% a card in reply! Here! 
+
+postcard/
+
+
+The card was created on %%%SHORTDATE%%% and will remain on the
+server for the next %%%MAX_DAYS%%% days - so check it out soon!
+If you really enjoy the card then you may print out your card
+and keep it!
+
+
+Sincerely,
+Jon Brown
+Professional Graphic / Web Designer
+Webmaster of http://www.jonbrown.org

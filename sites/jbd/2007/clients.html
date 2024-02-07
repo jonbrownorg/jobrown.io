@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+<script type="text/javascript">
+function pollContent(id){
+if(document.getElementById(id)){
+initLightbox();
+document.getElementById(id).id="";
+}
+else
+setTimeout("pollContent('"+id+"')", 60)
+}
+</script>
+<STYLE TYPE="text/css">
+<!-- 
+BODY {margin: 0} 
+-->
+</STYLE>                
+ <style type="text/css" media="screen">
+      @import url('glide-scroll-h.css');
+      @import url('slidelist/main.css');
+      @import url('slidelist/menu.css');
+    </style>
+	<link href="css/slimbox_ex.css" rel="stylesheet" media="screen" title="slimbox">
+<script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript" src="js/slimbox_ex.js"></script>
+
+<script src="dw_scrollObj.js" type="text/javascript"></script>
+<script src="dw_glidescroll.js" type="text/javascript"></script>
+    <script src="slidelist/mootools.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="slidelist/menu.js" type="text/javascript" charset="utf-8"></script>   
+    <script src="slidelist/main.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+
+/***********************************************
+* Dynamic Ajax Content- � Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var bustcachevar=1 //bust potential caching of external pages after initial request? (1=yes, 0=no)
+var loadedobjects=""
+var rootdomain="http://"+window.location.hostname
+var bustcacheparameter=""
+
+function ajaxpage(url, containerid){
+var page_request = false
+if (window.XMLHttpRequest) // if Mozilla, Safari etc
+page_request = new XMLHttpRequest()
+else if (window.ActiveXObject){ // if IE
+try {
+page_request = new ActiveXObject("Msxml2.XMLHTTP")
+} 
+catch (e){
+try{
+page_request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+catch (e){}
+}
+}
+else
+return false
+page_request.onreadystatechange=function(){
+loadpage(page_request, containerid)
+}
+if (bustcachevar) //if bust caching of external page
+bustcacheparameter=(url.indexOf("?")!=-1)? "&"+new Date().getTime() : "?"+new Date().getTime()
+page_request.open('GET', url+bustcacheparameter, true)
+page_request.send(null)
+}
+
+function loadpage(page_request, containerid){
+if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
+document.getElementById(containerid).innerHTML=page_request.responseText
+}
+
+function loadobjs(){
+if (!document.getElementById)
+return
+for (i=0; i<arguments.length; i++){
+var file=arguments[i]
+var fileref=""
+if (loadedobjects.indexOf(file)==-1){ //Check to see if this object has not already been added to page before proceeding
+if (file.indexOf(".js")!=-1){ //If object is a js file
+fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript");
+fileref.setAttribute("src", file);
+}
+else if (file.indexOf(".css")!=-1){ //If object is a css file
+fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", file);
+}
+}
+if (fileref!=""){
+document.getElementsByTagName("head").item(0).appendChild(fileref)
+loadedobjects+=file+" " //Remember this object as being already added to page
+}
+}
+}
+
+</script>
+
+<script type="text/javascript" src="dom-drag.js"></script>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Jon Brown Designs</title>
+                              
+    <style type="text/css" media="screen">
+      @import url('glide-scroll-h.css');
+      @import url('slidelist/main.css');
+      @import url('slidelist/menu.css');
+    </style>
+    
+  
+<script type="text/javascript">
+/*************************************************************************
+  This code is from Dynamic Web Coding at www.dyn-web.com
+  Copyright 2001-4 by Sharon Paine 
+  See Terms of Use at www.dyn-web.com/bus/terms.html
+  regarding conditions under which you may use this code.
+  This notice must be retained in the code as is!
+*************************************************************************/
+
+function initScrollLayer() {
+  // arguments: id of layer containing scrolling layers (clipped layer), id of layer to scroll, 
+  // if horizontal scrolling, id of element containing scrolling content (table?)
+  var wndo = new dw_scrollObj('wn', 'lyr1', 't1');
+  
+  // pass id('s) of scroll area(s) if inside table(s)
+  dw_scrollObj.GeckoTableBugFix('wn'); 
+
+}
+</script>
+
+	
+
+  </head>       
+  
+  <body onload="initScrollLayer(),initLightbox();" marginwidth="0" marginheight="0" background="images/bg.jpg">
+    <style>
+body {
+	margin-top: 50px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+  
+<table width="632" height="100%" cellpadding="0" cellspacing="0" align="center" border=0 bgcolor="white">
+<tr>
+<td rowspan="6" background="images/sideleft.jpg" border="0" width="16">&nbsp;</td>
+
+<td height="100" background="images/header1.jpg" width="568">
+
+</td>
+<td rowspan="6" background="images/sideright.jpg" border="0" width="15">&nbsp;</td>
+<tr valign="center">
+<td height="30" background="slidelist/images/bg.jpg">
+
+<table cellpadding="0" cellspacing="0" width="568" border=0 height="30">
+<tr><td width="5">&nbsp;</td><td><center>
+    <div id="fancymenu">
+      <ul>                                                               
+        <li id="menu_home"><a href="index.html"><b>Home</b></a></li>
+        <li class="current" id="menu_clients"><a href="clients.html"><b>Clients</b></a></li>
+        <li id="menu_widgets"><a href="widgets.html"><b>Widgets</b></a></li>
+        
+
+<li id="res"><a href="resume.html"><b>Resume</b></a></li>   
+<li id="con"><a href="contact.html"><b>Contact</b></a></li>  
+ 
+<li id="log"><a href="#"><b>Login</b></a></li>   
+      </ul>      </div>   </center></td>
+<td width="5">&nbsp;</td>
+</table>
+
+
+</td>
+<tr>
+<td height="270" background="images/sample.jpg">
+<font size=2 face=Lucida grande>
+<div id="contentarea">
+<table width="100%" border=0 style="background-image: url(images/clientssample.jpg); width:600px; height:270px;">
+<tr>
+<td width="65%" align=center>
+</td>
+<td width="35%">
+<img id="example" src="images/clientdrag.png" style="position: relative" />
+
+<script type="text/javascript">
+Drag.init(document.getElementById("example"));
+</script>
+
+</td>
+</table>
+
+</div>
+
+</font>
+</td>
+<tr valign=center>
+<td height="200" background="images/bottomback.jpg" align=center>
+<font size=2 face=Lucida grande>
+
+<div id="hold">
+  <div id="wn">
+  	<div id="lyr1" class="content">
+    <table id="t1" cellpadding="0" cellspacing="0" border="0" height=174>
+     <tr>
+			
+		 <td><a href="javascript:ajaxpage('clients/wonder.html', 'contentarea');" border="0"><img src="images/wondermain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+<td><a href="javascript:ajaxpage('clients/seacoast.html', 'contentarea');" border="0"><img src="images/seacoastmain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+  		<td><a href="javascript:ajaxpage('clients/rix.html', 'contentarea');" border="0"><img src="images/rixmain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+
+     <td><a href="javascript:ajaxpage('clients/rtba.html', 'contentarea');" border="0"><img src="images/bearmain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+    <td><a href="javascript:ajaxpage('clients/flip.html', 'contentarea');" border="0"><img src="images/flipmain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+    <td><a href="javascript:ajaxpage('clients/od.html', 'contentarea');" border="0"><img src="images/odmain.jpg" width="522" height="174" border ="0" alt="" /></a></td>
+      </tr>
+    </table>
+    </div>
+  </div>  <!-- end wn div -->
+</div>	<!-- end hold div -->
+
+ <a href="javascript:;" onclick="dw_scrollObj.scrollBy('wn',522,0); return false" title="Click to scroll"><img src="images/left.jpg" border="0"></a> 
+    <a href="javascript:;" onclick="dw_scrollObj.scrollBy('wn',-522,0); return false" title="Click to scroll"><img src="images/right.jpg" border="0"></a>
+
+
+</font>
+</td>
+<tr valign="center">
+<td height="30" background="slidelist/images/bg.jpg" align="center"><CENTER>
+<font size=2 face=lucidia grande color=#989696 style="text-shadow: 0px 1px 0px white;"><b>
+   <script type="text/javascript">
+<!-- Begin
+copyright=new Date();
+update=copyright.getFullYear();
+document.write("Copyright &#169; 2001-"+ update + "");
+//  End -->
+</script></font></b> </CENTER>
+</td>
+<tr>
+<td height="60" background="images/footer.jpg">
+</td>
+</table>
+
+
+</body>
+
+</html>

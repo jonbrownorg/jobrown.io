@@ -1,0 +1,31 @@
+/* scroller background: iframe BODY object */
+.Back {
+	background-image: url(../images/bookback1.jpg);
+	margin: 0;
+}
+/* for on-demand mode only:
+	control (arrow) to scroll items backward - DIV
+	use to position the control */
+.ArrowUp {
+	top: 0px;
+	left: 0px;
+	height: 16px;
+	width: 16px;
+}
+/* for on-demand mode only:
+	control (arrow) to scroll items forward - DIV
+	use to position the control */
+.ArrowDn {
+	top: 0px;
+	left: 580px;
+	height: 16px;
+	width: 16px;
+}
+/* style to be applyed to all items' bodies - DIV
+	all local stylesheets of external files if any are to be ignored */
+.ItemBody {
+	font-family: Verdana;
+	font-size:11px;
+	padding: 0px;
+	text-align: justify;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>9-10-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,15,17,18,21,23,25</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Taco WIdget's Reveal : Madlibs" MediaLinks="www.tacowidgets.com &lt;http://www.tacowidgets.com/&gt;">
+        <outline text="Well, folks it's here. The big unveiling. Our new widget is called MadLibs. Yes, that little game where you fill in the words in passages. MadLibs has some pretty cool features like the ability to save your passages once you're done with them."/>
+      </outline>
+      <outline text="Abracadabra" MediaLinks="www.interdimensionmedia.com—widgets.html &lt;http://www.interdimensionmedia.com/widgets.html&gt;">
+        <outline text="Files and folders dropped into the magic hat instantly disappear from the Finder. More amazing, these files escape even the powerful search technology of Spotlight, preventing someone from seeing or searching for those files you just don't want found. &#10;Not to worry though, say the magic (pass)word and you can pull any file you've hidden from the hat simply by selecting it from the popup menu on the back. You may password protect this menu, so that not even the names of these files are visible to those who desire to learn your secrets. &#10;To use Abracadabra, click and drag a file or folder from the Finder. Then, before releasing the mouse, activate Dashboard using either the hotkey (F12, by default) or a hot-corner. The files will remain in your hands once in Dashboard so you can drop them into the hat. &#10;Please note that this widget merely hides your files from all but the most savvy computer users. However, it does not intend nor guarantee to prevent compromise of your files from other security concerns. For true protection of sensetive data, please look into the File Vault software supplied by Apple and builtin to Mac OSX Tiger. This widget is provided &quot;as is&quot;, and Interdimension Media assumes no responsibility for permanent loss of files or folders resulting from its use.* &#10;*Note that Abracadabra merely remembers the paths to files. If you inadvertently alter the path to a hidden file by moving its parent directories, the magic will be lost and the file will not reappear."/>
+      </outline>
+      <outline text="Cloud.lic.io.us" MediaLinks="osx.iusethis.com—cloudlicious &lt;http://osx.iusethis.com/app/cloudlicious&gt;">
+        <outline text="A Mac OS X dashboard widget that displays a cloud of your del.icio.us (delicious) tags. Once you've configured the widget with your del.icio.us username and password, it will retrieve all your tags and arrange them in the cloud. The cloud increases the visibility of your most popular tags by growing their font size and darkening their color. Clicking on a tag opens a side slider that contains all the links associated with that tag. Clicking on the link, in the slider, auto-magically opens your browser to that web-page."/>
+      </outline>
+      <outline text=".Mac syncing coming to the dashboard." MediaLinks="www.masternewmedia.org—mac_os_x_leopard_features.htm &lt;http://www.masternewmedia.org/news/2006/08/08/mac_os_x_leopard_features.htm&gt;">
+        <outline text="Mac OS X Leopard extends the Dashboard abilities by allowing more widgets, more customization, .Mac syncing and more. Dashboard for Leopard can integrate web sites, search widgets, audio and video, RSS and more.&#10;On top of this when you make a change to your Dashboard preferences, Leopard automatically keeps everything in sync across every Mac you use and with the new Dashcode you can get a widget up and running in minutes, even if you've never written a line of code in your life."/>
+      </outline>
+      <outline text="Leopard Dashboard Features" MediaLinks="inc-omplete.org—mirrored-copy-of-leopard-osx &lt;http://inc-omplete.org/2006/08/04/mirrored-copy-of-leopard-osx/&gt;">
+        <outline text="-Dashboard will get a system preferences icon.&#10;- Dashboard will appear in the application switcher.&#10;- Widgets can now be placed on the desktop. If one drags an icon to the board and waits two seconds in one place the board will fade out and you can place it on the desktop. The icon will appear in the dock and will be treated as an app.&#10;- You can also keep widgets in the dock, either by dragging them there from dashboard or keeping them there when they appear on the desktop.&#10;- In the dock will be the x icon for closing the widget on top of the widget icon, not on the widget itself.&#10;- There will be also a selection of different animations.&#10;- You can isolate dashboard in a similar way to front row, you can push the desktop as an expose item to the side and isolate dashboard that way.&#10;- You can isolate dashboard also via a cube effect. Also you can open dashboard in a similar way to f11, the widgets will hide at the side and come forward for use, in this one, the dashboard will not be isolated. Hot corners and f numbers can be configured to use one of them each. so you can have a different function key for each affect.&#10;- In the isolated dashboard, the background will be black, but it will act as a pool of water, in a similar way as to now, so when you drag an widget around, you can create ripples.&#10;- Also you can choose from water, air, space and metal as your chosen set of widget animations. Air and metal animations are not elaborated on, but space acts a bit like a black hole when you remove a widget and the widgets ‘zoom’ on.&#10;- New widgets."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Alexander Griekspoor talking about the Pianochords widget" MediaLinks="mekentosj.com &lt;http://mekentosj.com/&gt;">
+        <outline text="This widget caught my eye as soon as it was made, its simple, elegant and has the style that we all Mac users love. Its functionality is simple, and it does exactly what it says, a small piano on your dashboard to help you hear and visually see which keys on the piano create what note keys. This is great whether you are a piano player or not. It is a great companion to Garageband and is an amazing widget. We had an opportunity to interview Alexander Griekspoor the creator of the widget and talk to him about his reactions it was really great to see how people from all over the world collaborate to create some of the most amazing widgets on the web today!"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

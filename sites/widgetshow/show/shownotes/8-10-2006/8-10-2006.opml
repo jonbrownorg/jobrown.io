@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>8-10-2006</title>
+    <expansionState>0,3,4,6,8,10,12,14,15,17,18,21,23,25</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="WWDC Widget Related News" MediaLinks="www.apple.com—dashboard.html &lt;http://www.apple.com/macosx/leopard/dashboard.html&gt;">
+        <outline text="Clips and flicks&#10;Create your own website widget using Web Clip in Safari for Leopard. Just visit your favorite site and click the “Open in Dashboard” button in Safari. Dashboard launches a new clip of the site in a customizable widget. From there, you can resize your Web Clip and choose from a handful of window themes. And since your Web Clip is always live, it acts just like the website it was clipped from. Dashboard for Leopard also introduces a movie widget that finds movies and showtimes in less time than it takes to make popcorn.&#10;Widgets wherever&#10;Get yourself a .Mac account and your Dashboard preferences can follow you from Mac to Mac. With Dashboard syncing in Leopard, when you make a change to your Dashboard preferences, Leopard automatically keeps everything in sync across every Mac you use.&#10;Ready, set, widget&#10;Ever wish you could make your very own Dashboard widget? Say hello to Dashcode. With it, you can get a widget up and running in minutes, even if you’ve never written a line of code in your life. Choose from a handful of Dashcode widget templates — including a countdown timer, RSS feed, photocast, podcast, or gauge — or create a widget from scratch with a blank template. Drag in an RSS link and your widget populates with a full feed. Drag in a photocast URL and your widget transforms into a self-contained slideshow. Drag in a podcast link and you can start playing the feed right from your widget.&#10;When your widget is ready for prime time, Dashcode packages up all the your files and the Apple-provided resources required to deploy your widget to Dashboard or submit it to Apple.com."/>
+      </outline>
+      <outline text="DashClipping Widget before Leopard is released?" MediaLinks="www.fondantfancies.com—3001239 &lt;http://www.fondantfancies.com/blog/3001239/&gt;">
+        <outline text="Dash Clipping is a universal widget tool that allows you to turn any part of any web page into a Dashboard widget with a couple of clicks. Download it here. Feedback to the usual address.If this sounds familiar it's because it's a shameless rip-off of the new Web Clipping tool that's due in Leopard and that I knocked together over the last 24 hours. If you watch the video on that page (and the keynote) carefully, you'll realise all Apple's doing is loading the whole web page but only showing part of it. There's nothing clever about what they're doing, and there's nothing clever about my version either, though I did have to write part of it in Cocoa to get in working (you can almost do it with just an IFRAME, but not quite)."/>
+      </outline>
+      <outline text="Leopard Bears it all at Confrence" MediaLinks="news.com.com—2009-1045_3-6102788.html &lt;http://news.com.com/Leopard+bares+its+teeth+at+Apple+conference/2009-1045_3-6102788.html?tag=newsmap&gt;">
+        <outline text="Apple Computer's Worlvdwide Developers Conference in San Francisco is a showcase for the upcoming Mac OS and a wake-up call for Vista."/>
+      </outline>
+      <outline text="Moooglets" MediaLinks="mooglets.freewebsfarms.com &lt;http://mooglets.freewebsfarms.com/&gt;">
+        <outline text="Have you ever wanted to experience widgets but you were on a PC and yet did not want to have to run out and install Yahoo’s Widget Engine. Then look no furuther there is a solution currently in development called Mooglets, these great little widgets run right in your web browser so you do not need a Mac to enjoy widgets anymore. Moogletts looks and feels very similar, to the Dashboard in OSX Tiger. Now they are not an exact match, but you can add Mooglets, save the positions of your mooglets, and configure mogglets right on screen to do what you need them to do. Currently there are two types of clocks, a digg rss reader, a mint reader, and a google search to choose from. These are all customizable and very fun to play with. Check them out!"/>
+      </outline>
+      <outline text="Widgets outside of the Dashboard" MediaLinks="www.digg.com—Dashboard_Widgets_on_the_Desktop_Impossible_Not_Anymore &lt;http://www.digg.com/apple/Dashboard_Widgets_on_the_Desktop_Impossible_Not_Anymore&gt;">
+        <outline text="This is the first publicly posted release of a application mod called &quot;DashTop 2&quot;. DashTop is designed that on your first run it will modify key system files, providing the end user with the ability to &quot;Drag a widget off the Dashboard, into your main working environment (Desktop) without any unnecessary window or hardware usage&quot;"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Don McConnell the creator of the Poker Mini Widget" MediaLinks="www.daylateanddollarshort.com—sw.php &lt;http://www.daylateanddollarshort.com/sw.php?pokergamemini&gt;">
+        <outline text="Now time for our interview today, we are talking with the creator of “Poker Mini” widget Don McConnell. This widge uses math to add a new dimension to poker, basically each card has a math symbol on it and that symbol relates to the actual points you get per hand. Its a great approach at an amazing game within dashboard. We here at the show certainly love it and rate it 5 out of 5 stars. Tell us what you think about this amazing widget! Poker Game mini is a Solitairithmetic-based widget featuring the basic goal of video poker ...Make the best possible hand of five cards, given two opportunities to hold some cards and redeal the others. ... with a challenging mathematical enhancement ...Arithmetical symbols on the cards determine the hand's value. This widget is truly amazing and visually stunning and I recommend that we all try it out!"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

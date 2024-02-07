@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>5-28-2006</title>
+    <expansionState>0,3,4,6,8,10,11,13,14,17,19,21</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Apple Accidentally Releases Dashcode" MediaLinks="Apple accidently releases “Dashcode”  &lt;http://digg.com/apple/Apple%20accidently%20releases%20Dashcode&gt;">
+        <outline text="After receiving a new Macbook Pro and installing the included developer tools, a curious application made an appearance under /Developer/Applications. You can download Apple’s widget creation tool"/>
+      </outline>
+      <outline text="HTTP Request Tutorial" MediaLinks="Http Request Tutorial &lt;http://podcast.jonbrown.org/?page_id=9&gt;">
+        <outline text="“ When making a widget that you want to access and gather information from a website this should be done with a HTTP Request. We will outline the basics for setting up such a script into your widget. ”"/>
+      </outline>
+      <outline text="The Widget Alert System Created" MediaLinks="Alert System Created.  &lt;http://www.tacowidgets.com/home/twdev/was/index.html&gt;">
+        <outline text="“ he Widget Alert System (WAS) is designed to give widget developers an easy way to notify their users of events with an alert box-style notification.”"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="WidgetTerm one of the best ways to access the Terminal in the Dashboard.">
+        <outline text="WidgetTerm is the terminal widget that brings fully functional UNIX shell on the dashboard. This is a great widget, and here are some of my impressions. Firstly, its clean and very easy to use, and simply does what it advertises allows you to type command line actions in terminal within the dashboard. If you use the terminal then I recommend downloading this great little widget. This widget uses CocoaTechTerminal framework, which is based on iTerm, the open source terminal emulater in Cocoa. Download it here WidgetTerm and write your own review. Send us your comments to widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>3-28-2007</title>
+    <expansionState>0,3,4,6,8,10,12,14,16,17,19,20,23,25,27</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Windows Gadgets finally here.... Oh No! (Video Tutorial)" MediaLinks="channel9.msdn.com—Showpost.aspx &lt;http://channel9.msdn.com/Showpost.aspx?postid=255735&gt;">
+        <outline text="If you didn't know about it, then yes it is true. Our marketeers have managed to name 3 slightly different things with the same name. I can sort of see where they are coming from, since in all 3 cases we are talking about task specifics mini-applets that are not quite full blown applications but are also not web pages so “gadgets” seemed appropriate for each category.&#10;&#10;I am talking of course about (note the spelling/casing!)&#10;* live gadgets (web)&#10;* SideShow gadgets (Vista)&#10;* Sidebar gadgets (Vista)&#10;&#10;The compatibility between these is not there *yet*. Each has its own API that the other two hosts will not understand. SideShow gadgets are probably more removed from the other two. Live gadgets can be made under certain circumstances to run in Sidebar (via an iframe) but the vice versa story is not as good. I am being vague on the compatibility as I know it will get better in the future and the current story is ever changing. But here I am talking about (in)compatibility when I haven’t introduced each one of them!"/>
+      </outline>
+      <outline text="Gift-It Widget" MediaLinks="www.apple.com—giftit.html &lt;http://www.apple.com/downloads/dashboard/shopping/giftit.html&gt;">
+        <outline text="A wish list, gift tracker and birthday reminder all in one! With Gift-it! not only will you never miss a birthday — you can also keep track of stuff you want to buy for yourself, friends and family. &#10;Gift-It! pushes Apple’s Dashboard to the limit! &#10;It includes a Safari plug-in that allows you to add items to Gift-it! while still in the browser — without even opening Dashboard!"/>
+      </outline>
+      <outline text="Widget Update Widget Updated" MediaLinks="www.apple.com—widgetupdate.html &lt;http://www.apple.com/downloads/dashboard/status/widgetupdate.html&gt;">
+        <outline text="Automatically check for updates to your installed third-party widgets. It supports Apple’s software directory, DashboardWidgets.com, MacUpdate and Version Tracker. It will present you with a tidy link list of all the updates found, enabling you to read release-notes and download the the updates quickly and painlessly. &#10;&#10;Amongst the key features are automatic update checks once per day or week, Growl notifications, powerful configuration possibilities and an extensive documentation built right into the widget (but you can also read the documentation in your browser). &#10;&#10;Press Shift+H at any time to bring up the help, or click the help button on the widget’s back.&#10;&#10;What’s New in this Version&#10;- Changes to accomodate for the re-design of the download page at Apple &#10;- Changes to accomodate for the re-design of Version Tracker &#10;- Changes to accomodate for the re-design of MacUpdate &#10;- Better support for DashboardWidgets.com version numbers &#10;- Many more enhancements."/>
+      </outline>
+      <outline text="App Update Widget Updated" MediaLinks="www.apple.com—appupdate.html &lt;http://www.apple.com/downloads/dashboard/status/appupdate.html&gt;">
+        <outline text="Automatically check for updates to your installed software. It supports Apple’s software directory, MacUpdate and Version Tracker. It will present you with a tidy link list of all the updates found, enabling you to read release-notes and download the the updates quickly and painlessly. &#10;Amongst the key features are automatic update checks once per day or week, Growl notifications, powerful configuration possibilities, support for Apple’s download pages, MacUpdate and VersionTracker and an extensive documentation built right into the widget (but you can also read the documentation in your browser). &#10;Press Shift+H at any time to bring up the help, or click the help button on the widget’s back.&#10;What’s New in this Version&#10;- Release notes are available here:&#10;blog.gkaindl.com—version-history &lt;http://blog.gkaindl.com/downloads/app-update/version-history/&gt;"/>
+      </outline>
+      <outline text="Convert Google Widgets" MediaLinks="www.apple.com—easyenvelopes.html &lt;http://www.apple.com/downloads/dashboard/business/easyenvelopes.html&gt;">
+        <outline text=" -Mac OS X Leopard 10.5 Support &#10;- Adds a prettier notification for directions regarding two-sided printing &#10;- Fixes an issue where the recent searches menu wouldn’t be displayed when Dashboard was hidden and then re-displayed &#10;- Fixes a printing issue where the USPS barcode wouldn’t be aligned with the recipient’s name when two-sided printing was used &#10;- Fixes an issue where editing your Address Book entry wouldn’t be reflected in the widget if the widget was already running &#10;- Fixes an issue where arrows were drawn in the addresses if fonts Times New Roman or Ariel were used &#10;- Various other bug fixes and enhancements"/>
+      </outline>
+      <outline text="Code Project Vista Gadget" MediaLinks="www.codeproject.com—Gadgets &lt;http://www.codeproject.com/Feature/Gadgets/&gt;">
+        <outline text="$2,000 in prizes to be won!&#10;You could win cool gadgets, including one of two $1000 gadget packs!&#10;Win cool prizes by building Windows Vista Sidebar Gadgets – one of Windows Vista’s most prominent UI advances. Windows Sidebar gadgets boost productivity by providing instant access to a variety of engaging, easy-to-use, and customizable mini-applications that offer information at a glance and provide easy access to frequently used tools."/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Dashcode Tutorial #3">
+        <outline text="Today we cover the basics of creating a podcast widget using dashcode. Lots of people have asked me how to create various widgets so this is part two in an eight part series on dashcode."/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;" MediaLinks=" "/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

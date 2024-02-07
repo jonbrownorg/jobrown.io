@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.hilite  { background-color: #fcc; }
+    .hilite1 { background-color: #ff0; }
+    .hilite2 { background-color: #f0f; }
+    .hilite3 { background-color: #0ff; }
+	.hilite4 { background-color:#FF9900; }
+	.hilite5 { background-color:#99FF66; }
+	.hilite6 { background-color:#99CCFF; }
+	.hilite7 { background-color:#FF3333; }
+	.hilite8 { background-color:#FF99FF; }
+	.hilite9 { background-color:#FFFFCC; }
+	
+#highlight_info {
+	left:0px;
+	z-index:-50;
+	width:2px;
+	height:2px;
+	bottom:1px;
+}

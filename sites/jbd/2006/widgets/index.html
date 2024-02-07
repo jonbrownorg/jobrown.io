@@ -1,0 +1,610 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="feed://feeds.feedburner.com/JBD">
+<!-- CSS Code by: www.mompswebdesign.com, -->
+<style type="text/css"><!--
+.formButton {
+background-color: ffffff;
+border-color: 000000;
+border-style: solid;
+border-width: 1;
+color: 000000;
+}
+--></style>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Enter the words to be filtered in the line below:
+var swear_words_arr=new Array("bloody","war","terror","shit","fuck","ass","balls","dick","pussy","asshole","dogs");
+
+var swear_alert_arr=new Array;
+var swear_alert_count=0;
+function reset_alert_count()
+{
+ swear_alert_count=0;
+}
+function validate_user_text()
+{
+ reset_alert_count();
+ var compare_text=document.form1.user_text.value;
+ for(var i=0; i<swear_words_arr.length; i++)
+ {
+  for(var j=0; j<(compare_text.length); j++)
+  {
+   if(swear_words_arr[i]==compare_text.substring(j,(j+swear_words_arr[i].length)).toLowerCase())
+   {
+    swear_alert_arr[swear_alert_count]=compare_text.substring(j,(j+swear_words_arr[i].length));
+    swear_alert_count++;
+   }
+  }
+ }
+ var alert_text="";
+ for(var k=1; k<=swear_alert_count; k++)
+ {
+  alert_text+="\n" + "(" + k + ")  " + swear_alert_arr[k-1];
+ }
+ if(swear_alert_count>0)
+ {
+  alert("The form cannot be submitted.\nThe following illegal words were found:\n_______________________________\n" + alert_text + "\n_______________________________");
+  document.form1.user_text.select();
+ }
+ else
+ {
+  document.form1.submit();
+ }
+}
+function select_area()
+{
+ document.form1.user_text.select();
+}
+window.onload=reset_alert_count;
+//  End -->
+</script>
+
+<script language="Javascript1.2"><!-- // load htmlarea
+_editor_url = "";                     // URL to htmlarea files
+var win_ie_ver = parseFloat(navigator.appVersion.split("MSIE")[1]);
+if (navigator.userAgent.indexOf('Mac')        >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Windows CE') >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Opera')      >= 0) { win_ie_ver = 0; }
+if (win_ie_ver >= 5.5) {
+ document.write('<scr' + 'ipt src="' +_editor_url+ 'editor.js"');
+ document.write(' language="Javascript1.2"></scr' + 'ipt>');  
+} else { document.write('<scr'+'ipt>function editor_generate() { return false; }</scr'+'ipt>'); }
+// --></script> 
+
+<script type="text/javascript">
+var bustcachevar=1 //bust potential caching of external pages after initial request? (1=yes, 0=no)
+var loadedobjects=""
+var rootdomain="http://"+window.location.hostname
+
+function ajaxpage(url, containerid){
+var page_request = false
+if (window.XMLHttpRequest) // if Mozilla, Safari etc
+page_request = new XMLHttpRequest()
+else if (window.ActiveXObject){ // if IE
+try {
+page_request = new ActiveXObject("Msxml2.XMLHTTP")
+} 
+catch (e){
+try{
+page_request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+catch (e){}
+}
+}
+else
+return false
+page_request.onreadystatechange=function(){
+loadpage(page_request, containerid)
+}
+if (bustcachevar) //if bust caching of external page
+var bustcacheparameter=(url.indexOf("?")!=-1)? "&"+new Date().getTime() : "?"+new Date().getTime()
+page_request.open('GET', url+bustcacheparameter, true)
+page_request.send(null)
+}
+
+function loadpage(page_request, containerid){
+if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
+document.getElementById(containerid).innerHTML=page_request.responseText
+}
+
+function loadobjs(){
+if (!document.getElementById)
+return
+for (i=0; i<arguments.length; i++){
+var file=arguments[i]
+var fileref=""
+if (loadedobjects.indexOf(file)==-1){ //Check to see if this object has not already been added to page before proceeding
+if (file.indexOf(".js")!=-1){ //If object is a js file
+fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript");
+fileref.setAttribute("src", file);
+}
+else if (file.indexOf(".css")!=-1){ //If object is a css file
+fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", file);
+}
+}
+if (fileref!=""){
+document.getElementsByTagName("head").item(0).appendChild(fileref)
+loadedobjects+=file+" " //Remember this object as being already added to page
+}
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css"
+href="../body.css" />
+<title>Jon Brown Designs</title>
+</head>
+<body marginheight=0 marginwidth=0 background ="../images/bg.jpg">
+ <style>
+body {
+	margin-top: 60px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+<div id="top logo area">
+<table cellpadding=0 cellspacing=0 border=0 width=652 align=center>
+<tr valign=top><td height=7 colspan=3></td><tr valign=bottom>
+<td width=136><img src="../images/logo.jpg"></td>
+<td width="561" background ="../images/spaceback.jpg" align=right>
+
+<div id="Search Div">
+<table width="25%" border=0>
+<FORM method=GET ACTION="../search/index.html">
+<tr valign=bottom>
+<td><b><font class=font>Search</font></b></td>
+<td><INPUT type=search NAME="q" size="10" style="border-style: 1px; padding: 0px 0px 0px 0px; autosave="com.jonbrown.search" results="5" id="livesearch" value="" onkeypress="liveSearchStart()" onblur="setTimeout('closeResults()',2000); if (this.value == '') {this.value = '';}"  onfocus="if (this.value == '') {this.value = '';}" />
+</td></table></div></form>
+
+</td>
+<td width=5><img src="../images/rightopedge.jpg"></td>
+</table>
+</div>
+
+<div id="top bar area">
+<table cellpadding=0 cellspacing=0 border=0 width=652 height=21 align=center>
+<tr valign=top>
+<td width=1><img src="../images/topbaredge1.jpg"></td>
+<td background ="../images/topbar.jpg" width="599">
+<div id="Menu area">
+<table width=649 cellspacing=0 cellpadding=0 height=20 border=0>
+<tr>
+<td align="center"><a href="#" class="menubar">Personal</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center"><a href="#" class="menubar">Clients</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center"><a href="../portfolio/index.html" class="menubar">Portfolio</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center"><a href="index.html" class="menubar">Widgets</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center" width=50><a href="../index.html#" class="menubar">Blog</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center" width=70><a href="../contact/index.html" class="menubar">Contact</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center" width=70><a href="../resume/index.html" class="menubar">Resume</a></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td width=130></td>
+<td width=1 background="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center" width=50><a href="#" class="menubar">Login</a></td>
+</table>
+</div>
+
+</td>
+<td width=2><img src="../images/topbaredge.jpg"></td>
+</table>
+</div>
+
+
+
+<div id="Middle Main Content area">
+<table cellpadding=0 cellspacing=0 border=0 width=652 height=451 align=center>
+<tr valign=top>
+<td width=1 background ="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+
+<td bgcolor="#ffffff" width="650">
+<table width="100%" height="100%" cellpadding="3" cellspacing="0" border="0">
+<tr valign=top>
+
+<td align=center height="100%" background ="../images/bluside.jpg" width="23%"><br>
+<table width=116 align=center>
+<tr>
+<td align=center background ="../images/hire.jpg" width=114 height=121>
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '../contact/';">&nbsp;</div> 
+</td>
+
+
+</table>
+</td>
+
+<td align=center bgcolor="#ffffff" height="100%" width="77%">
+<table width=100% align=center border=0>
+<tr><td align=center>
+
+<table width=433 cellpadding=0 cellspacing=0 height=451>
+<tr valign=center>
+<td colspan=3 height=4></td>
+<tr valign=center>
+<td colspan=3 width=483 height=9><img src="../images/featuretop.jpg"></td>
+<tr valign=top>
+<td width=1 background ="../images/edge.jpg" height=100%><img src="../images/edge.jpg">
+<td bgcolor="#ffffff" width=483 height=100%>
+<div id="contentarea">
+
+<table cellpadding=0 cellspacing=0>
+<tr>
+<td width=280 height=126 background ="../images/widgetitle.jpg">
+
+</td>
+<td width=10>&nbsp;</td>
+
+<td width=182 height=126 background ="../images/widgetlogo.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="javascript:ajaxpage('widgets/listing.html', 'loadpicture');">&nbsp;</div> 
+</td>
+
+
+
+
+</table>
+</div> 
+<form method=POST name="form1" ACTION="/sites/jbd/2006/cgi-bin/FormMail.pl" onSubmit="return checkEmail(this)">
+<input type=hidden name="realname" value="Jon Brown Blog Entry">
+<input type=hidden name="recipient" value="jon@jonbrown.org">
+<input type=hidden name="redirect" value="../thanks.html">
+
+<input type=hidden name="required" value="email">
+<input type=hidden name="missing_fields_redirect" value="../quoterror.html">
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr>
+<td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/four.jpg"></td>
+</table>
+
+
+
+
+<div id="loadpicture">
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/cc.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '../widgets/cc.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Calorie Counter</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+This little widget is the easiest way to calculate the amount of calories burned per activity. There are over 850+ activities that you can choose from.
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/two.jpg"></td>
+</table>
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/tracker.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '../widgets/tracker.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Calorie Tracker</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+This is the best way to track how many calories that you gain by eating food. This displays the amount of calories, fat, protiens... from the nutrition facts label on the sides of all food.  
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/new.jpg"></td>
+</table>
+
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/pigface.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '#';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Pig Latin Translator</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+The pig latin translator is a fun, cool widget that allows you to enter any text and have it translated into pig latin. Simply enter the text into the speech bubble and click the pig to translate. <br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/beta.jpg"></td>
+</table>
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/search.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = 'search.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Search The Web</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+Search the web easily from within Dashboard. Enter any search and it will display a nice neat list
+of links and descriptions to choose from.
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/new.jpg"></td>
+</table>
+
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/mvp.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '../widgets/mvp.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>My Video Podcast Widget</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+My Video Podcast is a podcast that offers tips for the Mac OS platform. Watch as our host
+shows us the latest tips and tricks when using a Mac. <br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/twopointoh.jpg"></td>
+</table>
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/macicon.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = '../widgets/maccast.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>The Maccast Widget</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+The Maccast is one of the best mac podcasts around, and this widget is the best way to keep in touch with all the news that is happening in the world of Macintosh. The RSS reader lets you read three separate feeds.
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/twopointoh.jpg"></td>
+</table>
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/time.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = 'time.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Time Machine</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+This nice little widget will allow you to see what day of the week any given day in time both past and future is.
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/threepointoh.jpg"></td>
+</table>
+
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/pop.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = 'pc.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>World Population Counter</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+This widget simply calcuates the population of the world. It takes into consideration, death rates and birth rates
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/twopointoh.jpg"></td>
+</table>
+
+
+
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/stone.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = 'birth.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Birthstone Finder</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+This widget alows you to search by month and it will display your birthstone. It displays the stone of the current month or you can choose a stone from the back. <br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+
+
+
+
+<table cellpadding=0 cellspacing=0 height=1 width=481 align=center>
+<tr><td background ="../images/border.jpg" colspan=2><img src="../images/border.jpg"></td>
+<tr><td colspan=2 align=right width=481><img src="../images/threepointoh.jpg"></td>
+</table>
+
+<table width="480" align=center border="0">
+<tr valign=bottom><td rowspan=7 width=98 height=100 background ="../images/def.jpg">
+<div style="width: 100%; height: 100%; cursor: pointer;" 
+onclick="self.location.href = 'debt.html';">&nbsp;</div> 
+</td>
+<tr>
+<td colspan=2 height=3>
+</td><tr><td><font class=font><b>Federal Deficit Counter</b></font></td><td align=right>
+<font class="font"><a href="#"></font>
+<br></td><tr><td width="380" colspan=2 align=left>
+<font class=font>
+Watch the national deficit click away! It also calculates the debt that the National Social Security fund is getting into. Watch as we all go deeper into debt.
+<br></font></td><tr><td colspan=2 height=3>
+</td></table>
+
+
+
+
+
+</div> 
+
+</td>
+<td width=3 background ="../images/edge2.jpg" height=100%><img src="../images/edge2.jpg">
+<tr>
+<td colspan=3 width=485 height=13><img src="../images/featurebottom.jpg"></td>
+</table> 
+
+</td>
+
+</table>
+
+</td>
+</table>
+</form>
+</td>
+<td width=2 background ="../images/topbaredge.jpg"><img src="../images/topbaredge.jpg"></td>
+</table>
+</div>
+
+
+
+<div id="bottom bar area">
+<table cellpadding=0 cellspacing=0 border=0 width=652 height=21 align=center>
+<tr valign=center><td width=1><img src="../images/topbaredge1.jpg"></td>
+<td height=21 background ="../images/topbar.jpg" width="118" align=center>
+</td>
+<td height=21 background ="../images/topbar.jpg" width="599" align=center>
+<img src="../images/apple.jpg"></td>
+<td width=1 background ="../images/topbaredge1.jpg"><img src="../images/topbaredge1.jpg"></td>
+<td align="center" background ="../images/topbar.jpg" width=105>
+
+<font class=counter><b>Guests </b></b></font></td>
+
+</td>
+<td width=2><img src="../images/topbaredge.jpg"></td>
+</table>
+</div>
+
+
+<div id="bottom logo area">
+<table cellpadding=0 cellspacing=0 border=0 height=31 width=652 align=center>
+<tr valign=top>
+<td width=3><img src="../images/bottomedge.jpg"></td>
+<td background ="../images/bottomspan.jpg" width=618>
+<div id="copyright div">
+<table width="100%" height="31" cellpadding="0" cellspacing="0" border="0">
+<tr valign=center>
+<td align=center width=33>
+</td>
+<td align=center>
+<div class=font>
+<script type="text/javascript">
+<!-- Begin
+copyright=new Date();
+update=copyright.getFullYear();
+document.write("Copyright &#169; 2001-"+ update + "");
+//  End -->
+</script></div>
+</td>
+</table>
+</div>
+</td>
+<td width=width=33><img src="../images/corner.jpg"></td>
+<tr>
+<td height=7 colspan=3 background ="../images/bg.jpg"></td><tr>
+</table>
+</div>
+</html>

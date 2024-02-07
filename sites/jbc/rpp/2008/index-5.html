@@ -1,0 +1,320 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+var discnt = 0;   // no default percent discount
+
+var coupons = new Array (  // place to put coupon codes
+  "thankyou",                 // 1st coupon value - comma seperated
+  "no",                 // 2nd coupon value - add all you want
+  "no"                  // 3rd coupon value
+);
+var coupdc  = new Array (  // place to put discounts for coupon vals
+  20,
+  0,
+  0
+);
+var coupval = "(blanket)"; // what user entered as coupon code
+
+function ChkCoup () {      // check user coupon entry
+var i;
+  discnt = 0;              // assume the worst
+  for (i=0; i<coupons.length; i++) {
+    if (coupval == coupons[i]) {
+      discnt = coupdc[i];  // remember the discount amt
+      alert ("Valid coupon number! \n\n" + discnt + 
+             "% discount now in effect.");
+      return;
+    }
+  }
+  alert ("'" + coupval + "'  is not a valid code!");
+}
+
+function Dollar (val) {      // force to valid dollar amount
+var str,pos,rnd=0;
+  if (val < .995) rnd = 1;  // for old Netscape browsers
+  str = escape (val*1.0 + 0.005001 + rnd);  // float, round, escape
+  pos = str.indexOf (".");
+  if (pos > 0) str = str.substring (rnd, pos + 3);
+  return str;
+}
+
+function ReadForm (obj1) {  // apply the discount
+var amt,des;
+  amt = obj1.baseamt.value*1.0;       // base amount
+  des = obj1.basedes.value;           // base description
+
+  if (discnt > 0) {                   // only if discount is active
+    amt = Dollar (amt - (amt * discnt/100.0));
+    des = des + ", " + discnt + "% dis, COUP = " + coupval;
+  }
+
+  obj1.amount.value = Dollar (amt);
+  obj1.item_name.value = des;
+}
+//-->
+</script>
+
+<script type="text/javascript" src="http://www.jonbrown.org/expcol.js"></script>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+
+
+<title>Online shopping</title>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK HREF="style.css" TYPE="text/css" REL="stylesheet"></head>
+
+<body>
+    <style>
+body {
+	margin-top: 55px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0) !important;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none !important;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none !important;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0" bgcolor="#8F765E">
+  <tr>
+    <td style="border-right:1px solid #34231B">&nbsp;</td>
+    <td width="766" align="left" valign="top" background="images/bottom_rep.jpg"><table width="766"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="56"><img src="images/left_1.jpg" width="56" height="750"></td>
+        <td width="660" height="100%" align="left" valign="top"><table width="660" height="100%"  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="308" align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="left" valign="top"><img src="images/top_1.jpg" width="660" height="272"></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+         <td width="106" height="36" background="images/home.jpg" align=center><a href="index.html" class="menubar">Home</a></td>
+                    <td background="images/jewerly.jpg" width="79" height="36" align=center><a href="index-1.html" class="menubar">Jewelery</a></td>
+                    <td background="images/wedding.jpg" width="91" height="36" align=center><a href="index-2.html" class="menubar">Pearls</a></td>
+                    <td background="images/watches.jpg" width="82" height="36" align=center><a href="index-3.html" class="menubar">Quality</a></td>
+                    <td background="images/catalog.jpg" width="103" height="36" align=center><a href="index-4.html" class="menubar">Our Catalog</a></td>
+                    <td background="images/shop.jpg" width="101" height="36" align=center><a href="index-5.html" class="menubar">Online Shop</a></td>
+                    <td background="images/contacts.jpg" width="98" height="36" align="center"><a href="index-6.html" class="menubar">Contacts</a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="100%" align="left" valign="top"><table width="660" height="100%"  border="0" cellpadding="0" cellspacing="0">
+              <tr align="left" valign="top">
+                <td width="8" background="images/rep_1.jpg"><img src="images/top_3.jpg" width="8" height="36"></td>
+                <td width="645" height="100%"><table width="645" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                  <tr align="left" valign="top">
+                    <td height="8"><img src="images/line_2.jpg" width="645" height="8"></td>
+                    </tr>
+                  <tr align="left" valign="top">
+                    <td height="100%"><table width="645" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                      <tr align="left" valign="top">
+                        <td width="222" height="100%" style="border-right:0px solid #8B7259"><table width="222" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="222" height="100%" align="left" valign="top"><table width="222" height="100%"  border="0" cellpadding="0" cellspacing="0" background="images/rep_4.jpg">
+                                <tr>
+                                  <td height="100%" align="left" valign="top" background="images/back_3.jpg" style="background-position:top left; background-repeat:no-repeat">
+                                    <div style="padding-left:14px; padding-top:10px; padding-right:20px" class="style1">
+                                     
+
+These pearls are cultured south sea pearls and are well worth and appraised at over $800.00 per necklace, most of the pearls are between 7-9 mm in diameter and comes with a great 14k gold clasp in the back. 
+
+This makes a great gift for anyone interested in showing appreciation for that special someone in your life.
+Each necklace comes with its own custom box and a certificate of authenticity which proves that your pearl is genuine. 
+<br><br>
+
+There are ways to test if your pearls are real. Rub the pearls against your teeth lightly if the pearl feels rough on your teeth it is genuine, if not then its simulated. Put our pearls to the test you wont be disappointed!
+Each pearl necklace comes with a nice hand tied ribbon box. We also do gift wrapping.
+
+<br><br><center>
+<a href="images/bigclasp.jpg" rel="lightbox" title="Sterling Silver Necklace Clasp" border=0><img src="images/clasp.jpg" border=0></a></center>                                    </div></td>
+                                </tr>
+                            </table></td>
+                            </tr>
+                        </table></td>
+                        <td width="423" height="100%"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td align="left" valign="top" background="images/liner_4.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="left" valign="top" style="background-position:top left; background-repeat:no-repeat"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                                  <tr align="left" valign="top">
+                                    <td width="205"><div style="padding-left:22px; padding-top:36px" class="style8"><img src="images/kamen.jpg" width="180" height="180"><br><br>
+
+<a href="images/fullblacknecklace.jpg" rel="lightbox[blacksolid]" title="Black Solid Akoya Pearl Necklace" class="style8" style="color:#795836">Larger View >></a>
+<Br><Br><Br>
+
+<a href="images/blackclasp.jpg" rel="lightbox[blacksolid]" title="Block Solid Akoya Pearl Necklace Clasp" class="style8" style="color:#795836">Clasp View >></a>
+<Br>
+
+</div></td>
+                                    <td><div style="padding-left:15px; padding-top:32px; padding-right:24px"><span class="style8"><strong>Japanese Akoya Black Solid 16" Necklace.</strong><br><br> The black solid string pearl necklace, 
+is simple and elegant, for any occasion.  This is an amazing necklace that will be sure to dazzle all. Comes in both white and black and is easily appraised at over thousands of dollars. At 16 inches you can now enjoy affordable elegance and style.  Each one comes with its own box, a great gift idea for any occasion.
+
+
+</span></div><div style="padding-left:15px; padding-top:10px; padding-right:44px"></div><div style="padding-left:22px; padding-top:14px; padding-right:44px"><span class="style8">Price:  <strong>$50.00</strong></span></div><div style="padding-left:82px; padding-top:4px; padding-bottom:21px"><span class="style12"><br>
+
+
+
+<strong>
+<a href="javascript:toggleList('Menu')" border=0><img src="images/coupon.jpg"></a>&nbsp;
+
+<a href="https://www.paypal.com/cart/business=jonbrown2%40mac.com&item_name=Black Solid Pearl String Necklace&amount=50.00&no_shipping=0&no_note=1&currency_code=USD&add=1" class="style8" target="_new" style="color:#795836" onclick="this.target = 'paypal';
+          return ReadForm (this);">add to cart</a>&nbsp;&nbsp;
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jonbrown2%40mac%2ecom&item_name=Black%20Solid%20Pearl%20String%20Necklace&amount=50%2e00&no_shipping=2&return=http%3a%2f%2fwww%2erupeipearls%2ecom%2f&no_note=1&currency_code=USD&lc=US&bn=PP%2dBuyNowBF&charset=UTF%2d8" target="_new" class="style8" style="color:#795836">buy</a></strong> <img src="images/point_4.jpg"></span></div>
+
+<div id="Menu" style="display:none; padding-left:42px; padding-bottom:11px;">
+
+<table cellpadding=0 cellspacing=0 width=110 border=0>
+<tr valign=center>
+<td>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" onsubmit="this.target = 'paypal';
+          return ReadForm (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="jonbrown2@mac.com" />
+<input type="hidden" name="item_name" value="Black Solid Strand Pearl Necklace" />
+<input type="hidden" name="amount" value="50.00" />
+<input type="hidden" name="currency_code" value="USD" />
+
+<input type="hidden" name="baseamt" value="50.00" />
+<input type="hidden" name="basedes" value="Black Solid Strand Pearl Necklace" />
+
+
+<input type     = "text" 
+       size     = "10"
+       name     = "coupcode"; /> 
+</td>
+<td colspan=2>
+
+
+<input type="button" value="Enter Code" onclick="coupval = this.form.coupcode.value; ChkCoup();" />
+
+</td>
+<tr>
+
+<td>
+
+ <span class="style8">
+Quantity: </span>
+</td>
+
+<td>
+
+ <input type="text" name="quantity" value="1" size="4" /></td>
+
+<td>
+
+
+<input type="image" src="images/add.png" name="submit" alt="cart add" />
+
+
+</form>
+</td>
+</table>
+
+</div>
+</td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr>
+                            <td height="12" align="left" valign="top"><img src="images/line_5.jpg" width="423" height="12"></td>
+                          </tr>
+                          <tr>
+                            <td height="100%" align="left" valign="top"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0" background="images/line_6.jpg">
+                              <tr align="left" valign="top">
+
+
+                                <td width="208" height="100%" background="images/we_pendant.jpg" style="background-position:top left; background-repeat:no-repeat"><div style="padding-left:89px; padding-top:29px"><span class="stylependant"><strong>Freshwater Pearl</strong>  Pendant with sterling <br> silver chain & clasp.<br>
+16" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>$30.00</strong></span></div>
+                                    <div style="padding-left:139px; padding-top:4px; padding-bottom:7px"><span class="style12"><a href="index-pendant.html" class="style8">more</a> <img src="images/point_4.jpg"></span></div></td>
+
+
+
+                                 <td align="left" valign="top" background="images/we_4.jpg" style="background-position:top left; background-repeat:no-repeat"><div style="padding-left:108px; padding-top:12px"><span class="style8"><strong>Japanese Pearls</strong>  White Solid Akoya<br>Pearl Necklace.<br><br>
+18" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>$40.00</strong></span></div>                              
+                              <div style="padding-left:149px; padding-top:4px; padding-bottom:10px"><span class="style12"><a href="index-18.html" class="style8">more</a> <img src="images/point_4.jpg"></span></div></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                          <tr>
+                            <td height="5" align="left" valign="top"><img src="images/bot_1.jpg" width="423" height="5"></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                    </table></td>
+                    </tr>
+                </table></td>
+                <td width="7" background="images/rep_2.jpg"><img src="images/top_2.jpg" width="7" height="32"></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="88" align="center" valign="top" background="images/bottom_1.jpg"><div style="padding-left:0px; padding-top:23px"><a href="index-7.html" class="style9" style="text-decoration:none">Copyright 2005-2006 &copy; Ru Pei Pei Pearl Jewelry Store. All rights reserved.</a></div>
+
+<table align="center">
+<tr>
+<td colspan=7 height=15px></td><tr>
+
+<td><img src="images/logo_paypal_85wx25h.gif"></td>
+<td><img src="images/logo_ccAmex.gif"></td>
+<td><img src="images/logo_ccDiscover.gif"></td>
+<td><img src="images/logo_ccMC.gif"></td>
+<td><img src="images/logo_ccVisa.gif"></td>
+<td><img src="images/PayPal_mark_37x23.gif"></td>
+<td><img src="images/logo_ccEcheck.gif"></td>
+</table>
+
+</td>
+          </tr>
+        </table></td>
+        <td width="50"><img src="images/right_1.jpg" width="50" height="750"></td>
+      </tr>
+    </table></td>
+    <td style="border-left:1px solid #34231B">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="100%" style="border-right:1px solid #34231B">&nbsp;</td>
+    <td width="766" height="100%" align="left" valign="top" background="images/bottom_rep.jpg" style="background-position:top">&nbsp;</td>
+    <td height="100%" style="border-left:1px solid #34231B">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

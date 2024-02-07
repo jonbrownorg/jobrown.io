@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>8-30-2006</title>
+    <expansionState>0,3,5,7,9,11,13,14,16,17,20,22,24</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Taco Widgets to release a new &quot;Mystery&quot; widget!" _note="Right now we'd like to take a second to announce a new widget we have in the works; however, we aren't telling you what it is (yes, it is real and we really are working on it). We aren't revealing many details right now, but we will be updating our home page with different blurbs to tease you. ;) So feast on those for now, and keep an eye on us in case we do something crazy." MediaLinks="www.tacowidgets.com &lt;http://www.tacowidgets.com/&gt;"/>
+      <outline text="Widget Watch" MediaLinks="www.applelinks.com—widget_watch_monday_august_28_2006 &lt;http://www.applelinks.com/index.php/more/widget_watch_monday_august_28_2006/&gt;">
+        <outline text="This was not announced on the show, but this is a great resource for those who want to be up to date with all that is the latest in dashboard widget releases. "/>
+      </outline>
+      <outline text="Wigify new widget podcast and blog" MediaLinks="www.widgify.com &lt;http://www.widgify.com/&gt;">
+        <outline text="My name is Hooman Radfar - I am a geek.I love the web and am the founder of Clearspring Technologies. We are a rag-tag group of renegade coders that are hard at work creating software to help free information on the web. If you are interested in a broader discussion of trends in pervasive computing, check out my other blog - Convergence.Feel free to contact me anytime - I love to jam out on ideas with smart cats."/>
+      </outline>
+      <outline text="Moooglets revisited" MediaLinks="mooglets.freewebsfarms.com &lt;http://mooglets.freewebsfarms.com/&gt;">
+        <outline text="Have you ever wanted to experience widgets but you were on a PC and yet did not want to have to run out and install Yahoo’s Widget Engine. Then look no furuther there is a solution currently in development called Mooglets, these great little widgets run right in your web browser so you do not need a Mac to enjoy widgets anymore. Moogletts looks and feels very similar, to the Dashboard in OSX Tiger. Now they are not an exact match, but you can add Mooglets, save the positions of your mooglets, and configure mogglets right on screen to do what you need them to do. Currently there are two types of clocks, a digg rss reader, a mint reader, and a google search to choose from. These are all customizable and very fun to play with. Check them out!"/>
+      </outline>
+      <outline text="Watch as someone demonstrates new features in Leopard" MediaLinks="youtube.com—watch &lt;http://youtube.com/watch?v=BCZUfJiWALw&gt;">
+        <outline text="This video clip shows the webclip widget in action pay special attention to Safari, as you will notice a button on the top bar, that looks just like the dashboard icon. This lead some to speculate that perhaps you will be able to run widgets in safari or simply load the widget download page from apple.com"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Dan Pourhadi talking about DashboardWidgets.com" MediaLinks="www.dashboardwidgets.com &lt;http://www.dashboardwidgets.com/&gt;">
+        <outline text="If you don’t know about it by now it means you have been very new to the widget scene or you have been living under a rock, but for the last few years one of the best online resources for widget gurus, developers, designers, and fans has been Dashboardwidgets.com. This site is amazing combined with a forum, a showcase area for the widgets to be voted on, commented on and even hosted. Along with some of the most amazing discussions and useful information in its forum archives. I have always, been very impressed by the services that this site offers and not only that but how great all of the services of the entire MUG network. They also have iCompositions.com and macdesktops.net which are other great sites along with the newest addition Leopard Tracker"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

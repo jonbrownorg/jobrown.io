@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>6-10-2006</title>
+    <expansionState>0,3,4,6,8,10,12,13,15,16,19,21,23</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Dashcode Video Tutorial" MediaLinks="Dashcode Video Tutorial  &lt;http://myvideopodcast.libsyn.com/index.php?post_id=94314&gt;">
+        <outline text="Here is a very interesting video tutorial of the “Dashcode” widget creation enviornment released (sorta) by apple. The video shows just how easy it is to create a dashboard widget with Dashcode."/>
+      </outline>
+      <outline text="The Official Widget Scrollbar Template" MediaLinks="The Official Widget Scrollbar Template &lt;http://www.widgetshow.com/?p=32&gt;">
+        <outline text="“ While creating some of our more recent widgets, we have developed this simple vector based template for those of you who wish to implement custom widget scrollbars into your design. These templates offer 5 different styles and you can change the color and customize each one to fit your needs. ”"/>
+      </outline>
+      <outline text="The FOO widget" MediaLinks="Foo Widget &lt;http://www.skia.net/dev.php&gt;">
+        <outline text="“ This widget is a blank template with common functionality already wired up. Beginners can use it as a “best practices” guide to writing widgets. Experts can use it as a starting-point to cut down on development time and keep their code organized. And it’s distributed for free without a license, so you don’t have to worry about attribution! ”"/>
+      </outline>
+      <outline text="The Legalities of Dashboard WIdgets" MediaLinks="The legalites of creating dashboard widgets… &lt;http://www.widgetshow.com/?p=31&gt;">
+        <outline text="“ There is a point in every where every developer and designer of widgets will want to create a widget that either scrapes information off of a site or grab images off of a site. The question is this: What copyright and/or trademark issues should a developer consider, especially when creating a “site-scraping” widget?. To avoid legal issues, its good to follow four simple steps to keep both yourself and your creation safe from those who might misunderstand your use of their content.”"/>
+      </outline>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Note it! Interview and review of a very functional widget!">
+        <outline text="This widget is awesome, now you can actually use the note function in your ipod on a daily basis. This widget sends text notes to your cell phone and or your ipod. It is amazing, you can only set a certain length text message but the limit is very large. Its sleek, and beautiful. This widget is a great example of form following function. The interface is almost like something you would see in a cell phone or an ipod and again it just works. We give it 5 stars. Send us your comments to widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>8-28-2007</title>
+    <expansionState>0,3,4,9,11,13,15,17,19,22,24,25,28,30,32</expansionState>
+  </head>
+  <body>
+    <outline text="Opening">
+      <outline text="Opening Music"/>
+      <outline text="Introduction and welcome to the show."/>
+    </outline>
+    <outline text="News">
+      <outline text="Dictionary Widget Tricks" MediaLinks="www.macworld.com—index.php &lt;http://www.macworld.com/weblogs/macosxhints/2007/08/dictionarywidget/index.php&gt;">
+        <outline text="First, as with text in many OS X applications, you can get the search box to show you possible completions based on the characters you’ve typed so far. How? Just press and hold Control, Option, or Command, then press the Escape key, and you’ll see a drop-down list of possible completions. Scroll or arrow down to the word you’d like to use, press Return, and its definition will appear."/>
+        <outline text="The other trick with the Dictionary widget involves what you can do once you have a definition visible in the widget. Type rain for instance, and you’ll see that rain is “moisture condensed from the atmosphere that falls visibly in separate drops.” And a very clear definition it is! But see that half-circle with the “R” on it sticking out on the left edge of the widget? Click that, and you’ll see a list of other known words and phrases that start with “rain.” Click any of those words to jump to their definition; click the “R” again (before clicking another word), and you’ll switch back to the standard definition of “rain.”"/>
+        <outline text="Toggle the widget from Dictionary mode to Thesaurus mode, and the same trick works—here it will show you a list of other words in the thesaurus that are similar to the chosen word. Toggle the “R” again, and you’re back to the thesaurus entries for “rain.”"/>
+        <outline MediaLinks="rave.ca &lt;http://rave.ca/?s=gallery_image&amp;i=169715&gt;"/>
+      </outline>
+      <outline text="Dashboard icon found in iPhone" MediaLinks="gizmodo.com—dashboard+ish-widget-icon-discovered-latent-in-iphone-287607.php &lt;http://gizmodo.com/gadgets/apple/dashboard+ish-widget-icon-discovered-latent-in-iphone-287607.php&gt;">
+        <outline text="I just verified that this unused Dashboard-ish &quot;Widget&quot; Icon is indeed inside the iPhone, using iFuntastics file browser. Thats actually the image. Look for yourself by searching this path:/System/Library/CoresServices/SpringBoard.app/widget.png. Evidence of widgets on the Apple phone."/>
+      </outline>
+      <outline text="My iTunes Web Widgets" MediaLinks="playlistmag.com—index.php &lt;http://playlistmag.com/news/2007/08/10/myitunes/index.php&gt;">
+        <outline text="“My iTunes” is a feature you can access specifically by clicking on your user account; activating it provides you with access to three different widgets: “My iTunes Purchases,” “My iTunes Favorites” and “My iTunes Reviews.”"/>
+      </outline>
+      <outline text="Even More Web Widgets in iWeb" MediaLinks="www.apple.com—iweb &lt;http://www.apple.com/ilife/iweb/#widgets&gt;">
+        <outline text="A web widget is a snippet of live content on another website that you can add to your own blog or website. A growing number ofa sites offer embeddable web widgets. So if you see a YouTube video, stock ticker, weather report, or any other cool widget you want to add to your website, iWeb makes it easy."/>
+      </outline>
+      <outline text="Holy Grail for Video Users" MediaLinks="benjamin.de—index.php &lt;http://benjamin.de/index.php?cid=100&gt;">
+        <outline text="The OSX widget finalstorage calculates the required disc space of compressed video footage. You only need to enter the bitrate and length."/>
+      </outline>
+      <outline text="Very Bad Poetry Widget" MediaLinks="verybadpoetry.com—widget &lt;http://verybadpoetry.com/pages/widget/&gt;">
+        <outline text="Very Bad Poetry is a resource to collect and share some of the worlds most overlooked poetry. To make this easier and awesomner, weve concocted a Apple Dashboard Widget to keep you on top of the days terrible poem."/>
+      </outline>
+      <outline text="The History of Widgets" MediaLinks="www.engadget.com—enwidget-dashboard-under-the-hood-and-where-were-headed &lt;http://www.engadget.com/2007/05/23/enwidget-dashboard-under-the-hood-and-where-were-headed/&gt;">
+        <outline text="We all know that Apple Dashboard widgets give your Mac something of a heads-up display, combining multiple sources of information in a single at-a-glance interface. But while Apple introduced its desktop widget platform in 2005 as part of Mac OS X 10.4 (Tiger), what you may not have realized is that the concept far predates even OS X, going way back to the dawn of the Macintosh itself."/>
+      </outline>
+      <outline text="Dashboard Patent for Cube Like Interface" _note="Filed February 1, 2006 under the heading &quot;Multiple Dashboards,&quot; the 45-page patent application lists the Mac makers vice president of platform experience Scott Forstall amongst the engineers credited with the proposed interface concepts.&#10;&#10;While the existing versions of Apples Mac OS X operating system offers a single repository and graphical interface view for managing Dashboard widgets, Forstalls proposal would expand the concept to allow users to create and configure multiple Dashboards views to manage the increasing number of widgets available for download across the Internet. &#10;&#10;For example, one Dashboard view could contain widgets related to work, while another would house those widgets related only to personal matters. Different trigger events -- such as different key combinations and menu selections -- would be used to trigger various Dashboards workspaces into view. &#10;&#10;According to the filing, different Dashboards could contain one or more of the same widgets and &quot;state&quot; information for a widget could be maintained separately for each Dashboard in which the widget appears, or it can be commonly maintained across all Dashboards in which the widget appears.&#10;&#10;&quot;Different Dashboards can be available or owned for different users of a computer or other electronic device, such that each user can only access their own Dashboard(s),&quot; Apple said in the filing. &quot;A user can specify a Dashboard as being available to other users, if desired. A user can also specify, for any or all of the Dashboards he or she creates, whether other users are permitted to make changes to the Dashboard(s).&quot;" MediaLinks="www.appleinsider.com—apple_filing_depicts_interactive_dashboard_cube_interface.html &lt;http://www.appleinsider.com/articles/07/05/03/apple_filing_depicts_interactive_dashboard_cube_interface.html&gt;"/>
+    </outline>
+    <outline text="Interview and Listener Feedback">
+      <outline text="Tell us about your favorite widget!"/>
+    </outline>
+    <outline text="Closing">
+      <outline text="Submit your widget for review!">
+        <outline text="Are you a widget developer or designer? Have you developed or designed something amazing? Then tell us about it! Even if you are not a designer or developer if you have made a great widget the best way is to announce it and that is where we come in."/>
+        <outline text="We have a great listener base that can help you improve your widget. Let us review the widget on the show and allow people to post comments, rate and have open discussions about your creation. To submit your widget simply email the widget along with the description to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;" MediaLinks=" "/>
+      </outline>
+      <outline text="Contribute to the Show">
+        <outline text="Review any of the products that we have reviewed here on the show, send your reviews to widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; To get your widget added to the podcast please contact me at widgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt; the shows Hotline at 206-333-0417. If you would like to contribute to the show then please send your audio comments towidgetshow@gmail.com. &lt;mailto:widgetshow@gmail.com.&gt;"/>
+      </outline>
+      <outline text="Staff Writers Wanted">
+        <outline text="If you have something to share with the widget community then drop me a line at widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt; and we will post your thoughts on www.widgetshow.com &lt;http://www.widgetshow.com/&gt;!" MediaLinks="widgetshow@gmail.com &lt;mailto:widgetshow@gmail.com&gt;"/>
+      </outline>
+      <outline text="Check out the show Forum">
+        <outline text="The show forum is a place for everyone to come together and share about everything widget and dashboard related. Check it out and become a part of our user base here at the flip side." MediaLinks="forum.widgetshow.com &lt;http://forum.widgetshow.com/&gt;"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

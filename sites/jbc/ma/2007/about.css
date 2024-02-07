@@ -1,0 +1,159 @@
+
+
+body { margin: 0px 0px 0px 0px; }
+font { font-family: Lucida Grande; font-size: 14px; }
+table { font-family: Lucida Grande; font-size: 14px; }
+table H1 { margin: 20px 0px 0px 10px; }
+table H2 { margin: 20px 0px 0px 10px; }
+.text { font-family: Lucida Grande; font-size: 14px; color: #5c5d5e;}
+font h1 { font-family: Lucida Grande; font-size: 21px; margin: 20px 0px 0px 10px;}
+font li { font-family: Lucida Grande; font-size: 12px; margin: 7px 15px 15px 10px;  }
+
+
+
+
+
+a.signup {
+   display: block;
+   width: 99px;
+   height: 56px;
+   text-decoration: none;
+   background: url("banner/images/signup.jpg");
+}
+a.signup:hover {
+   background: url("banner/images/signuphover.jpg");
+}
+
+a.stats {
+   display: block;
+   width: 114px;
+   height: 56px;
+   text-decoration: none;
+   background: url("banner/images/adstats.jpg");
+}
+a.stats:hover {
+   background: url("banner/images/adstathover.jpg");
+}
+
+
+a.ad {
+   display: block;
+   width: 112px;
+   height: 56px;
+   text-decoration: none;
+   background: url("banner/images/yourad.jpg");
+}
+a.ad:hover {
+   background: url("banner/images/youradhover.jpg");
+}
+
+a.about {
+   display: block;
+   width: 108px;
+   height: 56px;
+   text-decoration: none;
+   background: url("banner/images/aboutus.jpg");
+}
+a.about:hover {
+   background: url("banner/images/abouthover.jpg");
+}
+
+
+a.help {
+   display: block;
+   width: 132px;
+   height: 56px;
+   text-decoration: none;
+   background: url("banner/images/help.jpg");
+}
+a.help:hover {
+   background: url("banner/images/helphover.jpg");
+}
+.innertable {
+
+
+margin: 0px 15px 0px 16px;
+
+}
+#indexdiv {
+
+
+margin: 0px 50px 0px 79px;
+
+}
+#listdiv {
+
+
+margin: -360px 50px 0px 87px;
+
+}
+
+#infodiv {
+
+
+margin: 0px 50px 0px 79px;
+
+}
+#logindiv {
+
+
+margin: -5px 50px 0px 87px;
+
+}
+#senddiv {
+
+
+margin: -5px 50px 0px 87px;
+
+}
+#signupdiv {
+
+
+margin: -5px 50px 0px 87px;
+
+}
+
+.cell_embosed1 {
+	font-family: Lucida Grande; font-size: 14px;
+	BACKGROUND-COLOR: #b2b2b1; PADDING: 2px;
+	BORDER-WIDTH:1px; BORDER-TOP-COLOR: #E3ECFF; BORDER-RIGHT-COLOR: #a5a5a5; BORDER-BOTTOM-COLOR: #a5a5a5; BORDER-LEFT-COLOR: #E3ECFF; BORDER-STYLE:solid;
+}
+.cell_embosed2 {
+	font-family: Lucida Grande; font-size: 14px;
+	BACKGROUND-COLOR: #daddb3; PADDING: 2px;
+	BORDER-WIDTH:1px; BORDER-TOP-COLOR: #F2F7FD; BORDER-RIGHT-COLOR: #cccfa2; BORDER-BOTTOM-COLOR: #cccfa2; BORDER-LEFT-COLOR: #F2F7FD; BORDER-STYLE:solid;
+}
+
+#errordiv {
+
+margin: 15px 0px -40px 15px;
+
+}
+
+#bannerdiv {
+
+
+margin: 70px 70px 0px 100px;
+
+}
+
+#button {
+
+
+text-align: right;
+
+}
+
+#bannerdivtop {
+
+
+margin: -30px 300px 0px 100px;
+
+}
+
+#textdiv {
+
+
+margin: 20px 200px 0px 100px;
+
+}

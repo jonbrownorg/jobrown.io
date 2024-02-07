@@ -1,0 +1,83 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #fcdebf;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style2 {
+	color: #ffffff;
+	font-size: 11px;
+	font-family: arial;
+}
+.style4 {color: #ffffff; font-size: 11px; font-family: arial; font-weight: bold; }
+.style5 {color: #D7D4D4; font-size: 11px; font-family: arial}
+.style6 {
+	color: #ff9204;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style7 {
+	color: #b9b7a5;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.stylependant {
+	color: #64421e;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style8 {
+	color: #64421e;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style9 {
+	color: #7c5d3c;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style10 {
+	color: #b9b7a5;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style12 {color: #64421e; font-size: 11px; font-family: tahoma; font-weight: bold; }
+
+A.menubar:link {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: #7d614c; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white; 
+font-weight: bold;
+}
+
+A.menubar:visited {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: #7d614c; 
+background-color: none;
+text-decoration: none;
+border: 0px solid white;
+font-weight: bold;
+}
+
+A.menubar:hover {
+Font-Family: Arial;
+Font-Style:  bold;
+Font-Size: 12px;
+color: #7d614c; 
+background-color: none;
+text-decoration: none;
+border: 0px solid black; 
+font-weight: bold;
+
+}

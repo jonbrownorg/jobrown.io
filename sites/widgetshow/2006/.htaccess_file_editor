@@ -1,0 +1,164 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+# Prevent scraping from archive for free demo
+RewriteCond %{HTTP_USER_AGENT} (ia_archiver) [NC]
+RewriteRule . - [F,L]
+
+# Add a trailing slash (/) to a URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]*$
+RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+
+# Specific redirections
+RewriteRule ^index\.html$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/ [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id=63$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-63/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=3$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-3/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=113$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-113/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=53$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-53/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=112$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-112/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=110$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-110/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=109$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-109/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=108$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-108/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=107$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-107/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=106$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-106/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=8$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-8/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=46$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-46/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=51$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-51/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=9$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-9/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=74$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-74/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=82$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-82/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=86$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-86/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=90$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-90/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=85$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-85/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=52$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-52/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=99$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-99/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=38$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-38/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^page_id=2$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/page_id-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=88$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-88/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=10$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-10/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=5$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-5/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=7$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-7/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=12$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-12/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=6$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-6/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=11$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-11/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=4$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-4/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=8$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-8/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=13$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-13/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=1$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-1/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=3$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-3/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^cat=2$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/cat-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200702$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200702/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200701$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200701/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200612$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200612/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200611$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200611/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200610$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200610/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200609$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200609/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200608$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200608/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200607$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200607/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200606$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200606/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200605$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200605/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200604$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200604/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200603$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200603/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200602$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200602/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200601$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200601/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^m=200512$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/m-200512/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^paged=2$
+RewriteRule ^index\.php$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/index_paged-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.php$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/index_php/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=93$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-93/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p=89$
+RewriteRule ^/?$ /scraping/files/demo/widgetshow.com_jonbrown2_mac.com_s5wpfcgije/p-89/ [L,R=301,QSD]
+
+# Create pretty URLs
+RewriteRule ^([^/]+)/$ $1.html [S=9]
+RewriteRule ^([^/]+)/([^/]+)/$ $1/$2.html [S=8]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3.html [S=7]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4.html [S=6]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5.html [S=5]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6.html [S=4]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7.html [S=3]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8.html [S=2]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9.html [S=1]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9/$10.html
+# End: Create pretty URLs
+
+# Redirect all extensions to html
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.shtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.phtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jhtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.htm$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.php$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.aspx$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.asp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jsp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.apk$ $1.html [L,NC,R=301]
+# End: Redirect all extensions to html

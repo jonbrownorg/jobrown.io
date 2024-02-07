@@ -1,0 +1,616 @@
+<html>
+<head>
+
+
+
+<!-- CSS Code by: www.mompswebdesign.com, -->
+<style type="text/css"><!--
+.formButton {
+background-color: ffffff;
+border-color: 000000;
+border-style: solid;
+border-width: 1;
+color: 000000;
+}
+--></style>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Enter the words to be filtered in the line below:
+var swear_words_arr=new Array("bloody","war","terror","shit","fuck","ass","balls","dick","pussy","asshole","dogs");
+
+var swear_alert_arr=new Array;
+var swear_alert_count=0;
+function reset_alert_count()
+{
+ swear_alert_count=0;
+}
+function validate_user_text()
+{
+ reset_alert_count();
+ var compare_text=document.form1.user_text.value;
+ for(var i=0; i<swear_words_arr.length; i++)
+ {
+  for(var j=0; j<(compare_text.length); j++)
+  {
+   if(swear_words_arr[i]==compare_text.substring(j,(j+swear_words_arr[i].length)).toLowerCase())
+   {
+    swear_alert_arr[swear_alert_count]=compare_text.substring(j,(j+swear_words_arr[i].length));
+    swear_alert_count++;
+   }
+  }
+ }
+ var alert_text="";
+ for(var k=1; k<=swear_alert_count; k++)
+ {
+  alert_text+="\n" + "(" + k + ")  " + swear_alert_arr[k-1];
+ }
+ if(swear_alert_count>0)
+ {
+  alert("The form cannot be submitted.\nThe following illegal words were found:\n_______________________________\n" + alert_text + "\n_______________________________");
+  document.form1.user_text.select();
+ }
+ else
+ {
+  document.form1.submit();
+ }
+}
+function select_area()
+{
+ document.form1.user_text.select();
+}
+window.onload=reset_alert_count;
+//  End -->
+</script>
+
+<script language="Javascript1.2"><!-- // load htmlarea
+_editor_url = "";                     // URL to htmlarea files
+var win_ie_ver = parseFloat(navigator.appVersion.split("MSIE")[1]);
+if (navigator.userAgent.indexOf('Mac')        >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Windows CE') >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Opera')      >= 0) { win_ie_ver = 0; }
+if (win_ie_ver >= 5.5) {
+ document.write('<scr' + 'ipt src="' +_editor_url+ 'editor.js"');
+ document.write(' language="Javascript1.2"></scr' + 'ipt>');  
+} else { document.write('<scr'+'ipt>function editor_generate() { return false; }</scr'+'ipt>'); }
+// --></script> 
+
+
+<style type="text/css">
+
+.progress{
+	width: 1px;
+	height: 12px;
+	color: white;
+	font-size: 12px;
+  overflow: hidden;
+	background-image: url(images/progresstest1.gif);
+	padding-left: 0px;
+}
+
+</style>
+
+<script type="text/JavaScript">
+
+
+/***********************************************
+* Form Field Progress Bar- By Ron Jonk- http://www.euronet.nl/~jonkr/
+* Modified by Dynamic Drive for minor changes
+* Script featured/ available at Dynamic Drive- http://www.dynamicdrive.com
+* Please keep this notice intact
+***********************************************/
+
+function textCounter(field,counter,maxlimit,linecounter) {
+	// text width//
+	var fieldWidth =  parseInt(field.offsetWidth);
+	var charcnt = field.value.length;        
+
+	// trim the extra text
+	if (charcnt > maxlimit) { 
+		field.value = field.value.substring(0, maxlimit);
+	}
+
+	else { 
+	// progress bar percentage
+	var percentage = parseInt(100 - (( maxlimit - charcnt) * 100)/maxlimit) ;
+	document.getElementById(counter).style.width =  parseInt((fieldWidth*percentage)/260)+"px";
+	
+	// color correction on style from 000000 -> 000000
+	setcolor(document.getElementById(counter),percentage,"background-image: url(images/progress.jpg)");
+	}
+}
+
+
+
+</script>
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="#">
+
+<title>Jon Brown Designs</title>
+
+<link rel="stylesheet" type="text/css"
+href="body.css" />
+
+<script type="text/javascript" src="expcol.js"></script>
+
+
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="images/bgcolor.jpg">
+<style>
+body {
+	margin-top: 60px;
+}
+.support-archived, .support-archived:visited {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-archived:hover, .support-archived:active {
+	background: black;
+	display: flex;
+	background: rgb(80,80,80);
+	text-decoration: none;
+}
+
+.support-archived__label {
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+}
+</style>
+<a class="support-archived" href="#" target="_blank" rel="nofollow noopener">
+	<div class="support-archived__label">
+		NOTICE: THIS SITE IS ARCHIVED AND DISPLAYED FOR PORTFOLIO PURPOSES ONLY
+	</div>
+</a>
+
+<div id=Main Body>
+<table align=center cellpadding=0 cellspacing=0 border=0 width=800  height=450>
+<tr valign=top>
+<td background="images/line2.jpg" width=12><img src="images/line2.jpg"></td>
+<td>
+<table align=center cellpadding=0 cellspacing=1 border=0 width=800 height=23 bgcolor="#000000">
+<tr>
+<Td>
+<table align=center cellpadding=0 cellspacing=0 border=0 width=800 height=23 bgcolor="#ffffff">
+<tr valign=bottom>
+<td background="images/back.jpg" width=100% colspan=2 >
+<table width=100% border=0 cellpadding=0 cellspacing=0><tr valign=bottom><td width=80%>
+<img src="images/logo.jpg"></td>
+<td width=20% align=right><font class=font><b>Search</b>&nbsp</font></td>
+
+<td background="images/back.jpg" width=100 align=left>
+
+
+<FORM method=GET ACTION="searches.php">					 
+<INPUT type=search NAME="q" size="10" style="border-style: 1px; padding: 0px 0px 0px 0px; autosave="com.jonbrown.search" results="5" id="livesearch" value="" onkeypress="liveSearchStart()" onblur="setTimeout('closeResults()',2000); if (this.value == '') {this.value = '';}"  onfocus="if (this.value == '') {this.value = '';}" /></td>
+
+</table>
+
+</td>
+</form>
+</td>
+<tr valign=top>
+<td background="images/bar.jpg" height=20 width=700 align=left>
+<table cellpadding=0 cellspacing=0 width=80% border=0>
+<tr valign=center>
+<td><img src="images/bar.jpg" height=20 width=5></td>
+<td align=center><a href="#" class=menubar>Pictures</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="postcard/index.html" class=menubar>E-Greetings</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="/sites/jbd/2005/links.html" class=menubar>Links</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="me.html" class=menubar>About Me</a></td> 
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="contact.html" class=menubar>Contact Me</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="#" class=menubar>Updates</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="widgets.html" class=menubar>Widgets</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center><a href="flipside.html" class=menubar>Podcast</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+<td align=center> <a href="eslmain.html" class=menubar>ESL</a></td>
+<td><img src="images/sep.jpg" height=20 width=6></td>
+</td></table>
+
+</td>
+
+<td background="images/bar.jpg" height=20 width=100 align=right>
+<table cellpadding=0 cellspacing=0 border=0 height=20>
+<tr valign=center>
+<td width=8 align=left><img src="images/sep.jpg" height=20 width=6></td>
+<td><a href="#" class=menubar>Login</a></td>
+<td><img src="images/bar.jpg" height=20 width=5></td>
+</table>
+
+</td>
+
+
+
+</td>
+<tr>
+<td height=10 background="images/barshaddow1.jpg"></td>
+<td height=10 background="images/barshaddow2.jpg"></td>
+<tr valign=top>
+
+
+
+<td bgcolor=#ffffff height=450 width=700>
+
+<table height=200 width=100% border=0>
+<tr valign=top>
+<td width=40%>
+<font size=2 font face=helvetica neu><b>Contact Me</b></font>
+<font class=font><br>
+Well I am successfully here working in Taiwan at Joy Cram School.
+Its a nice school located in the center of the city just a two min
+walk to McDonalds. I teach elementary age students to high school
+students and have a lot of fun working with them. Fen Fen and I 
+are doing great we have a little apartment just 5 min away from
+the school located downtown. I am very excited to be working here
+and I hope you all feel free to contact me anytime.</font>
+<hr>
+<table border=0 width=100%><tr><td><font class=font>
+<b>Email:</b><br> jon@jonbrown.org</font></td><td><font class=font>
+<b>Phone:</b><br><a href="http://www.countrycallingcodes.com">CC</a>-0961147512</font></td>
+<tr><td colspan=2><font class=font>
+<b>Address:</b> <br>Joy Cram School<br>
+
+308, Chung Shan Rd. Sec 1<br> wur Hsiang, Taichung county
+<br>414 Taiwan</font></td></table>
+<hr>
+</td>
+<td height=100 width=60%>
+
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td background="images/boxline2.jpg" width=12><img src="images/boxline2.jpg"></td>
+
+<td width=100%>
+<table width="100%" height="70" cellpadding=0 cellspacing=1 bgcolor="#000000" align=center colspan=2>
+<tr valign=center>
+<td background="images/bar.jpg" height=19>
+<table cellpadding=0 cellspacing=0 width=100%><tr><td width=12><img src="images/ding.gif"></td><td><font size=2 face="arial" color="#ffffff">&nbsp;<b>Send An Email:</b></font></td><td><img src="images/barheight.jpg"></td></table>
+
+
+</td>
+<tr>
+<td>
+<table width="100%" height="70" cellpadding=0 cellspacing=1 bgcolor="#ffffff" align=center border=0>
+<tr valign=center>
+<td>
+
+
+<form method=POST name="form1" ACTION="cgi-bin/FormMail.pl" onSubmit="return checkEmail(this)">
+<input type=hidden name="realname" value="www.jonbrown.org">
+<input type=hidden name="recipient" value="jon@jonbrown.org">
+<input type=hidden name="redirect" value="thanks.html">
+<input type=hidden name="required" value="email">
+<input type=hidden name="missing_fields_redirect" value="contacterror.html">
+
+
+<TABLE WIDTH="100%" height="100%" BORDER="0" CELLSPACING="3" CELLPADDING="2"
+HEIGHT="202">
+<TR valign=center>
+
+ 
+
+
+ <TD WIDTH="555" COLSPAN="3" BGCOLOR="#bbbbbb"><FONT
+       SIZE="2" FACE="Arial">Name: Jon Brown </FONT><FONT SIZE="-1">
+</FONT></TD>
+
+<td rowspan=5 height=100 width="150" BGCOLOR="#ffffff">
+
+<table width="100%" height="120" bgcolor="#000000" cellspacing=1 cellpadding=0>
+<tr valign=center>
+<td height=17  background="images/sidebar.jpg">
+<table cellpadding=0 cellspacing=0 width=100%><tr><td width=12><img src="images/ding.gif"></td><td><font size=2 face=helvetica neu color=#ffffff>&nbsp;<b>Print Label</b></font></td></table>
+
+
+</td>
+<tr>
+<td bgcolor="#e2e2e2"><table width="100%" bgcolor="#e2e2e2" cellspacing=5 cellpadding=0>
+<tr>
+<td height=85 bgcolor="#e2e2e2" align=center>
+<img src="images/print.gif"></td>
+<td bgcolor="#e2e2e2">
+
+<center>
+<font class=font>Print A Shipping Label!</font> <font size=2><a href="javascript:openpopup()">here</a></font></center></td>
+</table>
+</td>
+</table>
+
+
+
+</td>
+
+
+<TR valign=top>
+ <TD WIDTH="555" COLSPAN="3" BGCOLOR="#e2e2e2"><FONT
+       SIZE="2" FACE="Arial">To: jon@jonbrown.org </FONT><FONT SIZE="-1">
+</FONT></TD>
+     
+  </TR>
+
+
+  <TR valign=top>
+      <TD WIDTH="555" COLSPAN="3" BGCOLOR="#bbbbbb"><FONT
+       SIZE="2" FACE="Arial">Name: </FONT><FONT SIZE="-1">
+
+<input type=text name="Name" size=15>
+</FONT></TD>
+     
+  </TR>
+
+
+
+  <TR>
+        <TD WIDTH="555" COLSPAN="3" BGCOLOR="#e2e2e2"><FONT
+       SIZE="2" FACE="Arial">E-Mail: </FONT><FONT SIZE="-1">
+<input type=text name="email" size=15>
+
+
+</FONT></TD>
+     
+
+
+
+
+      <TR>
+        <TD WIDTH="555" COLSPAN="3" BGCOLOR="#bbbbbb"><FONT
+       SIZE="2" FACE="Arial">Subject: </FONT><FONT SIZE="-1">
+<input type=text name="subject" size=15>
+
+
+</FONT></TD>
+    
+
+
+
+
+
+
+
+
+
+
+
+   <TR>
+    <TD COLSPAN="4" BGCOLOR="#e2e2e2"><FONT SIZE="2" FACE="Arial">Message:<BR>
+      
+    <textarea 
+onKeyDown="textCounter(this,'progressbar1',600)" 
+onKeyUp="textCounter(this,'progressbar1',600)" 
+onFocus="textCounter(this,'progressbar1',600)"  rows="5" cols="42" id="user_text" name="user_text" style="border:2 solid #808080; font-family:verdana,arial,helvetica; font-weight:normal; font-size:10pt; width: 400px; height: 100px;" maxLength="600"></textarea>
+
+
+
+
+
+  </TR>
+
+</td>
+
+</TABLE>
+
+</td>
+</table>
+
+<tr>
+<td background="images/back.jpg" align=right>
+
+<table width=100%>
+<tr>
+<td>
+<table><tr><td><font class="font">0%</font></td>
+<td>
+<table width=153px height=12 cellpadding=1 cellspacing=0 bgcolor=#000000><tr>
+<td width=153>
+<table width=153px height=12 cellpadding=0 cellspacing=0 background="images/backtest.jpg" border=0><tr>
+<td width=153>
+<div id="progressbar1" class="progress"></div>
+
+<script>textCounter(document.getElementById("user_text"),"progressbar1",600)</script>   </td></table>
+
+</td></table></td>
+<td><font class="font">100%</font></td></table>
+</td>
+<td align=right>
+
+<input type="button" value="Send Email" onclick="validate_user_text();" class=formButton>
+
+
+
+</td></table>
+
+</td>
+</table>
+
+<script>
+function openpopup(){
+var popurl="label.html"
+winpops=window.open(popurl,"","width=450,height=200,scrollbars,")
+}
+
+</script>
+</TD>
+<td background="images/boxline.jpg" width=12><img src="images/boxline.jpg">
+<tr><td colspan=3 background="images/reflectionlogingen.jpg" height=22></td>
+
+</td>
+
+</table>
+</form>
+
+</td>
+
+
+
+
+<tr>
+<td colspan=2>
+
+
+
+</td>
+
+
+</table>
+
+
+</td>
+
+
+
+
+
+
+
+
+
+
+
+
+<td background="images/greypixel.jpg" height=450 align=right width=100 >
+<table cellpadding=1 cellspacing=0 width=98% align=right border=0>
+<tr valign=top>
+<td height=5></td>
+<tr>
+<td align=left>
+<table cellpadding=0 cellspacing=0 ><tr><td height=19 width=90 background="images/tab.gif" align=left>&nbsp<font class=font>Navigation</font></td></table>
+
+
+<div id="Menu" style="display:block" class=font>
+
+
+<table width=100% border=1 bordercolor=black ><tr valign=center><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="index.html" class=menubar>Main Page</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="resume.html" class=menubar>Resume</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="portfolio.html" class=menubar>Portfolio</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="#" class=menubar>Blog</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="projects.html" class=menubar>Projects</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="widgets.html" class=menubar>Downloads</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="#" class=menubar>RSS Feed</a></td></table></td></table>
+</td>
+<tr>
+<td align=right>
+<a href="javascript:toggleList('Menu')" class=small>Expand/Collapse  [+/-]</a>
+</td>
+<tr>
+<td>
+
+<table cellpadding=0 cellspacing=0 ><tr><td height=19 width=90 background="images/tab.gif" align=left>&nbsp<font class=font>Widgets</font></td></table>
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="tracker.html" class=menubar>Tracker</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="cc.html" class=menubar>Calorie</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="pc.html" class=menubar>Population</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="debt.html" class=menubar>Deficit</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="birth.html" class=menubar>Birthstone</a></td></table></td></table>
+
+<table width=100% border=1 bordercolor=black><tr><td background="images/sidebar.jpg" height=23><table cellpadding=0 cellspacing=0 width=100><tr><td width=12><img src="images/ding.gif"></td><td><a href="widgets.html" class=menubar>More...</a></td></table></td></table>
+
+</td>
+
+
+
+
+</table>
+</td>
+<tr>
+<td height=10 background="images/barshaddow3.jpg"></td>
+<td height=10 background="images/barshaddow4.jpg"></td>
+
+<tr valign=center>
+<td background="images/bar.jpg" height=20 width=800 align=center>
+<table cellpadding=0 cellspacing=0 height=19 border=0><tr>
+<td>
+<img src="images/botspace.jpg" height=19></td>
+
+<td>
+<img src="images/apple.jpg" height=19></td>
+<td>
+
+<font size=1 color=#ffffff>Made on a Mac</font></td></table>
+
+
+</td>
+
+<td background="images/bar.jpg" height=20 align=center>
+<table cellpadding=0 cellspacing=0 height=19 border=0><tr valign=center><td>
+<img src="images/countright.jpg" height=19></td>
+<td background="images/countmiddle.jpg">
+
+<font class=counter><b>Guests </b></b></font></td>
+
+<td>
+<img src="images/countleft.jpg" height=19></td>
+</table>
+
+
+</td>
+
+<tr>
+<td background="images/back.jpg" height=25 width=800 colspan=2 align=center>
+<div class=font>
+<script type="text/javascript">
+
+<!-- Begin
+copyright=new Date();
+update=copyright.getFullYear();
+document.write("Copyright &#169; 2001-"+ update + " Jon Brown Designs All rights reserved.");
+//  End -->
+</script></div>
+
+</td>
+
+
+
+<table>
+</td>
+
+</table>
+</td>
+
+
+</table>
+<td rowspan=3 background="images/line.jpg" width=12><img src="images/line.jpg"></td>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+</html>
