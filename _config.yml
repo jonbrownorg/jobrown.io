@@ -55,10 +55,9 @@ github_username:  jonbrown21
 #base_href:          http://localhost:4000
 #site_cdn:           http://localhost:4000
 
-site_url:           https://jonbrown.org/
-base_href:          https://jonbrown.org/
-site_cdn:           https://jonbrown.org/
-
+site_url:           https://jonbrown.org
+base_href:          https://jonbrown.org
+site_cdn:           https://jonbrown.org
 
 # Build settings
 theme: null
