@@ -130,19 +130,6 @@ element2.classList.add("hiddenpr");
 })
 }
 
-var Pushwoosh = Pushwoosh || [];
-	Pushwoosh.push(['init', {
-    logLevel: 'info', // possible values: error, info, debug
-    applicationCode: 'A35F6-C4EAE', // you application code from Pushwoosh Control Panel
-    safariWebsitePushID: 'web.macgurus.site', //  unique reverse-domain string, obtained in you Apple Developer Portal. Only needed if you send push notifications to Safari browser
-    defaultNotificationTitle: 'Subscribe to Grove Technologies Notifications', // sets a default title for push notifications
-    defaultNotificationImage: '{{ site.site_cdn }}/assets/img/favicons/android-chrome-192x192.png', // URL to custom custom notification image
-    autoSubscribe: false, // or true. If true, prompts a user to subscribe for pushes upon SDK initialization
-    subscribeWidget: {
-      enabled: true
-    }										
-}]);
-
 
 // Listen for click on the document
 document.addEventListener('click', function (event) {
