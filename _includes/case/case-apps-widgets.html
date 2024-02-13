@@ -198,7 +198,7 @@ z-index: 100;
 	</div><!-- dog card -->
 	
 	
-			<div class="card drag" id="time" style="background-image: url('{{ site.site_url }}/images/widget/move.png'); background-repeat: no-repeat; padding-top: 5px; width: 375px; height: 155px; margin-top: 20px;">
+	<div class="card drag" id="time" style="background-image: url('{{ site.site_url }}/images/widget/move.png'); background-repeat: no-repeat; padding-top: 5px; width: 375px; height: 155px; margin-top: 20px;">
 	  
 	  <div class="card__inner" style="width: 478px; height: 183px;">
 		<div class="card__front">
@@ -211,6 +211,22 @@ z-index: 100;
 	
 	   </div><!-- .card__inner -->
 	</div><!-- time card -->
+	
+	
+	
+	<div class="card drag" id="search" style="background-image: url('{{ site.site_url }}/images/widget/move.png'); background-repeat: no-repeat; padding-top: 5px; width: 324px; height: 285px; margin-top: 20px;">
+	  
+	  <div class="card__inner" style="width: 324px; height: 285px;">
+		<div class="card__front">
+		  <img src="{{ site.site_url }}/images/widget/searchfront.png" class="px-1" style="position: relative; margin-top: 20px;">
+		 </div><!-- .card__back --> 
+	
+		<div class="card__back">
+		   <img src="{{ site.site_url }}/images/widget/searchback.png" class="px-1" style="position: relative; margin-top: 20px;">
+		</div><!-- .card__back -->
+	
+	   </div><!-- .card__inner -->
+	</div><!-- search card -->
       
       </div>
       
@@ -229,6 +245,7 @@ z-index: 100;
 			  <div class="px-5 text-center flex-shrink-0"><img src="{{ site.site_url }}/images/widget/debt_icon.png" class="px-1"><div class="text-xs mx-auto text-center font-display text-nowrap" style="text-shadow: 3px 2px 3px rgba(255,255,255,.2); color: rgba(0,0,0,.6);">Deficit</div></div>
 			  <div class="px-5 text-center flex-shrink-0"><img src="{{ site.site_url }}/images/widget/dog_icon.png" class="px-1"><div class="text-xs mx-auto text-center font-display text-nowrap" style="text-shadow: 3px 2px 3px rgba(255,255,255,.2); color: rgba(0,0,0,.6);">Dog Age</div></div>
 			  <div class="px-5 text-center flex-shrink-0"><img src="{{ site.site_url }}/images/widget/time_icon.png" class="px-1"><div class="text-xs mx-auto text-center font-display text-nowrap" style="text-shadow: 3px 2px 3px rgba(255,255,255,.2); color: rgba(0,0,0,.6);">Time Machine</div></div>
+			  <div class="px-5 text-center flex-shrink-0"><img src="{{ site.site_url }}/images/widget/searchicon.png" class="px-1"><div class="text-xs mx-auto text-center font-display text-nowrap" style="text-shadow: 3px 2px 3px rgba(255,255,255,.2); color: rgba(0,0,0,.6);">Google Search</div></div>
 			</div>
         	
         	
@@ -304,4 +321,5 @@ Drag.init(document.getElementById("cron"));
 Drag.init(document.getElementById("debt"));
 Drag.init(document.getElementById("dog"));
 Drag.init(document.getElementById("time"));
+Drag.init(document.getElementById("search"));
 </script>
