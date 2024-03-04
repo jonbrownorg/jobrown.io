@@ -270,5 +270,3 @@ Here you can see that while we have added the logo to Munki Report’s login scr
 {% include videos/video.html id="k0PKbBchhgI" header="Penn-State-Header-4.png" class="bg-img-1" %}
 
 Slides available for download [here](/assets/img/section/branding-munki.pdf).
-
-<embed src="/assets/images/section/branding-munki.pdf" width="100%" height="620px" class="d-none d-sm-block" type='application/pdf'/>
