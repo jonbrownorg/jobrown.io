@@ -78,7 +78,7 @@
               >
                 <img
                   src="{{ site.site_url }}{{ page.thumbnail }}"
-                  alt="How I Use Tailwind CSS To Design A Website From Scratch"
+                  alt="{{ page.title }}"
                   class="object-cover w-full rounded-3xl bg-slate-100"
                 />
                 <div
@@ -93,6 +93,9 @@
           <!-- Article body -->
           <div class="max-w-2xl mx-auto prose prose-lg">
             {{ content }}
+            
+            <a href="https://www.buymeacoffee.com/jonbrown" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
           </div>
           
           <footer class="max-w-2xl mx-auto">
