@@ -1,6 +1,6 @@
 ---
 layout: post
-date: '2024-07-28'
+date: '2024-07-27'
 author: Jon Brown
 permalink: /blog/platypus-walkthrough-and-review/
 published: true
