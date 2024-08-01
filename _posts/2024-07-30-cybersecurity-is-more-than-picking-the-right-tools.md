@@ -505,6 +505,8 @@ But for my first year the goal was to do a security review and audit of all the 
 
 Of course this led to an organic stage where I would have to report on my findings, 
 
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/IMG_0063.jpeg" class="img-fluid rounded m-2" width="800" />
+
 and again that led naturally to a network security review, a security review of Azure and Office 365, our Windows workstations, macOS workstations, and all of our other platforms. 
 
 Each system had to be reviewed against security baselines and compliance guidelines 
@@ -543,6 +545,8 @@ Ultimately we implemented JAMF Pro, and JAMF Connect and hardened the workstatio
 
 We also partnered with Arctic Wolf as well 
 
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/IMG_0064.jpeg" class="img-fluid rounded m-2" width="800" />
+
 On the Windows side of the house we used Hardening Kitty and Intune to manually rollout the Compliance Framework for Windows 11, and implemented the GPOs and validated them via the Hardening Kitty tool. 
 
 We also implemented Admin by Request for admin elevation for Windows as we talked about before. 
@@ -559,9 +563,9 @@ There's also a great article on Microsoft's Blog that I will have linked at the 
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/Cybersecurity is more than just the right Tools 25.png" class="img-fluid rounded m-2" width="800" />
 
-Just throwing up Bob’s information here. 
+Just throwing up [Bob’s information here](https://www.linkedin.com/in/boberito/). 
 
-if you haven’t connected with Bob on Linkedin or on MacAdmins I highly recommend that you do, he’s an invaluable resource and a huge contributor to the community and I really am appreciative for his contributions. 
+if you haven’t connected with [Bob on Linkedin](https://www.linkedin.com/in/boberito/) or on MacAdmins I highly recommend that you do, he’s an invaluable resource and a huge contributor to the community and I really am appreciative for his contributions. 
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/Cybersecurity is more than just the right Tools 26.png" class="img-fluid rounded m-2" width="800" />
 
@@ -574,6 +578,8 @@ Implemented a more robust security awareness and training kadence with a variety
 Implemented a security incident response plan for the staff and for the leadership
 
 Wrote an acceptable use policy
+
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/IMG_0069.jpg" class="img-fluid rounded m-2" width="800" />
 
 Contributed to the organizational handbook
 
@@ -624,6 +630,8 @@ We implemented Cisco Umbrella and then of course we continued to leverage Arctic
 So here is the tool stack that we landed on that we use. 
 
 And again yes we use tools, but we use them in concert with so much more. 
+
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2024/20240731Up/IMG_0072.jpg" class="img-fluid rounded m-2" width="800" />
 
 The tools are part of a wider strategy. 
 
