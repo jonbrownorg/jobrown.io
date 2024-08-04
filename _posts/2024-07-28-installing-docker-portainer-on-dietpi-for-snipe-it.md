@@ -18,6 +18,13 @@ thumbnail: /assets/images/covers/2024/Header-Docker-Pi-2.png
 cta: 2
 comments: true
 ---
+
+### Series
+- Part 1: [Setting up SNIPE-IT with DietPi on a Raspberry Pi]({{ site.site_cdn }}/blog/setting-up-diet-pi-on-a-rasberry-pi-for-use-with-docker-and-portianer/)
+- Part 2: [Installing Docker & Portainer on DietPi for Snipe-IT]({{ site.site_cdn }}/blog/installing-docker-portainer-on-dietpi-for-snipe-it/)
+- Part 3: [Securing Raspberry Pi with Reverse Proxy and or Cloudflare Proxy Tunnel]({{ site.site_cdn }}/blog/diet-pi-with-docker-reverse-proxy-portainer-vs-cloudflare-secure-tunnel/)
+
+
 #### Installing Docker, Portainer and SSL
 
 At this stage were assuming your still connected to the Raspberry Pi via a monitor. If you're already SSH'd into the machine great your one step ahead. 

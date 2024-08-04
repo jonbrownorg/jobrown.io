@@ -18,6 +18,12 @@ thumbnail: /assets/images/covers/2024/Header-Docker-Pi-1.png
 cta: 2
 comments: true
 ---
+
+### Series
+- Part 1: [Setting up SNIPE-IT with DietPi on a Raspberry Pi]({{ site.site_cdn }}/blog/setting-up-diet-pi-on-a-rasberry-pi-for-use-with-docker-and-portianer/)
+- Part 2: [Installing Docker & Portainer on DietPi for Snipe-IT]({{ site.site_cdn }}/blog/installing-docker-portainer-on-dietpi-for-snipe-it/)
+- Part 3: [Securing Raspberry Pi with Reverse Proxy and or Cloudflare Proxy Tunnel]({{ site.site_cdn }}/blog/diet-pi-with-docker-reverse-proxy-portainer-vs-cloudflare-secure-tunnel/)
+
 ### How to setup Rasberry Pi
 
 The first step in setting up SNIPE-IT is to setup the platform that it will run on. Luckily the best platform and most economical is a Rasberry Pi. We are using a Rasberry Pi 3 in this case. Before we get too far we need to pick the operating system that the Rasberry Pi will use. 
