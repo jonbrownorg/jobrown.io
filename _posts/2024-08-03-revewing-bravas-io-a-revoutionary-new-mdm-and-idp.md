@@ -20,7 +20,7 @@ comments: true
 ---
 ### TL;DR
 
-Mention code JONBROWN when you ask for a demo and get 5% off or start a 30 day trial and provide code JONBROWN for 5% off your continued subscription. 
+Mention the code JONBROWN when you ask for a demo or start a 30-day trial and enjoy 5% additional off your first year of annual service.
 
 What are you waiting for? Sign up for a [trial](https://www.bravas.io/en/tarifs) or [demo](https://www.bravas.io/en/demo-bravas) of [Bravas.io](https://www.bravas.io/) today!
 
@@ -171,7 +171,7 @@ The hardware area shows how easy it is to integrate with Apple Business Manager.
 
 As you can see [Bravas.io](https://www.bravas.io/) is the solution for you if you are on the fence about which MDM is best for you and your company. If you are not working with an IT company, not able to afford the cost of working with an IT company and you don't have the time and effort to learn how to use complex MDM platforms then [Bravas.io](https://www.bravas.io/) is the tool for you!
 
-Mention code JONBROWN when you ask for a demo and get 5% off or start a 30 day trial and provide code JONBROWN for 5% off your continued subscription. 
+Mention the code JONBROWN when you ask for a demo or start a 30-day trial and enjoy 5% additional off your first year of annual service.
 
 What are you waiting for? Sign up for a [trial](https://www.bravas.io/en/tarifs) or [demo](https://www.bravas.io/en/demo-bravas) of [Bravas.io](https://www.bravas.io/) today!
 
