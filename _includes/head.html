@@ -1,7 +1,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#1abd6f">
+	<meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="keywords" content="{{ page.keywords }}">
+  	<meta name="twitter:description" content="{{ page.description }}">
+	<meta property="og:type" content="{{ page.ogtype }}">
 
+	{% if site.production == true and page.sitemap != false  %}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  	{% else %}
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	{% endif %}
+	
+	{% seo %}
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.site_url }}/images/logo-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.site_url }}/images/logo-icon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.site_url }}/images/logo-icon.png">
+	<link rel="mask-icon" href="{{ site.site_url }}/images/logo-icon.png" color="#1abd6f">
+	
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Inter:wght@400;500;600;700;800&family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -9,9 +30,7 @@
     <link rel="stylesheet" href="{{ site.site_url }}/css/main.css" />
     
      <!-- Termly -->
-    <script
-  type="text/javascript"
-  src="https://app.termly.io/resource-blocker/e115492e-ed81-4663-b00f-00bef4f13c46?autoBlock=on"></script>
+    <script type="text/javascript" src="https://app.termly.io/resource-blocker/e115492e-ed81-4663-b00f-00bef4f13c46?autoBlock=on"></script>
 
     <!-- Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -24,12 +43,4 @@
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="{{ site.site_url }}/images/favicon.ico" />
-
-    <!-- PAGE TITLE -->
-    <title>
-      Jon Brown - Developer, entrepreneur, and Apple technologist
-    </title>
-    <meta
-      name="description"
-      content="I am a Mac Support Enthusiast, Web Developer, Graphic Designer, Cybersecurity Analyst, and Serial Entrepreneur in the Apple focused MSP Space with a successful exit" />
 </head>

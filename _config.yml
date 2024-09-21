@@ -18,7 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jon Brown
+title: "Jon Brown: Coach and Mentor"
+tagline: "Empowering Entrepreneurs with Expert Insights and Innovative Solutions"
+description: "Welcome to Jon Brown's official website, where entrepreneurs and business leaders gain expert insights, innovative solutions, and valuable resources for business building, IT services, and personal branding. Explore strategies for success and elevate your entrepreneurial journey."
+author: "Jon Brown"
+logo: "/images/logo.png"
+locale: "en_US"
 email: jon@jonbrown.org
 paginate: 6
 paginate_path: /blog/page/:num
@@ -59,13 +64,14 @@ site_url:           https://jonbrown.org
 base_href:          https://jonbrown.org
 site_cdn:           https://jonbrown.org
 
+production:          true
+
 # Build settings
 theme: null
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  #- jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
