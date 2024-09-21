@@ -9,6 +9,7 @@ permalink: /blog/setting-up-apple-tv/
 categories:
   - tips
   - product-reviews
+  - reviews
 tags:
   - tutorials
   - mac

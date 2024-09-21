@@ -10,6 +10,7 @@ img:
 categories:
   - mail-server
   - osx-system-administration
+  - reviews
 tags:
   - mail
   - postfix

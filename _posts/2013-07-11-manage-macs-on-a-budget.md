@@ -10,6 +10,7 @@ categories:
   - osx-system-administration
   - product-reviews
   - Web-Server
+  - reviews
 tags:
   - budget
   - cloud

@@ -11,7 +11,8 @@ tags:
   - MacOS
   - iOS
 categories:
-  - font
+  - reviews
+  - typography
   - video
 image: /assets/images/covers/2024/Header-LetterK.jpg
 thumbnail: /assets/images/covers/2024/Header-LetterK.jpg

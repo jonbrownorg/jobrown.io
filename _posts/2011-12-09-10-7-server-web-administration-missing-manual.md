@@ -8,6 +8,7 @@ image: /assets/img/covers/cover-16.jpg
 thumbnail: /assets/img/covers/cover-16.jpg
 categories:
   - osx-system-administration
+  - reviews
 tags:
   - 10.7
   - manual

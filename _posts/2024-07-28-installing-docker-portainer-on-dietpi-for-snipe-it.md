@@ -8,11 +8,12 @@ title: "Installing Docker & Portainer on DietPi for Snipe-IT"
 description: "Installing Docker & Portainer on DietPi for Snipe-IT"
 blogimgpath: 20240729Up
 tags:
-  - MacOS
+  - snipe
   - iOS
 categories:
-  - tips
+  - snipe
   - video
+  - tutorials
 image: /assets/images/covers/2024/Header-Docker-Pi-2.png
 thumbnail: /assets/images/covers/2024/Header-Docker-Pi-2.png
 cta: 2

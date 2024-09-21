@@ -9,6 +9,7 @@ thumbnail: /assets/img/covers/cover-16.jpg
 categories:
   - casper-munki
   - osx-system-administration
+  - reviews
 tags:
   - admin
   - munki

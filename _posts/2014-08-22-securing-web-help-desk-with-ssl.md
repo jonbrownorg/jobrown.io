@@ -9,6 +9,7 @@ tagline: "Securing Web Help Desk with SSL"
 categories:
   - product-reviews
   - ssl-encryption
+  - reviews
 tags:
   - helpdesk
   - linux

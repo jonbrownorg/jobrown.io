@@ -5,13 +5,13 @@ author: Jon Brown
 permalink: /blog/xcodes-walkthrough-and-review/
 published: true
 title: "XCodes Walkthrough and Review"
-description: "XCodes Walkthrough and Review"
+description: "XCodes Walkthrough and Review: Xcodes is an amazing native application that you can use to switch back and forth between different versions of XCode on your Mac."
 blogimgpath: 20240803yT
 tags:
   - MacOS
   - iOS
 categories:
-  - tips
+  - reviews
   - video
 image: /assets/images/covers/2024/Header-Xcodes.jpg
 thumbnail: /assets/images/covers/2024/Header-Xcodes.jpg

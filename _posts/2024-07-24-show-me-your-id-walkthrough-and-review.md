@@ -11,7 +11,7 @@ tags:
   - MacOS
   - iOS
 categories:
-  - tips
+  - reviews
   - video
 image: /assets/images/covers/2024/Show-Me-Your-ID.jpg
 thumbnail: /assets/images/covers/2024/Show-Me-Your-ID.jpg

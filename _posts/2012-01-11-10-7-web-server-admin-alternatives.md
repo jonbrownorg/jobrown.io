@@ -8,6 +8,7 @@ image: /assets/img/covers/cover-16.jpg
 thumbnail: /assets/img/covers/cover-16.jpg
 categories:
   - Web-Server
+  - reviews
 tags:
   - musings
   - review

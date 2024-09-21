@@ -8,11 +8,12 @@ title: "Setting up SNIPE-IT with DietPi on a Raspberry Pi"
 description: "Setting up SNIPE-IT with DietPi on a Raspberry Pi"
 blogimgpath: 20240102Up
 tags:
-  - MacOS
+  - snipe
   - iOS
 categories:
-  - tips
+  - snipe
   - video
+  - tutorials
 image: /assets/images/covers/2024/Header-Docker-Pi-1.png
 thumbnail: /assets/images/covers/2024/Header-Docker-Pi-1.png
 cta: 2

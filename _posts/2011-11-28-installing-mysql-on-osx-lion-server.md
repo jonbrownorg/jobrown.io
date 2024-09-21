@@ -8,7 +8,7 @@ image: /assets/img/covers/cover-16.jpg
 thumbnail: /assets/img/covers/cover-16.jpg
 categories:
   - bug-fixes
-  
+  - reviews
   - osx-system-administration
 tags:
   - mysql

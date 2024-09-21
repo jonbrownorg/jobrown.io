@@ -9,7 +9,7 @@ related_posts:
 img:
   - /blog/flyout/xserve.png
 categories:
-  
+  - reviews
 tags:
   - Apache
   - scripts

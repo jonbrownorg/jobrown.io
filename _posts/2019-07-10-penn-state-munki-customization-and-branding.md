@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - press
 image: /assets/images/covers/2019/laptopcode.jpg
 thumbnail: /assets/images/covers/2019/laptopcode.jpg
 link: /img/app-images/2019/laptopcode.jpg

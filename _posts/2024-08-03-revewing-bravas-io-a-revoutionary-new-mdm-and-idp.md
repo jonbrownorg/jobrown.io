@@ -11,8 +11,9 @@ tags:
   - MacOS
   - iOS
 categories:
-  - tips
+  - bravas
   - video
+  - reviews
 image: /assets/images/covers/2024/Header-Bravas-1.png
 thumbnail: /assets/images/covers/2024/Header-Bravas-1.png
 cta: 2

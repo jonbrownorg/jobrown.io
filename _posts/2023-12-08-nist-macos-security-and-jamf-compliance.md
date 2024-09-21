@@ -11,7 +11,7 @@ tags:
   - MacOS
   - iOS
 categories:
-  - tips
+  - reviews
   - video
 image: /assets/images/covers/2023/Header-NIST.png
 thumbnail: /assets/images/covers/2023/Header-NIST.png

@@ -10,6 +10,7 @@ categories:
   - bash-scripts
   - casper-munki
   - Web-Server
+  - reviews
 tags:
   - backup
   - bash

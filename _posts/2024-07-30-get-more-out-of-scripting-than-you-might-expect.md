@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - press
   - video
 image: /assets/images/covers/2024/Header-Conference.png
 thumbnail: /assets/images/covers/2024/Header-Conference.png

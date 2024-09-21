@@ -29,30 +29,26 @@ paginate: 6
 paginate_path: /blog/page/:num
 permalink: /blog/:categories/:year/:month/:day/:title.html
 logo: /images/new-logo.png
-facebook:
- app_id: 
- publisher: https://www.facebook.com/
- admins: https://www.facebook.com/
-social:
-  name: Jon Brown
-  links:
-    - https://www.facebook.com/
-    - https://twitter.com/
-    - https://plus.google.com/
-    - https://www.linkedin.com/company/
-webmaster_verifications:
-  google: 
-  bing: 
+#facebook:
+# app_id: 
+# publisher: https://www.facebook.com/
+# admins: https://www.facebook.com/
+#social:
+#  name: Jon Brown
+#  links:
+#    - https://www.facebook.com/
+#    - https://twitter.com/
+#    - https://plus.google.com/
+#    - https://www.linkedin.com/company/
+#webmaster_verifications:
+#  google: 
+#  bing: 
+#twitter_username: jekyllrb
 lang: en_US
 future: false
 
 mailchimp-list: //breelabs.us21.list-manage.com/subscribe/post?u=c334574c74c4f57096a0cf9be&amp;id=5e4d95a16a&amp;f_id=0022f0e6f0
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-#twitter_username: jekyllrb
 github_username:  jonbrown21
 
 #site_url:           http://localhost:4000

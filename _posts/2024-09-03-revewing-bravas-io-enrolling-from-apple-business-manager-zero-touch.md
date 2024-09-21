@@ -5,14 +5,15 @@ author: Jon Brown
 permalink: /blog/revewing-bravas-io-enrolling-from-apple-business-manager-zero-touch/
 published: true
 title: "Reviewing Bravas.io - Enrolling using a Zero Touch Workflow!"
-description: "Reviewing Bravas.io - Enrolling using a Zero Touch Workflow"
+description: "Reviewing Bravas.io - Enrolling using a Zero Touch Workflow: We all know that all MDM's out there can handle ZERO Touch enrollment. At least any of them worth their salt."
 blogimgpath: 20240803DP
 tags:
   - MacOS
   - iOS
 categories:
-  - tips
+  - bravas
   - video
+  - reviews
 image: /assets/images/covers/2024/Header-Bravas-4.png
 thumbnail: /assets/images/covers/2024/Header-Bravas-4.png
 cta: 2

@@ -5,14 +5,15 @@ author: Jon Brown
 permalink: /blog/setting-up-snipe-it-on-portainer-with-diet-pi/
 published: true
 title: "Setting up Snipe-IT on Portainer with DietPi"
-description: "Setting up Snipe-IT on Portainer with DietPi"
+description: "Setting up Snipe-IT on Portainer with DietPi: Ok so now that we have Portainer up and running, its running securely so now we are ready to setup SNIPE-IT."
 blogimgpath: 202408034Up
 tags:
-  - MacOS
+  - snipe
   - iOS
 categories:
-  - tips
+  - snipe
   - video
+  - tutorials
 image: /assets/images/covers/2024/Header-Docker-Pi-4.png
 thumbnail: /assets/images/covers/2024/Header-Docker-Pi-4.png
 cta: 2
@@ -127,7 +128,7 @@ Please note that you must change the following sections to suite your needs.
       - APP_KEY=XXXXXXXXX
 {% endhighlight %}  
 
-*Note* To get an App_Key you can use the default key as noted [https://snipe-it.readme.io/docs/docker](here).
+*Note* To get an App_Key you can use the default key as noted [here](https://snipe-it.readme.io/docs/docker).
 
 {% highlight bash %}
 Please re-run this container with an environment variable $APP_KEY
@@ -293,7 +294,7 @@ Once you have created the first user you will be directed to login to your envir
 
 ### Securing SNIPE-IT (With SSO) *From Documentation*
 
-To ensure that your site does not become the target of bots and hackers, lets secure our SNIPE-IT Environment. For me since I use Azure AD for my directory, I am adding in a connection to Azure SSO. If you happen to use Okta or some other directory provider you can use the instructions outlined in the [https://snipe-it.readme.io/docs/saml](SNIPE-Docs) for how to configure SAML for a variety of providers. 
+To ensure that your site does not become the target of bots and hackers, lets secure our SNIPE-IT Environment. For me since I use Azure AD for my directory, I am adding in a connection to Azure SSO. If you happen to use Okta or some other directory provider you can use the instructions outlined in the [SNIPE-Docs](https://snipe-it.readme.io/docs/saml) for how to configure SAML for a variety of providers. 
 
 Add an "Azure AD SAML Toolkit" app to your Enterprise apps in Azure AD, and edit the "Single Sign On" page, choosing SAML as the method. Edit the first section with the values below, substituting your own domains.
 

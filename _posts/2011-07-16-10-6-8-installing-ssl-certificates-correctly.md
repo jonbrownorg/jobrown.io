@@ -7,7 +7,7 @@ thumbnail: /assets/img/covers/cover-16.jpg
 img:
   - /blog/flyout/ssl.png
 categories:
-  
+  - reviews
   - ssl-encryption
 tags:
   - certificate

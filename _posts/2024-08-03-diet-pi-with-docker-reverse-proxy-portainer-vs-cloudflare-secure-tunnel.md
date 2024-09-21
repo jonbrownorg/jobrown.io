@@ -8,11 +8,12 @@ title: "Securing Raspberry Pi with Reverse Proxy and or Cloudflare Proxy Tunnel"
 description: "Securing Raspberry Pi with Reverse Proxy and or Cloudflare Proxy Tunnel"
 blogimgpath: 20240803Up
 tags:
-  - MacOS
+  - snipe
   - iOS
 categories:
-  - tips
+  - snipe
   - video
+  - tutorials
 image: /assets/images/covers/2024/Header-Docker-Pi-3.png
 thumbnail: /assets/images/covers/2024/Header-Docker-Pi-3.png
 cta: 2
