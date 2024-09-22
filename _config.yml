@@ -38,9 +38,10 @@ social:
   links:
 #    - https://www.facebook.com/
 #    - https://twitter.com/
-#    - https://plus.google.com/
+    - https://github.com/breelabs
     - https://www.linkedin.com/in/jonbrown2/
-#twitter_username: jekyllrb
+twitter:
+  card: summary_large_image
 webmaster_verifications:
   google: jt5j7dVxAu3uA_2KN9iXdYvClew5_Iga_eB7pgXCAyI
 #  bing: 
@@ -65,6 +66,7 @@ imageoptim:
     allow_lossy: true
     quality: 2
     max_quality: 80 
+  verbose: true
 
 #site_url:           http://localhost:4000
 #base_href:          http://localhost:4000
