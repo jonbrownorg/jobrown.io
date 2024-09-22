@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: humans.txt
+---
+/* TEAM */
+                            
+Your title: Jon Brown.                        
+Site: jon@jonbrown.org                                               
+Location: Washington D.C., USA.
+
+
+/* THANKS */
+
+Jon Brown Coaching & Mentor
+Name: https://jonbrown.org
+
+                            
+/* SITE */
+                          
+Last update: {{ site.time | date: '%F' }}              
+Standards: HTML5, CSS3                  
+Components: Modernizr, jQuery, Bootstrap                          
+Software: BBEdit, Jekyll, GitHub

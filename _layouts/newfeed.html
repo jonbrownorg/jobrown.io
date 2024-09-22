@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jon Brown Mentor & Coach Atom Feed</title>
+        <link>{{ site.site_cdn }}</link>
+        <description>A feed for the jonbrown.org</description>
+        <language>en</language>
+        <pubDate>{{ site.time }}</pubDate>
+        <lastBuildDate>{{ site.time }}</lastBuildDate>
+        <atom:link href="{{ site.site_cdn }}/atom.xml" rel="self" type="application/rss+xml"/>
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description><![CDATA[ {{ post.content | markdownify | strip_html | replace: '\n\n', '\n' | remove: "&gt;" | replace: "&amp;", "'" }} ]]></description>
+          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+          <link>{{ site.site_cdn }}{{ post.image }}</link>
+          <enclosure url="{{ site.site_cdn }}{{ post.image }}" length="0" type="image/jpeg"/>
+          <permalink>{{ site.site_cdn }}{{ post.permalink }}</permalink>
+          <guid isPermaLink="true">{{ site.site_cdn }}{{ post.permalink }}</guid>
+        </item>
+    </channel>
+</rss>
