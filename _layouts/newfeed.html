@@ -8,6 +8,10 @@
         <pubDate>{{ site.time }}</pubDate>
         <lastBuildDate>{{ site.time }}</lastBuildDate>
         <atom:link href="{{ site.site_cdn }}/atom.xml" rel="self" type="application/rss+xml"/>
+        {% for post in site.posts limit:20 %}
+         {% if post.incfeed %}
+    
+    	{% else %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <description><![CDATA[ {{ post.content | markdownify | strip_html | replace: '\n\n', '\n' | remove: "&gt;" | replace: "&amp;", "'" }} ]]></description>
@@ -17,5 +21,7 @@
           <permalink>{{ site.site_cdn }}{{ post.permalink }}</permalink>
           <guid isPermaLink="true">{{ site.site_cdn }}{{ post.permalink }}</guid>
         </item>
+        {% endif %}
+        {% endfor %}
     </channel>
 </rss>
