@@ -4,7 +4,7 @@ date: '2024-09-24'
 author: Jon Brown
 permalink: /blog/lessons-learned-if-i-had-to-build-an-msp-from-scratch-heres-how-id-do-it-in-2024/
 published: true
-title: "Lessons Learned: If I had to build an MSP from scratch, here's how I would do it!"
+title: "Lessons Learned: Do no harm. Lessons learned from an IT Entrepreneur on how to build an ideal, converting, MSP in 2024"
 description: "Lessons learned from an IT Entrepreneur on how to build an ideal, converting, MSP in 2024"
 blogimgpath: 202408034Up
 tags:
@@ -18,7 +18,7 @@ cta: 2
 comments: true
 ---
 
-## Lessons Learned
+## Lessons Learned: Do no harm.
 
 From 2014 until 2022 I built and ran a series of successful IT consultancies, from a one person solopreneurship (Jon Brown Consulting), to a startup (Mac Gurus) to its more mature and accomplished predecessor (Grove Technologies) where I eventually sold the business and exited the industry. 
 

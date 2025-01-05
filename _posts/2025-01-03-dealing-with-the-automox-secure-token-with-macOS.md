@@ -75,6 +75,7 @@ Notice that we need to know some information to pass into the variable fields.
 - $4 variable == The Policy ID of the automox install package policy. This is outlined in Step #1. You can get the Policy ID in the URL bar of the Policy, its a numerical value. 
 - $5 variable == The known administrator username with a secure token already. Its important to know that this must already have a secure token. 
 - $6 variable == The known password for the known administrator with secure token already. 
+- $7 variable == The Automox Key that you use to activate and associate your agent to your instance. 
 
 This script is in my [Github Repo](https://github.com/jonbrown21/Automox-macOS-Secure-Token) feel free to comment, contribute and post issues with it there. 
 
