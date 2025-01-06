@@ -9,7 +9,7 @@ description: "Lessons learned from an IT Entrepreneur on how to build an ideal, 
 blogimgpath: 202408034Up
 tags:
 categories:
-  - bravas
+  - business
   - articles
   - rants
 image: /assets/images/covers/2024/Header-Ideal-MSP-1.png
