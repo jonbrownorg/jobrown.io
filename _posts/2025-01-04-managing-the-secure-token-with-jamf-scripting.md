@@ -107,6 +107,48 @@ Again using expect here to use the fdesetup except we are not passing a prompt t
 
 This script is in my [Github Repo](https://github.com/jonbrown21/macOS-JAMF-Scripts) feel free to comment, contribute and post issues with it there. 
 
+## Automating Secure Token Deployment: Balancing Security and Practicality  
+
+When it comes to scripting, I’m usually the first to say **never pass passwords directly**—whether in scripts or variables. It’s a basic security principle. But sometimes, unique challenges demand creative solutions. Automating the deployment of secure tokens is one such challenge.  
+
+In this specific scenario, **`fdesetup` requires the user to input a password**, making automation tricky. To address this, we used tools to handle the password prompt while implementing guardrails to mitigate risks. Here's how we approached this balancing act between automation and security:  
+
+---
+
+### Key Considerations for Secure Token Automation  
+
+#### 1. **Secure Your Environment**  
+Before diving into scripting, it’s crucial to lock down your environment. For us, this included:  
+- Using a **secure JSS or JAMF Cloud instance**.  
+- Enforcing **least privilege principles** and requiring **NDAs** for access.  
+- Enabling **SSO for JAMF accounts** to bolster authentication security.  
+
+#### 2. **Script Security**  
+We chose to use **variables** to handle sensitive information rather than embedding passwords directly into scripts. While not flawless, this approach reduces the risk of exposing sensitive data.  
+
+{% highlight bash %}
+adminPass=`osascript -e 'Tell application "System Events" to display dialog "Enter your password:" with hidden answer default answer ""' -e 'text returned of result'`
+{% endhighlight %} 
+
+Additionally, the accounts needing secure tokens were equipped with **LAPS (Local Administrator Password Solution)**. LAPS rotates account passwords automatically, ensuring any exposed credentials are short-lived.  
+
+#### 3. **Handling Temporary Passwords**  
+For LAPS-enabled accounts, we retrieved the temporary password and executed the script within the one-hour window before the password rotated. During this process, staff were instructed to use **Self Service**, where they’d be prompted to enter their secure token password securely.  
+
+### Why LAPS Was a Game-Changer  
+Our situation was especially complex due to a migration from Addigy to JAMF, which left some accounts with secure tokens and others without. By standardizing usernames and enabling LAPS, we could ensure password rotation for accounts while automating token assignments.  
+
+### Additional Security Layers  
+We also integrated **JAMF Connect** with **Azure AD**, applying password rotation policies tied to organizational standards. While our current policy enforces 90-day password changes, we’re exploring modern best practices aligned with NIST recommendations, which question the efficacy of frequent password changes without cause.  
+
+### Managing Non-LAPS Accounts  
+In scenarios where two accounts are involved (one with a token, one without), enabling LAPS on at least one account is highly beneficial. For accounts that cannot leverage LAPS, I’ve successfully applied this [password rotation method](https://github.com/theadamcraig/jamf-scripts/blob/master/rescue_account/README.md) to maintain secure operations.  
+
+### Acceptable Risk vs. Automation  
+There’s no such thing as a perfectly secure method, but automation can save significant time and effort when implemented thoughtfully. Every organization must assess the risks versus rewards based on their unique needs.  
+
+For us, automating secure token assignments under these safeguards provided a practical solution. By securing the environment, leveraging 
+
 ## Conclusion
 
 I hope you enjoyed this approach to the problems that we face with secure tokens. This approach has worked out well for organizations where they need to standardize around secure tokens without interfacing with users directly. 
@@ -115,3 +157,4 @@ If you found this post useful, [Follow me](https://www.linkedin.com/in/jonbrown2
 
 ### Sources
 - [JAMF Github Repo](https://github.com/jonbrown21/macOS-JAMF-Scripts)
+- [Rotate Passwords without LAPS](https://github.com/theadamcraig/jamf-scripts/blob/master/rescue_account/README.md)
