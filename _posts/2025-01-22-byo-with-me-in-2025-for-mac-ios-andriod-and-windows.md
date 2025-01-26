@@ -28,6 +28,8 @@ In many cases when you are architecting your program you really need to look at 
 
 This is the first part in the series where I outline how I configured JAMF Pro to setup User Enrollment based BYOD program and all the settings that go along with it. In the next post I will outline how I configured JAMF Pro for macOS User Enrolled BYOD for scenerios where we have 1099 contractors who use their own macOS device. I will then cover our approach to Android and Windows management ia Microsoft Intune. 
 
+---
+
 ## Part 1: Account Driven Enrollment with JAMF for iOS Devices
 
 Implementing BYOD (Bring Your Own Device) for iOS devices using User Enrollment ensures a secure and seamless experience for both end users and IT administrators. This section outlines the specific steps required to set up BYOD for iOS User Enrollment, with a focus on the often-overlooked requirement of hosting a configuration file in the `/.well-known/` path on a web host.
@@ -43,16 +45,104 @@ Before proceeding, ensure the following requirements are met:
 2. **Apple Push Notification Service (APNs) Certificate:**
    - Obtain and upload an APNs certificate to your Mobile Device Management (MDM) solution.
 
-3. **Service Discovery File:**
+3. **User Enrollment JSON File:**
    - Host a service discovery file on a public web server at the path: `/.well-known/`.
    - This file enables account-driven enrollment and allows iOS devices to discover the MDM server automatically.
 
 4. **MDM Configuration:**
    - Ensure your MDM supports User Enrollment and is configured to support BYOD.
+   
+5. **Test the process:**
+   - Ensure you test the process of user based enrollment with BYOD.
+   
+In this article we will be talking about the steps taken with JAMF Pro. Your mileage may vary but these core concepts are pretty universal when it comes to BYOD management and end user enrollment into BYOD. 
 
-### Steps for Configuration
 
-#### 1. Prepare the Service Discovery File
+---
+
+### Steps for Managed Apple IDs
+
+#### 1. Configure Managed Apple IDs
+
+1. Log in to Apple School Manager or Apple Business Manager.
+2. Create Managed Apple IDs for your users. The easiest way to do this and the way that I did this is to enable directory sync with federation. This approach allows you to let users login to Apple with their IDP configuration. This [page](https://support.apple.com/guide/apple-business-manager/federated-authentication-identity-provider-axmfcab66783/web) provides he steps you need to federate and sync your directory with Apple Business Manager. 
+
+Here is a video that was helpful for me in the process. 
+
+{% include videos/video.html id="3HdLFjFcjqM" header="/images/covers/2025/byo_with_me.png" %}
+
+* NOTE when you federate you will run into issues where some users, who have setup Apple Accounts with their work email address will be asked to convert those non sanctioned accounts to allow Apple to reissue their work email address to their Apple Business Manager work sanctioned account. 
+
+{% include videos/video.html id="mYZyjxSjNmY" header="/images/covers/2025/byo_with_me.png" %}
+
+{:start="3"}
+
+3. Communicate the Managed Apple IDs and their associated credentials to users.
+
+Now that everyone has a managed Apple ID that allows them to login with their work email credentials user enrollment for iOS BYOD will be much more seamless. 
+
+
+---
+
+
+
+### Steps for Apple Push Notifications
+
+#### 2. Apple Push Notification Service (APNs) Certificate
+
+The Apple Push Notification Service (APNs) Certificate is essential for enabling communication between Jamf Pro and Apple devices. Without a valid APNs certificate, Jamf Pro cannot push configurations, enforce policies, or manage devices effectively.
+
+### Why is the APNs Certificate Important in Jamf Pro?
+
+1. **Device Management:** APNs facilitates the connection between Jamf Pro and managed devices, enabling key features like app deployment, configuration profiles, and restrictions.
+2. **User Enrollment:** User Enrollment for BYOD relies on APNs for initiating and maintaining the MDM relationship.
+3. **Secure Communication:** It ensures secure and reliable interactions between Jamf Pro and Apple devices via Apple servers.
+
+### How to Upload or Renew the APNs Certificate in Jamf Pro
+
+Follow these steps to configure or renew the APNs certificate in Jamf Pro:
+
+1. **Generate a Certificate Signing Request (CSR):**
+   - Log in to your Jamf Pro instance as an administrator.
+   - Navigate to **Settings** (gear icon) > **Global Management** > **Push Certificates**.
+   - Click **Download Certificate Signing Request** and save the CSR file to your computer.
+
+2. **Obtain the APNs Certificate:**
+   - Visit the [Apple Push Certificates Portal](https://identity.apple.com/pushcert/).
+   - Log in with the same Apple ID used for your existing certificate. (This is crucial for renewing certificates.)
+   - Upload the CSR file you downloaded from Jamf Pro.
+   - Download the resulting APNs certificate (`.pem` file) to your computer.
+
+3. **Upload the APNs Certificate to Jamf Pro:**
+   - Return to **Settings** > **Global Management** > **Push Certificates** in Jamf Pro.
+   - Click **Upload** and select the `.pem` file you downloaded from the Apple Push Certificates Portal.
+   - Verify the expiration date displayed in Jamf Pro after uploading the certificate.
+
+4. **Verify Device Management:**
+   - Test push notifications to ensure the new certificate is functioning correctly.
+   - For example, try deploying a configuration profile or sending a remote command to a test device.
+
+### Key Considerations
+
+- **Annual Renewal:** APNs certificates expire annually. Use the same Apple ID for renewals to avoid device re-enrollment.
+- **Notification for Expiry:** Jamf Pro will notify you about upcoming certificate expirations. Ensure your team acts promptly to renew.
+- **Source Consistency:** If the Apple ID used for the initial certificate is unavailable, you must re-enroll all managed devices.
+
+### Troubleshooting Tips
+
+- **Upload Issues:** If you encounter errors during the upload, ensure the `.pem` file corresponds to the CSR generated by Jamf Pro.
+- **Device Connectivity Problems:** Verify that the APNs certificate is active by testing communication with a managed device.
+
+
+
+---
+
+
+
+
+### Steps for User Enrollment Configuration
+
+#### 3. User Enrollment JSON File
 
 The remote management file is a simple JSON file that helps iOS devices locate the MDM server. Create a file named `com.apple.remotemanagement.json` with the following content:
 
@@ -67,40 +157,34 @@ The remote management file is a simple JSON file that helps iOS devices locate t
 }
 {% endhighlight %} 
 
-- Replace `https://JAMF_PRO_URL.com/servicediscoveryenrollment/v1/userenroll` with your actual MDM server enrollment URL.
+- Replace `https://JAMF_PRO_URL.com/servicediscoveryenrollment/v1/userenroll` with your actual MDM server enrollment URL. Again I am using JAMF Pro here so I am following the instructions laid out in this well documented article [by JAMF](https://learn.jamf.com/en-US/bundle/technical-articles/page/Prepare_for_Account-Driven_Enrollment_with_Managed_Apple_IDs_and_Service_Discovery.html). 
 
-#### 2. Host the File on the Web Server
+
+
+
+#### Host the File on the Web Server
 
 1. Place the `com.apple.remotemanagement.json` file in the `/.well-known/` directory of your web server. The full path should be: https://your-domain.com/.well-known/com.apple.remotemanagement
 
 2. Ensure the web server is publicly accessible and uses HTTPS.
 
-3. Verify the file is accessible by navigating to the URL in a browser. For example:
+3. Verify the file is accessible by navigating to the URL in a browser. 
+
+I am providing a video that was helpful for me as I was navigating this process. Your process will vary based on the kind of hosting your company chooses to host its website. You also need to take into consideration caching which may slow down the propogation process. Remember the User enrolls on their device and the base domain from their work email is used as the website that will be used to look for this json file. So if the user enrolls and the file is not present then the enrollment will fail. If you have uploaded the file and its been a few days and you are still having issues you may need to purge the website cache for the file to be exposed. For me we used Cloudflare so that was the engine that was used for caching and once cleared the process connected and users were able to login. 
 
 {% include videos/video.html id="9GkDnxviIR8" header="/images/covers/2025/byo_with_me.png" %}
 
-
-#### 3. Configure Managed Apple IDs
-
-1. Log in to Apple School Manager or Apple Business Manager.
-2. Create Managed Apple IDs for your users. The easiest way to do this and the way that I did this is to enable directory sync with federation. This approach allows you to let users login to Apple with their IDP configuration. This [page](https://support.apple.com/guide/apple-business-manager/federated-authentication-identity-provider-axmfcab66783/web) provides he steps you need to federate and sync your directory with Apple Business Manager. 
-
-{% include videos/video.html id="3HdLFjFcjqM" header="/images/covers/2025/byo_with_me.png" %}
-
-* NOTE when you federate you will run into issues where some users, who have setup Apple Accounts with their work email address will be asked to convert those non sanctioned accounts to allow Apple to reissue their work email address to their Apple Business Manager work sanctioned account. 
-
-{% include videos/video.html id="mYZyjxSjNmY" header="/images/covers/2025/byo_with_me.png" %}
-
-{:start="3"}
-3. Communicate the Managed Apple IDs and their associated credentials to users.
-
-Now that everyone has a managed Apple ID that allows them to login with their work email credentials user enrollment for iOS BYOD will be much more seamless. 
+This process also heavily leverages federated Apple ID's. If your users are not using Federated Apple IDs then their experience will be to login once to the company domain (assuming thats connected to your MDM as an identity provider), then they are prompted to sign into Apple which will redirect them to their identity provider. For me thats Azure and they login again. If you are not using federation then they will need to know their manual username and password in Apple Business Manager to complete enrollment. I highly recommend setting up federation as this will streamline the entire BYOD user enrollment process. 
 
 
 
-#### 4. Set Up MDM for User Enrollment
+---
+
+
+#### 4. Steps for MDM Configuration
 
 ## Account-driven User Enrollment
+
 For personally owned mobile devices is enabled via Jamf Pro's user-initiated enrollment settings. Source: [Enabling User Enrollment in JAMF](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Enabling_User_Enrollment_for_Mobile_Devices.html)
 
 <style>
@@ -225,6 +309,8 @@ Keep the following in mind when you distribute apps and books to personally owne
 {% endhighlight %}
 
 
+---
+
 #### 5. Test the Enrollment Process
 
 1. On an iOS device, navigate to **Settings > General > VPN & Device Management**.
@@ -238,6 +324,8 @@ Keep the following in mind when you distribute apps and books to personally owne
 
 - [Prepare for Account-Driven Enrollment with Managed Apple IDs and Service Discovery](https://learn.jamf.com/en-US/bundle/technical-articles/page/Prepare_for_Account-Driven_Enrollment_with_Managed_Apple_IDs_and_Service_Discovery.html)
 - [Overview of BYOD](https://learn.jamf.com/en-US/bundle/technical-paper-byod-current/page/Overview_BYOD.html)
+- [Jamf Documentation: Push Certificate Setup](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Configuring_APNs_for_Jamf_Pro.html)
+- [Apple Push Certificates Portal](https://identity.apple.com/pushcert/)
 - [Federation with Apple Business Manager](https://support.apple.com/guide/apple-business-manager/federated-authentication-identity-provider-axmfcab66783/web)
 - [Enabling User Enrollment in JAMF](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Enabling_User_Enrollment_for_Mobile_Devices.html)
 - [Deploy the Self Service App for iOS](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/Jamf_Self_Service_for_iOS.html)
