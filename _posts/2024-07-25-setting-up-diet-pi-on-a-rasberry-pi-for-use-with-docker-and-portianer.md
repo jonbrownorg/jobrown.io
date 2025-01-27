@@ -18,13 +18,10 @@ image: /assets/images/covers/2024/Header-Docker-Pi-1.png
 thumbnail: /assets/images/covers/2024/Header-Docker-Pi-1.png
 cta: 2
 comments: true
+series: snipe
 ---
 
-### Series
-- Part 1: [Setting up SNIPE-IT with DietPi on a Raspberry Pi]({{ site.site_cdn }}/blog/setting-up-diet-pi-on-a-rasberry-pi-for-use-with-docker-and-portianer/)
-- Part 2: [Installing Docker & Portainer on DietPi for Snipe-IT]({{ site.site_cdn }}/blog/installing-docker-portainer-on-dietpi-for-snipe-it/)
-- Part 3: [Securing Raspberry Pi with Reverse Proxy and or Cloudflare Proxy Tunnel]({{ site.site_cdn }}/blog/diet-pi-with-docker-reverse-proxy-portainer-vs-cloudflare-secure-tunnel/)
-- Part 4: [Setting up Snipe-IT on Portainer with DietPi]({{ site.site_cdn }}/blog/setting-up-snipe-it-on-portainer-with-diet-pi/)
+{% include series.html id="snipe" %}
 
 ### How to setup Rasberry Pi
 

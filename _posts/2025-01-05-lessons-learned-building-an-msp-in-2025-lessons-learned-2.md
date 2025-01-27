@@ -16,7 +16,10 @@ image: /assets/images/covers/2025/Header-Ideal-MSP-2.png
 thumbnail: /assets/images/covers/2025/Header-Ideal-MSP-2.png
 cta: 2
 comments: true
+series: msp
 ---
+
+{% include series.html id="msp" %}
 
 ## Lessons Learned: Build a strong foundation
 

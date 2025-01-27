@@ -1,0 +1,26 @@
+<div class="rounded-md bg-[#dcdcdc] p-5 mt-0 mb-5">
+<h5><strong>Blog Series</strong></h5>
+
+<ul class="marker:text-black">
+{% assign sorted_series = site.posts | group_by: 'series' %}
+{% for sorted in sorted_series %}
+
+
+{% assign pages_list = sorted.items %}
+{% for post in pages_list reversed %}
+
+{% if post.series == include.id %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endif %}
+
+
+{% endfor %}
+
+
+
+{% endfor %}
+</ul>
+</div>
+---

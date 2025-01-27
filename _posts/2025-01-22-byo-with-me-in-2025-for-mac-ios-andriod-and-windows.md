@@ -17,7 +17,12 @@ image: /assets/images/covers/2025/byo_with_me.png
 thumbnail: /assets/images/covers/2025/byo_with_me.png
 cta: 2
 comments: true
+series: byo
 ---
+
+{% include series.html id="byo" %}
+
+
 # BYOD Is for Mobile Devices only right?
 
 It really depends on your companies needs. For example many companies need to hire 1099 contractors and in such a case they come with their own devices but not the correct security settings or enforcements. Remember BYOD is a security construct. The idea here is that you should be securing the companies sensitive data in all forms. 

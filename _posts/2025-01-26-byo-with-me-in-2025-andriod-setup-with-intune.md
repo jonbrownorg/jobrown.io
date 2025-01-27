@@ -16,7 +16,11 @@ image: /assets/images/covers/2025/BYOD on Andriod Devices.png
 thumbnail: /assets/images/covers/2025/BYOD on Andriod Devices.png
 cta: 2
 comments: true
+series: byo
 ---
+
+{% include series.html id="byo" %}
+
 ## BYOD For Android using Microsoft Intune
 
 Alright, so today we're going to be talking about the management of bring your own device BYOD for Android devices. There's a lot of information out there for the management of iOS devices and you can do that with pretty much any Apple MDM on the market. We just happen to use Jamf where I work, but you could use anything from Braavos to SimpleMDM to Kanji or JumpCloud. Mosyle is also a great option. 

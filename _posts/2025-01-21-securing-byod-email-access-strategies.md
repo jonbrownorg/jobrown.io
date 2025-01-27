@@ -16,7 +16,11 @@ image: /assets/images/covers/2025/byod_email_access.png
 thumbnail: /assets/images/covers/2025/byod_email_access.png
 cta: 2
 comments: true
+series: byo
 ---
+
+{% include series.html id="byo" %}
+
 # Strengthening Your BYOD Program with Secure Email Policies  
 
 In today’s mobile-first world, organizations increasingly rely on Bring Your Own Device (BYOD) programs to empower employees while optimizing costs. However, this flexibility introduces unique challenges, particularly around securing email access. To mitigate risks, we are implementing a comprehensive strategy to block email access on non-company devices by default and ensure only sanctioned apps can access organizational email accounts.  

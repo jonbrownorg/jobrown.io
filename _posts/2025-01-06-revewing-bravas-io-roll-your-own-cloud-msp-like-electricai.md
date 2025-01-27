@@ -18,7 +18,11 @@ image: /assets/images/covers/2025/Header-Bravas-5.png
 thumbnail: /assets/images/covers/2025/Header-Bravas-5.png
 cta: 2
 comments: true
+series: bravas
 ---
+
+{% include series.html id="bravas" %}
+
 ### TL;DR
 
 Mention the code JONBROWN when you ask for a demo or start a 30-day trial and enjoy 5% additional off your first year of annual service.

@@ -18,7 +18,11 @@ image: /assets/images/covers/2024/Header-LetterK.jpg
 thumbnail: /assets/images/covers/2024/Header-LetterK.jpg
 cta: 2
 comments: true
+series: font
 ---
+
+{% include series.html id="font" %}
+
 We all need a hobby, a thing to do as we unwind from a long and sometimes stressful day. Come join me as I rediscover something that I used to do many years ago but never completed and hope to do, create my own font face. In this series I am using the tool [https://glyphsapp.com/buy](Glyphs Mini) and toggling back and forth between this tool and [https://fontforge.org/en-US/](Font Forge) and creating my own font face discovering and sharing technique's along the way. 
 
 ### The letter K:

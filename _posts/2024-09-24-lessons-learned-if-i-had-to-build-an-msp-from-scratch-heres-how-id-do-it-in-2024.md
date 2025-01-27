@@ -16,7 +16,10 @@ image: /assets/images/covers/2024/Header-Ideal-MSP-1.png
 thumbnail: /assets/images/covers/2024/Header-Ideal-MSP-1.png
 cta: 2
 comments: true
+series: msp
 ---
+
+{% include series.html id="msp" %}
 
 ## Lessons Learned: Do no harm.
 
