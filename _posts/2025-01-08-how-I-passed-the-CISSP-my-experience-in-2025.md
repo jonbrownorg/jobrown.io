@@ -11,6 +11,7 @@ tags:
 categories:
   - cybersecurity
   - tips
+  - video
 image: /assets/images/covers/2025/cisspexam.png
 thumbnail: /assets/images/covers/2025/cisspexam.png
 cta: 2
@@ -98,3 +99,4 @@ Passing the CISSP exam is a challenging but incredibly rewarding experience. It 
 
 To everyone on this journey: good luck! You’ve got this. And when you’re certified, take a moment to celebrate—you’ve earned it. 🎉  
 
+{% include videos/video.html id="TXL3h4DZ414" header="/images/covers/2025/Amphetamine.png" %}
