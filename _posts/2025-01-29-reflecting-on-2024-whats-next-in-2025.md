@@ -18,6 +18,7 @@ thumbnail: /assets/images/covers/2025/reflecting_2024.png
 cta: 2
 comments: true
 ---
+
 As 2025 begins, it’s a fitting time to reflect on the transformative journey I’ve undertaken over the past few years. It’s been a whirlwind, filled with growth, learning, and exciting challenges.
 
 ### 2022: Closing One Chapter
