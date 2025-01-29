@@ -48,7 +48,7 @@ webmaster_verifications:
 lang: en_US
 future: false
 
-mailchimp-list: //breelabs.us21.list-manage.com/subscribe/post?u=c334574c74c4f57096a0cf9be&amp;id=5e4d95a16a&amp;f_id=0022f0e6f0
+mailchimp-list: https://assets.mailerlite.com/jsonp/1303120/forms/144842435086780321/subscribe
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  jonbrown21
 

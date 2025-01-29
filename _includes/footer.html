@@ -15,7 +15,7 @@
             />
 
             <!-- Content -->
-            <div class="relative flex flex-col items-center w-full lg:flex-row">
+            <div class="relative flex flex-col items-center w-full lg:flex-row ml-form-embedContainer ml-subscribe-form ml-subscribe-form-22103855" id="mlb2-22103855">
               <div class="max-w-2xl text-center lg:pr-4 lg:text-left">
                 <h3
                   class="text-4xl font-semibold text-white font-display sm:text-5xl"
@@ -30,12 +30,14 @@
               </div>
 
               <!-- Email form -->
+              
               <form
                 action="{{site.mailchimp-list}}"
                 method="post"
-                class="relative z-10 w-full max-w-lg mt-10 lg:mt-0"
+                class="relative z-10 w-full max-w-lg mt-10 lg:mt-0 row-form"
                 name="mc-embedded-subscribe-form"
                 target="_blank" novalidate
+                data-code=""
               >
                 <input
                   type="email"
@@ -43,9 +45,14 @@
                   required
                   placeholder="Enter your email"
                   autocomplete="email"
-                  id="mce-EMAIL"
-                  name="EMAIL"
+                  aria-label="email" 
+                  aria-required="true"
+                  name="fields[email]"
+                  autocomplete="email" 
+                  aria-invalid="false"
                 />
+                <input type="hidden" name="ml-submit" value="1" aria-invalid="false">
+                <input type="hidden" name="anticsrf" value="true" aria-invalid="false">
                 <button
                   type="submit"
                   name="subscribe"
@@ -54,6 +61,21 @@
                   Subscribe
                 </button>
               </form>
+              
+            <div class="ml-form-successBody row-success text-white mr-20 mt-10 pt-5" style="display: none">
+
+            <div class="ml-form-successContent">
+              
+                <h4>Thank you!</h4>
+                
+                  <p>You have successfully joined our subscriber list.</p>
+                
+              
+            </div>
+
+          </div>
+          
+          
             </div>
 
             <!-- Background illustration -->
