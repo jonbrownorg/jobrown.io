@@ -16,7 +16,10 @@ image: /assets/images/covers/2025/automox_tokens.png
 thumbnail: /assets/images/covers/2025/automox_tokens.png
 cta: 2
 comments: true
+series: automox
 ---
+
+{% include series.html id="automox" %}
 
 ## The Problem
 
