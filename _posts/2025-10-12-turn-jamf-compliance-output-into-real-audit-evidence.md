@@ -9,9 +9,10 @@ description: "A small reporting script that converts your compliance EA into two
 blogimgpath: 202408034Up
 tags:
 categories:
-  - articles
-  - business
-  - rants
+  - automation
+  - jamf
+  - macos
+  - cybersecurity
 image: /assets/images/covers/2025/compliance_evidence.png
 thumbnail: /assets/images/covers/2025/compliance_evidence.png
 cta: 2
