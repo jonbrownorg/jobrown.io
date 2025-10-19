@@ -112,9 +112,9 @@ Keep going. 💪
 
 Here are the resources I used that made a difference:
 
-- 🎓 **[PMI Study Hall+](https://www.pmi.org/certifications/project-management-pmp/study-hall)** — Official prep tool from PMI with adaptive learning and mock exams.  
-- 📱 **[PMP Pocket Prep iOS App](https://apps.apple.com/us/app/pmp-pocket-prep/id689470565)** — Great for daily quizzes and quick learning bursts.  
-- 🧩 **[Official PMI Practice Exam](https://www.pmi.org/certifications/project-management-pmp/pmp-practice-exam)** — The most accurate simulation of the real test.  
+- 🎓 **[PMI Study Hall+](https://www.pmi.org/shop/p-/digital-product/project-management-professional-(pmp)-pmi-study-hall-plus-(subscription)-/dp014)** — Official prep tool from PMI with adaptive learning and mock exams.  
+- 📱 **[PMP Pocket Prep iOS App](https://apps.apple.com/ca/app/pocket-prep-pmp-2025/id617502426)** — Great for daily quizzes and quick learning bursts.  
+- 🧩 **[Official PMI Practice Exam](https://www.pmi.org/shop/p-/elearning/project-management-professional-(pmp)-practice-exam/el035)** — The most accurate simulation of the real test.  
 - 🎥 **[How to Pass the PMP Exam (Andrew Ramdayal, YouTube)](https://www.youtube.com/watch?v=-u0rO-YQr9c)** — A mindset-shifting video that helped me approach questions differently.  
 
 ---
