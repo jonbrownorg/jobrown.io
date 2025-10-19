@@ -12,6 +12,7 @@ categories:
   - cybersecurity
   - tips
   - video
+  - certification
 image: /assets/images/covers/2025/csslpexam.png
 thumbnail: /assets/images/covers/2025/csslpexam.png
 cta: 2

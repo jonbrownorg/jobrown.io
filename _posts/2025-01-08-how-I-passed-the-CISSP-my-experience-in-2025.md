@@ -12,6 +12,7 @@ categories:
   - cybersecurity
   - tips
   - video
+  - certification
 image: /assets/images/covers/2025/cisspexam.png
 thumbnail: /assets/images/covers/2025/cisspexam.png
 cta: 2

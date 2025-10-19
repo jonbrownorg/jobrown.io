@@ -7,9 +7,9 @@ published: true
 type: BlogPosting
 title: Uninstalling Apps on your Mac
 image: >-
-  /img/2018/youre-uninstalling-mac-apps-wrong-heres-remove-them-completely.1280x600.jpg
+  /assets/images/covers/2018/youre-uninstalling-mac-apps-wrong-heres-remove-them-completely.1280x600.jpg
 thumbnail: >-
-  /img/2018/youre-uninstalling-mac-apps-wrong-heres-remove-them-completely.1280x600.jpg
+  /assets/images/covers/2018/youre-uninstalling-mac-apps-wrong-heres-remove-them-completely.1280x600.jpg
 link: >-
   /assets/app-images/2018/youre-uninstalling-mac-apps-wrong-heres-remove-them-completely.1280x600.jpg
 tagline: Uninstalling Apps on your Mac

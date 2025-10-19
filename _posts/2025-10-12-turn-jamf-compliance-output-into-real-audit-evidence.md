@@ -52,7 +52,7 @@ export JAMF_USER="jamf_api_reader"
 export JAMF_PASSWORD="••••••••"
 ```
 
-Then run the tool:
+Then run the tool:h
 
 ```bash
 /usr/local/bin/managed_python3 "JAMF Compliance Reports.py"   --ea-name "Compliance - Failed Result List"   --out-dir "./Reports"
