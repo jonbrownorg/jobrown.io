@@ -6,6 +6,86 @@ cursor:hand;
 z-index: 50;
 }
 
+/* Sequoia Dock — scoped so it won't affect the rest of the page */
+  #sequoia-dock .dock-wrap{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    padding: 0 10px;
+    z-index: 100; /* above the wallpaper/cards */
+  }
+  #sequoia-dock .dock{
+    display:flex; align-items:center; gap:12px; padding:10px 14px;
+    border-radius: 26px;
+    background: rgba(255,255,255,0.35);             /* clearer than Tahoe */
+    -webkit-backdrop-filter: saturate(130%);
+    backdrop-filter: saturate(130%);
+    border:1px solid rgba(255,255,255,.28);         /* thin bright edge */
+    outline:0.5px solid rgba(0,0,0,.16);            /* hairline contrast */
+    box-shadow: 0 10px 24px rgba(0,0,0,.10);        /* soft drop shadow */
+    position:relative;
+  }
+  #sequoia-dock .dock::before{
+    content:""; position:absolute; inset:0; border-radius:inherit;
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%,
+                                rgba(255,255,255,.10) 55%,
+                                rgba(255,255,255,.20) 100%);
+    pointer-events:none;
+  }
+  #sequoia-dock .dock-item{
+    position:relative; width:64px; height:64px; display:grid; place-items:center;
+    margin-top:-5px; padding-bottom:1px; background:transparent; border:none; outline:none;
+    -webkit-appearance:none; appearance:none;
+  }
+  #sequoia-dock .dock-item img{ width:64px; height:64px; display:block; background:transparent; border:none; }
+  #sequoia-dock .indicator{
+    position:absolute; left:50%; bottom:-7px; transform:translateX(-50%);
+    width:4px; height:4px; background:#000; opacity:0;
+  }
+  #sequoia-dock .dock-item.active .indicator{ opacity:1; }
+  #sequoia-dock .tooltip{
+    position:absolute; left:50%; bottom: calc(100% + 20px); transform: translateX(-50%) scale(.96);
+    padding:6px 18px; border-radius:8px; min-width:70px; text-align:center;
+    background: rgba(246,246,246,0.60);
+    -webkit-backdrop-filter: saturate(180%); backdrop-filter: saturate(180%);
+    box-shadow: 0 10px 24px rgba(0,0,0,.10);
+    white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .12s, transform .12s;
+    font-size: 13px; /* 👈 smaller tooltip font */
+  }
+  #sequoia-dock .tooltip::after{
+    content:""; position:absolute; left:50%; bottom:-6px; transform:translateX(-50%);
+    width:14px; height:5px; background: rgba(246,246,246,0.60);
+    -webkit-backdrop-filter: saturate(180%); backdrop-filter: saturate(180%);
+    border-left:1px solid #fff; border-right:1px solid #fff; border-bottom:1px solid #fff;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    margin-top:-13px;
+  }
+  #sequoia-dock .show-title .tooltip{ opacity:1; transform:translateX(-50%) scale(1); }
+  @media (max-width: 640px) {
+  #sequoia-dock .dock-wrap {
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+  #sequoia-dock .dock-wrap::-webkit-scrollbar { display: none; }
+
+  #sequoia-dock .dock {
+    width: max-content;
+    margin: 0 auto;
+  }
+  #sequoia-dock .dock-item {
+    flex: 0 0 auto;
+  }
+
+  /* optional: same mask fade */
+  #sequoia-dock .dock-wrap {
+    position: relative;
+    mask-image: linear-gradient(to right, transparent 0, black 12px, black calc(100% - 12px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 12px, black calc(100% - 12px), transparent 100%);
+  }
+}
+
 </style>
 
     
@@ -107,34 +187,48 @@ z-index: 50;
       
       </div>      
      
-      
-      <div class="absolute bottom-2 left-0 right-0">
-      
+		<!-- Dock -->
+		<div id="sequoia-dock" class="absolute bottom-2 left-0 right-0">
 		  <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
-			<div class="max-w-6xl mx-auto flex items-center" style="border: 0px solid green;">
-			
-				<div class="flex items-row mx-auto overflow-x-auto" style="border: 0px solid red; z-index: 100;">
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/dock_left.png" alt="Dock Left Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/dock_left_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/dock_left.png'"></div>
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/contacts_icon.png" alt="Contacts Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/contacts_icon_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/contacts_icon.png'"></div>
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/bbedit_icon.png" alt="BBEdit Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/bbedit_icon_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/bbedit_icon.png'"></div>
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/befit.png" alt="BeFit Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/befit_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/befit.png'"></div>
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/xcode_icon.png" alt="XCode Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/xcode_icon_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/xcode_icon.png'"></div>
-				  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/chat_icon.png" alt="Chat Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/chat_icon_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/chat_icon.png'"></div>
-			  	  <div class="flex-shrink-0"><img src="{{ site.site_url }}/images/macos/dock_right.png" alt="Dock Right Icon" onmouseover="this.src='{{ site.site_url }}/images/macos/dock_right_hover.png'" onmouseout="this.src='{{ site.site_url }}/images/macos/dock_right.png'"></div>
+			<div class="max-w-6xl mx-auto flex items-center">
+			  <div class="dock-wrap mx-auto">
+				<div class="dock" role="toolbar" aria-label="macOS Sequoia Dock">
+				  <!-- Swap icon paths to where your Sequoia PNGs live -->
+				  <button type="button" class="dock-item active" data-title="Finder" aria-label="Finder">
+					<img src="{{ site.site_url }}/images/macos/seqoia/Finder.png" alt="Finder" />
+					<span class="indicator"></span><span class="tooltip">Finder</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="Contacts" aria-label="Contacts">
+					<img src="{{ site.site_url }}/images/macos/seqoia/Contacts.png" alt="Contacts" />
+					<span class="indicator"></span><span class="tooltip">Contacts</span>
+				  </button>
+				  <button type="button" class="dock-item active" data-title="BeFit" aria-label="BeFit">
+					<img src="{{ site.site_url }}/images/macos/seqoia/BeFit.png" alt="BeFit" />
+					<span class="indicator"></span><span class="tooltip">BeFit</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="Font Book" aria-label="Font Book">
+					<img src="{{ site.site_url }}/images/macos/seqoia/Fontbook.png" alt="Font Book" />
+					<span class="indicator"></span><span class="tooltip">Font Book</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="App Store" aria-label="App Store">
+					<img src="{{ site.site_url }}/images/macos/seqoia/AppStore.png" alt="App Store" />
+					<span class="indicator"></span><span class="tooltip">App Store</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="Messages" aria-label="Messages">
+					<img src="{{ site.site_url }}/images/macos/seqoia/Messages.png" alt="Messages" />
+					<span class="indicator"></span><span class="tooltip">Messages</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="Trash" aria-label="Trash">
+					<img src="{{ site.site_url }}/images/macos/seqoia/Trash.png" alt="Trash" />
+					<span class="indicator"></span><span class="tooltip">Trash</span>
+				  </button>
 				</div>
-				
-				
+			  </div>
 			</div>
 		  </div>
-      
-      </div>
-      
-      
-      
-      
-      
-      
-      
+		</div>
+		<!-- Dock -->
+
       </div>
       
        
@@ -198,4 +292,6 @@ z-index: 50;
 <script type="text/javascript">
 Drag.init(document.getElementById("befit"));
 Drag.init(document.getElementById("befit-blk"));
+
+
 </script>
