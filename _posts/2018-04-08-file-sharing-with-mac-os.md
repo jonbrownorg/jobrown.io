@@ -29,7 +29,7 @@ File sharing is one of the most useful services available when you have a more t
 
 To enable File Sharing on your Mac, go to System Preferences > Sharing
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2018/filesharing/image4.png" class="img-fluid rounded m-2" width="700" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2018/dvdaccess/image1.png" class="img-fluid rounded m-2" width="700" />
 
 Next check the box for File Sharing
 

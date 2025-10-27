@@ -19,13 +19,13 @@ tags:
 
 Apple’s latest software release iOS 11, available for download via the App Store on your iPhone or iPad, offers a quick way to free up space now on your iPhone or iPad via suggested options. You can find these suggestions via the Settings app (black gears on gray background icon).
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2017/easyspace/ios11_freeupspace_image_1.jpg" class="img-fluid rounded m-2" width="400" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2017/freespace/ios11_freeupspace_image_1.jpg" class="img-fluid rounded m-2" width="400" />
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2017/easyspace/ios11_freeupspace_image_2.jpg" class="img-fluid rounded m-2" width="400" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2017/freespace/ios11_freeupspace_image_2.jpg" class="img-fluid rounded m-2" width="400" />
 
 To use the space saving options, open the Settings app and scroll down to General. Click on General and go down to iPhone Storage. A new menu opens showing your current usage with three options below - Offload Unused Apps, Auto Delete Old Conversations and Review Large Attachments. By clicking Enable, you can get any suggestion to turn on.
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2017/easyspace/ios11_freeupspace_image_3.jpg" class="img-fluid rounded m-2" width="400" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2017/freespace/ios11_freeupspace_image_3.jpg" class="img-fluid rounded m-2" width="400" />
 
 ### Offload Unused Apps
 ---

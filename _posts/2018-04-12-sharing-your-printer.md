@@ -30,7 +30,7 @@ Go to:
 
 System Preferences > Sharing
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2018/printersharing/image6.png" class="img-fluid rounded m-2" width="700" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2018/dvdaccess/image1.png" class="img-fluid rounded m-2" width="700" />
 
 Check the Printer Sharing checkbox, and the Printer Sharing status will change to On.
 

@@ -32,7 +32,7 @@ Go to:
 
 System Preferences > Sharing
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2018/internetsharing/image1.png" class="img-fluid rounded m-2" width="700" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2018/dvdaccess/image1.png" class="img-fluid rounded m-2" width="700" />
 
 * * *
 

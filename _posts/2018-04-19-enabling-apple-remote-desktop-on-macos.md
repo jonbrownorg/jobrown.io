@@ -30,7 +30,7 @@ Remote management works with the Apple Remote Desktop app which is a paid app fr
 Go to:
 System Preferences > Sharing
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2018/ard/image3.png" class="img-fluid rounded m-2" width="700" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2018/dvdaccess/image1.png" class="img-fluid rounded m-2" width="700" />
 
 Now check the Remote Management option from the service list:
 

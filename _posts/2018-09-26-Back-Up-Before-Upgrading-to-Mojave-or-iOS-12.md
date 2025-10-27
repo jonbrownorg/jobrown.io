@@ -103,7 +103,7 @@ To back up to iTunes, connect your device to your Mac via a
 Lightning-to-USB cable, launch iTunes, and click the device icon to the
 right of the media menu.
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2018/backupmojave/image4.png" class="img-fluid rounded m-2" width="700" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2019/20190903ma/image5.png" class="img-fluid rounded m-2" width="700" />
 
 Then, in the Backups section, click Back Up Now. If you're prompted to
 encrypt your backups, we encourage you to agree since otherwise your
