@@ -16,7 +16,11 @@ image: /assets/images/covers/2025/jamf_security_cloud.png
 thumbnail: /assets/images/covers/2025/jamf_security_cloud.png
 cta: 2
 comments: true
+series: jamfsecuritycloud
 ---
+
+{% include series.html id="jamfsecuritycloud" %}
+
 
 ## The Problem: Standard Routing Policies Need Fixing
 
