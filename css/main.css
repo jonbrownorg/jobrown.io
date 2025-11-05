@@ -320,6 +320,72 @@ pre {
   /* 2 */
 }
 
+/* Minimal “traffic light” header for existing code blocks
+   - Preserves your current colors, borders, shadows, etc.
+   - Adds only a small top bar area + the three dots
+*/
+
+.prose pre,
+.prose .highlight pre,
+.highlight pre,
+pre {
+  position: relative;
+  /* Make room for the dots row; tweak if you want it tighter/looser */
+  --termbar-h: 34px;
+  padding-top: calc(var(--termbar-h) + 8px);
+}
+
+/* Header strip (inherits the block's own background) + dots */
+.prose pre::before,
+.prose .highlight pre::before,
+.highlight pre::before,
+pre::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: var(--termbar-h);
+  background: inherit;              /* no new colors, borders, or shadows */
+  border-top-left-radius: inherit;  /* respect whatever you already have */
+  border-top-right-radius: inherit;
+
+  /* The dots (no extra styling besides these) */
+  background-image:
+    radial-gradient(circle at 16px 50%, #ff5f56 0 6px, transparent 7px),
+    radial-gradient(circle at 40px 50%, #ffbd2e 0 6px, transparent 7px),
+    radial-gradient(circle at 64px 50%, #27c93f 0 6px, transparent 7px);
+  background-repeat: no-repeat;
+}
+
+/* Optional: tiny filename/tag on the right without altering style
+   Usage: <pre data-title="server.js">… */
+.prose pre[data-title]::after,
+.prose .highlight pre[data-title]::after,
+.highlight pre[data-title]::after,
+pre[data-title]::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 8px; right: 12px;
+  font: 500 12px/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  opacity: .7;                      /* subtle; won’t fight your theme */
+}
+
+/* Optional: opt-out class if you need a block without the dots */
+.prose pre.no-termbar::before,
+.prose .highlight pre.no-termbar::before,
+.highlight pre.no-termbar::before,
+pre.no-termbar::before {
+  content: none;
+  display: none;
+  /* also remove the extra padding if desired */
+}
+.prose pre.no-termbar,
+.prose .highlight pre.no-termbar,
+.highlight pre.no-termbar,
+pre.no-termbar {
+  padding-top: initial;
+}
+
+
 /*
 Add the correct font size in all browsers.
 */
