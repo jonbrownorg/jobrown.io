@@ -30,7 +30,7 @@ Let’s break down what the repo teaches, how the scripts work, and what you nee
 
 ---
 
-## 🚀 Why This Repo Exists
+### 🚀 Why This Repo Exists
 
 Apple’s Business Manager API is powerful—yet the process of actually talking to it is surprisingly under-explained. To make a single API call, you’re expected to download a key bundle from Apple, decrypt and convert the private key, construct a JSON Web Token by hand, understand the OAuth2 `client_credentials` grant type, sign everything correctly using ES256, exchange the signed assertion for an access token, and only then are you allowed to access the ABM Device Management API. It’s a lot of moving parts for something as straightforward as “give me my device list.”
 
@@ -38,14 +38,14 @@ This repo demystifies that entire chain of events. The goal is simple: **teach M
 
 ---
 
-# 🧩 Repo Overview
+### 🧩 Repo Overview
 
 Inside the repo you’ll find two main scripts:
 
-### **1. `make_assertion.py`**  
+#### **1. `make_assertion.py`**  
 Builds and prints the ES256-signed JWT (client assertion) you need to authenticate with Apple.
 
-### **2. `abm_verify.py`**  
+#### **2. `abm_verify.py`**  
 Takes that assertion, exchanges it for an OAuth token, and calls the `/v1/orgDevices` endpoint — a full round-trip test.
 
 Both scripts lean on environment variables to keep your credentials safe and your workspace clean.
@@ -55,7 +55,7 @@ You can explore it all here:
 
 ---
 
-## 🔐 Understanding Apple’s Key & Certificate Workflow
+### 🔐 Understanding Apple’s Key & Certificate Workflow
 
 One of the first hurdles you run into when working with the Apple Business Manager API is the private key itself. When you download your API key from ABM, Apple doesn’t hand you a ready-to-use PEM file. Instead, you typically receive a `.p12` bundle or some other wrapped, encrypted key material. At first glance it looks fine—after all, it’s still a real private key—but it turns out that the way Apple ships it simply *cannot* be used directly with Python’s `cryptography` library or PyJWT.
 
@@ -83,7 +83,7 @@ Once you have that final `abm_key_unencrypted.pem`, you’re ready.
 
 ---
 
-# ⚙️ Setting Up Your Environment
+### ⚙️ Setting Up Your Environment
 
 You’ll need a few Python packages:
 
@@ -103,9 +103,9 @@ This keeps your workspace clean and avoids the classic “hard-coding keys” mi
 
 ---
 
-# 🛠 Running the Scripts
+### 🛠 Running the Scripts
 
-## 🔸 Generate a JWT Assertion  
+#### 🔸 Generate a JWT Assertion  
 This step confirms your key loads correctly and your variables are wired properly.
 
 ~~~~~
@@ -118,7 +118,7 @@ Paste it into jwt.io if you want to inspect the contents!
 
 ---
 
-## 🔸 Perform a Full ABM API Authentication Round-Trip
+### 🔸 Perform a Full ABM API Authentication Round-Trip
 
 ~~~~~
 python abm_verify.py
@@ -135,7 +135,7 @@ On success, you'll see a valid JSON payload with device information.
 
 ---
 
-# 🧯 Troubleshooting Tips (From Real-World Experience)
+### 🧯 Troubleshooting Tips (From Real-World Experience)
 
 ### **❗ Key can’t be deserialized**
 Your key is:
@@ -167,7 +167,7 @@ Easy fix: regenerate the API key, making sure all permissions are checked.
 
 ---
 
-## 🌟 Why This Matters for MacAdmins
+### 🌟 Why This Matters for MacAdmins
 
 As MacAdmins, we’re constantly juggling tools, APIs, dashboards, and scripts just to keep our fleets running smoothly. Apple Business Manager sits at the center of a lot of that work, yet actually interacting with its API has always felt like stepping behind a curtain you’re not supposed to touch. That’s why this project matters: once you understand how ABM authentication works—how the keys are structured, how assertions are built, how tokens flow—you suddenly unlock an entirely new level of automation. Whether you're building a warranty checker, an inventory aggregator, or a custom integration for your MDM, having reliable access to ABM means you can replace guesswork with real data, streamline your workflows, and create tools that genuinely make your day-to-day easier. This repo isn’t just about showing you the mechanics; it’s about empowering you to build smarter, faster, and with confidence, knowing exactly what’s happening under the hood.
 
@@ -180,17 +180,12 @@ And it’s free, open, and ready to experiment with.
 
 ---
 
-# 📚 Resources
+## Resources
 
-### **Official Documentation**
 - [Apple Business Manager User Guide](https://support.apple.com/guide/apple-business-manager/welcome/web)  
 - [Apple Platform Deployment](https://support.apple.com/guide/deployment/welcome/web)  
-
-### **Helpful Tools**
 - [jwt.io](https://jwt.io) — Decode & inspect your JWTs  
 - [OpenSSL](https://www.openssl.org/) — Required for key conversion  
-
-### **Related GitHub Repo**
 - [Apple Business Manager API Test](https://github.com/jonbrown21/Apple-Business-Manager-API-Test)
 
 
