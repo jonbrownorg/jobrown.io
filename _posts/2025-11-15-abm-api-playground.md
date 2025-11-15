@@ -4,7 +4,7 @@ date: '2025-11-14'
 author: Jon Brown
 permalink: /blog/abm-api-playground/
 published: true
-title: "Exploring the Apple Business Manager API: A Hands-On Playground for Modern MacAdmins"
+title: "Exploring the Apple Business Manager API: A Hands-On Playground"
 description: "A friendly, upbeat walkthrough of my Apple Business Manager API Test repo, showing how to generate client assertions, exchange them for tokens, and call Apple’s Device Management API."
 blogimgpath: 202408034Up
 tags:
