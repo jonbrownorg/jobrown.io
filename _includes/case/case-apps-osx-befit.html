@@ -6,6 +6,18 @@ cursor:hand;
 z-index: 50;
 }
 
+:root {
+    --dock-height: 72px;
+    --icon-size: 48px;
+    --radius-outer: 26px;
+    --radius-inner: 18px;
+    --glass: rgba(255, 255, 255, 0.16);
+    --glass-shadow: 0 12px 30px rgba(0,0,0,.15), 0 1px 1px rgba(255,255,255,.2) inset;
+    --tooltip-bg: rgba(246, 246, 246, 0.85);
+    --tooltip-text: #111;
+    --indicator: #000;
+  }
+
 /* Sequoia Dock — scoped so it won't affect the rest of the page */
   #sequoia-dock .dock-wrap{
     position: relative;
@@ -15,54 +27,66 @@ z-index: 50;
     z-index: 100; /* above the wallpaper/cards */
   }
   #sequoia-dock .dock{
-    display:flex; align-items:center; gap:12px; padding:10px 14px;
+    display: flex; align-items: center; gap: 12px; padding: 12px 16px;
     border-radius: 26px;
-    background: rgba(255,255,255,0.35);             /* clearer than Tahoe */
-    -webkit-backdrop-filter: saturate(130%);
-    backdrop-filter: saturate(130%);
-    border:1px solid rgba(255,255,255,.28);         /* thin bright edge */
-    outline:0.5px solid rgba(0,0,0,.16);            /* hairline contrast */
-    box-shadow: 0 10px 24px rgba(0,0,0,.10);        /* soft drop shadow */
+    background: rgba(255, 255, 255, 0.16);          /* clearer than Tahoe */
+    -webkit-backdrop-filter: saturate(180%) blur(22px);
+    backdrop-filter: saturate(180%) blur(22px);
+    border: 1px solid rgba(255,255,255,0.2);         /* thin bright edge */
+    outline: 0.5px solid rgba(0,0,0,.1);           /* hairline contrast */
+    box-shadow: var(--glass-shadow);       /* soft drop shadow */
     position:relative;
   }
   #sequoia-dock .dock::before{
-    content:""; position:absolute; inset:0; border-radius:inherit;
-    background: linear-gradient(to top, rgba(255,255,255,0) 0%,
-                                rgba(255,255,255,.10) 55%,
-                                rgba(255,255,255,.20) 100%);
+    content:"";
     pointer-events:none;
   }
   #sequoia-dock .dock-item{
-    position:relative; width:64px; height:64px; display:grid; place-items:center;
-    margin-top:-5px; padding-bottom:1px; background:transparent; border:none; outline:none;
-    -webkit-appearance:none; appearance:none; margin-left: -8px !important;
+    position: relative; width: 64px; height: 64px;
+    display:grid; 
+    margin-top: -5px; padding-bottom: 1px; 
+    background: transparent; border: none; outline: none; box-shadow: none;
+    -webkit-appearance: none; appearance: none; margin-left: -8px !important;
   }
   #sequoia-dock .dock-item > :first-child {
-   margin-left: 8px !important;
+   margin-left: 0px !important;
   }
   #sequoia-dock .dock-item img{ width:64px; height:64px; display:block; background:transparent; border:none; }
   #sequoia-dock .indicator{
     position:absolute; left:50%; bottom:-7px; transform:translateX(-50%);
-    width:4px; height:4px; background:#000; opacity:0; margin-left: 4px !important;
+    width:4px; height:4px; background:#000; opacity:0; margin-left: 2px !important;
   }
   #sequoia-dock .dock-item.active .indicator{ opacity:1; }
   #sequoia-dock .tooltip{
-    position:absolute; left:50%; bottom: calc(100% + 20px); transform: translateX(-50%) scale(.96);
-    padding:6px 18px; border-radius:8px; min-width:70px; text-align:center;
-    background: rgba(246,246,246,0.60);
-    -webkit-backdrop-filter: saturate(180%); backdrop-filter: saturate(180%);
-    box-shadow: 0 10px 24px rgba(0,0,0,.10);
-    white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .12s, transform .12s;
-    font-size: 13px; /* 👈 smaller tooltip font */
-    margin-left: 4px !important;
+  position: absolute; 
+  left:60%; 
+  bottom: calc(100% + 20px); 
+  transform: translateX(-50%) scale(.96);
+  padding:6px 18px; 
+  border-radius: 22px;
+  background: var(--tooltip-bg);
+  -webkit-backdrop-filter: saturate(180%) blur(22px);
+  backdrop-filter: saturate(180%) blur(22px);
+  box-shadow: var(--glass-shadow);
+  white-space:nowrap; 
+  opacity:0; 
+  pointer-events:none; 
+  transition:opacity .12s ease, transform .12s ease; 
+  min-width: 50px; 
+  font-size: 13px; /* 👈 smaller tooltip font */
+  margin-left: -2px !important;
   }
   #sequoia-dock .tooltip::after{
-    content:""; position:absolute; left:50%; bottom:-6px; transform:translateX(-50%);
-    width:14px; height:5px; background: rgba(246,246,246,0.60);
-    -webkit-backdrop-filter: saturate(180%); backdrop-filter: saturate(180%);
-    border-left:1px solid #fff; border-right:1px solid #fff; border-bottom:1px solid #fff;
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
-    margin-top:-13px;
+    content:""; position:absolute; left:50%; bottom:-6px; transform: translateX(-50%);
+                    width:14px; height:5px; background: var(--tooltip-bg);
+                    -webkit-backdrop-filter: saturate(180%) blur(22px);
+                    box-shadow: var(--glass-shadow);
+    				backdrop-filter: saturate(180%) blur(22px);
+                    border-left: 1px solid rgba(255,255,255,1);
+                    border-right: 1px solid rgba(255,255,255,1);
+                    border-bottom: 1px solid rgba(255,255,255,1);
+                    clip-path: polygon(50% 100%, 0 0, 100% 0);
+                    margin-top:-13px; 
   }
   #sequoia-dock .show-title .tooltip{ opacity:1; transform:translateX(-50%) scale(1); }
   @media (max-width: 640px) {
@@ -165,7 +189,7 @@ z-index: 50;
     <!-- Timeline -->
     <section class="overflow-hidden bg-slate-50">
       <div class="relative" style="height: 818px;">
-      <div style="background-image: url('{{ site.site_url }}/images/macos/wallpaper.png'); height: 1200px; background-size: cover; background-repeat: no-repeat;">
+      <div style="background-image: url('{{ site.site_url }}/images/macos/tahoe/bg.png'); height: 1200px; background-size: cover; background-repeat: no-repeat;">
       
       <div class="absolute top-0 left-0 right-0" style="height: 24px; background-image: url('{{ site.site_url }}/images/macos/menubar.png'); background-repeat: no-repeat; z-index: 90;"></div>
       
@@ -192,31 +216,31 @@ z-index: 50;
 				<div class="dock" role="toolbar" aria-label="macOS Sequoia Dock">
 				  <!-- Swap icon paths to where your Sequoia PNGs live -->
 				  <button type="button" class="dock-item" data-title="Finder" aria-label="Finder">
-					<img src="{{ site.site_url }}/images/macos/seqoia/Finder.png" alt="Finder" />
+					<img src="{{ site.site_url }}/images/macos/tahoe/Finder.png" alt="Finder" />
 					<span class="indicator"></span><span class="tooltip">Finder</span>
 				  </button>
 				  <button type="button" class="dock-item" data-title="Contacts" aria-label="Contacts">
-					<img src="{{ site.site_url }}/images/macos/seqoia/Contacts.png" alt="Contacts" />
+					<img src="{{ site.site_url }}/images/macos/tahoe/Contacts.png" alt="Contacts" />
 					<span class="indicator"></span><span class="tooltip">Contacts</span>
 				  </button>
 				  <button type="button" class="dock-item active" data-title="BeFit" aria-label="BeFit">
-					<img src="{{ site.site_url }}/images/macos/seqoia/BeFit.png" alt="BeFit" />
+					<img src="{{ site.site_url }}/images/macos/tahoe/BeFit.png" alt="BeFit" />
 					<span class="indicator"></span><span class="tooltip">BeFit</span>
 				  </button>
-				  <button type="button" class="dock-item" data-title="Font Book" aria-label="Font Book">
-					<img src="{{ site.site_url }}/images/macos/seqoia/Fontbook.png" alt="Font Book" />
-					<span class="indicator"></span><span class="tooltip">Font Book</span>
-				  </button>
-				  <button type="button" class="dock-item" data-title="App Store" aria-label="App Store">
-					<img src="{{ site.site_url }}/images/macos/seqoia/AppStore.png" alt="App Store" />
-					<span class="indicator"></span><span class="tooltip">App Store</span>
-				  </button>
-				  <button type="button" class="dock-item" data-title="Messages" aria-label="Messages">
-					<img src="{{ site.site_url }}/images/macos/seqoia/Messages.png" alt="Messages" />
+				  <button type="button" class="dock-item" data-title="Messages" aria-label="Font Book">
+					<img src="{{ site.site_url }}/images/macos/tahoe/Messages.png" alt="Font Book" />
 					<span class="indicator"></span><span class="tooltip">Messages</span>
 				  </button>
+				  <button type="button" class="dock-item" data-title="XCode" aria-label="App Store">
+					<img src="{{ site.site_url }}/images/macos/tahoe/XCode.png" alt="App Store" />
+					<span class="indicator"></span><span class="tooltip">XCode</span>
+				  </button>
+				  <button type="button" class="dock-item" data-title="BBEdit" aria-label="Messages">
+					<img src="{{ site.site_url }}/images/macos/tahoe/BBEdit.png" alt="Messages" />
+					<span class="indicator"></span><span class="tooltip">BBEdit</span>
+				  </button>
 				  <button type="button" class="dock-item" data-title="Trash" aria-label="Trash">
-					<img src="{{ site.site_url }}/images/macos/seqoia/Trash.png" alt="Trash" />
+					<img src="{{ site.site_url }}/images/macos/tahoe/Trash.png" alt="Trash" />
 					<span class="indicator"></span><span class="tooltip">Trash</span>
 				  </button>
 				</div>
