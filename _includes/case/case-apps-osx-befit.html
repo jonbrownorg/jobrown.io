@@ -27,7 +27,7 @@ z-index: 50;
     z-index: 100; /* above the wallpaper/cards */
   }
   #sequoia-dock .dock{
-    display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+    display: flex; align-items: center; gap: 12px; padding: 12px 12px;
     border-radius: 26px;
     background: rgba(255, 255, 255, 0.16);          /* clearer than Tahoe */
     -webkit-backdrop-filter: saturate(180%) blur(22px);
@@ -49,12 +49,12 @@ z-index: 50;
     -webkit-appearance: none; appearance: none; margin-left: -8px !important;
   }
   #sequoia-dock .dock-item > :first-child {
-   margin-left: 0px !important;
+   margin-left: -5px !important;
   }
   #sequoia-dock .dock-item img{ width:64px; height:64px; display:block; background:transparent; border:none; }
   #sequoia-dock .indicator{
     position:absolute; left:50%; bottom:-7px; transform:translateX(-50%);
-    width:4px; height:4px; background:#000; opacity:0; margin-left: 2px !important;
+    width:4px; height:4px; background:#000; opacity:0; margin-left: -4px !important;
   }
   #sequoia-dock .dock-item.active .indicator{ opacity:1; }
   #sequoia-dock .tooltip{
@@ -74,7 +74,7 @@ z-index: 50;
   transition:opacity .12s ease, transform .12s ease; 
   min-width: 50px; 
   font-size: 13px; /* 👈 smaller tooltip font */
-  margin-left: -2px !important;
+  margin-left: -5px !important;
   }
   #sequoia-dock .tooltip::after{
     content:""; position:absolute; left:50%; bottom:-6px; transform: translateX(-50%);
