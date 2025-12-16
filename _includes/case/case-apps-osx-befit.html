@@ -191,7 +191,68 @@ z-index: 50;
       <div class="relative" style="height: 818px;">
       <div style="background-image: url('{{ site.site_url }}/images/macos/tahoe/bg.png'); height: 1200px; background-size: cover; background-repeat: no-repeat;">
       
-      <div class="absolute top-0 left-0 right-0" style="height: 24px; background-image: url('{{ site.site_url }}/images/macos/menubar.png'); background-repeat: no-repeat; z-index: 90;"></div>
+      <!-- macOS Menu Bar -->
+		<div class="absolute top-0 left-0 z-90 h-8 w-full
+            backdrop-blur-md bg-white/20
+            pointer-events-none">
+		
+		  <!-- Left side -->
+		  <div class="absolute left-[16px] top-0 h-full
+            flex items-center space-x-4
+            text-[14px] text-white hidden sm:flex">
+		
+			<!-- Apple Logo -->
+			<svg class="h-[18px] w-[18px] opacity-90 -translate-y-[0.25px]" viewBox="0 0 24 24" aria-hidden="true">
+			  <path fill="currentColor" d="M16.365 1.43c0 1.14-.45 2.28-1.2 3.15-.81.93-2.13 1.65-3.27 1.56-.15-1.17.42-2.37 1.17-3.15.75-.84 2.16-1.56 3.3-1.56zM20.1 17.58c-.45.96-.66 1.38-1.23 2.25-.81 1.26-1.95 2.82-3.36 2.85-1.23.03-1.56-.81-3.24-.81-1.68 0-2.04.78-3.24.84-1.41.06-2.49-1.41-3.3-2.67-2.28-3.51-2.52-7.62-1.11-9.78.99-1.53 2.58-2.43 4.05-2.43 1.53 0 2.49.84 3.75.84 1.23 0 1.98-.84 3.75-.84 1.29 0 2.67.72 3.66 1.98-3.21 1.74-2.7 6.12.27 7.77z"/>
+			</svg>
+		
+			<!-- Menu Items -->
+			<span class="font-semibold opacity-95">BeFit Tracker</span>
+			<span class="opacity-80">File</span>
+			<span class="opacity-80">Edit</span>
+			<span class="opacity-80">View</span>
+			<span class="opacity-80">Go</span>
+			<span class="opacity-80">Window</span>
+			<span class="opacity-80">Help</span>
+		  </div>
+		
+		  <!-- Right side (optional, purely visual) -->
+		  <div class="absolute right-[16px] top-0 h-full
+            flex items-center space-x-3
+            text-[12px] text-white hidden sm:flex">
+			  
+			  <img
+				  src="{{ site.site_url }}/images/macos/wifi.png"
+				  alt=""
+				  aria-hidden="true"
+				  class="h-3 opacity-80
+						 brightness-0 invert -translate-y[0.25px] mr-1""
+				/>
+			
+			  <!-- Time -->
+			    <span id="menubar-time" class="text-[14px] opacity-80 text-white"></span>
+
+				<script>
+				(function () {
+				  const d = new Date(Date.now() - Math.random() * 864e5);
+				
+				  const weekday = d.toLocaleString("en-US", { weekday: "short" });
+				  const month   = d.toLocaleString("en-US", { month: "short" });
+				  const day     = d.getDate();
+				
+				  let hours = d.getHours();
+				  const minutes = String(d.getMinutes()).padStart(2, "0");
+				  const ampm = hours >= 12 ? "PM" : "AM";
+				
+				  hours = hours % 12 || 12;
+				
+				  document.getElementById("menubar-time").textContent =
+					`${weekday} ${month} ${day} ${hours}:${minutes} ${ampm}`;
+				})();
+				</script>
+				
+		  </div>
+		</div>
       
       
       <div class="items-center justify-center overflow-x-auto flex" style="height: 818px;">
