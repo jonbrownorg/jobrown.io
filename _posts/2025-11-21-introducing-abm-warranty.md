@@ -16,7 +16,11 @@ image: /assets/images/covers/2025/warranty_header_010.png
 thumbnail: /assets/images/covers/2025/warranty_header_010.png
 cta: 2
 comments: true
+series: abmwarranty
 ---
+
+{% include series.html id="abmwarranty" %}
+
 ## Introducing ABM Warranty for macOS  
 _A smarter, faster way to understand and manage warranty coverage across your organization._
 
@@ -31,6 +35,14 @@ _A smarter, faster way to understand and manage warranty coverage across your or
     />
 </div>
 
+<div class="my-12 flex justify-center">
+  <a
+    href="https://jonbrown.org/apps/#warranty"
+    class="inline-flex items-center rounded-full bg-blue-600 px-7 py-3.5 text-sm font-semibold text-white no-underline hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition"
+  >
+   Download ABM Warranty 0.2.0
+  </a>
+</div>
 
 If you manage Apple devices at scale, you already know that **Apple Business Manager (ABM)** provides warranty data — but in practice, it’s extremely limited. It doesn’t provide workflow-friendly insights, it doesn’t surface actionable coverage states, and it doesn’t help you wrangle the ever-growing complexity of **AppleCare+ renewals** across hundreds or thousands of devices.
 
