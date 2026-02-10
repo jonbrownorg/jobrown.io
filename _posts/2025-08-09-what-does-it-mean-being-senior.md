@@ -2,7 +2,7 @@
 layout: post
 date: '2025-08-09'
 author: Jon Brown
-permalink: /blog/what-does-it-mean-being-senior/
+permalink: /blog/what-does-it-mean-to-be-senior/
 published: true
 title: "What Does It Really Mean to Be “Senior” in Your Job?"
 description: "What Does It Really Mean to Be “Senior” in Your Job?"
