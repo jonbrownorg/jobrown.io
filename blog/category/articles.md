@@ -1,9 +1,18 @@
 ---
 layout: blog_by_category
-title: 'Articles by category: Articles'
-description: "Articles by category: Articles - Grove Technologies - Washington DC's best Mac Support company for Digital Agencies"
+title: Articles Articles | Jon Brown Blog
+description: Browse Jon Brown blog posts about Articles, including practical guides,
+  lessons learned, and implementation insights.
+type: CollectionPage
 category: articles
 permalink: "/blog/category/articles/"
-image: /assets/images/og/og_image_blog.png
+canonical_url: https://jonbrown.org/blog/category/articles/
+image:
+  path: "/assets/images/og/og_image_blog.png"
+  width: 1200
+  height: 630
+  alt: Articles posts on Jon Brown blog
+thumbnail: "/assets/images/og/og_image_blog.png"
+ogtype: website
 tagline: "<br>Our Blog"
 ---

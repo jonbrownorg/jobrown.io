@@ -1,9 +1,18 @@
 ---
 layout: blog_by_category
-title: 'Articles by category: Tutorials & Walkthroughs'
-description: "Articles by category: Tips And Tricks - Grove Technologies - Washington DC's best Mac Support company for Digital Agencies"
+title: Tutorials & Walkthroughs Articles | Jon Brown Blog
+description: Browse Jon Brown blog posts about Tutorials & Walkthroughs, including
+  practical guides, lessons learned, and implementation insights.
+type: CollectionPage
 category: tutorials
 permalink: "/blog/category/tutorials/"
-image: /assets/images/og/og_image_blog.png
+canonical_url: https://jonbrown.org/blog/category/tutorials/
+image:
+  path: "/assets/images/og/og_image_blog.png"
+  width: 1200
+  height: 630
+  alt: Tutorials & Walkthroughs posts on Jon Brown blog
+thumbnail: "/assets/images/og/og_image_blog.png"
+ogtype: website
 tagline: "<br>Our Blog"
 ---

@@ -1,9 +1,18 @@
 ---
 layout: blog_by_category
-title: 'Fun with Typography'
+title: Typography Articles | Jon Brown Blog
+description: Browse Jon Brown blog posts about Typography, including practical guides,
+  lessons learned, and implementation insights.
+type: CollectionPage
 category: typography
-description: "Articles by category: Tips And Tricks - Grove Technologies - Washington DC's best Mac Support company for Digital Agencies"
 permalink: "/blog/category/typography/"
-image: /assets/images/og/og_image_blog.png
+canonical_url: https://jonbrown.org/blog/category/typography/
+image:
+  path: "/assets/images/og/og_image_blog.png"
+  width: 1200
+  height: 630
+  alt: Typography posts on Jon Brown blog
+thumbnail: "/assets/images/og/og_image_blog.png"
+ogtype: website
 tagline: "<br>Our Blog"
 ---
