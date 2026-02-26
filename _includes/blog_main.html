@@ -143,7 +143,7 @@
           <article class="flex flex-col items-start justify-between shadow-sm rounded-2xl bg-slate-50 shadow-sky-100/50 ring-1 ring-slate-100">
             
                 {% assign thumb = post.thumbnail | strip_newlines %}
-                {% if thumb == "/assets/img/covers/cover-16.jpg" || if thumb == "" %}
+                {% if thumb == "/assets/img/covers/cover-16.jpg" or thumb == "" %}
 				  
 				  {% else %}
 					<!-- Image -->
@@ -276,85 +276,41 @@
   
   
   
-  {% for page in (1..paginator.total_pages) %}
-    {% assign last_five = forloop.length | minus: 4 %}
-    {% assign last_page = forloop.length %}
-    {% if forloop.length > 5 %}
-        {% if paginator.page <= 5 %}
-            {% if forloop.index <= 5 %}
-                {% if forloop.first and page == paginator.page %}
-                    <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-                {% elsif forloop.first %}
-                    <a href="/blog/" class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex">1</a>
-                {% elsif page == paginator.page %}
-                    <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-                {% else %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-                {% endif %}
-            {% else %}
-                {% if paginator.page == 5 %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-                {% endif %}
-                    <span>...</span>
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ last_page }}/">{{ last_page }}</a>
-                {% break %}
-            {% endif %}
-        {% elsif paginator.page >= last_five %}
-            {% if forloop.index >= last_five %}
-                {% if forloop.index == last_five %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
-                    <span>...</span>
-                {% if page == last_five %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page | minus: 1 }}/">{{ page | minus: 1 }}</a>
-                {% endif %}
-                {% if page == paginator.page %}
-                    <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-                {% else %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page }}/">{{ page }}</a>
-                {% endif %}
-                {% elsif forloop.last and page == paginator.page %}
-                    <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-                {% elsif page == paginator.page %}
-                    <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-                {% else %}
-                    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page }}/">{{ page }}</a>
-                {% endif %}
-            {% endif %}
-        {% else %}
-            {% if forloop.first %}
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
-            {% endif %}
-            {% if forloop.index == paginator.page | minus: 2 %}
-                <span>...</span>
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page | minus: 2 }}/">{{ page | minus: 2 }}</a>
-            {% endif %}
-            {% if forloop.index == paginator.page | minus: 1 %}
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page | minus: 1 }}/">{{ page | minus: 1 }}</a>
-            {% endif %}
-            {% if page == paginator.page %}
-                <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-            {% endif %}
-            {% if forloop.index == paginator.page | plus: 1 %}
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page | plus: 1 }}/">{{ page | plus: 1 }}</a>
-            {% endif %}
-            {% if forloop.index == paginator.page | plus: 2 %}
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page | plus: 2 }}/">{{ page | plus: 2 }}</a>
-                <span>...</span>
-            {% endif %}
-            {% if forloop.last %}
-                <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ forloop.index }}/">{{ forloop.index }}</a>
-            {% endif %}
-          {% endif %}
-        {% else %}
-        {% if page == paginator.page %}
-            <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-        {% elsif page == 1 %}
-            <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">{{ page }}</a>
-        {% else %}
-            <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page }}/">{{ page }}</a>
-        {% endif %}
-        {% endif %}
-    {% endfor %}
+  {% assign total_pages = paginator.total_pages %}
+  {% assign current_page = paginator.page %}
+  {% assign start_page = current_page | minus: 2 %}
+  {% assign end_page = current_page | plus: 2 %}
+  {% if start_page < 1 %}
+    {% assign start_page = 1 %}
+  {% endif %}
+  {% if end_page > total_pages %}
+    {% assign end_page = total_pages %}
+  {% endif %}
+
+  {% if start_page > 1 %}
+    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
+    {% if start_page > 2 %}
+      <span>...</span>
+    {% endif %}
+  {% endif %}
+
+  {% for page in (start_page..end_page) %}
+    {% if page == current_page %}
+      <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
+    {% else %}
+      <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page }}/">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if end_page < total_pages %}
+    {% assign near_last_page = total_pages | minus: 1 %}
+    {% if end_page < near_last_page %}
+      <span>...</span>
+    {% endif %}
+    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ total_pages }}/">{{ total_pages }}</a>
+  {% endif %}
     
     
     
@@ -382,5 +338,3 @@
         </div>
       </div>
     </section>
-
-
