@@ -288,19 +288,19 @@
   {% endif %}
 
   {% if start_page > 1 %}
-    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
+    <a class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700" href="/blog/">1</a>
     {% if start_page > 2 %}
       <span>...</span>
     {% endif %}
   {% endif %}
 
-  {% for page in (start_page..end_page) %}
-    {% if page == current_page %}
-      <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/">1</a>
+  {% for num in (start_page..end_page) %}
+    {% if num == current_page %}
+      <span class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-full shadow-sm bg-sky-600 text-sky-50 shadow-sky-100/50 ring-1 ring-slate-900/5">{{ num }}</span>
+    {% elsif num == 1 %}
+      <a class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700" href="/blog/">1</a>
     {% else %}
-      <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ page }}/">{{ page }}</a>
+      <a class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700" href="/blog/page/{{ num }}/">{{ num }}</a>
     {% endif %}
   {% endfor %}
 
@@ -309,7 +309,7 @@
     {% if end_page < near_last_page %}
       <span>...</span>
     {% endif %}
-    <a class="items-center justify-center hidden w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700 sm:inline-flex" href="/blog/page/{{ total_pages }}/">{{ total_pages }}</a>
+    <a class="inline-flex items-center justify-center w-10 h-10 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700" href="/blog/page/{{ total_pages }}/">{{ total_pages }}</a>
   {% endif %}
     
     
