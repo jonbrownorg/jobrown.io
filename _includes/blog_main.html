@@ -132,7 +132,11 @@
         <div class="grid max-w-lg gap-8 mx-auto mt-14 sm:mt-16 md:mx-0 md:max-w-none md:grid-cols-2 lg:grid-cols-3 lg:gap-y-6 lg:gap-x-5 xl:gap-x-6 xl:gap-y-8" >
         
         
-        {% for post in paginator.posts %}
+        {% assign blog_posts = paginator.posts %}
+        {% if blog_posts == nil %}
+          {% assign blog_posts = site.posts %}
+        {% endif %}
+        {% for post in blog_posts limit: site.paginate %}
         
         
           <!-- 1st Article -->
@@ -248,7 +252,7 @@
         <!-- Pagination -->
         <div class="flex items-center justify-center gap-2 mt-20">
         
-         {% if paginator.total_pages > 1 %}
+         {% if paginator and paginator.total_pages > 1 %}
     
     	 {% if paginator.previous_page %}
      
@@ -378,6 +382,5 @@
         </div>
       </div>
     </section>
-
 
 
