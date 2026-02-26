@@ -13,4 +13,9 @@ image:
 tagline: "<br>Our Blog"
 thumbnail: /assets/images/og/og_image_blog.png
 ogtype: website
+custom_js:
+- js/validate
+- js/contactform
+- js/alertify
+- js/custom
 ---
