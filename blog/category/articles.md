@@ -4,6 +4,6 @@ title: 'Articles by category: Articles'
 description: "Articles by category: Articles - Grove Technologies - Washington DC's best Mac Support company for Digital Agencies"
 category: articles
 permalink: "/blog/category/articles/"
-image: /assets/images/photos/photo-10.jpg
+image: /assets/images/og/og_image_blog.png
 tagline: "<br>Our Blog"
 ---

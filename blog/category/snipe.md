@@ -3,6 +3,6 @@ layout: blog_by_category
 title: 'Articles by category: Snipe-IT'
 category: snipe
 permalink: "/blog/category/snipe/"
-image: /assets/images/photos/photo-10.jpg
+image: /assets/images/og/og_image_blog.png
 tagline: "<br>Our Blog"
 ---

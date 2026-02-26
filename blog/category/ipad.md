@@ -3,6 +3,6 @@ layout: blog_by_category
 title: 'Articles by category: iPad'
 category: ipad
 permalink: "/blog/category/ipad/"
-image: /assets/images/photos/photo-10.jpg
+image: /assets/images/og/og_image_blog.png
 tagline: "<br>Our Blog"
 ---
