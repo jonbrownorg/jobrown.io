@@ -81,20 +81,20 @@
                   alt="{{ page.title }}"
                   class="object-cover w-full rounded-3xl bg-slate-100"
                 />
+                
                 <div
                   class="absolute inset-0 rounded-3xl ring-1 ring-inset ring-slate-900/10"
                 ></div>
+                
               </div>
+              {% include  share.html %}
             </div>
           </div>
         </header>
 
         <div class="px-4 bg-white sm:px-6 lg:px-8">
           <!-- Article body -->
-          <div class="max-w-2xl mx-auto prose prose-lg">
-          
-          {% include  share.html %}
-          
+          <div class="max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto prose prose-lg">
           
             {{ content }}
             
@@ -102,7 +102,7 @@
 
           </div>
           
-          <footer class="max-w-2xl mx-auto">
+          <footer class="max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto">
             <hr class="w-full h-px pb-6 mt-14 text-slate-300/75 sm:pb-4" />
             <div
               class="flex flex-col sm:flex-row sm:items-center sm:justify-between"
