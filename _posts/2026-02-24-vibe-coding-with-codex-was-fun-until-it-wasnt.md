@@ -848,7 +848,7 @@ Include exact command strings where available.
 
 When direct platform session ID is unavailable:
 
-1. Create local incident ID: befit-incident-YYYYMMDD-HHMMSS.
+1. Create local incident ID: incident-YYYYMMDD-HHMMSS.
 2. Bind it to:
    1. branch name
    2. backup path
