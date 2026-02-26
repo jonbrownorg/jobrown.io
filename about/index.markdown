@@ -5,6 +5,7 @@
 layout: about
 permalink: /about/
 canonical_url: "https://jonbrown.org/about/"
+sitemap: true
 title: "Hi, I’m Jon and I’m a coach & mentor"
 type: ProfilePage
 description: "Learn about Jon Brown’s background as a coach and mentor helping entrepreneurs and teams make practical, trusted technology and business decisions."

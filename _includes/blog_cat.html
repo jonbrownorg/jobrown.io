@@ -6,6 +6,7 @@
         <img
           src="{{ site.site_url }}/assets/images/main/blog-hero-bg.svg"
           alt=""
+          aria-hidden="true"
           class="absolute inset-0 w-full h-full"
         />
         <div class="relative flex flex-col items-center justify-center">
@@ -161,11 +162,11 @@
 							href="{{ post.url | prepend: site.baseurl }}"
 							class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2"
 						  >
-							<img
-							  src="{{ site.site_url }}{{ post.thumbnail }}"
-							  alt=""
-							  class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
-							/>
+								<img
+								  src="{{ site.site_url }}{{ post.thumbnail }}"
+								  alt="{{ post.title | escape }}"
+								  class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
+								/>
 							
 						<div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
 					  </a>
@@ -281,6 +282,4 @@
 
       </div>
     </section>
-
-
 
