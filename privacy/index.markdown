@@ -5,6 +5,7 @@
 layout: privacy
 permalink: /privacy/
 canonical_url: "https://jonbrown.org/privacy/"
+sitemap: true
 title: "Privacy Policy | Jon Brown"
 type: WebPage
 description: "Read Jon Brown’s privacy policy, including how personal information is collected, used, and protected."

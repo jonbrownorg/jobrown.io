@@ -5,6 +5,7 @@
 layout: contact
 permalink: /contact/
 canonical_url: "https://jonbrown.org/contact/"
+sitemap: true
 title: "Contact | Jon Brown"
 type: ContactPage
 description: "Contact Jon Brown for coaching, consulting, project inquiries, and collaboration opportunities."

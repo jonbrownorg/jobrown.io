@@ -5,6 +5,7 @@
 layout: apps
 permalink: /apps/
 canonical_url: "https://jonbrown.org/apps/"
+sitemap: true
 title: "iOS and macOS Apps | Jon Brown"
 type: CollectionPage
 description: "Explore Jon Brown’s iOS and macOS apps, including tools for fitness tracking, utility workflows, and practical everyday use."

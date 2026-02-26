@@ -2,6 +2,7 @@
 layout: home
 permalink: /
 canonical_url: "https://jonbrown.org/"
+sitemap: true
 title: "Entrepreneur Mentor and Coach | Jon Brown"
 type: WebSite
 description: "Jon Brown helps aspiring entrepreneurs launch and grow with practical coaching on consulting, freelancing, and side-hustle strategy."

@@ -5,6 +5,7 @@
 layout: case
 permalink: /case-studies/
 canonical_url: "https://jonbrown.org/case-studies/"
+sitemap: true
 title: "Case Studies | Jon Brown"
 type: CollectionPage
 description: "Explore Jon Brown’s case studies across app development, consulting, and product work, with practical project outcomes and implementation insights."

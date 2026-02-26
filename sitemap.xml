@@ -30,6 +30,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
+    {% if page.sitemap == true %}
     <url>
       <loc>{{ site.site_url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
@@ -50,5 +51,6 @@ sitemap:
         <priority>0.3</priority>
       {% endif %}
     </url>
+    {% endif %}
   {% endfor %}
 </urlset>
