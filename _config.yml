@@ -28,7 +28,6 @@ email: jon@jonbrown.org
 paginate: 6
 paginate_path: /blog/page/:num
 permalink: /blog/:categories/:year/:month/:day/:title.html
-logo: /images/new-logo.png
 #facebook:
 # app_id: 
 # publisher: https://www.facebook.com/
