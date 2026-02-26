@@ -250,7 +250,7 @@ Even after all I had done, Codex still until today is not reliably, reading, und
         <span class="dot yellow"></span>
         <span class="dot green"></span>
       </div>
-      <div class="mac-title">Codex Risk Register (Comprehensive).md - Edited</div>
+      <div class="mac-title">Codex Risk Register (Comprehensive).md</div>
     </div>
 
     <div class="mac-content">{% raw %}# Codex Risk Register (Comprehensive)
