@@ -3,12 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: case-apps
-title: "Case Studies: iOS & Mac OS Apps"
-type: LocalBusiness
-description: "Explore case studies of app development projects by Jon Brown, highlighting successful macOS and iOS applications. Learn about the unique challenges faced, solutions implemented, and the creative process behind developing user-friendly, high-performance apps for diverse industries." 
-keywords: "app development case studies, Jon Brown apps, iOS app projects, macOS app case studies, successful app launches, app user experience, app performance optimization, Apple-focused app development, Grove Technologies app development, app design journey, mobile app solutions, macOS app design, UI/UX case studies, mobile development expertise"
+title: "Apps Case Study | Jon Brown"
+type: Article
+description: "Explore Jon Brown’s app development case studies, including iOS and macOS projects, delivery decisions, and measurable product outcomes."
+canonical_url: "https://jonbrown.org/case-studies/apps/"
 thumbnail: /assets/images/case_studies/case-study-thumbnail-development.png
-image: /assets/images/case_studies/case-study-thumbnail-development.png
+image:
+  path: /assets/images/case_studies/case-study-thumbnail-development.png
+  width: 1200
+  height: 630
+  alt: "Apps case studies by Jon Brown"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---

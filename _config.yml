@@ -68,14 +68,14 @@ imageoptim:
     max_quality: 80 
   verbose: true
 
-site_url:           http://localhost:4000
-base_href:          http://localhost:4000
-site_cdn:           http://localhost:4000
+#site_url:           http://localhost:4000
+#base_href:          http://localhost:4000
+#site_cdn:           http://localhost:4000
 
-#url:                https://jonbrown.org
-#site_url:           https://jonbrown.org
-#base_href:          https://jonbrown.org
-#site_cdn:           https://jonbrown.org
+url:                https://jonbrown.org
+site_url:           https://jonbrown.org
+base_href:          https://jonbrown.org
+site_cdn:           https://jonbrown.org
 
 production:          true
 

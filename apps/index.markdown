@@ -3,12 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: apps
-title: "iOS & Mac OS Apps"
-type: LocalBusiness
-description: "BeFit Tracker for MacOS and iOS allows you to effortlessly look up caloric details on over 5000+ food items and add them to custom tracking lists." 
-keywords: "BeFit Tracker, calorie tracking app, macOS apps, iOS apps, Seafood Guide app, sustainable seafood, pet age calculator, animal age tracker, mac app development, iPhone app development, Jon Brown apps, BeFit Tracker macOS, BMI insights, sustainable fish, pet lifespan calculator, food tracking, iOS calorie tracker, Apple technologist, Mac App Store, iOS App Store, Jon Brown developer, app portfolio, app entrepreneur, macOS calorie tracking, food sustainability apps."
+permalink: /apps/
+canonical_url: "https://jonbrown.org/apps/"
+title: "iOS and macOS Apps | Jon Brown"
+type: CollectionPage
+description: "Explore Jon Brown’s iOS and macOS apps, including tools for fitness tracking, utility workflows, and practical everyday use."
 thumbnail: /assets/images/og/og_image_apps.png
-image: /assets/images/og/og_image_apps.png
+image:
+  path: /assets/images/og/og_image_apps.png
+  width: 1200
+  height: 630
+  alt: "Jon Brown iOS and macOS apps"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---

@@ -3,12 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: case-jbc
-title: "Case Studies: Jon Brown Consulting"
-type: LocalBusiness
-description: "Explore the Jon Brown Consulting (JBC) case study to gain insights into effective business strategies, innovative solutions, and the successful execution of projects in IT services and entrepreneurship." 
-keywords: "Jon Brown Consulting, JBC case study, business strategy case study, IT services case study, entrepreneurship case study, business growth examples, Jon Brown EMBA, business success stories, innovative business solutions, IT project execution, case study insights, business challenges solutions, entrepreneurship growth, IT services success, real-world business examples, consulting case study, business problem-solving, IT strategy execution, business development, consulting success stories"
+title: "Jon Brown Consulting Case Study | Jon Brown"
+type: Article
+description: "Read the Jon Brown Consulting case study with project strategy, delivery approach, and practical business outcomes from client engagements."
+canonical_url: "https://jonbrown.org/case-studies/jbc/"
 thumbnail: /assets/images/case_studies/case-study-thumbnail-consulting_old.png
-image: /assets/images/case_studies/case-study-thumbnail-consulting_old.png
+image:
+  path: /assets/images/case_studies/case-study-thumbnail-consulting_old.png
+  width: 1200
+  height: 630
+  alt: "Jon Brown Consulting case study"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---

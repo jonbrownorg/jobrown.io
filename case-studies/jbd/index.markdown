@@ -3,12 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: case-jbd
-title: "Case Studies: Jon Brown Designs"
-type: LocalBusiness
-description: "Dive into the Jon Brown Development (JBD) case study to learn about innovative development strategies, project management excellence, and the successful delivery of high-quality IT solutions. Discover how JBD has helped businesses achieve their development goals through cutting-edge technology and strategic execution." 
-keywords: "Jon Brown Development, JBD case study, development strategy case study, IT development case study, project management excellence, IT solutions delivery, Jon Brown EMBA, development success stories, innovative development solutions, IT project management, case study insights, business development strategies, IT execution success, real-world development examples, consulting case study, IT development challenges, technology solutions, project delivery success, business development consulting, strategic project management"
+title: "Jon Brown Designs Case Study | Jon Brown"
+type: Article
+description: "Discover how Jon Brown Designs projects translated product ideas into shipped solutions through focused development and execution."
+canonical_url: "https://jonbrown.org/case-studies/jbd/"
 thumbnail: /assets/images/case_studies/case-study-thumbnail-designs.png
-image: /assets/images/case_studies/case-study-thumbnail-designs.png
+image:
+  path: /assets/images/case_studies/case-study-thumbnail-designs.png
+  width: 1200
+  height: 630
+  alt: "Jon Brown Designs case study"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---
