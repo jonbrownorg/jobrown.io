@@ -218,6 +218,22 @@ At this point I decided the best step was to reach out to OpenAI support. I gath
 
 Its unclear if I was ever talking with a human throughout the entire interaction but the final response was essentially, no we cant give you a refund, no we cant give you credits, thanks for letting us know, we will use this to improve our product and were sorry that you lost data. I pushed and pushed and no real change in overall response. 
 
+> Hello,
+>
+> Thank you for your response.
+>
+> We understand that following the deletion event, you spent a significant amount of time trying to recover your work and have now exhausted your credits while still not fully restoring your progress. We truly recognize how discouraging that must feel, especially after investing so much effort into rebuilding, and we appreciate you sharing your experience with us.
+>
+> At this time, we’re unable to restore Codex credits, as usage limits reset automatically based on your plan. For most users, rate limits refresh every few hours or weekly, depending on their subscription and usage tier. These limits are in place to help ensure fairness and maintain system stability for all users.
+>
+> We understand this may not be the outcome you were hoping for. Please know that we’ve shared your feedback with our internal team as we continue working to improve our products and services.
+>
+> If you have any additional questions or need further clarification, we’re here to help.
+>
+> Best,  
+> Joel V  
+> OpenAI Support
+
 So why am I sharing my story?? Well because it got me thinking. This was an app that yeah, was a side-hobby of mine, I was absolutely furious that I had lost the data, sure a lot of the issues could have been mitigated if I had better backups, a more disciplined approach to coding, but I am a hobbiest developer. I don't code for a living and so yes, I was impacted but it wasn't as devastating as it could have been if I were working on a larger scale production project. 
 
 And thats when it hit me, as someone who works in the security space I couldn't help but realize that there are likely millions of companies out there right now, using agentic coding as a tool in their toolbox, many without any real sense of consequence at all. The reality though is that a tool that can accidentally truncate large levels of data, can also introduce bugs and security flaws into your project, you wouldn't know even if it did, and its deceptive nature in longer threads can make you feel like code reviews are passing while the agents themselves are just taking the path of least resistence, in your view its lying, it its view its picking the optimal path, as its not capable of deception. 
@@ -547,9 +563,42 @@ Mode: List-only risk register for print review
 
   </div>
 
-I ended up with this list and once I had this fully introduced into my code-base the Agent started behaving better. 
+I ended up with this risk register and once I had this fully introduced into my code-base the Agent started behaving a little better. 
 
-In addition I had it create a playbook for future incidents that I wanted to share with you all here. 
+AI-assisted coding tools like Codex are not just toys or convenience helpers — they operate as agents acting on behalf of the developer. This distinction matters because:
+
+- Traditional development relies on the human as the sole arbiter of intent and change.
+- With an AI agent, responsibility for change is shared between human intent and AI execution logic.
+
+In many cases, AI tools do not fully understand context the way a human engineer does. AI logic can:
+
+- Make assumptions based on partial context.
+- Infer patterns that look “plausible” but are incorrect for the specific codebase.
+- Produce changes that appear syntactically valid while violating architectural or operational constraints.
+
+The result is not always catastrophic — but it can be, and that’s why safeguards exist in enterprise environments for traditional code changes.
+
+A formal risk register isn’t just a compliance artifact — it’s an operational necessity. Some immediate guardrails every team should consider:
+
+1. **Backup Before Edit**  
+   Always snapshot the workspace before invoking AI-assisted mutation.
+
+2. **Scoped Patch Modeling**  
+   Don’t send the whole file; always restrict to the smallest editable subset.
+
+3. **Approval Gates**  
+   Force human-in-the-loop approval before every write.
+
+4. **Rollback First**  
+   Before applying any patch, assess rollback pathways and test them.
+
+5. **Visibility and Logging**  
+   Log both AI proposals and applied changes in a human readable record.
+
+6. **Diff & Impact Reporting**  
+   Don’t trust a summary — inspect diff output before committing.
+   
+In addition I had Codex create a playbook for future incidents that I wanted to share with you all here. 
 
 <div class="mac-window" markdown="0">
 
@@ -1252,6 +1301,26 @@ This document is not advisory text. It is a procedural control layer intended to
 </div>
 
   </div>
+
+The runbook exists because something actually broke.
+
+The risk register exists because I don’t want it to happen again.
+
+This wasn’t just a “AI might do something weird.” It did. A critical file was wiped. Recovery took hours. Credits burned.
+
+I’m not anti-AI. I still use it. But I’m done pretending speed equals safety.
+
+If AI is going to participate in real engineering work, it needs real engineering controls. Backups. Restore points. Approval gates. Diff inspection. Hard stop conditions.
+
+OpenAI needs to acknowledge that Codex isn’t just a chat tool — it’s an execution agent. When it edits files, it’s participating in change management. That carries responsibility.
+
+At minimum, destructive operations should require explicit confirmation. Scoped diffs should be mandatory before writes. Restore points should be automatic. Usage credits shouldn’t penalize recovery from tool-induced damage.
+
+If these tools are going to market themselves for serious engineering work, they need to ship with serious engineering guardrails.
+
+Power without protection isn’t innovation.
+
+It’s liability.
 
 I hope this helps you out, and raises the awareness level a bit in the community! Stay safe out there!
 
