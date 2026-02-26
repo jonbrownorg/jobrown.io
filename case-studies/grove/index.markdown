@@ -3,12 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: case-grove
-title: "Case Studies: Grove Technologies"
-type: LocalBusiness
-description: "Explore case studies from Grove Technologies, highlighting their expertise in providing IT consulting, Apple device management, and technology solutions. Learn how Grove Technologies has helped businesses streamline operations, improve security, and leverage Apple ecosystems for optimized performance and growth." 
-keywords: "Grove Technologies case studies, IT consulting success, Apple device management, business IT solutions, Apple ecosystem consulting, technology optimization, managed service provider, Apple-focused IT, Grove Technologies success stories, IT security improvements, Apple technology solutions, client success Grove Technologies, IT project management."
-thumbnail: /images/case_studies/case-study-thumbnail-grove.png
-image: /images/case_studies/case-study-thumbnail-grove.png
+title: "Grove Technologies Case Study | Jon Brown"
+type: Article
+description: "See how Grove Technologies projects improved Apple-focused IT operations, security posture, and execution across real client environments."
+canonical_url: "https://jonbrown.org/case-studies/grove/"
+thumbnail: /assets/images/case_studies/case-study-thumbnail-grove.png
+image:
+  path: /assets/images/case_studies/case-study-thumbnail-grove.png
+  width: 1200
+  height: 630
+  alt: "Grove Technologies case study by Jon Brown"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---

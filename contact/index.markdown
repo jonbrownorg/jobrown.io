@@ -3,12 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: contact
-title: "Contact Us!"
-type: LocalBusiness
-description: "Get in touch with Jon Brown, EMBA, to learn more about how his expertise in business building, IT services, and entrepreneurship can help you achieve your goals. Whether you have questions, need advice, or are looking to collaborate, reach out through the contact form and start a conversation today." 
-keywords: "contact Jon Brown, Jon Brown EMBA, business consultation, entrepreneurship advice, IT services consultation, business building support, contact form, business collaboration, reach out to Jon Brown, business expertise inquiry, IT services support, entrepreneurship questions, business advice, consulting inquiries, business consulting contact, expert business guidance, entrepreneurial support, IT services expert, contact information, collaboration opportunities"
-thumbnail: /images/contact-hero.jpg
-image: /images/contact-hero.jpg
+permalink: /contact/
+canonical_url: "https://jonbrown.org/contact/"
+title: "Contact | Jon Brown"
+type: ContactPage
+description: "Contact Jon Brown for coaching, consulting, project inquiries, and collaboration opportunities."
+thumbnail: /assets/images/og/og_image_contact.png
+image:
+  path: /assets/images/og/og_image_contact.png
+  width: 1200
+  height: 630
+  alt: "Contact Jon Brown"
 author: Jon Brown
-ogtype: page
+ogtype: website
 ---

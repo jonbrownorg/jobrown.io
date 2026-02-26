@@ -26,7 +26,7 @@ _A smarter, faster way to understand and manage warranty coverage across your or
 
 <div 
   class="w-full max-w-4xl mx-auto my-0 p-6 rounded-xl overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/macos/tahoe/bg.png');"
+  style="background-image: url('/assets/images/macos/tahoe/bg.png');"
 >
     <img 
       src="/assets/images/blog/2025/warranty/1.png" 
@@ -85,7 +85,7 @@ This is the same API authentication flow Apple documents for their Business APIs
 
 <div 
   class="w-full max-w-4xl mx-auto my-0 p-6 rounded-xl overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/macos/tahoe/bg.png');"
+  style="background-image: url('/assets/images/macos/tahoe/bg.png');"
 >
     <img 
       src="/assets/images/blog/2025/warranty/3.png" 
@@ -108,7 +108,7 @@ Once credentials are saved, you can immediately fetch device inventory and cover
 
 <div 
   class="w-full max-w-4xl mx-auto my-0 p-6 rounded-xl overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/macos/tahoe/bg.png');"
+  style="background-image: url('/assets/images/macos/tahoe/bg.png');"
 >
     <img 
       src="/assets/images/blog/2025/warranty/2.png" 
@@ -157,7 +157,7 @@ Everything is one click away, filtered instantly.
 
 <div 
   class="w-full max-w-4xl mx-auto my-0 p-6 rounded-xl overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/macos/tahoe/bg.png');"
+  style="background-image: url('/assets/images/macos/tahoe/bg.png');"
 >
     <img 
       src="/assets/images/blog/2025/warranty/5.png" 
@@ -181,7 +181,7 @@ Everything is one click away, filtered instantly.
 
 <div 
   class="w-full max-w-4xl mx-auto my-0 p-6 rounded-xl overflow-hidden bg-cover bg-center"
-  style="background-image: url('/images/macos/tahoe/bg.png');"
+  style="background-image: url('/assets/images/macos/tahoe/bg.png');"
 >
     <img 
       src="/assets/images/blog/2025/warranty/4.png" 
