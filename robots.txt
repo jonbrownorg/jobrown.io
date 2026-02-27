@@ -11,6 +11,11 @@ User-agent: *
 {% if site.production != true %}
   Disallow: /
 {% else %}
+  # Legacy portfolio paths are out of SEO scope for the primary site.
+  Disallow: /sites/
+  # Error utility endpoints should not be crawled as content pages.
+  Disallow: /403
+  Disallow: /500
   {% if noindexDocuments or noindexPages %}
     {% for node in noindexPages %}
       Disallow: {{ node.url }}
