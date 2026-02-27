@@ -85,6 +85,64 @@
 	</script>
 	{% endif %}
 	
+	{% if page.url == "/case-studies/" %}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "ItemList",
+	  "name": "Case Studies",
+	  "url": "https://jonbrown.org/case-studies/",
+	  "itemListElement": [
+		{% assign case_pages = site.pages | where_exp: "p", "p.url contains '/case-studies/' and p.url != '/case-studies/'" %}
+		{% for case in case_pages %}
+		{
+		  "@type": "ListItem",
+		  "position": {{ forloop.index }},
+		  "url": "https://jonbrown.org{{ case.url }}",
+		  "name": {{ case.title | jsonify }}
+		}{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+	  ]
+	}
+	</script>
+	{% endif %}
+	
+	{% if page.url == "/" %}
+	{% assign latest_post = site.posts | first %}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "ItemList",
+	  "name": "Featured Content",
+	  "url": "https://jonbrown.org/",
+	  "itemListElement": [
+		{
+		  "@type": "ListItem",
+		  "position": 1,
+		  "item": {
+			"@type": "VideoObject",
+			"name": {{ site.homepage.youtube.title | jsonify }},
+			"description": {{ site.homepage.youtube.description | jsonify }},
+			"thumbnailUrl": "https://img.youtube.com/vi/{{ site.homepage.youtube.youtube_id }}/hqdefault.jpg",
+			"uploadDate": "{{ site.homepage.youtube.published }}",
+			"embedUrl": "https://www.youtube.com/embed/{{ site.homepage.youtube.youtube_id }}"
+		  }
+		},
+		{
+		  "@type": "ListItem",
+		  "position": 2,
+		  "item": {
+			"@type": "BlogPosting",
+			"headline": {{ latest_post.title | jsonify }},
+			"url": "https://jonbrown.org{{ latest_post.url }}",
+			"datePublished": "{{ latest_post.date | date_to_xmlschema }}"
+		  }
+		}
+	  ]
+	}
+	</script>
+	{% endif %}
+	
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.site_url }}/assets/images/logo-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.site_url }}/assets/images/logo-icon.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.site_url }}/assets/images/logo-icon.png">

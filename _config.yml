@@ -86,6 +86,13 @@ site_cdn:           https://jonbrown.org
 
 production:          true
 
+homepage:
+  youtube:
+    title: "My CISSP Experience"
+    description: "How I Conquered the CISSP Exam: 9 Months, Top Resources, and Proven Strategies"
+    youtube_id: TXL3h4DZ414
+    published: 2025-01-28
+
 # Build settings
 theme: null
 plugins:
