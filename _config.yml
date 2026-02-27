@@ -18,37 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Jon Brown: Coach and Mentor"
-tagline: "Empowering Entrepreneurs with Expert Insights and Innovative Solutions"
-description: "Welcome to Jon Brown's official website, where entrepreneurs and business leaders gain expert insights, innovative solutions, and valuable resources for business building, IT services, and personal branding. Explore strategies for success and elevate your entrepreneurial journey."
-author: "Jon Brown"
+author:
+  name: Jon Brown
+  url: https://jonbrown.org
+  avatar: /assets/images/about/jon-brown.jpg
+  same_as:
+    - https://youtube.com/@managingmacs
+    - https://www.linkedin.com/in/jonbrown
+    - https://github.com/jonbrown21
+    
+organization:
+  name: Managing Macs
+  url: https://jonbrown.org
+  logo: /assets/images/main/logo.png
+
+seo:
+  type: Person
+    
+twitter:
+  card: summary_large_image
+  
+webmaster_verifications:
+  google: jt5j7dVxAu3uA_2KN9iXdYvClew5_Iga_eB7pgXCAyI
+    
+title: "Jon Brown | Apple Ecosystem Strategist & Technology Consultant"
+tagline: "Building secure, scalable Apple environments for modern teams"
+description: "Jon Brown is a technology consultant focused on Apple device management, enterprise security, and macOS strategy. Founder of Managing Macs, he helps organizations deploy and manage Apple at scale."
+
 logo: "/assets/images/main/logo.png"
 locale: "en_US"
 email: jon@jonbrown.org
+
 paginate: 6
 paginate_path: /blog/page/:num
 permalink: /blog/:categories/:year/:month/:day/:title.html
-#facebook:
-# app_id: 
-# publisher: https://www.facebook.com/
-# admins: https://www.facebook.com/
-social:
-  name: Jon Brown
-  links:
-#    - https://www.facebook.com/
-    - https://www.youtube.com/@breelabs
-    - https://github.com/jonbrownorg
-    - https://www.linkedin.com/in/jonbrown2/
-twitter:
-  card: summary_large_image
-webmaster_verifications:
-  google: jt5j7dVxAu3uA_2KN9iXdYvClew5_Iga_eB7pgXCAyI
-#  bing: 
+
 lang: en_US
 future: false
 
 mailchimp-list: https://assets.mailerlite.com/jsonp/1303120/forms/144842435086780321/subscribe
-baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  jonbrown21
 
 feed:

@@ -35,3 +35,19 @@
 }
 </script>
 {% endif %}
+
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jon Brown",
+  "url": "https://jonbrown.org",
+  "image": "https://jonbrown.org/assets/images/jon-brown.jpg",
+  "sameAs": [
+    "https://youtube.com/@managingmacs",
+    "https://www.linkedin.com/in/jonbrown"
+  ]
+}
+</script>
+{% endif %}
