@@ -17,6 +17,63 @@
 	{% seo %}
 	{% include breadcrumbs-jsonld.html %}
 	
+	{% if page.layout == "post" %}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "BlogPosting",
+	  "headline": {{ page.title | jsonify }},
+	  "description": {{ page.description | jsonify }},
+	  "image": "https://jonbrown.org{{ page.image }}",
+	  "author": {
+		"@type": "Person",
+		"name": "Jon Brown",
+		"url": "https://jonbrown.org"
+	  },
+	  "publisher": {
+		"@type": "Organization",
+		"name": "Jon Brown",
+		"logo": {
+		  "@type": "ImageObject",
+		  "url": "https://jonbrown.org/assets/images/main/logo.png"
+		}
+	  },
+	  "datePublished": "{{ page.date | date_to_xmlschema }}",
+	  "dateModified": "{{ page.date | date_to_xmlschema }}",
+	  "mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://jonbrown.org{{ page.url }}"
+	  }
+	}
+	</script>
+	{% endif %}
+	
+	{% if page.url == "/apps/" %}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "ItemList",
+	  "name": "Jon Brown Applications",
+	  "url": "https://jonbrown.org/apps/",
+	  "itemListElement": [
+		{
+		  "@type": "SoftwareApplication",
+		  "position": 1,
+		  "name": "ABM Warranty",
+		  "operatingSystem": "macOS",
+		  "applicationCategory": "BusinessApplication"
+		},
+		{
+		  "@type": "SoftwareApplication",
+		  "position": 2,
+		  "name": "BeFit",
+		  "applicationCategory": "HealthApplication"
+		}
+	  ]
+	}
+	</script>
+	{% endif %}
+	
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.site_url }}/assets/images/logo-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.site_url }}/assets/images/logo-icon.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.site_url }}/assets/images/logo-icon.png">
