@@ -48,7 +48,7 @@
 	</script>
 	{% endif %}
 	
-	{% if page.url == "/blog/" %}
+	{% if page.layout == "blog/mainpage" %}
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
@@ -97,7 +97,7 @@
 	</script>
 	{% endif %}
 	
-	{% if page.url == "/case-studies/" %}
+	{% if page.layout == "case" %}
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
@@ -119,7 +119,7 @@
 	</script>
 	{% endif %}
 	
-	{% if page.url == "/" %}
+	{% if page.layout == "home" %}
 	{% assign latest_post = site.posts | first %}
 	<script type="application/ld+json">
 	{
