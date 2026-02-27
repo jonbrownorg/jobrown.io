@@ -48,6 +48,18 @@
 	</script>
 	{% endif %}
 	
+	{% if page.url == "/blog/" %}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Blog",
+	  "name": "Jon Brown Blog",
+	  "url": "https://jonbrown.org/blog/",
+	  "description": "Insights on Apple device management, macOS strategy, and enterprise consulting."
+	}
+	</script>
+	{% endif %}
+	
 	{% if page.url == "/apps/" %}
 	<script type="application/ld+json">
 	{
