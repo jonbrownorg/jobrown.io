@@ -105,7 +105,8 @@
 	  "name": "Case Studies",
 	  "url": "https://jonbrown.org/case-studies/",
 	  "itemListElement": [
-		{% assign case_pages = site.pages | where_exp: "p", "p.url contains '/case-studies/' and p.url != '/case-studies/'" %}
+		{% assign case_pages = site.pages | where_exp: "p", "p.url contains '/case-studies/'" %}
+		{% assign case_pages = case_pages | where_exp: "p", "p.url != '/case-studies/'" %}
 		{% for case in case_pages %}
 		{
 		  "@type": "ListItem",
