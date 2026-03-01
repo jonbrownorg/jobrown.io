@@ -95,7 +95,7 @@ pip install cryptography
 
 Once that is in place, I can run the script with a CSV input and choose whether I want plist output or mobileconfig output.
 
-## Running the Packager
+## How to Deploy A Credential
 
 The script takes the CSV as input and then writes the managed-preferences output in the format I choose. If I am exporting a plist, I point the script to the CSV, define the output type, and provide a name for the output file.
 
@@ -152,7 +152,7 @@ That is where this feature becomes especially useful. I can push more than one m
 
 At the same time, the app still keeps the distinction between managed credentials and manually added credentials. I can still add a separate unmanaged credential locally, and that one behaves differently because it was not delivered through managed preferences.
 
-## Exporting as a Mobileconfig
+## Exporting Single and Multiple Credentials as a Mobileconfig
 
 Plist output is useful when the management platform can write raw preference data directly, which is why it maps cleanly to tools like Jamf. Mobileconfig output solves a different deployment problem: it gives me a standard configuration-profile payload I can upload into MDM platforms that work best with profile-based preference delivery instead of raw plist deployment.
 
