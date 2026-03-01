@@ -17,7 +17,7 @@ image: /assets/images/covers/2026/ABM_warranty_041.png
 thumbnail: /assets/images/covers/2026/ABM_warranty_041.png
 cta: 2
 comments: true
-series: abmwarranty
+series: abmwarranty041walkthrough
 ---
 
 <!-- Draft stub. Image path and copy pending. -->
