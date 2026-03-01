@@ -39,11 +39,15 @@ That is what makes this feature flexible. I am not tied to only one management t
 
 ## Why I Start With Security
 
-Whenever I am building a deployment flow that involves credentials, I start with security first. That is the part that matters most.
+Whenever I am building a deployment workflow that involves credentials, I want to be explicit about how the credential data is handled. In this model, I am not pushing raw credential values around casually and I am not treating the managed-preferences payload like a plain-text dump of sensitive information.
 
-In this workflow, the administrator creates the Apple Business Manager or Apple School Manager API credentials and places the references into a CSV file. The script then takes that source data and produces an encrypted output. The credentials are salted, encrypted, and packaged in a way that the app can later decrypt on the receiving Mac.
+The starting point is the CSV file. That file contains the structured credential data the packager needs: the friendly name, the scope, the client ID, the key ID, and the path to the certificate or PEM file tied to that credential set. If I am packaging more than one credential, each one gets its own row.
 
-That is the point of the packager. It is not just formatting values. It is creating a deployable managed-preferences payload while preserving a safer credential workflow than copying values around in plain text.
+When I run the packager, it does not just reformat that CSV into a deployment file. It prompts me for a passphrase, then uses that passphrase as part of the protection model for the output. The resulting payload is salted and encrypted before it is written out as a plist or mobileconfig.
+
+That means the receiving Mac is not just handed a readable set of ABM or ASM credentials in plain text. The managed-preferences payload contains protected data, and ABM Warranty has to decrypt that data during the import process using the same passphrase that was used when the payload was created.
+
+That is the actual point of the packager from a security perspective. It gives me a way to prepare deployable managed credentials without reducing the workflow to copying plain-text credential data into an MDM payload and hoping for the best.
 
 ## The Tools Behind the Workflow
 
