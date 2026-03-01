@@ -464,7 +464,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  margin-top: 1rem;
+  margin: 0.5rem 0 1.5rem;
 }
 
 .post-category-pill {
