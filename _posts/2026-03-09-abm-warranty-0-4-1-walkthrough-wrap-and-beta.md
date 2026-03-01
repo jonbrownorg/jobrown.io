@@ -26,7 +26,7 @@ In this final ABM Warranty 0.4.1 walkthrough, I’m wrapping up the last feature
 
 Before anything else, I want to call out the people who have participated in the beta program. The feedback, logs, screenshots, and bug reports have all helped improve the app. That input is a big reason the release is in a better place now than it would be otherwise.
 
-## The Last 0.4.1 Feature I Had Not Covered
+## One More Thing...
 
 One of the remaining 0.4.1 features I had not covered directly in the earlier walkthroughs is the ability to reload a single device or reload only the device set represented by a filtered view instead of forcing a full synchronization every time.
 
@@ -65,7 +65,7 @@ Those three resources all point you into the same support ecosystem, but they se
 
 ## The Support GPT and the Slack Community
 
-Another support path built into the app is the dedicated support GPT. I seeded it with information from the different versions of the app so it can answer support questions based on the current feature set and the earlier release behavior.
+Another support path built into the app is the dedicated [ABM Warranty Support GPT](https://chatgpt.com/g/g-69236ad9b7cc81919570245ae18bd0ec-abm-warranty-support). I seeded it with information from the different versions of the app so it can answer support questions based on the current feature set and the earlier release behavior.
 
 That gives you another option when you need a quick answer about how the app works.
 
@@ -79,10 +79,10 @@ The beta program is there for people who want access to builds that are still in
 
 That is the tradeoff. If you join the beta, you are getting access to work in progress, not just polished release builds. But for users who want to help shape the app and get earlier access to fixes, that is where the beta is valuable.
 
-The beta uses TestFlight. That means the workflow is the standard Apple beta path:
+The beta uses [TestFlight](https://apps.apple.com/us/app/testflight/id899247664?mt=8). To join the public beta directly, use the [ABM Warranty TestFlight link](https://testflight.apple.com/join/KGNj2cTd). The workflow is the standard Apple beta path:
 
-1. Open the beta link.
-2. Install TestFlight if you do not already have it.
+1. Open the [ABM Warranty TestFlight link](https://testflight.apple.com/join/KGNj2cTd).
+2. Install [TestFlight](https://apps.apple.com/us/app/testflight/id899247664?mt=8) if you do not already have it.
 3. Open the beta in TestFlight.
 4. Accept the Apple terms.
 5. Install the ABM Warranty beta build.
@@ -91,7 +91,7 @@ Once you are in, you can keep automatic beta updates enabled, stop testing whene
 
 ## How I Want Bug Reports and Logs
 
-If you are participating in the beta and you hit an issue, the most useful thing you can send me is not just a vague “it broke.” The most useful thing is the logs tied to the issue, especially when debug logging is enabled and the problem can be reproduced.
+If you are participating in the beta and you hit an issue, the most useful thing you can send me is the logs tied to the issue, especially when debug logging is enabled and the problem can be reproduced.
 
 That is why I included the log window in the app. From the Window menu, you can open the ABM logs, review the recent log output, reveal the logs in Finder, and export the session logs when needed.
 
@@ -109,6 +109,6 @@ That is the kind of support workflow that actually helps fix real bugs. It gives
 
 ABM Warranty 0.4.1 adds much more than one feature. Across the whole series, I covered the dashboard, multiple credentials, managed preferences, and the operational guardrails that make the app more useful in real environments. This final walkthrough is where I wanted to close the loop by covering the remaining reload behavior and pointing people directly to the support and beta resources.
 
-If you are using the app now, the best next step is simple: use the help resources in the app, join the Slack channel, and join the beta if you want to help shape what comes next.
+If you are using the app now, the help resources, Slack channel, and beta program are all there if you want deeper support, faster feedback loops, or earlier access to what I am working on next.
 
 {% include app_support_cta.html %}
