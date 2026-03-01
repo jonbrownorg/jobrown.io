@@ -458,6 +458,63 @@
   font-size: 0.95rem;
 }
 
+.post-category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.post-category-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.post-category-pill:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.98);
+}
+
+.post-category-pill--mint {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.post-category-pill--sky {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.post-category-pill--peach {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.post-category-pill--lavender {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.post-category-pill--butter {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.post-category-pill--rose {
+  background: #ffe4e6;
+  color: #be123c;
+}
+
 
 #notfound {
   position: relative;
