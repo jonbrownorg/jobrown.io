@@ -95,7 +95,7 @@ pip install cryptography
 
 Once that is in place, I can run the script with a CSV input and choose whether I want plist output or mobileconfig output.
 
-## How to Deploy A Credential
+## How to Deploy A Single Credential
 
 The script takes the CSV as input and then writes the managed-preferences output in the format I choose. If I am exporting a plist, I point the script to the CSV, define the output type, and provide a name for the output file.
 
