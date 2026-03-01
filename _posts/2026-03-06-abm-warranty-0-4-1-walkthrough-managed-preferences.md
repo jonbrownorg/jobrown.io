@@ -90,7 +90,7 @@ The script takes the CSV as input and then writes the managed-preferences output
 A typical example looks like this:
 
 ```bash
-python3 ABMManagedCredentialPackager.py --csv single.csv --out plist --name singleplist
+python3 ABMManagedCredentialPackager.py --csv single.csv --out plist --name singleplist.plist
 ```
 
 When I run that, the script prompts me for a passphrase. That passphrase is part of the encryption process. The script uses it to protect the credential data in the generated output.
@@ -116,7 +116,7 @@ That makes the workflow much easier to validate. I can confirm the packager outp
 
 {% include videos/video.html id="hFrprkWHg58" header="/assets/images/covers/2026/ABM_prefs.png" %}
 
-## What the User Sees After Restart
+## What the User Sees After App Relaunch
 
 After the managed preference is applied, I need to quit and relaunch the app so ABM Warranty can detect the new managed credentials. Once the app restarts, it shows a banner telling me that managed ABM credentials were detected and are ready to import.
 
@@ -136,11 +136,50 @@ That is intentional. It preserves the management boundary. The administrator con
 
 The workflow also supports more than one managed credential in the same deployment. If I build a CSV file with multiple rows, the output can contain multiple credential sets, and the app will detect and import them together.
 
+The important part is that each credential gets its own row in the CSV. A simple multi-credential CSV can look like this:
+
+```csv
+id,name,scope,client_id,key_id,pem_path
+1,Corp ABM,business,CLIENT_ID_1,KEY_ID_1,/Users/admin/certs/corp_abm.pem
+2,School ASM,school,CLIENT_ID_2,KEY_ID_2,/Users/admin/certs/school_asm.pem
+```
+
+That lets me define separate friendly names and separate scopes while still packaging them in one deployable output.
+
+If I want to export that CSV as a plist for a platform like Jamf that can handle raw plist deployment, I run:
+
+```bash
+python3 ABMManagedCredentialPackager.py --csv combo.csv --out plist --name combo.plist
+```
+
 That is where this feature becomes especially useful. I can push more than one managed context, and ABM Warranty will present those credentials as separate managed entries once the user imports them successfully.
 
 At the same time, the app still keeps the distinction between managed credentials and manually added credentials. I can still add a separate unmanaged credential locally, and that one behaves differently because it was not delivered through managed preferences.
 
-## What This Solves
+## Exporting as a Mobileconfig
+
+Not every admin can deploy a raw plist. That is why the mobileconfig output matters.
+
+If the MDM can deploy a configuration profile, I can export the managed credentials as a mobileconfig instead of a plist and upload that profile into the MDM.
+
+The command looks like this:
+
+```bash
+python3 ABMManagedCredentialPackager.py --csv single.csv --out mobileconfig --name single.mobileconfig
+```
+
+If I am packaging multiple credentials into one mobileconfig, I use the same idea with the multi-row CSV:
+
+```bash
+python3 ABMManagedCredentialPackager.py --csv combo.csv --out mobileconfig --name combo.mobileconfig
+```
+
+That gives me two clear deployment paths:
+
+- plist output for tools like Jamf that can handle raw plist deployment
+- mobileconfig output for MDMs that prefer configuration profile deployment
+
+## Why This Deployment Model Matters
 
 This managed-preferences workflow solves a very specific operational problem: I can prepare ABM Warranty credentials centrally, deploy them through MDM, protect them with an encrypted packaging flow, and still let the receiving Mac import them in a controlled way.
 
