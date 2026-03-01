@@ -12,7 +12,14 @@
         </h2>
       </div>
 
-      <div class="flex gap-2.5">
+      <div class="flex flex-wrap items-center gap-2.5">
+        <a
+          href="{{ include.cta_url }}"
+          class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
+        >
+          {{ include.cta_label }}
+        </a>
+
         <button
           class="inline-flex items-center justify-center w-12 h-12 duration-200 bg-white rounded-full shadow-sm carousel-prev shadow-sky-200/75 ring-1 ring-slate-200/60 hover:bg-sky-50/50"
           type="button"
@@ -121,14 +128,6 @@
         </div>
       </div>
 
-      <div class="flex justify-center mt-10">
-        <a
-          href="{{ include.cta_url }}"
-          class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
-        >
-          {{ include.cta_label }}
-        </a>
-      </div>
     </div>
   </div>
 
