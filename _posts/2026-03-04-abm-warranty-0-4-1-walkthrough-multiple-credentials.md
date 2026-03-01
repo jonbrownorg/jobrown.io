@@ -58,6 +58,17 @@ The names shown there come directly from the friendly names I assigned in settin
 
 This is one of the most important parts of the feature. Multiple credentials are only useful if the boundaries between them are clear. I do not want the app blending data together or hiding which context I am currently viewing.
 
+<div class="my-12 flex justify-center">
+  <a
+    href="https://jonbrown.org/apps/#warranty"
+    class="inline-flex items-center rounded-full bg-blue-600 px-7 py-3.5 text-sm font-semibold text-white no-underline hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition"
+  >
+   Download ABM Warranty 0.4.1
+  </a>
+</div>
+
+{% include videos/video.html id="9tXvMeVmPc8" header="/assets/images/covers/2026/ABM_Creds.png" %}
+
 ## Separate Databases, Separate Keys, Separate Contexts
 
 Under the hood, the app treats each credential as its own context. That means I end up with separate database files, separate key material, and separate Keychain entries tied to each credential.
@@ -91,16 +102,5 @@ That scoped behavior is what makes the feature safe to use. I can manage one con
 Multiple credentials are important because they let me work with separate ABM or ASM contexts without collapsing everything into one shared state. That makes the app far more practical in environments where I need clean separation between datasets.
 
 For me, this is one of the most important 0.4.1 workflow improvements because it changes the app from a single-context utility into something that can handle more realistic operational scenarios without losing clarity.
-
-<div class="my-12 flex justify-center">
-  <a
-    href="https://jonbrown.org/apps/#warranty"
-    class="inline-flex items-center rounded-full bg-blue-600 px-7 py-3.5 text-sm font-semibold text-white no-underline hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition"
-  >
-   Download ABM Warranty 0.4.1
-  </a>
-</div>
-
-{% include videos/video.html id="9tXvMeVmPc8" header="/assets/images/covers/2026/ABM_Creds.png" %}
 
 {% include app_support_cta.html %}
