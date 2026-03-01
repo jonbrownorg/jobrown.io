@@ -15,14 +15,17 @@
         >
           <div class="flex h-full w-full max-w-[320px] flex-col">
             {% assign thumb = post.thumbnail | strip_newlines %}
-            {% if thumb != "" and thumb != "/assets/img/covers/cover-16.jpg" %}
+            {% if thumb == "" %}
+              {% assign thumb = "/assets/images/og/og_image_blog.png" %}
+            {% endif %}
+            {% if thumb != "" %}
             <div class="w-full mb-5">
               <a
                 href="{{ post.url | prepend: site.baseurl }}"
                 class="relative block w-full overflow-hidden rounded-xl aspect-[16/9] group"
               >
                 <img
-                  src="{{ site.site_url }}{{ post.thumbnail }}"
+                  src="{{ site.site_url }}{{ thumb }}"
                   alt="{{ post.title | escape }}"
                   class="object-cover w-full h-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
                 />
