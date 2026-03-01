@@ -24,70 +24,74 @@ series: abmwarranty041walkthrough
 
 {% include videos/video.html id="-wLOzkXTnyE" header="/assets/images/covers/2026/ABM_Introduction.png" %}
 
-ABM Warranty is built to give Apple admins a clearer dashboard for device warranty and lifecycle data pulled from Apple Business Manager. In this first 0.4.1 walkthrough, the goal is simple: show what the app does, how the dashboard is organized, how credentials are configured, where data is stored, and what changed in the new workflow before moving into the more focused videos.
+In this first ABM Warranty 0.4.1 walkthrough, I want to show you what the app actually does before I get into the more specific feature videos. This is the broad introduction. I’m walking through the dashboard, how I think about the warranty cards, how released devices are handled, how the filters work, how to add credentials, where the data is stored locally, and what the logging and security model looks like.
 
-This introduction follows the same path as the video itself. It starts with the dashboard and the warranty cards, moves into released-device handling, then walks through filters, settings, local storage, synchronization, logging, and the security model behind the credentials.
+ABM Warranty exists because Apple Business Manager gives us the raw information, but not a good operational dashboard for acting on it. I built this app so I could quickly see where devices sit in the warranty lifecycle without having to drill into records one by one.
 
-## A Dashboard for Warranty Visibility
+## What I Built the Dashboard to Show
 
-The first thing this walkthrough establishes is that ABM Warranty is meant to be a dashboard, not just a raw data viewer. The app is designed to help you answer practical fleet questions quickly: how many devices do you have, what types of devices are in the environment, and where do those devices currently sit in the warranty lifecycle.
+When you first open ABM Warranty, the main goal is visibility. I want to be able to answer a few questions immediately: how many devices are in the fleet, what kinds of devices are there, and where those devices fall in terms of warranty and coverage.
 
-That is why the dashboard opens with summary cards. The device cards show the makeup of the fleet, while the warranty breakout cards give a quick operational picture of coverage status. Instead of manually checking records one at a time, you can see which devices are still in standard warranty, which have AppleCare, which are approaching renewal, and which have already moved beyond their renewable window.
+That is why the dashboard starts with summary cards. The device cards tell me what is in the environment. The warranty cards tell me which devices are still in standard warranty, which devices have active AppleCare, which ones are coming up for renewal, and which ones have already moved out of coverage.
 
-## How the Warranty Cards Are Meant to Be Read
+This is the main problem the app solves. Instead of treating the warranty state like hidden metadata, I can use it as a working dashboard.
 
-One of the more useful parts of the introduction is the explanation of how those cards actually behave. The dashboard is not presenting a single linear path where every device moves cleanly from one card to the next. A device can meet more than one condition depending on its warranty history.
+## How I Think About the Warranty Cards
 
-That matters because Apple exposes both current and historical warranty information. A device that is no longer in the initial standard coverage window may still appear under active AppleCare if that record is still valid. The warning and renewal cards are there to help you spot devices that need action soon, while the expired and no-coverage views make it easier to identify devices that have already passed the point where renewal is still possible.
+One thing I wanted to make clear in this introduction is that the cards are not a simple single path where every device just moves from one box to the next. Apple exposes both current and historical warranty information, so a device can meet more than one condition depending on its status.
 
-The result is a dashboard that works as a triage layer. It is less about abstract reporting and more about helping you identify which parts of the fleet need attention first.
+For example, a device may be out of the initial standard coverage window but still have valid AppleCare. That is why the dashboard is built around categories that help me make decisions, not just around a rigid linear flow.
 
-## Why Released Devices Stay Visible
+The warning cards are there to help surface devices that need attention. If a device is getting close to renewal or close to falling out of the renewable window, I want that to be obvious. If a device is fully expired and no longer renewable, I want that to be just as obvious.
 
-The walkthrough then moves into one of the questions admins ask most often: how released devices are handled. Apple does not return released-device information through the API in a way that preserves the same historical visibility once that record is gone from Apple Business Manager.
+## How I Handle Released Devices
 
-ABM Warranty handles that by preserving what was already synchronized locally. If a device existed in the local database and later disappears from Apple’s live API responses, the app can still recognize that change and classify it as a released device. That means the local database continues to hold useful historical context even after Apple stops exposing it in the cloud.
+One of the biggest questions I get is how ABM Warranty deals with released devices. Apple does not give us clean historical visibility for released records through the API. Once a device is gone from Apple Business Manager in that context, the cloud-side visibility changes.
 
-This is one of the more practical parts of the product. It gives admins a way to keep continuity around records that would otherwise become much harder to trace.
+The way I handle that in ABM Warranty is by keeping the synchronized information locally. If a device existed in the local database and then disappears from the live API results, the app can still recognize that it used to be present and classify it as a released device. That lets me preserve the history locally even though Apple is no longer returning it through the API.
 
-## Filters, Status, and the Working View
+That behavior matters because it keeps the record useful instead of just losing context the moment the device stops appearing in the live feed.
 
-After the dashboard, the walkthrough shifts to the filters and the status view. The left-hand filters mirror the logic of the dashboard cards, so the app is not forcing you into two separate navigation systems. If you click a card, the filtered device list updates. If you move through the filters directly, the same underlying logic is applied.
+## Filters and Status
 
-That consistency matters because it turns the dashboard into a working interface instead of a disconnected summary layer. The status area then becomes the place where you verify what happened after synchronization: whether the credentials are healthy, whether there were errors, and whether the app is seeing API or connectivity issues that need attention.
+The filters on the left side are meant to mirror what the dashboard is doing. If I click a card, I want to see the matching device list. If I use the filters, I want the same logic to apply. I do not want two different systems that contradict each other.
 
-## Initial Setup and Credential Configuration
+That is also where the status view becomes useful. Once synchronization runs, I need to know if the credentials are healthy, whether there were errors, and what the app is reporting back about the overall sync state.
 
-The next step in the walkthrough is the first-run experience. The app opens with demo data so you can understand the shape of the interface, but it also makes it clear that real use begins once credentials are configured.
+This is part of the reason I built the app as a working interface instead of just a static report. The dashboard and the filters are meant to help me move through the data, not just look at it.
 
-From settings, you define a friendly credential name, choose whether the source is Apple Business Manager or Apple School Manager, and then provide the required API values. That setup model keeps the workflow explicit. You always know which credential you are working with, what it is named, and what environment it points to.
+## Adding Credentials and Getting Started
 
-This is also where the introduction sets up the next 0.4.1 videos. The app now supports more flexible credential workflows, but this first video focuses on the baseline setup so the rest of the series has a clear starting point.
+When you first launch the app, it starts with demo data so you can see what the interface is capable of. But the real setup begins once you open settings and add your own credentials.
 
-## Where the App Stores Data Locally
+That process is straightforward. I give the credential a friendly name, I choose whether it is for Apple Business Manager or Apple School Manager, and then I enter the API values Apple provides when the key is generated. That includes the client ID, key ID, and the certificate file.
 
-Once the credential is configured, the walkthrough shifts to the local storage model. The app stores synchronized data inside its container on the Mac, with the database, logs, diagnostics, and related files organized in predictable locations.
+I wanted the setup flow to be explicit. I should always know which credential I added, what it is called, and what environment it belongs to.
 
-That is important for two reasons. First, it helps admins understand what the app is actually doing on disk. Second, it makes troubleshooting more straightforward because the local database and supporting files are not hidden behind a vague black box.
+## Where the Data Lives on the Mac
 
-The app also keeps credential components separated appropriately. The local database stores the synchronized fleet information, while the credential-sensitive identifiers are tied into the keychain workflow instead of being treated like ordinary loose values.
+After the credential is in place and the app starts syncing, the data is stored locally inside the app container. The local database, logs, diagnostics, and related files all live in a predictable place on disk.
 
-## Sync Behavior and API Discipline
+That matters because I do not want the app to feel like a black box. If I need to troubleshoot it, verify where the data is going, or inspect what happened during a sync, I need to understand how it is laid out locally.
 
-From there, the walkthrough moves into the first live synchronization. This is where the introduction becomes operationally useful, because it explains how the app fetches data, how the dashboard populates, and why repeated full syncs are not something you should treat casually in larger environments.
+The database is what holds the synchronized device information. Supporting files, including logs and diagnostics, sit alongside it in the container structure so I can inspect and export them when needed.
 
-ABM Warranty is built with the expectation that Apple’s API should be handled carefully. Full syncs have a real cost, and the app is designed to avoid the kind of aggressive repeated polling that can create throttling problems or unstable behavior. That is why the status indicators, sync feedback, and cooldown behavior matter.
+## Why I Built in API Guardrails
 
-The video also introduces one of the more useful 0.4.1 improvements: the ability to refresh a single device instead of reloading the entire dataset every time one record needs to be checked again. That is the kind of feature that matters in real administrative use, especially when you are trying to troubleshoot one device without turning every check into a full synchronization event.
+Once the first live synchronization starts, the app begins pulling data from Apple Business Manager and populating the dashboard in real time. But I do not want ABM Warranty to behave like a tool that just hammers the API over and over again.
 
-## Logging and Keychain Security
+Apple throttles those calls, and large fleets make that matter quickly. That is why I built the sync behavior with guardrails. Full syncs have a cost, and the app needs to respect that. The status view, sync feedback, and cooldown behavior all exist to keep that process predictable instead of noisy.
 
-The final part of the introduction covers logs and credential security. The app includes a dedicated log view so you can see what happened during the current session, export logs when needed, and use debug logging when deeper troubleshooting is required.
+In 0.4.1, one of the biggest improvements is that I can now refresh a single device instead of reloading the entire dataset every time I need to recheck one record. That is a better operational pattern and it is one of the reasons this release matters.
 
-That ties directly into supportability. If you are testing the beta, troubleshooting sync issues, or trying to understand what happened during a refresh, those logs become part of the real workflow, not just a developer extra.
+## Logs and Credential Security
 
-The walkthrough closes by showing where the credentials connect into Keychain Access. That is an important detail because it reinforces how the app treats credential state as something that can be updated, replaced, or removed cleanly. When a credential is deleted, the associated local pieces are removed along with it, which keeps the workflow more predictable.
+I also wanted the app to expose useful logging. If I am troubleshooting a sync, testing the beta, or trying to understand what just happened in the current session, I need a log view that is easy to inspect and easy to export.
 
-This first video is the operational foundation for the rest of the ABM Warranty 0.4.1 walkthrough series. It explains how the app is organized, what problem it solves, and how the data moves before the later videos go deeper into specific 0.4.1 features.
+That is why the app includes a dedicated log window and a debug mode. The logs are not an afterthought. They are part of how I expect admins to actually use and support the tool.
+
+On the credential side, I did not want sensitive values treated casually. The client and key identifiers tie into the keychain workflow, and when a credential is removed, the related pieces are removed with it. That keeps the credential lifecycle cleaner and makes the app easier to reason about from a security standpoint.
+
+This introduction is the baseline for the rest of the ABM Warranty 0.4.1 walkthrough series. I wanted this first post to establish what the app does, how I expect you to use it, and how the data flows before I get into the more specific 0.4.1 features in the next posts.
 
 {% include app_support_cta.html %}
