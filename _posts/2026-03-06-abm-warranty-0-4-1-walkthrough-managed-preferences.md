@@ -120,22 +120,6 @@ That makes the workflow much easier to validate. I can confirm the packager outp
 
 {% include videos/video.html id="hFrprkWHg58" header="/assets/images/covers/2026/ABM_prefs.png" %}
 
-## What the User Sees After App Relaunch
-
-After the managed preference is applied, I need to quit and relaunch the app so ABM Warranty can detect the new managed credentials. Once the app restarts, it shows a banner telling me that managed ABM credentials were detected and are ready to import.
-
-That is the handoff point between the admin who packaged the credentials and the person receiving them on the Mac. The receiver still needs the passphrase that was used during packaging, because the app needs that passphrase to decrypt and import the managed credentials locally.
-
-If the passphrase is wrong, the import fails. If it is correct, the app imports the credentials and the managed credential appears in the ABM Warranty settings.
-
-## What Makes a Credential “Managed”
-
-Once the import completes, the credential shows up in the app as managed. That is an important distinction.
-
-A managed credential is not the same as a manually added credential. If the credential came from managed preferences, the person using the Mac should not be able to delete it the same way they could delete a credential they created manually.
-
-That is intentional. It preserves the management boundary. The administrator controls the deployed managed credential, while the local user can still add their own separate manual credentials if they need to.
-
 ## How Multiple Managed Credentials Work
 
 The workflow also supports more than one managed credential in the same deployment. If I build a CSV file with multiple rows, the output can contain multiple credential sets, and the app will detect and import them together.
@@ -182,6 +166,22 @@ That gives me two clear deployment paths:
 
 - plist output for tools like Jamf that can handle raw plist deployment
 - mobileconfig output for MDMs that prefer configuration profile deployment
+
+## What the User Sees After App Relaunch
+
+After the managed preference is applied, I need to quit and relaunch the app so ABM Warranty can detect the new managed credentials. Once the app restarts, it shows a banner telling me that managed ABM credentials were detected and are ready to import.
+
+That is the handoff point between the admin who packaged the credentials and the person receiving them on the Mac. The receiver still needs the passphrase that was used during packaging, because the app needs that passphrase to decrypt and import the managed credentials locally.
+
+If the passphrase is wrong, the import fails. If it is correct, the app imports the credentials and the managed credential appears in the ABM Warranty settings.
+
+## What Makes a Credential “Managed”
+
+Once the import completes, the credential shows up in the app as managed. That is an important distinction.
+
+A managed credential is not the same as a manually added credential. If the credential came from managed preferences, the person using the Mac should not be able to delete it the same way they could delete a credential they created manually.
+
+That is intentional. It preserves the management boundary. The administrator controls the deployed managed credential, while the local user can still add their own separate manual credentials if they need to.
 
 ## Why This Deployment Model Matters
 
