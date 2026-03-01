@@ -11,6 +11,7 @@ tags:
 categories:
   - macadmins
   - articles
+  - apps
   - abm-warranty
 image: /assets/images/covers/2025/warranty_header_010.png
 thumbnail: /assets/images/covers/2025/warranty_header_010.png

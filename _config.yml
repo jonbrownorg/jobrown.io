@@ -123,3 +123,5 @@ exclude:
   - AGENTS.md
   - Rakefile
   - docker-compose.yml
+  - .codex-backups
+  - .DS_Store
