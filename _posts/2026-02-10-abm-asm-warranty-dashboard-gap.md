@@ -47,6 +47,8 @@ Apple Business Manager and Apple School Manager were never designed to answer th
 
 In the meantime, teams are left building fragile processes outside of Apple’s tools. Manual exports. Spreadsheets. Ad hoc scripts. Repeated logins across multiple accounts. None of this scales cleanly, especially for MSPs, school districts, or enterprises managing multiple Apple Business Manager or Apple School Manager environments.
 
+{% include app_support_cta.html %}
+
 ABM Warranty exists to bridge that gap.
 
 It provides a focused dashboard that surfaces warranty and AppleCare+ risk immediately. Devices approaching expiration are visible without hunting. Prebuilt filters make it easy to answer questions like “what is expiring soon,” “what is already out of coverage,” and “what needs attention right now.” Data can be exported securely for reporting, budgeting, or asset tracking without scraping or workarounds.

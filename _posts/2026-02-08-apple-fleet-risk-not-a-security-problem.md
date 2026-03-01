@@ -28,6 +28,8 @@ In those frameworks, risk is defined by likelihood and impact, contextualized by
 
 What follows is not a critique of MDM platforms. It is an examination of the operational risks that remain once configuration and compliance are in place.
 
+{% include app_support_cta.html %}
+
 ## 1. Single-Device Dependency
 
 MDMs assume the continued existence of the managed endpoint. Policies, profiles, and enforcement models all presuppose that the device is present, functional, and reachable. From a risk perspective, this creates a single-point-of-failure scenario that is rarely articulated explicitly in fleet strategies.

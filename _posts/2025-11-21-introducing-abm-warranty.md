@@ -125,6 +125,8 @@ Once credentials are saved, you can immediately fetch device inventory and cover
 
 ABM Warranty v0.1.0 is a feature-complete, stable foundation for future expansion. Here's what’s inside:
 
+{% include app_support_cta.html %}
+
 ### ✅ Full Apple Business Manager API Integration  
 - Secure JWT authentication using your ABM private key  
 - Fetches **device inventory** (Mac, iPhone, iPad, Apple TV)  
