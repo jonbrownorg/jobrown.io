@@ -101,7 +101,7 @@ When I run that, the script prompts me for a passphrase. That passphrase is part
 
 That means the administrator packaging the credentials is not just generating a file. They are also defining the passphrase that the receiving user will need later when ABM Warranty imports and decrypts the managed credentials.
 
-## What the Packager Gives Me
+## What the Packager Outputs
 
 Once the script runs, I get the encrypted output file along with a test command I can use locally. That is useful because I do not have to push the preferences through MDM immediately just to see whether they work.
 
