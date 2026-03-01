@@ -11,6 +11,7 @@ tags:
 categories:
   - macadmins
   - articles
+  - apps
   - abm-warranty
 image: /assets/images/covers/2026/operational_risk.png
 thumbnail: /assets/images/covers/2026/operational_risk.png
@@ -26,6 +27,8 @@ Apple fleets are often described as “secure by default,” and in many ways th
 In those frameworks, risk is defined by likelihood and impact, contextualized by mission, environment, and consequence. Technical controls influence likelihood, but they rarely address impact or recovery. This is where many mature Apple environments quietly accumulate exposure. Not because they are poorly managed, but because certain risks sit outside the scope of what MDMs are designed to mitigate.
 
 What follows is not a critique of MDM platforms. It is an examination of the operational risks that remain once configuration and compliance are in place.
+
+{% include app_support_cta.html %}
 
 ## 1. Single-Device Dependency
 

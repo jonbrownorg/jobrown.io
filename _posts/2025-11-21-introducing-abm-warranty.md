@@ -11,6 +11,7 @@ tags:
 categories:
   - macadmins
   - articles
+  - apps
   - abm-warranty
 image: /assets/images/covers/2025/warranty_header_010.png
 thumbnail: /assets/images/covers/2025/warranty_header_010.png
@@ -123,6 +124,8 @@ Once credentials are saved, you can immediately fetch device inventory and cover
 ## What’s Included in v0.1.0
 
 ABM Warranty v0.1.0 is a feature-complete, stable foundation for future expansion. Here's what’s inside:
+
+{% include app_support_cta.html %}
 
 ### ✅ Full Apple Business Manager API Integration  
 - Secure JWT authentication using your ABM private key  

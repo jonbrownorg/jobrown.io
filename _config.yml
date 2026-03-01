@@ -54,7 +54,6 @@ paginate_path: /blog/page/:num
 permalink: /blog/:categories/:year/:month/:day/:title.html
 
 lang: en_US
-future: false
 
 mailchimp-list: https://assets.mailerlite.com/jsonp/1303120/forms/144842435086780321/subscribe
 github_username:  jonbrown21
@@ -123,3 +122,5 @@ exclude:
   - AGENTS.md
   - Rakefile
   - docker-compose.yml
+  - .codex-backups
+  - .DS_Store

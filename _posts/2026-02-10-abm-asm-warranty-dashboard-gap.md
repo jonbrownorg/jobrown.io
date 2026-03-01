@@ -11,6 +11,7 @@ tags:
 categories:
   - macadmins
   - articles
+  - apps
   - abm-warranty
 image: /assets/images/covers/2026/abm_dashboard.png
 thumbnail: /assets/images/covers/2026/abm_dashboard.png
@@ -45,6 +46,8 @@ The challenge isn’t deciding whether to renew or replace. The challenge is kno
 Apple Business Manager and Apple School Manager were never designed to answer that question. They are inventory platforms, not lifecycle dashboards. Even if Apple eventually adds a native warranty dashboard — and it would make sense for them to do so — exporting and acting on that data would still be a real operational need. Organizations don’t just want to see information. They need to report on it, share it, and integrate it into planning workflows.
 
 In the meantime, teams are left building fragile processes outside of Apple’s tools. Manual exports. Spreadsheets. Ad hoc scripts. Repeated logins across multiple accounts. None of this scales cleanly, especially for MSPs, school districts, or enterprises managing multiple Apple Business Manager or Apple School Manager environments.
+
+{% include app_support_cta.html %}
 
 ABM Warranty exists to bridge that gap.
 
