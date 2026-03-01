@@ -120,7 +120,7 @@ That makes the workflow much easier to validate. I can confirm the packager outp
 
 {% include videos/video.html id="hFrprkWHg58" header="/assets/images/covers/2026/ABM_prefs.png" %}
 
-## How Multiple Managed Credentials Work
+## How to Deploy Multiple Credentials
 
 The workflow also supports more than one managed credential in the same deployment. If I build a CSV file with multiple rows, the output can contain multiple credential sets, and the app will detect and import them together.
 
