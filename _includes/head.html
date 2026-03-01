@@ -137,7 +137,7 @@
 			"name": {{ site.homepage.youtube.title | jsonify }},
 			"description": {{ site.homepage.youtube.description | jsonify }},
 			"thumbnailUrl": "https://img.youtube.com/vi/{{ site.homepage.youtube.youtube_id }}/hqdefault.jpg",
-			"uploadDate": "{{ site.homepage.youtube.published }}",
+			"uploadDate": "{{ site.homepage.youtube.published | date_to_xmlschema }}",
 			"embedUrl": "https://www.youtube.com/embed/{{ site.homepage.youtube.youtube_id }}"
 		  }
 		},
