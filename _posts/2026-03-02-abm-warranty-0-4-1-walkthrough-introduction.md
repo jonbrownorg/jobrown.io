@@ -22,8 +22,6 @@ series: abmwarranty041walkthrough
 
 {% include series.html id="abmwarranty041walkthrough" %}
 
-{% include videos/video.html id="-wLOzkXTnyE" header="/assets/images/covers/2026/ABM_Introduction.png" %}
-
 In this first ABM Warranty 0.4.1 walkthrough, I want to show you what the app actually does before I get into the more specific feature videos. This is the broad introduction. I’m walking through the dashboard, how I think about the warranty cards, how released devices are handled, how the filters work, how to add credentials, where the data is stored locally, and what the logging and security model looks like.
 
 ABM Warranty exists because Apple Business Manager gives us the raw information, but not a good operational dashboard for acting on it. I built this app so I could quickly see where devices sit in the warranty lifecycle without having to drill into records one by one.
@@ -59,6 +57,17 @@ The filters on the left side are meant to mirror what the dashboard is doing. If
 That is also where the status view becomes useful. Once synchronization runs, I need to know if the credentials are healthy, whether there were errors, and what the app is reporting back about the overall sync state.
 
 This is part of the reason I built the app as a working interface instead of just a static report. The dashboard and the filters are meant to help me move through the data, not just look at it.
+
+<div class="my-12 flex justify-center">
+  <a
+    href="https://jonbrown.org/apps/#warranty"
+    class="inline-flex items-center rounded-full bg-blue-600 px-7 py-3.5 text-sm font-semibold text-white no-underline hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition"
+  >
+   Download ABM Warranty 0.4.1
+  </a>
+</div>
+
+{% include videos/video.html id="-wLOzkXTnyE" header="/assets/images/covers/2026/ABM_Introduction.png" %}
 
 ## Adding Credentials and Getting Started
 
