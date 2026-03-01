@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - articles
+  - video
 fpimage: /assets/images/covers/2020/Header-MTM-fp.jpg
 image: /assets/images/covers/2020/Header-MTM.jpg
 thumbnail: /assets/images/covers/2020/Header-MTM.jpg

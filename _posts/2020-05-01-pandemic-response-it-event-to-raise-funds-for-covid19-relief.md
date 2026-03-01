@@ -13,6 +13,7 @@ tags:
 categories:
   - tips
   - Press Releases
+  - video
 image: /assets/images/covers/2020/Header-Press-Release-FPIT.jpg
 thumbnail: /assets/images/covers/2020/Header-Press-Release-FPIT.jpg
 link: /img/app-images/2020/Header-Press-Release-FPIT.jpg

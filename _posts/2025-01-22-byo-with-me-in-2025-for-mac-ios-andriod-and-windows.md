@@ -13,6 +13,7 @@ categories:
   - tips
   - jamf
   - tutorials
+  - video
 image: /assets/images/covers/2025/byo_with_me.png
 thumbnail: /assets/images/covers/2025/byo_with_me.png
 cta: 2

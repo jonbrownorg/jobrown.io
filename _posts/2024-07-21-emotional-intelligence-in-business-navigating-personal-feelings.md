@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2024/Header-Emotional-Intelligence.jpg
 thumbnail: /assets/images/covers/2024/Header-Emotional-Intelligence.jpg
 cta: 2
@@ -38,8 +38,6 @@ Here are some lessons I've learned:
 2️⃣ Learning from Loss: Understand why clients move on. Often, it's about business deficiencies, not personal traits. Use this insight to improve your services, channeling feelings into positive change.
 
 3️⃣ Emotional Processing: Find a confidant. Sharing your feelings and turning them into constructive steps is vital for emotional health. Don't carry the burden alone.
-
-{% include videos/video.html id="TwIcjxIkB3U" header="/assets/images/covers/2024/Header-Emotional-Intelligence.jpg" %}
 
 Emotions in business are natural, and they often reflect our investment and passion. Acknowledge these feelings, but learn how to process them positively. Through personal and business growth, we can create stronger, more authentic relationships with our teams and clients.
 

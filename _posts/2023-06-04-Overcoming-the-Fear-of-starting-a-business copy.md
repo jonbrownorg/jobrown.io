@@ -12,33 +12,23 @@ tags:
   - iOS
 categories:
   - articles
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Fear.png
 thumbnail: /assets/images/covers/2023/Header-Fear.png
 cta: 2
 comments: true
 ---
-In 2023 I am resolving to reflect more on the past and provide insights into my business journey and life experiences. 
+Starting a business is often less about knowing exactly what to do and more about deciding that uncertainty is not a good enough reason to stay still. One of the biggest mistakes new founders make is assuming they need to understand every part of business before they begin. In reality, that kind of overplanning can become its own form of fear.
 
-I am challenging myself to post one video a week for the entirety of 2023 with reflections on the founding of my company Grove Technologies, an MSP that I started and took from inception to sale. 
+Looking back, one of the most important lessons I learned is that it is possible to start a business before you feel fully ready. That does not mean being reckless. It means understanding that experience is often built through action, not through endless preparation. If you wait until every answer is clear, you may never begin at all.
 
-I invite you to follow along with me along the way, as I chronicle lessons learned and tough business decisions that I had to make. 
+For many people, the most immediate fear is financial. That was true for me as well. The concern was not just whether the business idea was good. It was whether I would have enough stability to keep moving if things started slowly. That fear is legitimate, and it is one of the main reasons many capable people delay starting something they care about.
 
-One of the first things I thought of as I reflected on my time as a business owner, founder and operator was that it's ok to start a business without really knowing how to run a business. 
+What helped was approaching the risk in a measured way. I did not walk away from everything at once. I built a financial cushion first, kept working full time while the business was getting off the ground, and phased my transition over time. That created room to learn without putting unnecessary pressure on the business in its earliest stage.
 
-Too many people get hung up with needing to plan but overplanning is one of the things that has always stalled me from starting anything. 
+It also helped to be honest. Early clients were not responding to a polished corporate image. They were responding to trust, transparency, and a belief in what I was trying to build. Being upfront about where I was in the journey made those early relationships stronger, not weaker. In many cases, people are willing to support a new business when they believe in the person behind it and understand the value being offered.
 
-For me starting a business without knowing how to run a business was a huge risk that ultimately led to a huge reward. 
+The broader lesson is that starting small does not make the work less real. A business does not have to begin at full scale to matter. It can start as a side effort, grow at a measured pace, and still become something meaningful. Too often, people dismiss that path as a hobby simply because it does not look large on day one. That is a mistake. A smaller start can be the most responsible and sustainable way to build something real.
 
-Starting a business is no different from starting anything else, sometimes you just have to start somewhere and go from there. 
-
-One thing that was holding me back initially was that I feared that I would not have enough money to sustain running and operating a business. This is a pretty common fear that stops people from starting their own businesses. 
-
-{% include videos/video.html id="97BYYKv-AQs" header="/assets/images/covers/2023/Header-Fear.png" %}
-
-Here are some of the choices I made early on in the founding of my company that worked well for me. 
-1. I waited to leave my current job until I had enough money saved in the bank to pay myself for 6 months. 
-2. I continued to work a full time job while I started my business, and slowly phased out my full time job(s) bit by bit. 
-3. I was honest with my clients that I was a new business operator and those initial clients I got early on were more interested and tied to my personal success than I ever could have imagined. 
-4. But ultimately I learned that it's ok to start a business for yourself at your own pace without a plan and figure it out as you go. 
-
-Some people may criticize you and say this is not a business its a hobby, but a hobby or a lifestyle business is still a business. And I gained valuable life experience by starting it without overthinking it in a responsible way. 
+Overcoming the fear of starting a business is not about eliminating risk. It is about choosing a path that lets you move forward responsibly. If you can manage the downside, stay honest about what you are building, and keep making progress, you do not need a perfect plan to begin. You need a practical first step and the willingness to take it.

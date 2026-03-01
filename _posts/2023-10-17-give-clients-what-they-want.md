@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-TheyWant.png
 thumbnail: /assets/images/covers/2023/Header-TheyWant.png
 cta: 2
@@ -30,5 +30,3 @@ While I was gathering information, the old service provider started giving me in
 I told them and my new client that I was working with that I was fairly new to Powershell that it wasn’t something that most of my Mac based customers used or relied on. The company immediately snapped back and turned to the client and said “This company can’t help you, they don’t even know powershell”. The client turned to them and said, so? At least he was honest about it. I don’t care about powershell either. 
 
 It was at that moment I learned that in order to be successful you have to be aligned with your client and their needs, honesty is important but also making sure you're providing true value. That was something their outgoing IT company didn’t understand, to them it was all about cookie cutter IT support services and not creating meaningful experiences for their clients. 
-
-{% include videos/video.html id="A746T6uYRgk" header="/assets/images/covers/2023/Header-TheyWant.png" %}

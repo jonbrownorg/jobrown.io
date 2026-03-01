@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Detail.png
 thumbnail: /assets/images/covers/2023/Header-Detail.png
 cta: 2
@@ -42,5 +42,3 @@ Finally after we resolved an issue we wrote down the resolution and created know
 Our cycle of support consisted of Getting the problem, researching solutions, troubleshooting with the client, identifying paths to resolution, resolution, and documentation. We were not allowed to fully close the case with the client until all the details were properly documented. 
 
 If you can have the discipline to implement these steps you will be successful, providing support, creating products and further building trust in your brand. Here is where most service businesses fail. 
-
-{% include videos/video.html id="5HUUOG3P4Pc" header="/assets/images/covers/2023/Header-Detail.png" %}

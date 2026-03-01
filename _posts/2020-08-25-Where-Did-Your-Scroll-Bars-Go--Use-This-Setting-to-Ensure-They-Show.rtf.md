@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now-25.jpg
 image: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now.jpg
 thumbnail: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now.jpg

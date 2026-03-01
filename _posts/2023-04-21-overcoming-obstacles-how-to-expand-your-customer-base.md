@@ -12,28 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Expand.png
 thumbnail: /assets/images/covers/2023/Header-Expand.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-I still remember the days when finding time off was a struggle as I juggled between being part of an IT team and the sole member of an IT department. It was during this time that I discovered a lack of choice when it came to staff augmentation consultants in my area. I saw this as an opportunity to start my own venture - Grove Technologies.
+Expanding a customer base as a new business owner often starts with recognizing a problem that other people have not fully defined yet. In my case, that problem was clear because I had lived it myself. I knew what it was like to be part of a small IT function, or even the only IT person, and to realize that something as basic as taking time off could become a real operational risk for the organization.
 
-At Grove, we focus on helping organizations with small IT teams, such as nonprofit organizations and design agencies, to ensure that they have the necessary support to take time off while ensuring their systems are well-maintained.
+That gap created the foundation for the business. Instead of trying to serve everyone, the early focus was on organizations with small in-house IT teams, especially nonprofits and design agencies that depended on Apple-heavy environments. These teams did not necessarily need a full outsourced department. What they needed was dependable backup, additional coverage, and a trusted partner who could step in without creating disruption.
 
-It wasn't always easy building my own business, and there were definitely challenges along the way. But it was worth it to see the positivity and impact that we were able to bring to these organizations.
+That kind of positioning made growth more practical because it solved a specific problem. Many of the people we spoke with had never stopped to think about the downside of having no contingency plan. They were so used to carrying the load themselves that the risk had become normal. Once those conversations started, the value of having outside support became much easier to understand. The service was not being framed as unnecessary overhead. It was being presented as stability, continuity, and relief for already stretched teams.
 
-I hope that my journey can inspire the next generation of business owners to think outside the box and to pursue their passions, no matter how daunting it may seem. With dedication and perseverance, anything is possible.
+That is an important lesson for new business owners trying to grow. Expanding your customer base becomes easier when your offer is tied to a real operational pain point rather than a generic service pitch. If the customer immediately understands the cost of doing nothing, the conversation changes. Instead of trying to convince someone that your business exists, you are helping them see that the problem already exists and that you have a credible way to solve it.
 
-{% include videos/video.html id="QdV1dwyO1kY" header="/assets/images/covers/2023/Header-Expand.png" %}
+The early stage was still challenging. Building a business requires a different mindset than being a technician. It is one thing to care deeply about helping end users and solving technical issues. It is another thing entirely to think like an owner, define a market, make introductions, and create enough trust for people to bring you in. That shift can feel awkward at first because the work is no longer just about doing the job well. It is also about learning how to position and communicate the value of the business.
 
-Did you find that it was easy to acquire new clients and find people to take you guys on?  We really started targeting companies that, who already had IT departments. One of our focuses early on was to help people who were in similar situations as me. So we were going after nonprofit organizations, design agencies, where I knew that they had, maybe a team of one or two Mac people, and I was just reaching out, making introductions and letting them know that we were around and we were there to support them.
+Over time, that foundation turned into referrals, word of mouth, and broader opportunities. Once the first clients saw the benefit, growth became less about broad outreach and more about reputation. That is often how a strong customer base is built: by finding a real problem, serving a specific audience well, and turning early trust into momentum that compounds over time.
 
-Very few of them had ever had that thought, right? Maybe if I want to take vacation, I should come up with a plan, go to my supervisor and pitch this company so that I know that my users are in good hands. A lot of them never thought about that. And it didn't really dawn on them that it would be a negative impact event for the company. And so I think a lot of positivity came out of those conversations and for those individuals who pitched those ideas and brought us on board right at the beginning, after that, it was pretty much all word of mouth, getting our foot in the door.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
 
-Meeting, greeting people, going to conventions and obviously when I was working as a full-time person in the industry, I was participating and giving back Mac Admins Mac Admins Slack, which is a great way to stay current, which is the way that I used it.
+[384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
 
-But I had never really approached it from the perspective of a business owner. And so it was a little bit awkward for me, trying to shift my mindset from technician who cares about their end users to  how am I going to actually build this? How am I gonna make  money with it..
+[About Jon Brown](https://jonbrown.org/about/)

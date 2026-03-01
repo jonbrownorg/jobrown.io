@@ -12,28 +12,26 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - articles
+  - business
 image: /assets/images/covers/2023/Header-Grove.png
 thumbnail: /assets/images/covers/2023/Header-Grove.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-I love your  your name by the way, Grove Technologies as Grove is a great  concept related to  of course Apple. Nice. That you ended up there. Do you wanna give listeners an overview of that  how you got to this point? Yeah. When I first started, the company really started off by wanting to help businesses that worked in an industry where it was all Apple centric, but I was targeting companies that had one or fewer right IT people.
+One of the easiest mistakes to make when starting a company is choosing a name too quickly. In the earliest days, it is tempting to pick something that feels obvious, personal, or closely tied to the work you do right now. That kind of speed can feel productive, but a business name has to do more than sound good in the moment. It has to hold up legally, represent the company clearly, and leave room for the business to grow.
 
-And the struggle that I always had when I was working in the, as an IT director, as an IT person, I was really the only IT person at and any company that I would ever work for. And it was really hard to just find somebody that could give me a break. I found it really hard to actually take two weeks of vacation.
+That lesson became clear to me as I built a services business around Apple-focused consulting. The original idea behind the company was simple: support organizations that relied heavily on Apple devices but did not have a deep internal IT bench. I had worked in environments where one person carried most of the technical load, and I understood how difficult it was for those teams to find reliable backup. That gap in the market created the opportunity, but the first version of the brand was built faster than it should have been.
 
-Yeah. Because my company, they just wouldn't let me take that time off. I tried pairing  with some consultants in the area, but they were mostly PC centric, so I thought maybe I can start a Mac consulting company. So I just  pulled into my brain and reached out and pulled out a name, which happened to be.
+What seemed like a workable name at the start turned out to be a weak long-term choice. It was too narrow, too exposed to legal risk, and too tied to a specific identity that did not leave much room for the business to mature. At the time, I was thinking like a technician trying to launch something useful, not like an owner building a durable brand. That difference matters. A company name has to survive beyond the first website, the first clients, and the first wave of momentum.
 
-Just a terrible name. It was Mac Gurus it was already in use. I had no idea what I was doing. I had no clue. Trademarks, no idea  copyrights. No clue. I'm just gonna go for it. I'm gonna use this name. It worked for a while    until we found out that someone else was using the name. When we had to rebrand until the cease and desist letter came in  , I try not to think about it negatively because when I first picked the name and I applied to be a member of the ACN, I was rejected because I had  the word Mac and the title.
+Being forced to revisit the brand ended up being one of the most valuable corrections the business ever made. Rebranding created an opportunity to step back and think more strategically about what the company should represent. Instead of choosing a name based only on technical specialization, the new identity gave the business a broader, stronger foundation. Grove Technologies was a better fit because it felt more established, more scalable, and more aligned with the kind of company I wanted to build over time.
 
-So that role always bummed me out as a diehard Apple fan. I  took it a little personally and then when I realized legally I never should have picked the name anyway,  I look at it now as  like a blessing, not a curse.  We were able to really think strategically about what I wanted the business to become.
+That change was bigger than a logo or a new word on a website. It clarified the direction of the business. It made the company easier to position, easier to present professionally, and easier to grow into. Looking back, the early naming mistake was frustrating in the moment, but it forced a better decision. For founders, that is the real lesson: a strong brand is not just about what sounds clever on day one. It is about choosing a name that can carry the business where you want it to go next.
 
-I was working for a design agency at the time who was  struggling, and so we worked out the name in trade, so they renamed us and picked the name Grove Technologies. They came up with a logo.  in exchange for services rendered.  And that's  how Grove was born. It's been phenomenal, the growth year over year ever since.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>          
 
-And I think the name and the brand , went  a lot into that. That's very cool.  It's nice how you turned around that kind of  feeling of rejection  having not been able to join the Apple Consultants Network under the original name  and then being able to have this positive outcome.
+[434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 
-Unfortunately, having to go through the legal aspect of things, resulting life lesson, it was a good. Yeah, that's a good way to look at it. Yeah, exactly.  You just came out ahead in, in the long run  and  this is a much more kind of scalable name also. 
- 
-{% include videos/video.html id="UQopPAX6mqA" header="/assets/images/covers/2023/Header-Grove.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-Bluetooth-Headphones-fp.jpg
 image: /assets/images/covers/2020/Header-Bluetooth-Headphones.jpg
 thumbnail: /assets/images/covers/2020/Header-Bluetooth-Headphones.jpg

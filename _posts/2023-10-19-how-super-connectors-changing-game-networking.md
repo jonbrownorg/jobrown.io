@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Side.png
 thumbnail: /assets/images/covers/2023/Header-Side.png
 cta: 2
@@ -38,5 +38,3 @@ What I learned was that its ok to do something you love outside of work. I learn
 For me the metric of success was getting more clients who wanted my services than I had time to support, after 10 people was added to my waitlist, I knew I had something that could sustain and required a more full time approach. 
 
 Remember having a side hustle is ok. Michael Jordan said it best. Some people want it to happen, some people wish it would happen, others make it happen.
-
-{% include videos/video.html id="oqXOb1oV4VY" header="/assets/images/covers/2023/Header-Side.png" %}

@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-Mac-Finder.jpg
 image: /assets/images/covers/2020/Header-Mac-Finder.jpg
 thumbnail: /assets/images/covers/2020/Header-Mac-Finder.jpg

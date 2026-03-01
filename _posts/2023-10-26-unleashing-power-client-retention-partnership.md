@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Unleashing.png
 thumbnail: /assets/images/covers/2023/Header-Unleashing.png
 cta: 2
@@ -44,5 +44,3 @@ When you invest in the relationships with your clients it will in turn strengthe
 Forget about referral programs when you have that level of brand loyalty you will see a natural growth not only fostered by word of mouth from your fans but the external show of participation and partnerships will help those observing you better align on your core mission, vision and values attracting them to your brand without knowing anything about your core services. Creating fans helps foster and create admirers in the public who then approach you looking for the same experience they are seeing, it's important that when this starts happening that you double down on the approach we’ve been talking about and convert them from admirer to fan. 
 
 Its important to remember that you do not get to fandom immediately, it's a journey, and people move from observer, to admirer to fan is a process and a journey and it's your job as the business owner, and operator to lead them down that path. This has to be done with intention, and is a drum beat that your entire staff must beat the same way, with consistency and with intention. 
-
-{% include videos/video.html id="BUExnsL9_pM" header="/assets/images/covers/2023/Header-Unleashing.png" %}

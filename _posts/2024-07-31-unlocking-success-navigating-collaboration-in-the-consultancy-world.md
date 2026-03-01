@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2024/Header-Collaboration.jpg
 thumbnail: /assets/images/covers/2024/Header-Collaboration.jpg
 cta: 2
@@ -37,8 +37,6 @@ Industry pioneers like Walt Disney emphasized the role of people in turning drea
 
 ### The Business Imperative of Collaboration
 Studies from McKinsey & Company underscore the business imperative of diverse and inclusive teams. Collaborative environments not only boost productivity but also foster innovation. When consultancies embrace cooperation and build bridges, they create a powerful synergy that benefits everyone involved.
-
-{% include videos/video.html id="QUd8inczCnQ" header="/assets/images/covers/2024/Header-Collaboration.jpg" %}
 
 ### Join the Conversation
 The path to successful collaboration in consultancy is multifaceted and dynamic. We invite you to share your experiences and insights. How has collaboration transformed your consultancy endeavors? What challenges have you faced, and how did you overcome them? By joining the conversation, we can learn from one another and collectively elevate the consultancy landscape.

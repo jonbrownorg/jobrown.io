@@ -12,7 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - video
+  - leadership
+  - cybersecurity
 image: /assets/images/covers/2025/good_cybersecurity.png
 thumbnail: /assets/images/covers/2025/good_cybersecurity.png
 cta: 2
@@ -33,5 +34,3 @@ Preparation for potential incidents is a vital aspect of any serious cybersecuri
 Finally, a company’s passion for cybersecurity is reflected in its internal prioritization of security-focused teams. Organizations that value security often build strong in-house teams equipped to handle monitoring, testing, and incident handling. They empower these teams with the tools and authority needed to proactively identify vulnerabilities and respond to threats. A commitment to maintaining an agile and skilled security workforce is a powerful indicator that a company is serious about protecting its systems and data.
 
 Cybersecurity is a shared responsibility, but companies must lead the charge in creating a secure environment for their teams and operations. By prioritizing transparency, training, technology, and thorough planning, an organization demonstrates its commitment to safeguarding its assets. As a security professional, pay close attention to how the company approaches its in-house security initiatives. The more proactive and passionate they are about implementing good security practices, the more confident you can be in their dedication to cybersecurity.
-
-{% include videos/video-shorts.html id="iQGtGgLQ2Rs" header="/images/covers/2025/good_cybersecurity.png" %}

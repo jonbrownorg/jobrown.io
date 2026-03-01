@@ -12,22 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Comms.png
 thumbnail: /assets/images/covers/2023/Header-Comms.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-Yeah, I think that the hurdle that I wasn't as ready for, and the thing that kind of took me off guard was I came into the team. And I had built this thing and I was very comfortable where I was as the business owner operator, and I just assumed that I would continue to feel that level of comfort in continuing to build my book of business.
+Effective team communication becomes far more important as a business moves from a small, familiar operating rhythm into a larger and more dynamic environment. When you are used to running a business as an owner-operator, much of the context lives in your head. Decisions move quickly because you already know the clients, the priorities, and the reasons behind each choice. In a larger organization, that same instinct does not scale without stronger communication.
 
-I think that when you're working in a large group, in a large team, especially one as large as Interlaced, it's go, it's going to inherently feel. Chaotic and it is chaotic. I think the one thing that I sh feel like I should have known, but am learning like the hard way, is you get to a certain point in your business and you're running it and you're comfortable and you have to make a decision.
+That is where many leaders feel the strain of growth. A bigger team naturally brings more moving parts, more people involved in decisions, and more situations where assumptions can create confusion. What once felt simple can start to feel chaotic, not because the business is broken, but because the work now depends on clearer alignment between more people. Without consistent communication, that kind of growth can quickly turn discomfort into unnecessary friction.
 
-Am I going to continue to grow and move into an uncomfortable state, or am I going to stay? In this business and grow it where I'm still comfortable. And for me, moving and selling the business really threw me into this like world of uncertainty and this world where I was not comfortable, but I. Before the business when I was an employee at various different companies, I really thrived off of that type of environment.
+The practical value of strong communication is that it reduces uncertainty. It helps people understand what is changing, what is staying the same, who is responsible for what, and how the team should move together. In fast-moving environments, that clarity matters more than comfort. A business can survive a period of operational strain if the team knows how to share information, raise issues early, and stay aligned on priorities.
 
-Being in a situation where I was  constantly learning new things and I was forced to learn that those things because I was helping drive that company forward by the initiatives that I was working on, it really harken back to those days and it really did reignite my passion for the technology and my   Desire to continue to learn and grow in technology.
+This is especially true during transition. Moving from a familiar structure into a larger team often forces leaders to give up some of the comfort that came with control. That can be difficult, but it also creates new opportunities to learn, adapt, and contribute at a different level. Communication is what makes that transition manageable. It helps turn ambiguity into coordination and gives people a way to work through change without becoming disconnected from each other.
 
-I think that a little bit of that had waned as I had grown my business and moved into more of an operator type of role. So all in all, I feel like it was a good trade off. Traded off a lot of comfort for a more of a reinvigoration passion for learning and driving technology forward.  
+In many cases, growth requires choosing discomfort over familiarity. The question is not whether that discomfort will exist. It is whether the team can communicate well enough to make the discomfort productive. When communication is strong, even a messy or demanding phase of growth can reignite momentum, strengthen collaboration, and create a healthier path forward.
 
-{% include videos/video.html id="AiiQXcLU93s" header="/assets/images/covers/2023/Header-Comms.png" %}
+For leaders, that means communication cannot be treated as an afterthought. It is not just a soft skill or a management preference. It is one of the core systems that keeps teams functional when the business is changing quickly. In dynamic environments, the teams that communicate clearly are the ones most likely to stay aligned, keep learning, and continue moving forward.
+
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
+
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
+
+[About Jon Brown](https://jonbrown.org/about/)

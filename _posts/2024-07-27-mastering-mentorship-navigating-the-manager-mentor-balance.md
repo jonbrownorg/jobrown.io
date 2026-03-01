@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2024/Header-Manager-Mentor.jpg
 thumbnail: /assets/images/covers/2024/Header-Manager-Mentor.jpg
 cta: 2
@@ -34,8 +34,6 @@ Based on my experiences, the key to successful mentorship in a managerial role l
 #### The Positive Impact of Clear Distinctions:
 
 I have witnessed firsthand the positive impact of maintaining a clear distinction between the manager and mentor roles. Team members, when mentored by individuals from different departments or external to the company, are able to openly discuss challenges, seek guidance, and grow without reservations. This approach not only benefits the individuals but also nurtures a harmonious work environment.
-
-{% include videos/video.html id="HNWuW6kXAOo" header="/assets/images/covers/2024/Header-Manager-Mentor.jpg" %}
 
 #### Empowering a Culture of Mentorship:
 

@@ -12,22 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Gaps.png
 thumbnail: /assets/images/covers/2023/Header-Gaps.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-What we're moving towards is a more unified company. We are acquisition number two.  For this company. So they actually acquired a company in the Los Angeles called 318 318. Might sound familiar to some of your viewers because I believe Charles Edge worked there as the CTO back in the day and funny story, I guess people are still calling looking for Charles to this day.
+Acquisition changes more than ownership. It changes how you work, how you lead, and how much control you have over the decisions that shape the business every day. That shift can be harder than many owners expect, especially when you have spent years operating with full authority and direct accountability for every client relationship.
 
-So they were acquisition number one, and then we were acquisition number two, so they were acquired about a year prior to us and. They're still going through their integration. The DC market is a little far removed, so we were easier to merge in because the only thing we're really synchronizing around on our side is tool sets and backend office administration, which was the biggest burden for me and one of the factors for wanting to sell the business was as a owner operator. And I think everyone on the show has commented about this before where it's, I am too busy working in the business to work on the business, and it was really causing a lot of problems for me and for forcing me to look inward and say, I can't really grow this anymore without completely stepping back.
+One of the biggest adjustments after a sale is moving from owner-operator to team player. When you run your own business, you are used to setting the pace, defining the standards, and making the final call. Inside a larger organization, that independence narrows. Decisions now sit inside a broader structure, and even when the long-term strategy makes sense, the transition can still be uncomfortable. It takes time to stop thinking like the only decision-maker and start working inside a larger operating model.
 
-But if I did step back, I would have to hire a whole team of people and that would really put me in the red. In order to move forward, I would have to take some major financial steps backwards. So that was one of the main reasons why I wanted to sell the business so that the business could continue to grow, and so that I could continue to focus on what I really loved, which is, Servicing the clients and providing amazing service.
+What made that transition more workable for me was retaining autonomy in the DC market. I still manage the day-to-day client relationships, stay involved in growth, and maintain the local operation as its own branch under a larger umbrella. That continuity matters. The acquiring company understands its own markets well, but geographic differences are real, and what works on the West Coast does not automatically translate to the East Coast. Preserving local ownership of those relationships creates stability for both the team and the clients.
 
-But with the merger of Three 18 and now Grove, the goal is to become one unified team. Right now, we're in the phase where all of our tool sets have been merged. All of back office systems have been merged. Right now, what we're doing is probably the most tumultuous part of the process, which is aligning on.
+That stability is critical after an acquisition. Clients do not want to feel like they were handed off to a different company overnight. They want to know the same people are still involved, the same standards still apply, and the relationship they trusted is not being replaced by a new process they never asked for. The goal should not be immediate disruption. It should be steady integration, clear communication, and a visible upside as broader capabilities become available.
 
-Best practices, how we're gonna run the business together. Right now, every business unit, LA, DC and San Diego, we're all running independently with our own business rules. With our own plans and pricing, which is causing a lot of, I wouldn't say problems, but it's causing a lot of challenges in terms of growth strategy.
+At the same time, integration still has to happen. Tools can be consolidated. Back-office systems can be standardized. Teams can align around common best practices. But those changes become much harder when every branch is still operating with different rules, pricing models, and service structures. That is where the real work begins. Building one company out of multiple business units is less about announcing that everyone is now unified and more about doing the slow operational work that makes that statement true.
 
-{% include videos/video.html id="J-KTaeKzULY" header="/assets/images/covers/2023/Header-Gaps.png" %}
+For me, that has reinforced an important lesson about selling a business. The financial outcome matters, but it is not the whole story. If the clients are not well served after the transaction, then the deal failed where it mattered most. A healthy acquisition should protect the relationships that built the business in the first place while creating a stronger platform for the team to grow together. That is the balance: keeping trust intact while learning how to lead inside something larger than yourself.
+
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
+
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
+
+[About Jon Brown](https://jonbrown.org/about/)

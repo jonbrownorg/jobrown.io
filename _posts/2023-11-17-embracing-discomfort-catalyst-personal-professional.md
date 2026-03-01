@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Growth.jpeg
 thumbnail: /assets/images/covers/2023/Header-Growth.jpeg
 cta: 2
@@ -54,5 +54,3 @@ Embracing discomfort became my mantra. Eleanor Roosevelt’s words, “Do one th
 I encourage each one of you to reflect on your own journey. When was the last time you felt truly challenged? When did you last push your boundaries? Embrace discomfort as a friend, a guide on your journey to becoming the best version of yourself.
 Let’s embark on this journey together. Share your stories, your challenges, and your triumphs. Let’s create a community that celebrates the courage to step into the unknown. Remember, growth isn’t a destination; it’s a continuous, exhilarating journey.
 Here’s to embracing discomfort, to transcending our limits, and to evolving into greatness.
-
-{% include videos/video.html id="lo3ThTYSeNI" header="/assets/images/covers/2023/Header-Growth.jpeg" %}

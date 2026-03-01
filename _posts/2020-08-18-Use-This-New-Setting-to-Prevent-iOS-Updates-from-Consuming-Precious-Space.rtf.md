@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-iOS-Updates-fp.jpg
 image: /assets/images/covers/2020/Header-iOS-Updates.jpg
 thumbnail: /assets/images/covers/2020/Header-iOS-Updates.jpg

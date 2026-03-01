@@ -12,32 +12,30 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Value.png
 thumbnail: /assets/images/covers/2023/Header-Value.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-Welcome back to Command Control Power, Jon Brown, vice President of Technology and Cybersecurity at Interlaced. And listeners may remember Jon as the owner of Grove, which is now Grove powered by Interlaced. So Jon, thanks for  joining us on Command Control Power again.
+Knowing the true value of your business means understanding whether people are interested in the company you built or simply interested in hiring you. That distinction becomes critical when you start evaluating partnerships, acquisition offers, or long-term growth options. On the surface, both can look attractive. In practice, they lead to very different outcomes.
 
-Yeah, happy to be here guys. Thanks for having me back. 
+One of the biggest lessons I learned during the merger process was that not every opportunity places value on the same thing. Some conversations were centered almost entirely on me as an operator. In that kind of situation, the business itself is secondary. The clients, systems, and long-term structure of the company carry less weight, and the offer starts looking more like an acquihire than a true business partnership.
 
-Always good  to talk with you and thanks again for your support. I think that's the other place where listeners will remember your name and company from your strong support of command control power for many years now, so we really appreciate that. 
+That was not the outcome I wanted. If the value is tied only to the owner, then the business has not been recognized as an asset in its own right. More importantly, it becomes harder to separate your future from the company you built, because the acquiring party is effectively betting on your continued personal involvement rather than the value of the organization, the client relationships, and the operating model.
 
-And listeners may have noticed the logo change. So you're now Grove powered by Interlaced. So we're excited to talk to you a little bit about how that merger has gone and how you make that delineation between Grove and Interlaced and wear those different hats and all. Yeah. Congratulations on the merger by the way.
+The right fit came from finding a partner that recognized the value of the book of business, the client experience, and the work already being done. That alignment mattered far more than the headline number. When another company understands the strength of your client relationships and sees how your business complements their own, the conversation shifts from buying a person to building something larger together.
 
-Yeah, thanks. I think the last time I was here I was still evaluating partnerships and we talked a little bit about merger and acquisitions process, and I think the one thing that was real factor for me and making the decision ultimately to, to join forces   Was the key distinction between how much value does my company have and what is the end goal for me and the business and my clients?
+That kind of outcome takes time. Real business value is not something you prove in a single meeting. It often takes a long diligence process, repeated conversations, and a clear understanding of what you want for the future of the company. In my case, the path to the final decision took roughly two years. That timeline reflected the weight of the decision, not hesitation for its own sake. A business that matters should not be handed over lightly.
 
-I think majority of the situations that I was in when we were on the last call, folks were looking to. Hire me. There wasn't a lot of value put on the business or on the clients or the client experience . With interlaced, we found a pretty good common ground where they valued the book of business. They valued the clients. We were doing a lot of the same kind of work, just in different geographic areas. They're a very well known and established Apple, MSP out in the San Diego area. Were pretty well known and established in the DC area, so it was a good fit.
+For owners, that is the core issue: knowing what you are actually trying to preserve. If the goal is simply a personal exit, one type of deal may work. If the goal is to protect the clients, preserve the value of the business, and create a stronger long-term path for what you built, then the right partner has to value more than the founder. They need to value the business itself.
 
-But I just wanna highlight, it wasn't one that we entered into lightly, right? The last time we talked was about a year ago. Yeah. And. I had started that conversation with Interlaced about a year prior, so the entire process from beginning to end was about a two year process to get to the point where I, made the decision .
+That is the real measure of business value. It is not just revenue, branding, or what someone is willing to pay in the moment. It is whether the company has enough structure, trust, and client loyalty to stand as something worth acquiring on its own terms. When you understand that, you make better decisions about growth, partnership, and what kind of future you are actually building toward.
 
-It does say a lot about you, Jon, and your skillset and how you've been running your business, that you did create the value to, to have these companies looking  to merge with you and hopefully add value on both sides. I thought that's really interesting how you did turn down the companies that seem to be more interested in the acquihire of you personally, because I imagine.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
 
-That doesn't necessarily fit with a longer term plan in that you, if they see the value as really in you, then you have to stay in that role and stay on to keep gaining value on your side. Whereas if they. Value your business higher than necessarily you personally. I think it's just a little bit easier to decouple those things in the first scenario where they're hiring you, you're essentially a glorified employee of your own business in that scenario.
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
 
-So that's great that they valued the business side of things so much. 
-
-{% include videos/video.html id="ug2_bDYnoVc" header="/assets/images/covers/2023/Header-Value.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

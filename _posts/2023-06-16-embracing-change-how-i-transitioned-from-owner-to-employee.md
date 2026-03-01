@@ -12,26 +12,30 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Employee.png
 thumbnail: /assets/images/covers/2023/Header-Employee.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-So how does that break down geographically and how do you put the hat on of VP of Technology and Cybersecurity at Interlaced versus Running Grove and is there a process you're heading toward where. Everything is under one umbrella ultimately. 
+Transitioning from business owner to employee is one of the hardest identity shifts an entrepreneur can make. Running your own company means you are used to setting priorities, making final decisions, and carrying direct responsibility for the outcome. After an acquisition, that changes quickly. You may still have leadership responsibilities, but you are now operating inside a larger structure where authority is shared and not every decision is yours to make.
 
-Owner operators tend to become very bad employees because they are just aren't used to working under a construct that they don't have any control over. So I certainly went through that and still am going through that sort of transition. The one thing that's been very helpful in that transition is the autonomy that I still have in terms of running the business or the book of business here in the DC area.
+That adjustment is rarely comfortable. Owners are often effective because they are decisive, independent, and deeply invested in how the business is run. Those same qualities can make the transition into a broader organization more difficult. The challenge is not just learning a new title or reporting structure. It is learning how to lead when you no longer control every part of the system.
 
-So I'm still running. The day-to-day operations, I'm still meeting with the clients on a regular basis, and I'm still actively taking on new clients and then being charged with maintaining the DC market and overseeing the business as a separate entity. A branch of Interlaced, right? Grove Technologies powered by interlaced.
+What made that transition more manageable for me was retaining clear responsibility for the DC market. I still oversee the day-to-day client relationships, stay involved in local growth, and help maintain operational stability in the region. That autonomy matters because it creates continuity. It allows clients to keep working with the same people, through the same relationship-driven approach, while also gaining access to the broader capabilities of the larger company.
 
-But the, essentially trying to draw some very clear lines, right? They're very good at running their business on the west coast and the West coast market, but they don't know a lot about the East coast market. So the last thing they want to do is come in and impose a lot of change to the clients right after acquiring the business to bring or introduce uncertainty.
+That kind of continuity is especially important after a sale. An acquisition can create uncertainty for clients if it feels like the business they trusted is being replaced overnight. The better approach is to preserve what already works while gradually introducing the advantages of the larger organization. In our case, that meant keeping the same technicians, maintaining the same service mindset, and avoiding unnecessary disruption while the integration took shape.
 
-So I'm here to continue to maintain growth and stability in this area, but to promote the larger offerings that we have, right? So the way that we approached it with our clients was we are the same company. We have the same technicians. We're gonna approach technology in the same way that we have in the past, which is a very relationship heavy and relationship focused approach.
+Geography also plays a role. A company can be highly effective in one region and still need local leadership in another. Market expectations, client relationships, and operating styles can vary, and a one-size-fits-all approach can create friction where stability is needed most. Maintaining strong local leadership inside a national or multi-region company can make the difference between a smooth transition and a confusing one.
 
-One of the main reasons why I chose Interlaced was because  that's also the same way that they run their business when you're looking at being acquired or selling your business or whatever, it's not really about you and the money that you're gonna get. That's a great byproduct of the sale or the acquisition.
+The biggest lesson for me is that a successful acquisition is not defined only by the transaction itself. The financial outcome matters, but it is secondary to how clients are treated after the deal closes. If the clients lose confidence, the underlying value of the business weakens fast. That is why the real goal is not simply to sell well. It is to make sure the business continues to serve people well after the ownership changes.
 
-But, I was really focused heavily on how will my clients be impacted? Because at the end of the day, if I sell the business and the clients aren't happy and they leave, then what have I built? What have I been working towards? The goal here is to  continue to serve my clients and to do right by them. 
+Learning to work inside that framework takes humility. It means letting go of some control, accepting a different pace of decision-making, and focusing on what matters most: preserving trust, maintaining quality, and helping the business grow in a way that still reflects the relationships that made it worth building in the first place.
 
-{% include videos/video.html id="rW7iYiW2xoE" header="/assets/images/covers/2023/Header-Employee.png" %}
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
+
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
+
+[About Jon Brown](https://jonbrown.org/about/)

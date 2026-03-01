@@ -12,20 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - cybersecurity
+  - awareness
 image: /assets/images/covers/2023/Header-Cyber.png
 thumbnail: /assets/images/covers/2023/Header-Cyber.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-Cybersecurity awareness to a certain degree, even at, even for home users.  We're talking about the popularization of broad-based tools like LifeLock, right? Which have capitalized on fear of losing your identity or actually having your identity stolen. As consultants, what is our  responsibility there?
+Security awareness is no longer something that belongs only in enterprise boardrooms or IT departments. It applies to business owners, employees, contractors, and even everyday home users. The line between personal and professional risk is thinner than it used to be, because the same email account, browser session, password habit, or social engineering mistake can now create consequences across both worlds.
 
-Not just from the computer side of things and the technology side of things, but the awareness side of things, the social engineering side of things, the, Hey  this is phishing and beware of that type side of things. We've really started taking that very seriously.  I'm definitely seeing an increase in people, either their email being compromised or temporary browser hijack.
+That is why security awareness training matters. The goal is not to make people paranoid. It is to help them recognize the patterns that attackers rely on most. Phishing emails, fake login prompts, impersonation attempts, and browser-based scams all depend on the same basic weakness: people are busy, distracted, and often rewarded for choosing convenience over caution. Attackers know that, and modern scams are designed to exploit it.
 
-Filtered down not only to the business user, but also the residential user. It's funny  people will always take convenience over the fear that somehow if in fact they add more security to their system. 
+From a consulting perspective, the responsibility goes beyond device setup and software recommendations. Technical controls are essential, but they are only part of the equation. A secure environment also requires better decision-making from the people using it. If users do not know how to spot suspicious requests, question unusual prompts, or slow down when something feels off, the best tools in the world can still be bypassed by a single rushed click.
 
-And I'm like, how inconvenient would it be to like lose $12 million   just to lose access to like  your  your Facebook account, whatever it is. Like just get a handle on this sites are trying to tell you to do is like the right thing. And it's just, it's tough.
+What makes this more important now is that the impact is no longer limited to large organizations. The same types of compromises that affect businesses are hitting individuals as well. Account takeovers, email compromises, and temporary browser hijacks are becoming more common because attackers do not need a massive breach to succeed. They just need one person to trust the wrong message, approve the wrong prompt, or ignore a security step that feels inconvenient in the moment.
 
-{% include videos/video.html id="3417LUZWA3k" header="/assets/images/covers/2023/Header-Cyber.png" %}
+That is often the real challenge. People tend to treat security as optional when nothing bad has happened yet. Extra verification, stronger passwords, multi-factor authentication, and cautious browsing can all feel like friction. But the inconvenience of basic security is minor compared with the cost of recovering a compromised account, restoring trust, or cleaning up the damage after fraud. What feels like a small shortcut in the moment can become a major problem later.
+
+The most effective security awareness efforts are practical, repetitive, and tied to real behavior. They help people understand what to look for, why certain safeguards matter, and how to respond when something does not seem right. That kind of training creates better habits over time, and better habits are still one of the strongest defenses any person or organization can build.
+
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+
+[434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
+
+[About Jon Brown](https://jonbrown.org/about/)

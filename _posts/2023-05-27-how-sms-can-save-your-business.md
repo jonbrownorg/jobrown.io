@@ -12,60 +12,30 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - tips
 image: /assets/images/covers/2023/Header-AppleChat2.png
 thumbnail: /assets/images/covers/2023/Header-AppleChat2.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-The last question on that I have is, what do you do for those off hours? Do you have a expressed service level agreement or any kind of after hours support, or is it just a case by case thing? 
+One of the most practical ways to improve client support is to meet people where they already communicate. For many clients, that means text messaging. When used correctly, SMS can become a fast, effective support channel that reduces friction, improves response times for simple issues, and creates a cleaner record of day-to-day interactions.
 
-So we're nine to five Monday through Friday, and we're still maintaining that those operating hours, if it's an extreme situation, Interlaced HQ is 24 by seven.
+That does not mean every business should promise unlimited after-hours support. Clear boundaries still matter. In our case, standard business hours remain the expectation, and serious after-hours issues can be escalated through broader support coverage when needed. Most off-hours requests are not major outages anyway. They tend to be quick questions, basic troubleshooting, password resets, or a request for reassurance about something suspicious. A lightweight communication channel works well for exactly those moments.
 
-So they have people that are on rotation and taking calls and primarily doing level one and after hours, and then they have an after hours weekend crew that does on-call rotation schedule. So we've been able to tap into. The existing 24 by seven business model of the larger organization  and get basic support, which seems to be when we need it, when it's an emergency and someone is really in need of talking to someone after hours, at the end of the day, it really.
+What makes SMS especially valuable is that it can create a better client experience without creating unnecessary operational overhead. A quick text exchange can solve a small issue faster than a formal ticket, and in some cases it creates an opportunity to go above and beyond in a way the client remembers. Those small moments can build trust when they are handled with the right expectations and the right guardrails.
 
-Is in most cases, a level one issue that just happens to be after hours where it's like a password reset or I just have a question about this weird, suspicious email that I got really late at night. So we haven't had any issues that have been reported after hours, but I think that we've always set that expectation that were not available and clients are signing up.
+Apple Business Chat makes that model even stronger because it turns messaging into a structured business function rather than a personal workaround. That distinction matters. A shared messaging channel is better than letting important client conversations live on one technician's personal phone. When support history is stored in a searchable, persistent thread, the business keeps the context even if staffing changes. Photos, issue history, and prior troubleshooting steps become part of a collective knowledge base instead of being lost in private text conversations.
 
-Knowing that, I think the value add as we continue to grow with our clients and as we start to merge with the larger organization, is that our business models, our SLAs will become more unified and will give people more opportunity to contact us anytime of the day. For me, I'm still very much.  Operating the business like a business owner.
+That record also helps manage accountability. When communication is centralized, it is easier to verify what was said, when it was said, and what follow-up happened. That reduces confusion, protects both sides of the relationship, and gives the team a better foundation for providing consistent support. It is one of the clearest operational benefits of using a managed SMS channel instead of relying only on phone calls or scattered personal texts.
 
-So like I'll be sitting, I'll be sitting at on my computer at 7:00 AM  watching tv, having breakfast, drinking some coffee, and I'll get a text on the haymarket line, Haymarket, Hey, we're not open till nine. And I'm like, I know who this person is. I know that they just probably have a quick. Question. I'll just chat with them real quick.
+The key is setting the rules early. Clients need to understand that this is a business line, not a personal number. They need to know multiple team members may see the messages, that response times still follow business expectations, and that the channel is intended for support, not for venting or bypassing normal account management. When those norms are clear, SMS can be highly effective without becoming disruptive.
 
-And then after I do, I shoot them my Google review link and  they leave me a nice little review. So I think there's always opportunities to go above and beyond and delight the customer. So I'm always very aware of those opportunities, especially when it's very low risk for me. But if we're all busy and we're all in meetings, we do our best to work as a team and get back to folks With Apple Business Chat.
+Compared with tools like shared Slack channels, SMS can also feel more controlled for many support teams. Both channels can create a sense of immediacy, but business messaging tied to defined hours and clear autoresponders can be easier to position as a service channel rather than an always-on extension of a personal workday. Used thoughtfully, SMS and Apple Business Chat can improve responsiveness, preserve knowledge, and make support more convenient for both the client and the team.
 
-It makes it even. Easier in my view. And the reason why we started embracing it was we had gone through an employee cycle where we had an employee leave and a good portion of our client's knowledge of how  this technician had interacted with a few clients was predominantly over text messages to the technician's cell phone.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
 
-So the idea here was that we learned that there's value. In the historical references that people were making in SMS based chats, whether it's pictures that people were sending us of their issues or just a record of all of the issues that they've had. The beauty of it is it's searchable, it's indexable.
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
 
-It never goes away. You can add people to it, you can remove people from it, and it just becomes a part of your collective knowledge base. 
-
-Yeah, that's huge. Even for just something as simple as a client says, I called you two weeks ago. Still wait. And it's  I have your email right here and there's no voicemail, there's no phone call.
-
-So you're lying. You're just remembering it. But it is nice to have that, that all of that stuff on record just to see Yeah, the historical chat. No, it's a great point. As 
-
-well. Yeah. Jon, you've made a very strong case for using SMS with clients and I've been doing it now for a while and I've been, man, being able to successfully manage expectations with clients.
-
-And if somebody abuses the privilege, you can certainly say, Hey, this channel is not designed for what we're using it for, and best to send me an email or best to schedule an onsite appointment. But I'd love  what you just expressed, how you can delight someone. By offering them support as you're having a cup of coffee before the office officially opens.
-
-That was just so eloquently put. And harrah for s m s and Sam and  Joe need to get with the program. Yeah. I'm always two years behind Jerry.  Oh yeah. No, it's super great. It helps put you in front of clients wherever you happen to be. So if you're on site and someone is needing a quick hand, or yeah, a link to an article you're driving down the road, you can pull over.
-
-You can have that very quick conversation. With clients. The way that I phrase it is, and I told my clients very clearly, this is not my personal cell phone number. I'm never going to give you my personal cell phone number. This is a group text line, and I made sure that they understood that there are multiple people reading these texts because at the onset of telling people, this is my text line, I was getting some non-group friendly. 
-
-Messages and I was like, just to let you know, there are three or four people reading these. And they were like, okay, great. So this is a business thing. I'm like, yes, this is a business thing. This is not a place where you can yell, vent, or otherwise share your feelings  about issues. If you're having those types of events, feel free to call us.
-
-We'll have meetings with you. We have client success manager, et cetera, that can help you through the, through whatever issues you're having. This really is for dedicated for, you're having an issue, we're here to help you. And it could be me or it could be someone else in mind. And once I've established those norms, it became a very fruitful platform.
-
-Interlaced, HQ and la. Their big pro proponents of doing what Sam is doing, which is shared Slack channels with their clients. I am actually more fearful of that approach than I am text messages because I feel like there's less.  Of that barrier. Even there's less rules you can put around it than the rules that I've put around text messages.
-
-Agreed. And there's this expectation with Slack that it's always on. Where were you? I texted you two hours ago in Slack and you didn't answer. I would say that's the same on the s m s side. John said he can shut it down.  Yeah. You can have a, at least on the platform that we're using, you can have a message that will pop up after a set.
-
-Hourly window. Sure. I say  nine to five and it will say, Hey, we're closed. Leave a message, et cetera. The clients know it's not your personal phone. They know it's not going to a device even though it is. And That's right. They're aware that this is a. Business function, and I think Slack is so ingrained at on the personal day-to-day that when you say Slack, even though it is a tool for business, it's not perceived that way.
-
-It's perceived as, it's just a part of my life and it's an extension of me getting what I'm used to, which is an instant response to any person that I message. It's not just. I'm expecting that as an for from you as an IT service provider on Slack, but I'm expecting  everyone on Slack to respond to me right away.
-
-I would say that there's a lot of similar, a lot more similarities though, because you can put away on Slack, you can also put a message that you're not available or the team's not available. I feel like SMS and Slack both have that immediacy to it. Yeah. If it's during normal business hours. So I do  the fact that you can do like a round robin or just have multiple phones on that and it comes through Apple Maps and for that Apple business messages.
-
-But I think there's a lot more similarities and differences though ev everyone feels that they are immediate services and whether or not that's true.  
-
-{% include videos/video.html id="o6DU93ethaY" header="/assets/images/covers/2023/Header-AppleChat2.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-Activity-Rings.jpg
 image: /assets/images/covers/2020/Header-Activity-Rings.jpg
 thumbnail: /assets/images/covers/2020/Header-Activity-Rings.jpg
