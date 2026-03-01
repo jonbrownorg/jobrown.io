@@ -1,0 +1,167 @@
+{% assign matching_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
+{% if matching_posts.size > 0 %}
+<section
+  class="py-16 overflow-hidden bg-white border-t border-slate-200 sm:py-20 lg:py-24"
+  data-blog-row="{{ include.instance_id }}"
+>
+  <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h2 class="text-3xl font-semibold font-display text-slate-900 sm:text-4xl">
+          {{ include.title }}
+        </h2>
+      </div>
+
+      <div class="flex gap-2.5">
+        <button
+          class="inline-flex items-center justify-center w-12 h-12 duration-200 bg-white rounded-full shadow-sm carousel-prev shadow-sky-200/75 ring-1 ring-slate-200/60 hover:bg-sky-50/50"
+          type="button"
+          aria-label="Previous {{ include.title }}"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-6 h-6 text-sky-700/70"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+
+        <button
+          class="inline-flex items-center justify-center w-12 h-12 duration-200 bg-white rounded-full shadow-sm carousel-next shadow-sky-200/75 ring-1 ring-slate-200/60 hover:bg-sky-50/50"
+          type="button"
+          aria-label="Next {{ include.title }}"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-6 h-6 text-sky-700/70"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative mt-8 lg:mt-10">
+    <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
+      <div class="!overflow-visible swiper">
+        <div class="flex w-full swiper-wrapper">
+          {% for post in matching_posts limit: 10 %}
+          <article
+            class="swiper-slide !h-auto !w-auto shrink-0 border-t border-b border-l border-slate-200 p-6 shadow-sm shadow-sky-100/50 first:rounded-l-2xl last:rounded-r-2xl last:border-r sm:p-7"
+          >
+            <div class="flex h-full w-full max-w-[320px] flex-col">
+              {% assign thumb = post.thumbnail | strip_newlines %}
+              {% if thumb != "" and thumb != "/assets/img/covers/cover-16.jpg" %}
+              <div class="w-full mb-5">
+                <a
+                  href="{{ post.url | prepend: site.baseurl }}"
+                  class="relative block w-full overflow-hidden rounded-xl aspect-[16/9] group"
+                >
+                  <img
+                    src="{{ site.site_url }}{{ post.thumbnail }}"
+                    alt="{{ post.title | escape }}"
+                    class="object-cover w-full h-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105"
+                  />
+                  <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
+                </a>
+              </div>
+              {% endif %}
+
+              <div class="flex-1">
+                <div class="flex flex-wrap gap-2">
+                  {% for category in post.categories %}
+                  <a
+                    href="/blog/category/{{ category | slugify }}/"
+                    class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-slate-700 transition duration-200 ease-in-out hover:bg-sky-100 hover:text-sky-700"
+                  >
+                    {{ category }}
+                  </a>
+                  {% endfor %}
+                </div>
+
+                <h3 class="mt-4 text-xl font-medium leading-snug font-display text-slate-900">
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="transition duration-200 ease-in-out hover:text-sky-900">
+                    {{ post.title }}
+                  </a>
+                </h3>
+
+                <p class="mt-3 text-md leading-7 text-slate-700 line-clamp-4">
+                  {{ post.content | strip_html | truncatewords: 32 }}
+                </p>
+              </div>
+
+              <div class="flex items-center justify-between pt-6 mt-6 border-t border-slate-200">
+                <a
+                  href="{{ post.url | prepend: site.baseurl }}"
+                  class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
+                >
+                  Read more
+                </a>
+
+                <time class="text-sm text-slate-500" datetime="{{ post.date | date_to_xmlschema }}">
+                  {{ post.date | date: "%b %-d, %Y" }}
+                </time>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="flex justify-center mt-10">
+        <a
+          href="{{ include.cta_url }}"
+          class="inline-flex items-center justify-center px-6 py-3 text-sm font-medium transition duration-200 ease-in-out rounded-full shadow-sm bg-slate-50 text-slate-700 shadow-sky-100/50 ring-1 ring-slate-900/5 hover:bg-slate-100 hover:text-sky-700"
+        >
+          {{ include.cta_label }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var root = document.querySelector('[data-blog-row="{{ include.instance_id }}"]');
+      if (!root || root.dataset.swiperInitialized === 'true' || typeof Swiper === 'undefined') {
+        return;
+      }
+
+      var container = root.querySelector('.swiper');
+      var nextButton = root.querySelector('.carousel-next');
+      var prevButton = root.querySelector('.carousel-prev');
+
+      if (!container || !nextButton || !prevButton) {
+        return;
+      }
+
+      root.dataset.swiperInitialized = 'true';
+
+      new Swiper(container, {
+        navigation: {
+          nextEl: nextButton,
+          prevEl: prevButton
+        },
+        spaceBetween: 0,
+        slidesPerView: 'auto',
+        grabCursor: true,
+        loop: false,
+        centeredSlides: false,
+        initialSlide: 0
+      });
+    });
+  </script>
+</section>
+{% endif %}
