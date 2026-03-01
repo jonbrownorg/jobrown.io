@@ -162,9 +162,9 @@ At the same time, the app still keeps the distinction between managed credential
 
 ## Exporting as a Mobileconfig
 
-Not every admin can deploy a raw plist. That is why the mobileconfig output matters.
+Plist output is useful when the management platform can write raw preference data directly, which is why it maps cleanly to tools like Jamf. Mobileconfig output solves a different deployment problem: it gives me a standard configuration-profile payload I can upload into MDM platforms that work best with profile-based preference delivery instead of raw plist deployment.
 
-If the MDM can deploy a configuration profile, I can export the managed credentials as a mobileconfig instead of a plist and upload that profile into the MDM.
+If I need the broadest compatibility across MDM tools, the mobileconfig route is usually the safer default because it packages the managed preferences in the same profile format admins are already used to deploying.
 
 The command looks like this:
 
