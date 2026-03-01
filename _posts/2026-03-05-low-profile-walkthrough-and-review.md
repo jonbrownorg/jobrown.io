@@ -31,7 +31,7 @@ Low Profile is a Mac admin utility that lets me inspect profiles installed on a 
 
 That makes it useful when I am troubleshooting a Mac that already has profiles on it, especially if I do not fully control the original deployment path or I need to understand what the machine is carrying right now.
 
-## Step 1: Get Low Profile
+## Get Low Profile
 
 The first thing I do is go to the project page and grab the app from the source.
 
@@ -42,27 +42,27 @@ The first thing I do is go to the project page and grab the app from the source.
 
 If you are going to use the utility regularly, start there. That gives you the project, the release source, and the right place to follow the work behind the app.
 
-## Step 2: Start With a Mac That Has Profiles Installed
+## Start With a Mac That Has Profiles Installed
 
 Low Profile is most useful when there is something to inspect. In the video, I start with a test profile installed on the Mac so I have a real profile to review.
 
-That is the first practical requirement: if I want Low Profile to show me anything useful, I need to work on a Mac that already has profiles on it. This can be:
+That is one of the most common ways to use it, but it is not the only one. You can use Low Profile on:
 
 - a test Mac where I installed a profile manually
 - a managed Mac that received profiles from MDM
 - a machine I am troubleshooting that may still have leftovers from a previous management system
 
-That is where the app becomes useful. It helps me inspect what is already present instead of guessing.
+The value is simple: it helps you inspect what is already present instead of guessing.
 
-## Step 3: Open Low Profile and Review the Sidebar
+## Open Low Profile and Review the Sidebar
 
-Once I open Low Profile, the first place I look is the sidebar. That is where the app lists the profiles it has detected on the system.
+Once you open Low Profile, the first place to look is the sidebar. That is where the app lists the profiles it has detected on the system.
 
-If there is only one installed profile, I will only see one entry. If there are several, the sidebar becomes the quickest way to move through them and understand what is installed.
+If there is only one installed profile, you will only see one entry. If there are several, the sidebar becomes the quickest way to move through them and understand what is installed.
 
-This is where the utility starts paying off immediately. I can see what is actually there instead of trying to piece it together from memory or assume the machine only received what I expected it to receive.
+This is where the utility becomes useful immediately. You can see what is actually there instead of trying to piece it together from memory or assume the machine only received what you expected it to receive.
 
-## Step 4: Inspect the Sections of the Profile
+## Inspect the Sections of the Profile
 
 A profile can contain multiple sections or payload areas, and Low Profile breaks those out so I can inspect them directly. In the video, the example profile includes a general section and a restrictions section, so the app shows both.
 
@@ -76,7 +76,7 @@ As I click through the interface, Low Profile lets me inspect:
 
 That gives me a practical inspection workflow. I can move through the profile and actually see what was configured instead of treating the profile like an opaque object.
 
-## Step 5: Check the Detected Issues
+## Check the Detected Issues
 
 One of the best parts of Low Profile is the issues view. This is where I can quickly see what the app thinks needs attention.
 
@@ -84,7 +84,7 @@ In the example from the video, Low Profile detects multiple issues tied to depre
 
 This is exactly the kind of thing I want surfaced. If a profile contains restrictions or settings that Apple has deprecated, I need that called out clearly so I can go back, clean up the profile, and stop carrying old settings forward just because they were once valid.
 
-## Step 6: Use It to Spot Duplicate or Conflicting Entries
+## Use It to Spot Duplicate or Conflicting Entries
 
 The other reason I use Low Profile is to find duplication problems. One of the most common profile issues in the real world is conflicting payloads or multiple profiles pushing the same settings in ways that create confusion.
 
@@ -94,7 +94,7 @@ That is a big part of why the utility is useful. Profile conflicts can be subtle
 
 ## A Practical Troubleshooting Workflow
 
-If I am trying to use Low Profile as a troubleshooting tool, my process is simple:
+If you are using Low Profile as a troubleshooting tool, the process is straightforward:
 
 1. Confirm the Mac has the profiles I expect.
 2. Open Low Profile and inspect the sidebar.
@@ -116,12 +116,12 @@ That usually means one of the following:
 - remove conflicting legacy profiles
 - re-deploy a corrected profile set
 
-That is the right way to use the utility. I use Low Profile to understand what is installed and what is wrong, then I go fix the actual source of the profile configuration.
+That is the right way to use the utility. Use Low Profile to understand what is installed and what is wrong, then go fix the actual source of the profile configuration.
 
-## Why Low Profile Is Worth Using
+## Why I Keep Low Profile in My Toolkit
 
-Low Profile is worth using because it gives me visibility into a part of macOS management that can become messy fast. Profiles are powerful, but they are also easy to stack, duplicate, or leave behind in ways that create confusion later.
+I keep Low Profile around because profiles can get messy quickly. They are powerful, but they are also easy to stack, duplicate, or leave behind in ways that create confusion later.
 
-This utility helps me inspect what is on the Mac, understand the profile structure, and catch issues before I waste more time troubleshooting in the dark.
+This utility gives me a clean way to inspect what is on the Mac, understand the profile structure, and catch issues before I waste more time troubleshooting in the dark.
 
-If you work with configuration profiles regularly, this is the kind of utility that makes your troubleshooting process faster and more reliable.
+If you work with configuration profiles regularly, this is the kind of utility that makes troubleshooting faster because it shows you what is really installed instead of forcing you to guess.
