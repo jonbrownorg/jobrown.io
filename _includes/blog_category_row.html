@@ -89,15 +89,33 @@
 
               <div class="flex-1">
                 <div class="h-[4.5rem] overflow-x-auto overflow-y-hidden pr-1">
-                  <div class="flex h-fit min-w-max flex-wrap content-start gap-2">
+                  <div class="flex min-w-max flex-col gap-2">
+                  <div class="flex w-max gap-2">
                   {% for category in post.categories %}
+                  {% assign row_slot = forloop.index0 | modulo: 2 %}
+                  {% if row_slot == 0 %}
                   <a
                     href="/blog/category/{{ category | slugify }}/"
                     class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-slate-700 transition duration-200 ease-in-out hover:bg-sky-100 hover:text-sky-700"
                   >
                     {{ category }}
                   </a>
+                  {% endif %}
                   {% endfor %}
+                  </div>
+                  <div class="flex w-max gap-2">
+                  {% for category in post.categories %}
+                  {% assign row_slot = forloop.index0 | modulo: 2 %}
+                  {% if row_slot == 1 %}
+                  <a
+                    href="/blog/category/{{ category | slugify }}/"
+                    class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-slate-700 transition duration-200 ease-in-out hover:bg-sky-100 hover:text-sky-700"
+                  >
+                    {{ category }}
+                  </a>
+                  {% endif %}
+                  {% endfor %}
+                  </div>
                   </div>
                 </div>
 
