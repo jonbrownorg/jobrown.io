@@ -39,15 +39,23 @@ That is what makes this feature flexible. I am not tied to only one management t
 
 ## Why I Start With Security
 
-Whenever I am building a deployment workflow that involves credentials, I want to be explicit about how the credential data is handled. In this model, I am not pushing raw credential values around casually and I am not treating the managed-preferences payload like a plain-text dump of sensitive information.
+Whenever I am building a deployment workflow that involves ABM or ASM credentials, I want the security model to be explicit. This part matters because no one should trust a credential deployment workflow unless it is clear how the secrets are being protected and what the receiving user is actually importing.
 
-The starting point is the CSV file. That file contains the structured credential data the packager needs: the friendly name, the scope, the client ID, the key ID, and the path to the certificate or PEM file tied to that credential set. If I am packaging more than one credential, each one gets its own row.
+The starting point is still the CSV file. That file gives the packager the structured data it needs: the friendly name, the scope, the client ID, the key ID, and the path to the certificate or PEM file tied to each credential set. If I am packaging multiple credentials, each one gets its own row so the output can preserve those boundaries cleanly.
 
-When I run the packager, it does not just reformat that CSV into a deployment file. It prompts me for a passphrase, then uses that passphrase as part of the protection model for the output. The resulting payload is salted and encrypted before it is written out as a plist or mobileconfig.
+What matters is what happens next. The packager does not simply take that CSV data and write it back out in an MDM-friendly format. It prompts for a passphrase, derives the encryption material from that passphrase, and then protects the credential payload before writing it out.
 
-That means the receiving Mac is not just handed a readable set of ABM or ASM credentials in plain text. The managed-preferences payload contains protected data, and ABM Warranty has to decrypt that data during the import process using the same passphrase that was used when the payload was created.
+At a high level, the private-key material is encrypted with AES-256-GCM. The encryption key is derived from the passphrase using HKDF with SHA-256. That matters because I want the output tied to a strong symmetric encryption model, and I want the key derivation to be based on a deliberate passphrase workflow instead of storing reusable key material in the deployment file itself.
 
-That is the actual point of the packager from a security perspective. It gives me a way to prepare deployable managed credentials without reducing the workflow to copying plain-text credential data into an MDM payload and hoping for the best.
+Just as important, the passphrase is not stored in the plist or the mobileconfig output. The managed-preferences payload contains protected credential data, but it does not contain the passphrase needed to unlock that data. That means the deployment artifact alone is not enough to silently expose the underlying credential material.
+
+On the receiving Mac, ABM Warranty does not import those credentials automatically behind the user’s back. The app requires explicit user consent to begin the import, and the user still has to provide the passphrase that was used when the payload was created. Only then can the app decrypt the protected credential data and complete the import.
+
+I also built the managed import flow to behave like a one-time import by credential ID. That matters because I do not want the app repeatedly prompting the user to re-import the same managed credentials over and over again every time the preferences are detected. Treating the managed credential as a one-time import by ID prevents noisy re-import loops and keeps the workflow predictable.
+
+Once the credentials are imported, the app can continue treating them as managed credentials in the interface, while the underlying credential lifecycle still stays bounded by the import model and the local security controls. That includes the app’s use of the keychain where appropriate for local handling after import.
+
+That is the real point of the packager from a trust perspective. I can prepare deployable managed credentials without reducing the process to copying plain-text secrets into an MDM payload, and the receiving user still has to explicitly participate in the import before those credentials become active in the app.
 
 ## The Tools Behind the Workflow
 
