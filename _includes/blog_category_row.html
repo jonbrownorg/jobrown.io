@@ -89,7 +89,7 @@
 
               <div class="flex-1">
                 <div class="h-[4.5rem] overflow-x-auto overflow-y-hidden pr-1">
-                  <div class="inline-grid min-w-full content-start grid-flow-col grid-rows-2 gap-2">
+                  <div class="inline-grid w-max content-start justify-items-start grid-flow-col grid-rows-2 gap-2">
                   {% for category in post.categories %}
                   <a
                     href="/blog/category/{{ category | slugify }}/"

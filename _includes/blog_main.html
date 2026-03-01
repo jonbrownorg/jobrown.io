@@ -171,7 +171,7 @@
               class="relative flex flex-col flex-1 px-5 pt-8 pb-10 group xl:px-7"
             >
              <div class="relative z-10 h-[4.5rem] overflow-x-auto overflow-y-hidden pr-1">
-             <div class="inline-grid min-w-full content-start grid-flow-col grid-rows-2 gap-2">
+             <div class="inline-grid w-max content-start justify-items-start grid-flow-col grid-rows-2 gap-2">
              {% for category in post.categories %}
               <a
                 href="/blog/category/{{ category | slugify }}/"
@@ -314,14 +314,6 @@
     </section>
 
     {% include blog_category_row.html
-      category="podcast"
-      title="Podcast Blogs"
-      cta_label="See all Podcast Blogs"
-      cta_url="/blog/category/podcast/"
-      instance_id="podcast"
-    %}
-
-    {% include blog_category_row.html
       category="apps"
       title="App Blogs"
       cta_label="See all App Blogs"
@@ -335,4 +327,12 @@
       cta_label="See all Video Blogs"
       cta_url="/blog/category/video/"
       instance_id="video"
+    %}
+
+    {% include blog_category_row.html
+      category="podcast"
+      title="Podcast Blogs"
+      cta_label="See all Podcast Blogs"
+      cta_url="/blog/category/podcast/"
+      instance_id="podcast"
     %}
