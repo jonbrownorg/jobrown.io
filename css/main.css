@@ -660,6 +660,21 @@
   background: #D7DCFF;
   color: #4F46E5;
 }
+
+.share-box a.bmc {
+  padding: 0;
+  height: 38px;
+  overflow: hidden;
+  border-color: rgba(15, 23, 42, 0.08);
+  background: #ffedd5;
+}
+
+.share-box a.bmc img {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
     
 .token.tag,
 .token.class-name,
