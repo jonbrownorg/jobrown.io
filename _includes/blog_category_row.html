@@ -88,7 +88,8 @@
               {% endif %}
 
               <div class="flex-1">
-                <div class="flex flex-wrap gap-2">
+                <div class="h-[4.5rem] overflow-x-auto overflow-y-hidden pr-1">
+                  <div class="inline-grid min-w-full content-start grid-flow-col grid-rows-2 gap-2">
                   {% for category in post.categories %}
                   <a
                     href="/blog/category/{{ category | slugify }}/"
@@ -97,6 +98,7 @@
                     {{ category }}
                   </a>
                   {% endfor %}
+                  </div>
                 </div>
 
                 <h3 class="mt-4 text-xl font-medium leading-snug font-display text-slate-900">

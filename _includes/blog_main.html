@@ -170,7 +170,8 @@
             <div
               class="relative flex flex-col flex-1 px-5 pt-8 pb-10 group xl:px-7"
             >
-             <div class="relative z-10 flex flex-wrap gap-2">
+             <div class="relative z-10 h-[4.5rem] overflow-x-auto overflow-y-hidden pr-1">
+             <div class="inline-grid min-w-full content-start grid-flow-col grid-rows-2 gap-2">
              {% for category in post.categories %}
               <a
                 href="/blog/category/{{ category | slugify }}/"
@@ -179,6 +180,7 @@
                 {{ category }}
               </a>
              {% endfor %}
+             </div>
              </div>
               <div class="flex-1">
                 <h3
