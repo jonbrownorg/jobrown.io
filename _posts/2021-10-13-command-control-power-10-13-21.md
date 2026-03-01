@@ -57,7 +57,11 @@ comments: true
 
 <hr>
 
-<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/interview-with-jon-brown-ceo-of-grove-technologies/id668387622?i=1000538330143"></iframe>
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+
+[384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
+
+[About Jon Brown](https://jonbrown.org/about/)
 
 <hr>
 
