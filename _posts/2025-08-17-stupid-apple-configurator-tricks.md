@@ -12,6 +12,7 @@ categories:
   - automation
   - macos
   - tips
+  - video
 image: /assets/images/covers/2025/configurator-tricks.png
 thumbnail: /assets/images/covers/2025/configurator-tricks.png
 cta: 2

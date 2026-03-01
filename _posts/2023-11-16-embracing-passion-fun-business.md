@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Fun.png
 thumbnail: /assets/images/covers/2023/Header-Fun.png
 cta: 2
@@ -24,8 +24,6 @@ featuredHome: false
 Budding a business is hard. It takes lots of determination, it will enlist you into long hours and long nights and weekends with the family missed. Its a huge commitment and an in turn a huge part of your life, which is why if your going to go down this path that you do it under the realization that you are enjoying the process, and take time to have fun long the way. 
 
 It may seem counterintuitive that work and fun are being used in the same sentence here, but if there is one thing I have learned its this. The only things worth doing are the things you're passionate about. 
-
-{% include videos/video.html id="82D0c1DYtzo" header="/assets/images/covers/2023/Header-Fun.png" %}
 
 Passion for your business is an essential thing, if your not passionate about what you do it will not sustain you and the business ultimately will fail if your not giving it your all. In order to be passionate about something you have to ultimately enjoy what your doing. Having fun along the way is essential not only for your business, but for your personal wellbeing. 
 

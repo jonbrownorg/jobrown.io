@@ -54,8 +54,6 @@ Going forward, the** virtual waiting room feature **will be automatically turn
 
 It's simple. As the host, once you've joined, you'll begin to see the number of participants in your waiting room within the **Manage Participants** icon. Select** Manage Participants **to view the full list of participants**, **then,you'll have the option to admit individually by selecting the blue **Admit **button or all at once with the **Admit All** option on the top right-hand side of your screen.  For step-by-step instructions, please watch this **[2-minute video](http://click.zoom.us/e/84442/ySas2Rgi6yA/bjwp61/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"}**.
 
-{% include videos/video.html id="ySas2Rgi6yA" %}
-
 Check out these resources to learn [**How to Manage Your Waiting Room**](http://click.zoom.us/e/84442/cles-115000332726-Waiting-Room/bjwp63/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"} and** [Secure Your Meetings with Virtual Waiting Rooms](http://click.zoom.us/e/84442/r-meetings-zoom-waiting-rooms-/bjwp65/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"}.**
 
 For more information on how to leverage passwords and Waiting Rooms to secure your meetings, please visit our **[Knowledge Center](http://click.zoom.us/e/84442/hc-en-us-articles-360041408732/bjwp5y/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"}**, attend a **[daily live demo](http://click.zoom.us/e/84442/ebinar-register-weeklylivedemo/bjwp67/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"}**, or visit our **[Blog](http://click.zoom.us/e/84442/2020-04-03/bjwp69/1508063802?h=0FduUyW_VXlaOOCWmwojvCI5HIDLMnY-yt6Sh3vTQEo){:rel="nofollow"}**.

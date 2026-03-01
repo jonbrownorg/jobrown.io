@@ -12,7 +12,7 @@ tags:
   - iOS
 categories:
   - articles
-  - video
+  - rants
 image: /assets/images/covers/2025/stop_certified.png
 thumbnail: /assets/images/covers/2025/stop_certified.png
 cta: 2
@@ -89,5 +89,3 @@ Certifications undoubtedly have their place, particularly for roles requiring co
 - Encourage a balance between certification and real-world application.
 
 Certifications can be powerful tools for growth and validation, but they should not define a career. Understanding the psychology behind certifications and evaluating their relevance to your goals is essential. Whether you’re pivoting to a new role, aiming for management, or stepping into mentorship, the key is to align your efforts with your long-term aspirations. After all, true success in tech is not measured by the number of certifications you hold but by the value you bring to your work and the legacy you leave behind.
-
-{% include videos/video-shorts.html id="yTaz8T24iOU" header="/images/covers/2025/stop_certified.png" %}

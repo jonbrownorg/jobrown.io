@@ -12,7 +12,7 @@ tags:
   - iOS
 categories:
   - articles
-  - video
+  - leadership
 image: /assets/images/covers/2025/reflecting_2024.png
 thumbnail: /assets/images/covers/2025/reflecting_2024.png
 cta: 2
@@ -57,5 +57,3 @@ Despite the years of experience and accomplishments under my belt, I still feel 
 While this has been my journey, I’m curious about yours. What has your career path looked like over the past few years? What motivates you to keep pushing forward, and what are your aspirations for 2025 and beyond?
 
 Let’s start a conversation—after all, our stories and insights can inspire and help each other as we navigate our unique paths.
-
-{% include videos/video-shorts.html id="fbCuM_6XxPU" header="/images/covers/2025/good_cybersecurity.png" %}

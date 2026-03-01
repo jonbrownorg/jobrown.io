@@ -12,34 +12,30 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-GrowTeam.png
 thumbnail: /assets/images/covers/2023/Header-GrowTeam.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-I can definitely speak from experience on the sort of like pitfalls of trying to grow a team from 1, 2, 3 people adding one or two more. They really need to be producing from day one. And of course like you do some of this stuff on paper and you say, and a 40 hour week, someone can, oh, surely bill like this many hours and then ramp up to this many and then everybody profits and we're all super happy.
+Growing a team sounds straightforward on paper, but in practice it introduces costs and complexity that many business owners underestimate. It is easy to model growth by assuming that one additional person will quickly become productive, bill enough work, and create immediate operational relief. What often happens instead is that the owner has to spend significant time training, onboarding, and correcting work before that new hire becomes a true net gain.
 
-And then turns out that a person has to be really perfect for the role and they have to be. Ready to go fully trained, or we've talked about this at length in, in the past, but need to end up spending time training that person to replace you or  to serve the needs of the company and the clients. Which, where does that time come from?
+That is one of the first major pitfalls of team growth: the time cost of making someone useful. Unless a new team member is a near-perfect fit and fully ready on day one, the business has to absorb a period where capacity actually feels tighter, not better. The owner is still carrying delivery responsibility while also investing time in building someone else up to speed. For small teams, that tradeoff can be more expensive than it first appears.
 
-You're setting yourself back also with time as well. It's just, it's a real challenge, so I can definitely see the difficulties there and the appeal of joining an operation that has already gone through those growing pains and gotten to scale the goal with merging. In general is that you should be able to achieve an economy of scale. Where everyone benefits, because like you're describing, you can share some of the back office tasks, the administration of your clients and things like that. And then that's where you start to benefit is when you do have the processes in place to be able to serve the clients overall. So I'm wondering, like you've described some of the challenges of getting.
+The challenge becomes even larger when growth happens through mergers or multi-team integration rather than traditional hiring. At that point, the problem is no longer just training people on tasks. It is aligning different operating models, different pricing structures, different service expectations, and different ways of recording and billing work. A team may be technically capable, but if they do not understand how a specific client relationship is structured, they can still create costly mistakes.
 
-The various techs from the different branches mutually trained on each other's clients.   Is there also a back office challenge there with, especially as you put it, different business rules or processes on the admin side? Do you have to train the overall team who's fielding tickets and things with each company's structure and like offerings and pricing structures and things like that so that they can serve those clients and understand what the deals are that are in place?
+That is where internal complexity becomes visible. One team may work from a flat, all-inclusive support model. Another may bill time and materials. Another may operate in a highly customized environment with unique compliance requirements and client-specific tools. When those teams start supporting each other’s clients, confusion shows up quickly. Time may be tracked incorrectly, services may be handled outside the expected scope, and clients can end up seeing charges or workflows that do not match the agreement they signed.
 
-A hundred percent. The Interlaced is more of a all you can eat type of pricing model per seat, and they have a very structured, here's what you get for the money that you pay for, and it's a standard set of tools with a standard operating procedure for how to manage each tool. The LA side, bills time and materials.
+Back-office operations are affected just as much as technical delivery. Different billing cycles, different contract terms, and different service inclusions can create friction long before the client sees the unified experience the business is trying to present. That is why team growth is not simply about adding people. It is about building enough operational consistency that more people can work together without creating hidden inefficiencies.
 
-So their business model is more around tracking and metrics, and they have a standard set of tools, but it's based around best practices. So if you're a Microsoft shop and you have all Windows computers, they're not exclusive to Apple anymore. So they would recommend in all  Microsofts set up. With us, we're very boutique, right? So clients will come to us and say, Hey, I work with the DOD, I need to be X, Y, Z compliant, and here are the tools that I have. Can you make them compliant for us? Can you  maintain what we already have? And we're like, sure. The Interlaced folks, they don't know any of the tools sets of the clients that we have.
+The real solution is standardization paired with communication. Processes need to be aligned, expectations need to be clarified internally, and clients need regular check-ins so the business can confirm that growth is creating value rather than confusion. Growth becomes sustainable only when the internal systems can support the larger team and the client experience remains steady through the transition.
 
-We are billing. Per seat with a hourly cap. So we're even more custom in terms of how we're tracking time. So that adds a lot of confusion to the technical team, right? Where one team is, they're not worried about tracking time. It's all you can eat. So they come over and help and they start tracking their time not really knowing.
+That is the central lesson: the pitfalls of growing a team are rarely about ambition. They are about underestimating the operational burden that growth creates. When owners account for training time, service model differences, billing complexity, and communication overhead early, they are much more likely to grow in a way that strengthens the business instead of stretching it thin.
 
-Best practices and suddenly our clients are in overage. And I look at time entries and it's, yeah, half of these shouldn't have been billed five minutes here, two minutes there. It adds up and it just points to that internal inefficiencies. Couple on top of that though, that's just the technical team, and I think we can all relate to that.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
 
-But what about billing changes, right? We all bill at different cycles. We all bill at different intervals and we all have different billing because of that. That's hourly type of, and  all you can eat type of models. And we're all technically on different terms and conditions. So there are things that are excluded from our contracts that are not excluded from a Three 18 contract versus an Interlaced contract.
+[384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
 
-So  that's where we're at now, trying to standardize around those things so that we can provide a more unified surface offering. But the idea here is how do we do it in a way that's  seamless to the client? In all three brands, transparent introduces very little change, and when we do, we provide some clear upside so that it's an acceptable value add versus a net loss. So a lot of that takes time strategy, clear communication with clients. As we've been going through this process, we have regular check-ins with our clients. Every month we're asking, How is it going? How are you feeling with the merger? Do you feel like it's been impactful to you, to your business?
-
-Do you feel like you're still getting value out of this relationship? And we're working very hard to maintain, not just from a retention standpoint, but  maintaining those relationships, those people relationships that you've built. You've built those relationships. You don't want to see them suffer because of a choice that you've made.
-
-{% include videos/video.html id="31yCRCvc6_k" header="/assets/images/covers/2023/Header-GrowTeam.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

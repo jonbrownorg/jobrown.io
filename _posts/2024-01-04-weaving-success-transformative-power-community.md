@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Community.jpeg
 thumbnail: /assets/images/covers/2023/Header-Community.jpeg
 cta: 2
@@ -48,5 +48,3 @@ Here's to the power of community and the boundless possibilities it brings to ev
 Stay tuned for more insights and inspirations on entrepreneurship, leadership, and building a thriving community.
 
 🌟 Share your thoughts: How has community played a vital role in your entrepreneurial journey? Let's start a conversation and learn from each other's experiences.
-
-{% include videos/video.html id="lq5PF4spRfQ" header="/assets/images/covers/2023/Header-Community.jpeg" %}

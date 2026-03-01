@@ -12,20 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - tips
 image: /assets/images/covers/2023/Header-OnSite.png
 thumbnail: /assets/images/covers/2023/Header-OnSite.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-I can't think of many things that have to be done in person. It almost seemed like it was a fear of mine that if the client never saw me, that they would never see like the value  wasn't there in their eyes.  
+The role of on-site work in IT has changed dramatically. There was a time when being physically present felt essential, not only because of technical limitations, but because visibility itself seemed tied to value. If the client did not see you in the office, it was easy to worry that they might question what they were paying for or assume the work was less important.
 
-Exactly. And that goes back to a mindset that probably was embedded very long ago. And I have a similar kind of origin story of doing things the way  the company that I worked for did them and the way colleagues did them.
+That mindset made sense in an earlier era, when remote support was far more limited than it is today. In many cases, helping someone remotely meant trying to walk them through each click over the phone while mentally mapping the entire operating system and hoping they followed along accurately. It was time-consuming, error-prone, and often frustrating for both sides.
 
-And  this goes back 15, 16, 17 years or longer. Obviously the world is just a much different place.  
+As remote support tools improved, that model changed. The ability to connect directly to a system, see the issue in real time, and resolve it without traveling fundamentally changed what IT service delivery could look like. What once felt unreliable or impractical gradually became one of the most efficient ways to support clients. The shift was not just technical. It changed expectations around responsiveness, convenience, and what good service actually looks like.
 
-I'm coming from where remote support was telling somebody what to do and click on by phone and having to have the whole OS mapped in my head somewhere  and then one day having Mac Helpmate be an option  and  and as difficult and sometimes    it would be less than reliable and it would be frustrating, but it was  miraculous that  now I can actually connect remotely.
+That has reduced the number of situations where on-site work is truly necessary. There are still cases where physical presence matters, especially for hardware, infrastructure, or high-touch projects. But for everyday support, the value is no longer tied to whether someone is standing in the room. The value is tied to how quickly the issue is understood, how effectively it is solved, and how little disruption the client experiences in the process.
 
-{% include videos/video.html id="htIbh7bDQfA" header="/assets/images/covers/2023/Header-OnSite.png" %}
+For many service providers, adapting to that shift also requires letting go of older assumptions. Clients do not necessarily need to see you physically to understand your value. In fact, many of them prefer a support model that is faster, more flexible, and less disruptive to their day. Remote support can deliver exactly that when it is backed by strong tools, clear communication, and a process that makes the experience feel seamless.
+
+The broader lesson is that IT services evolve with the tools available. What once required travel, scheduling, and hands-on presence can now often be handled more efficiently from anywhere. The shift in on-site work is not about eliminating personal service. It is about recognizing that the best service is often the one that solves the problem with the least friction, regardless of where the technician is sitting.
+
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+
+[434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
+
+[About Jon Brown](https://jonbrown.org/about/)

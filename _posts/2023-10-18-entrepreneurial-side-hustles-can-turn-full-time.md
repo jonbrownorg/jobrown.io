@@ -12,6 +12,8 @@ tags:
   - iOS
 categories:
   - articles
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Supperconnectors.png
 thumbnail: /assets/images/covers/2023/Header-Supperconnectors.png
 cta: 2
@@ -34,5 +36,3 @@ Give them something to share. Post regularly on social media, ask for people to 
 Keep in mind that you should not assume everyone will be a huge fan of your services and that anyone is a potential super connector, but always listen for the hallmarks of people providing you with compliments, asking where to leave reviews, telling you that they know people that need your product or services and asking for ways to collaborate with you. 
 
 If you’re actively listening to your customers and clients you will identify these partnerships and your business will grow leaps and bounds, organically.
-
-{% include videos/video.html id="jOn4VF-tidQ" header="/assets/images/covers/2023/Header-Supperconnectors.png" %}

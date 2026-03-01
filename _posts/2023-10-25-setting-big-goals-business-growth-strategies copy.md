@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-SmartGoals.png
 thumbnail: /assets/images/covers/2023/Header-SmartGoals.png
 cta: 2
@@ -21,20 +21,16 @@ comments: true
 featuredPost: false
 featuredHome: false
 ---
-As a business owner I learned quickly that if you do not set big goals for yourself or your business you can’t move forward. Grove Technologies between the years 2019-2022 grew 70% year over year and during that time we won 2 national awards, In 2020 we ranked #16 best MSP nationwide, and in 2022 #3 most up and coming MSP nationwide. The reason for this growth was our structured annual goal setting exercise that we ran annually. In addition each staff member created and set goals for themselves because the better we all are doing the easier it is for us to show overall growth and that incremental individual growth ladders up to massive organizational progress. 
+Setting big goals is one of the clearest ways to force a business out of maintenance mode and into real growth. Without ambitious targets, it becomes easy to focus only on what is familiar, manageable, and immediately in front of you. That may keep the business stable for a while, but it rarely creates the kind of progress that changes what the company is capable of.
 
-Steve Garvey once said "You have to set goals that are almost out of reach. If you set a goal that is attainable without much work or thought, you are stuck with something below your true talent and potential."
+The value of a big goal is not just in the destination. It is in the way it changes the decisions you make along the way. Stretch goals force better prioritization, stronger systems, and more honest conversations about what the business needs next. They expose weak processes, highlight capacity limits, and make it much harder to hide behind small improvements that feel productive but do not actually move the business forward.
 
-Uncomfortable goals push entrepreneurs to think outside the box, explore new strategies, and overcome obstacles with determination. They drive individuals and teams to reach their full potential and continually strive for excellence. By setting uncomfortable goals, small businesses and startups can break free from their comfort zones, seize opportunities, and stand out in highly competitive markets. Furthermore, such goals encourage calculated risk-taking, allowing entrepreneurs to test their limits, learn from failures, and adapt swiftly to changing circumstances. Ultimately, embracing uncomfortable goals fuels a culture of continuous improvement, propelling business growth, and driving long-term success.
+That is why structured goal setting matters. Ambition without a framework usually turns into frustration. The most useful goals are challenging enough to demand better execution but clear enough to be measured. A strong goal should create pressure in the right places. It should make the team think differently, operate more intentionally, and recognize that reaching the next level will require more than just working harder.
 
-Implement the practice of setting stretch goals, which are ambitious targets that go beyond what may seem achievable at first glance. These goals require significant effort and innovation to accomplish. By setting stretch goals, you challenge yourself and your team to reach new heights, encouraging creativity and resourcefulness in finding novel solutions. These goals inspire a sense of urgency and a mindset of continuous improvement.
+Big goals also work best when they are not isolated to the owner. Organizational growth becomes much more sustainable when individual team members are setting goals as well. Personal development, stronger accountability, and clearer expectations at the individual level create momentum that compounds across the business. When the team improves, the company becomes more capable of reaching the larger objectives it has set.
 
-Utilize the SMART goal framework to set specific, measurable, attainable, relevant, and time-bound goals. While uncomfortable goals are meant to push boundaries, it's important to ensure they are still within the realm of possibility. The SMART framework provides a structured approach that helps define clear objectives and establishes a roadmap for success. This approach encourages a balance between setting ambitious goals and maintaining a sense of practicality.
+That does not mean every goal should be unrealistic. The point is not to create empty motivation. The point is to set targets that are demanding enough to require real change while still being grounded in a practical plan. Frameworks like SMART goals are useful because they help translate ambition into something executable. They create clarity around what success looks like, how progress will be measured, and what timeframe matters.
 
-Establish a culture of regular goal review and adjustment. Set up periodic checkpoints to evaluate progress and reassess goals. This allows for flexibility and adaptability, ensuring that goals remain challenging and relevant as the business landscape evolves. By continuously reviewing and adjusting goals, you can maintain momentum and avoid complacency. It also provides an opportunity to celebrate successes, learn from setbacks, and pivot when necessary.
+Just as important, goals have to be revisited. A business that never reviews its goals usually loses momentum or keeps chasing objectives that no longer fit reality. Regular check-ins create space to assess progress, adjust strategy, and stay aligned with the bigger vision. They also create opportunities to learn from setbacks rather than treating every missed target as failure.
 
-By employing these strategies and tactics, startups and small businesses can set uncomfortable goals that foster growth, innovation, and success. Remember, it's important to strike a balance between setting challenging goals and maintaining a realistic framework to ensure continued motivation and progress.
-
-The comfort zone is a beautiful place, but nothing ever grows there. Set goals that scare you and excite you at the same time.
-
-{% include videos/video.html id="ZIrrnQ7e1Zs" header="/assets/images/covers/2023/Header-SmartGoals.png" %}
+The strongest growth strategies usually begin with a willingness to set goals that feel slightly uncomfortable. That discomfort is useful. It signals that the business is aiming beyond its current habits and current limits. When those goals are paired with discipline, review, and team-wide accountability, they become more than motivational language. They become a real engine for business growth.

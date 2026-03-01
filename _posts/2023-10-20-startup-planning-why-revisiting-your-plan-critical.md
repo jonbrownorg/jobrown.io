@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Plan.png
 thumbnail: /assets/images/covers/2023/Header-Plan.png
 cta: 2
@@ -21,20 +21,16 @@ comments: true
 featuredPost: false
 featuredHome: false
 ---
-As I reflected on my business journey, at every stage of my business development I was always planning for the future. At the earlier stages of my business the goals were to get clients and sales. I spent the first few years really learning and understanding the target client that I was looking for and understanding my competition. 
+Startup planning matters, but one of the biggest mistakes founders make is treating the original plan as if it should remain fixed. A business plan is most useful when it helps you make better decisions in the present, not when it becomes a document you are afraid to revisit. The reality is that markets change, customers change, and your own understanding of the business changes as you gain experience.
 
-Once I had a handle on that, the next stage was growth, taking the model that I developed and repeating that process, over and over again. Finally the last stage was focusing on building value, and looking for an exit partnership to take my business to the next level. 
+At different stages of growth, the plan should serve different purposes. Early on, the focus may be on finding customers, validating demand, and understanding the market. As the business matures, the priorities often shift toward repeatability, operational growth, and building systems that can support a larger client base. Later, the plan may evolve again toward creating long-term value, defining the next stage of leadership, or preparing for a partnership or exit that takes the company further than it could go alone.
 
-Having a plan for your business is critical. Too many times I have seen good ideas and great businesses fail because of a sheer lack of a plan. As you personally go through ups and downs in business and in life the plan will sustain you and keep you on track. Businesses are just like anything else growth is an indicator of health, without a plan you can’t sustain growth, without goals you can’t push yourself to the next level and without a sense for what you want for the business you can’t understand your final destination. Does this mean I executed and ran my business with flawless efficiency. No, far from it. I made lots of mistakes along the way and learned a great deal about business. Here are some of my tips for any new business learning from my mistakes. 
+That is why revisiting the plan is critical. A strategy that made sense at one stage can become a liability if it is never updated. Founders who refuse to reassess often end up solving the wrong problems, chasing outdated goals, or holding onto assumptions that no longer match the business they are actually running. Reviewing the plan regularly creates room to adjust before those issues become expensive.
 
-A plan is good, but things change fast, re-evaluate your plan every 6 months or sooner to ensure you are pivoting and changing with the times and conditions around you. 
+Writing the plan down is part of that discipline. A business plan that exists only in your head is difficult to test, refine, or share. Once it is documented, it becomes easier to evaluate your assumptions, measure progress, and communicate direction to other people. It also forces a level of clarity that many founders avoid when they are moving too fast.
 
-Write down your plan. One of the biggest regrets I had early on is having a solid plan, in my mind and not writing it down in a formal way. 
+Long-range thinking matters as well. Looking one year ahead is useful, but looking three, five, or even ten years ahead can reveal deeper truths about what you actually want to build. If you enjoy the work today but cannot picture yourself leading the company at a later stage, that is not necessarily a problem. It may simply mean the business should be planned with a future transition, partnership, or exit in mind. That kind of clarity is part of responsible planning, not a sign of weak commitment.
 
-Learn how to write a business plan and a roadmap for your business. Think about where you want to be in 1, 3, 5, and 10 years down the road. If you can’t see yourself working at the business that far out but you love working at the business today then thats an indicator that you probably will want to plan for an exit in the future. Understanding that is important. 
+It is also important to accept that not every business is supposed to scale the same way. Some companies are built for broad growth, while others are best when they stay specialized and focused. The market you serve places real constraints on the size, shape, and pace of the business. A strong plan recognizes those realities instead of pretending every company is meant to become the same kind of success story.
 
-Realize that not every business is meant for global domination. The size of your company and profits are determined by the size of the market that you work in. The more niche the smaller your business will be, the more general or broad the more growth opportunities you have. 
-
-Having a plan, and being willing to take risks and being open to change will put you on the path to success. Understand that no matter how flawless your plan or execution you will still fail, and it's ok, failure is part of the process and part of the journey. Winston Churchill once said “Success is not final, failure is not fatal: it is the courage to continue that counts.” in business and in life that's very much true. Never give up, persevere and you will succeed. 
-
-{% include videos/video.html id="eQvUY9nTYlU" header="/assets/images/covers/2023/Header-Plan.png" %}
+The best startup plans are not rigid. They are durable enough to keep you moving and flexible enough to change when reality demands it. If you revisit your plan consistently, write it down clearly, and allow it to evolve with the business, it becomes more than a document. It becomes a practical tool for surviving mistakes, adapting to change, and building with intention.

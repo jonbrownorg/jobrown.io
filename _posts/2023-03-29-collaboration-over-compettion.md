@@ -12,45 +12,30 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-CollaborationvCooperation.png
 thumbnail: /assets/images/covers/2023/Header-CollaborationvCooperation.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-How can we work together as consultants and consultancies and    I think that there's a kind of economy of scale as we partner. . What's been your experience with partnering with other local consultancies or individual consultants?   I've tried hiring in the low end and  training and investing time to get that person up to a point where I can consider them more or less an expert.  It's a rewarding experience.  You end up working really hard to make sure that your image  and the product that you're putting out there, the service offering is at the quality that you're hoping for.  I've tried it on the other side where I wanted to break into a new segment. So we  we started offering cybersecurity services two years ago and we didn't have anyone on the team that was even remotely interested, but we knew it was something that our clients wanted.
+Collaboration is easy to praise in theory and much harder to execute in practice. Most consultants understand the value of working together, especially when client needs expand beyond one person’s bandwidth or expertise. The challenge is that many firms are far more experienced at competing than cooperating, particularly when they serve the same market and chase the same kinds of opportunities.
 
-So we started partnering with contractors and consultants who were doing cybersecurity work, but had no real technical background. So we partnered together and we  formed our own new vertical within the business. And now we can say, Hey, we're Mac consultancy, but we offer real cybersecurity services.
+That tension becomes clear when a business tries to grow into a new service area. Hiring and training from scratch can work, but it takes time, money, and close oversight to reach the standard clients expect. A partnership can sometimes create a faster path. In our case, expanding into cybersecurity meant working with outside specialists who could bring skills we did not already have in-house. That allowed us to build a stronger service offering without pretending to have depth we had not yet developed internally.
 
- We partner with this company. They come in as  As a member of Grove, our clients don't know the difference, but we're pretty transparent and we just tell them, look, you're dealing with a contractor or a consultant that is a subcontractor to us, and the experience has been pretty good.
+The same principle applies to referrals and project overflow. There are times when the right answer is not to force a fit or overextend your own team. Sometimes the better move is to send work to another trusted consultancy that has the capacity to serve the client well. That kind of relationship can be mutually beneficial, but only if both sides believe the arrangement is fair and sustainable. Without trust, even a simple referral can feel like a territorial risk.
 
-What we have been doing even more recently is reaching out to other ACN members within the space too, and trying to form partnerships  where we would say, Hey    we just got a client and we're too busy to handle them. , would you be interested in taking them on?
+That is where many collaboration efforts break down. Consultants may be open to sharing ideas, trading advice, or networking casually, but true operational partnership asks for more. It requires trust, clearer expectations, and sometimes a willingness to share part of the client relationship. The closer two firms are in services and target market, the harder that becomes. When both companies want the same type of client, collaboration can start to feel like exposure rather than opportunity.
 
-And then we just refer back and forth. So it's  like a friendly referral. That's about as far as I've been able to get the partnerships within the acn.  I think everyone within the Apple community is pretty willing to like help and collaborate from, but from  a brass tack, like I need help for my business.
+Even so, there is usually more business available than any one consultancy can realistically absorb. No firm can scale forever without limits, and no owner can personally handle every opportunity that comes in. Once that reality is acknowledged, partnership conversations become more practical. Instead of viewing every peer as a direct threat, it becomes possible to see where cooperation can create better outcomes for clients and more durable growth for both businesses.
 
-People are still pretty close to the vest. It's been a challenge to  break through that and say  let's partner on a project or let's partner together. , it's been done, but I sometimes feel like in certain situations people tend to walk away feeling like they didn't feel  got the best end of the deal.
+The best collaborative relationships are built in stages. They often begin with simple information sharing, then move into coordination, and only later develop into true cooperation on projects or services. That progression matters because collaboration capacity is not created by good intentions alone. It is built through experience, consistency, and repeated proof that both sides can work together without damaging trust.
 
-It's hard to negotiate those kind of ad hoc types of  arrangements.  That's been my experience anyway. Yeah, that's such an interesting point.  I think that one of the challenges here is the difficulty in  as you mentioned  collaboration.  It's much broader than just our little individual vertical or consulting in general.
+For consultants, that is the real opportunity. Strategic collaboration can help you extend your capabilities, serve clients more effectively, and avoid turning every business challenge into a hiring problem. Competition will always exist, but the firms that learn when and how to cooperate often create more resilience than the firms that insist on doing everything alone.
 
-Collaboration is really tough  societally,  and I think that we know more how to.  Compete with each other, like com competition is a thing that we're  like more experienced doing. Cooperating is not so much something that we're trained to do very much.   On an individual basis is one thing.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>          
 
-With collaborating with our individual teams and things, but also collaborating  between organizations  is also a challenge. There's  a whole continuum to think about this. I'm not sure if this is a proprietary thing, so I may not mention much more detail about it, but basically it's a white paper about people, tools, and processes that build collaborative capacity.
+[434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 
-Talk about this sort of continuum, like it starts with networking,   we're all familiar with that term, but it's like a little bit of information  exchanging for mutual benefit.  No trust required, limited time commit. Share some information and there's no like necessarily ongoing relationship.
-
-You're not sharing each other's turf. Then you can go to this level of coordinating where you have ongoing information sharing for your benefit. Of course, each organization or each person alters a little bit of their activities to achieve like some kind of shared purpose with the other collaborators or coordinators.
-
-Rest of the organization slightly increases their involvement, some degree of trust involved. Therefore, because you are making some modifications and things, and then the next level gets even more extensive.  know, You get to the level of cooperating, you start to add in some  formal kind of commitments between organizations.
-
-More of a substantial time commitment, a higher level of trust  significant sharing of turf. These are some of the criteria for these different levels.  And then at this stage it may involve a, some written agreements. And then finally you get to a level of collaborating or have  a really formalized organizational commitment.
-
-Very high level of trust, definitely having written agreements  and things like that. So we can use some of these tools. I've had great success, specifically partnering with vendors and /companies. Outside of my main focus group is the internal portion where it's  I'm a Mac consultant, you're a Mac consultant.
-
-We're both going after the exact type of same type of client, right? So it's not even like your residential, I'm business, let's partner together. I think that would even be more acceptable. In a lot of ways it's  oh, you're going after the exact same clients that I'm going after. That's where it gets a little bit like, I feel like you might be stepping on my toes a little bit.
-
-So I, I totally see where the trust comes into play. But  the way that I  of approach it is, look  there's more than enough business to go around and the proof is in the pudding. I wouldn't still be here, and you still wouldn't be here together if that wasn't the case. So the reality also  is that I can't scale indefinitely, neither can you.
-
-And once we get on the same page about that  it becomes easier to at least have those conversations. 
-{% include videos/video.html id="qPOl5Yz2baE" header="/assets/images/covers/2023/CollaborationvCooperation.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

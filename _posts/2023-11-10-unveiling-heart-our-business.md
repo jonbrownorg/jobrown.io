@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Heart.png
 thumbnail: /assets/images/covers/2023/Header-Heart.png
 cta: 2
@@ -46,5 +46,3 @@ Investing in your brand isn't an optional expense; it's an essential step toward
 Remember, building your brand isn't just about creating a logo or crafting a catchy tagline; it's about crafting an identity, embodying your values, and communicating your story in a way that genuinely resonates with people. By understanding the pivotal role your brand plays, you're not just investing in marketing; you're investing in the future, resilience, and prosperity of your business. 
 
 So, take the time, put in the effort, and let your brand be the guiding light that leads your business to unparalleled heights of success.
-
-{% include videos/video.html id="qf3wzHKNgOE" header="/assets/images/covers/2023/Header-Heart.png" %}

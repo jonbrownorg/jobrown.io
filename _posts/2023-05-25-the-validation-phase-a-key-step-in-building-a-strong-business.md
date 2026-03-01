@@ -12,33 +12,21 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-Validation.png
 thumbnail: /assets/images/covers/2023/Header-Validation.png
 cta: 2
 comments: true
 ---
-Last week we talked about my business fears that I had to overcome when venturing out on my own and starting my own company. More important and more impactful than the decision itself of going out and starting a business was the validation phase. 
+Starting a business is often framed as a leap of faith, but one of the most important parts of building something real happens before the leap itself. The validation phase is where an idea starts to prove whether it resonates with other people. It is the stage where you test not only whether the concept makes sense to you, but whether it creates genuine interest, energy, and trust with the people who may eventually become your first customers.
 
-The validation phase was when I started telling my friends and family about my business idea and started getting feedback. This was in my opinion the most important part of starting a business because it's the phase where you generate excitement and buy in. 
+That phase matters because enthusiasm from the market is often the first real signal that a business idea has legs. Early conversations with friends, family, peers, and potential clients can reveal whether the idea solves a meaningful problem and whether people respond to the value behind it. In many cases, that early feedback does more to shape a business than any brand asset or polished launch plan.
 
-Do not underestimate the power and importance of the validation phase. It was in this phase I met with some of my earliest friends who ultimately became my first clients. They were so excited for me and the vision I had for the company that served a dual purpose. It was an inspiring experience for me generating a fire and passion that fueled the birth of my company. 
+For me, the validation phase was not just about hearing encouragement. It was where some of the earliest support began to take shape in practical ways. The excitement around the idea created momentum, and that momentum helped turn early relationships into real opportunities. When people believe in what you are building before the business is fully formed, it can create a level of alignment that is hard to manufacture later.
 
+That is what makes validation so powerful. It does not just test the idea. It helps you understand whether the business can generate trust before it has all the outward signs of being established. A company can still be early, undefined, or loosely structured and still create a strong response if the underlying value is clear. You do not need a perfect logo, a finished brand, or a fully polished public identity before people can understand the benefit of what you are offering.
 
-It also generated a shared experience where I became so aligned with the customer and motivated to be a success not only for myself and my family but for my clients as well. When that happens it's magical and rare. Clients feel that level of dedication and its so real, so tangible that it is contagious and for me it really drove the initial word of mouth that spread and started driving growth in the business. 
+The validation phase also reveals something important about the founder. If the business idea genuinely excites you, that tends to show up in the way you talk about it, build around it, and invite others into it. That energy is not a substitute for execution, but it often helps create the first wave of support that gets a business moving. When that energy is matched by real value, it becomes easier for others to believe in the business early.
 
-All this happened before I had a defined, tangible brand and logo. You do not need a brand, name or logo before generating excitement and value to your clients. 
-
-{% include videos/video.html id="IYRjGEF1ba4" header="/assets/images/covers/2023/Header-Validation.png" %}
-
-Here are some things to consider when thinking about starting your own business. 
-
-1. Find a business you are passionate about. If you're not passionate about it then it's not worth doing. 
-2. Running a business should be fun, and should feel like you're not working at all. If it's a job, or work then it will not stand the test of time. 
-3. Your business idea should generate excitement and finally
-4. Your business should inspire people to interact with you and share their experiences with others. 
-
-For me all of this fell into place without me even realizing that it was happening. That is rare and I consider myself lucky for allowing my passion flow through me, through my business and through to my clients. 
-
-When starting your business make sure to not undervalue the validation phase. 
+That is why validation should not be treated as a casual step. It is one of the strongest early indicators of whether the business can create real demand and real loyalty. The more clearly you can see how people respond before the business is fully built, the better your decisions will be as you move forward. A strong foundation often begins not with a launch, but with the moment the idea proves it matters to someone besides you.

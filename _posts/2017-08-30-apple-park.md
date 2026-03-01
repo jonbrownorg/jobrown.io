@@ -10,6 +10,7 @@ permalink: /blog/all-about-apple-park/
 categories:
   - news
   - product-reviews
+  - video
 tags:
   - tutorials
   - mac

@@ -12,30 +12,28 @@ tags:
   - iOS
 categories:
   - podcast
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-StrongTeam.png
 thumbnail: /assets/images/covers/2023/Header-StrongTeam.png
 cta: 2
 comments: true
 featuredPost: false
 ---
-Jon, in some of your strategic planning, now that the merger has fully taken place, as Joe mentioned earlier in the conversation, it's always a challenge to expand your team, grow your team, and it's, yeah, there's a financial burden there. Was there a roadmap for you that was provided? By your buyer that said, look, once we do this acquisition, we're gonna give you the ability to hire on three, five people.
+Building a strong team after a merger is rarely as simple as adding headcount. From the outside, it can seem like joining a larger organization should immediately create more capacity, more support, and a clearer path to growth. In practice, that is not always how it works. A merger may provide a stronger platform, but it does not automatically come with an instant staffing plan or a perfect roadmap for how responsibilities will be divided.
 
-So we're not only gonna allow you to add more clients in the DC area, but we're gonna allow you to better manage your existing client base.   I wanna say, yeah, but the answer was no. All right. So if that's the answer, then yeah. How does that feel where you're not driving the car anymore, right? Somebody else is driving the car and you're in the front seat though, because you're right vice president and they tell you, we're gonna go down this road, and if you were driving, you would've gone down the other road. 
+That creates a difficult adjustment for any founder who has spent years making the final call. Once the business is part of something larger, you may still have influence, but you are no longer the only person driving the direction. There will be moments when decisions are made that you would not have made yourself. That is one of the hardest realities of moving from business owner to part of a broader leadership team. You still care about the outcome, but you now have to work through a structure where decisions are shared, layered, and sometimes slower than what you would choose on your own.
 
-Metaphorically speaking, how does that make me feel? That happens all the time. It makes me feel great.  That must be a tough thing to negotiate. Yeah, I think that there's the deviation of the direction. I wouldn't have made that choice. There's that. Then there's also just working in an environment that's conducive the any work environment with a large number of staff is going to be conducive to some sort of office politics.
+That shift is not only operational. It is personal. Larger teams bring more coordination, more ambiguity around roles, and more of the internal dynamics that come with any growing organization. When multiple business units are being integrated, it is not always obvious who owns which decision, which process takes priority, or how competing viewpoints should be resolved. Those are not signs that the merger is failing. They are part of the learning cost that comes with turning separate companies into one functioning team.
 
-So add a little bit of that into the mix as well. And then add a lot of. Uncertainty in terms of who's supposed to be doing what, tricky, that sort of, yeah, it's very tricky to navigate and so we're all trying to figure out that we're all contributing to and advising on the best course of action. There's a certain amount of trust that you just have to make in the organization at large where it's okay, you've made it this far, you've been successful.
+The key is whether the organization is learning from those moments. No company gets every decision right, especially during integration. Mistakes happen. Direction changes. Some calls will prove wrong in hindsight. The more important question is whether the team can recover, adapt, and keep moving forward. If the business is learning, improving, and not losing ground, then even imperfect decisions can still lead to long-term progress.
 
-You've made mistakes and I've seen you make mistakes even while I've been here and I've seen failures, but it's how do we recover from that as a team? Are we learning and growing? Are we in general moving in the right direction? We're not moving backwards. I think all of those things combined still leave me with a fairly positive outlook, even if it's not exactly how I would've done it.
+That is where team building becomes essential. Strong post-merger teams are not built only through hiring. They are built through trust, clarity, and a willingness to let go of the idea that there is only one right way to do things. For former owners, that often means letting go of the perfection of how you would have done it yourself and learning to contribute inside a process that now includes other leaders, other viewpoints, and other constraints.
 
-I think learning. To work as a team means learning to let go of your own perfection around how you would have done things. 
+That does not mean lowering standards. It means recognizing that collaboration has a cost, but it also creates resilience that is difficult to build alone. When several established teams come together, the real challenge is not just combining people on paper. It is aligning expectations, responsibilities, and decision-making in a way that allows the business to grow without losing momentum. That work is slow, but it is also what turns a merger from a transaction into a stronger long-term organization.
 
-Very good. That's very hopeful  even in the struggles that it's in service of that learning   you're paying a learning cost, so to speak.  And I think a lot of times we don't really factor in the learning cost, the true cost of learning the lessons and growing and improving, and especially in.
+<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
 
-In that collaborative way when you're merging three fully operational companies and trying to mesh the various ways that this is done and agreements with the clients and expectations clients have and things like that. And shifting the role, your role as the owner, calling all the shots to a member of the team.
+[511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
 
-Where those calls are made in different ways. So it's really interesting as a case study. I'm sure a lot of our listeners will really get the benefit of hearing you describe this process, and you've been so candid in what you've been able to share.
-
-{% include videos/video.html id="Ad6x841Ejqw" header="/assets/images/covers/2023/Header-StrongTeam.png" %}
+[About Jon Brown](https://jonbrown.org/about/)

@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-FirstHire.jpeg
 thumbnail: /assets/images/covers/2023/Header-FirstHire.jpeg
 cta: 2
@@ -42,5 +42,3 @@ Looking back, I realize that the fears I had were natural, but they were overcom
 To my fellow entrepreneurs facing similar crossroads, I want to share this message: Embrace change. Embrace the unknown. Your fears are valid, but they should never paralyze your growth. Seek support, learn from others, and build a team that believes in your mission as much as you do. Together, we can achieve remarkable things.
 
 As I continue to navigate the ever-changing landscape of entrepreneurship, I am filled with gratitude for the invaluable lessons learned and the unyielding support that has shaped both my business and my journey as an entrepreneur. Here's to embracing transformation, fostering supportive environments, and propelling our businesses to unprecedented heights.
-
-{% include videos/video.html id="PAMGeex_oA4" header="/assets/images/covers/2023/Header-FirstHire.jpeg" %}

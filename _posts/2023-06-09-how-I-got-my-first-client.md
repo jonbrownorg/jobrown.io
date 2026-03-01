@@ -12,19 +12,19 @@ tags:
   - iOS
 categories:
   - articles
-  - videos
-  - videos
+  - business
+  - leadership
 image: /assets/images/covers/2023/Header-FirstClient.jpeg
 thumbnail: /assets/images/covers/2023/Header-FirstClient.jpeg
 cta: 2
 comments: true
 ---
-Many years ago I worked at a graphic design firm and digital marketing company as their IT director. At that company they had a second floor that was mostly unused and they sublet the space out to some small startups, part of my job was’t to just support the needs of the company and its staff but to support these small startups as well. Make sure they had internet and access to audio visual technologies in conference rooms that sort of thing. 
+Getting a first client is often described as a sales milestone, but in my experience it had far more to do with relationships than marketing. Long before I was building my own business, I was working as an IT director at a graphic design and digital marketing firm. The company sublet part of its office space to smaller startups, and part of my role was supporting those teams as well. I helped keep their internet working, made sure conference rooms were functional, and handled the day-to-day technology issues that made their work possible.
 
-{% include videos/video.html id="uMfKGm7En5A" header="/assets/images/covers/2023/Header-FirstClient.jpeg" %}
+At the time, I was not trying to sell anything to them. I was just doing the job well and building trust in the process. Those small interactions mattered more than I realized. When people consistently see that you are dependable, helpful, and easy to work with, they remember it. That kind of credibility tends to travel with you long after the job itself is over.
 
-I built relationships with many of those startups. I eventually left that job and flash forward 2 years I was working a full time job at a non profit organization and that was when my side hustle of starting my own startup was just materializing. I heard that one of the startups I was supporting years earlier had their location a few blocks away from where I was working so I decided to walk over and stop by for a casual conversation and catch up visit. 
+A few years later, I had moved on to a full-time role at a nonprofit while my own business idea was starting to take shape on the side. Around that time, I learned that one of the startups I had supported years earlier was now located only a few blocks from where I was working. I decided to stop by, reconnect, and have a casual conversation. I was not making a hard pitch. I was following up on a relationship that had already been built.
 
-I got there and met with the individual I had worked with in the past job and we started talking about my business and the idea I had and where I wanted to take it, they were so excited and immediately offered their support, and even going so far as to offer space in their office where I could work out of while I got started, for free. 
+That conversation changed everything. The person I had worked with before was enthusiastic about what I was trying to build and immediately offered support. They did not just encourage the idea. They gave me a place to work out of while I was getting started, and that kind of early belief made a real difference. It was a reminder that the first opportunities in business often come from people who already know how you work and trust what you bring to the table.
 
-That really blew me away and it really taught me that no matter where you are in life its not about the business, the idea or even your passions the only thing that matters are the relationships you build along the way.
+That experience shaped how I think about business development to this day. Your first client may not come from a polished sales process, a clever campaign, or a perfect brand launch. It may come from the reputation you built long before you officially started the business. Relationships create momentum, and in many cases they create the first real opening that allows a new business to become real.

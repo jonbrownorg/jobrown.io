@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-Dock-iPad-fp.jpg
 image: /assets/images/covers/2020/Header-Dock-iPad.jpg
 thumbnail: /assets/images/covers/2020/Header-Dock-iPad.jpg

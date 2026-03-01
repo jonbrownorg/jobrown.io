@@ -12,6 +12,7 @@ tags:
   - iOS
 categories:
   - tips
+  - video
 fpimage: /assets/images/covers/2020/Header-iCloud-Phishing-fp.jpg
 image: /assets/images/covers/2020/Header-iCloud-Phishing.jpg
 thumbnail: /assets/images/covers/2020/Header-iCloud-Phishing.jpg
