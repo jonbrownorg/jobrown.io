@@ -19,8 +19,6 @@ cta: 2
 comments: true
 ---
 
-{% include videos/video.html id="xjpcGXRULCw" header="/assets/images/covers/2026/Low_Profile.png" %}
-
 Today I’m walking through Low Profile, a utility from Nindi Gill that I use when I want to inspect profiles already installed on a Mac and figure out whether those profiles contain issues I need to clean up. The value of the app is not that it installs profiles for me. The value is that it gives me a much clearer way to inspect what is already there.
 
 One of the most common profile problems in the real world is conflict. You can end up with multiple profiles pushing the same settings, old settings that have been deprecated, or machines that still carry profiles from an earlier management workflow. Low Profile helps me surface those problems faster.
@@ -45,6 +43,8 @@ This is not the only way to use the utility, but it is a clean way to demonstrat
 As soon as I open Low Profile, it detects the installed profile and lists it in the sidebar. Since I only have one profile installed in the example, I only see one profile in the list.
 
 That simple sidebar view is the first thing I want. I want to know what profiles are actually installed on the Mac before I start digging into payload details. If there are multiple profiles, this gives me a direct way to move through them and inspect each one.
+
+{% include videos/video.html id="xjpcGXRULCw" header="/assets/images/covers/2026/Low_Profile.png" %}
 
 ## How I Inspect the Profile
 
