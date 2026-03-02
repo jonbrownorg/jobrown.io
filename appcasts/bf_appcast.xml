@@ -8,8 +8,8 @@
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2023</copyright>
-        <pubDate>Sun, 01 Mar 2026 23:01:28 -0500</pubDate>
-        <lastBuildDate>Sun, 01 Mar 2026 23:01:28 -0500</lastBuildDate>
+        <pubDate>Sun, 01 Mar 2026 23:09:40 -0500</pubDate>
+        <lastBuildDate>Sun, 01 Mar 2026 23:09:40 -0500</lastBuildDate>
         <atom:link href="https://jonbrown.org/appcasts/bf_appcast.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>BeFit Version 7.4</title>
@@ -68,15 +68,6 @@
             <guid isPermaLink="false">2E3F2386-331F-45C1-B040-AF5EEEAD71D4</guid>
             <sparkle:version>7.1.0</sparkle:version>
             <sparkle:shortVersionString>Version 7.1.0</sparkle:shortVersionString>
-        </item>
-        <item>
-            <title>BeFit Version 7.0</title>
-            <description><![CDATA[BeFit for Mac is now free. After many years trying to make money as a developer I am resigned to doing so as a hobby. I will continue to add new features and accept donations. I appreciate all those that supported us and paid for the software in the past.]]></description>
-            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
-            <enclosure url="http://breelabs.com/appcasts/BeFit-7.0.zip" length="11718295" type="application/zip" sparkle:dsaSignature="MC0CFQCITxgrL3riNBq+R7ugMCVKl0g5ZgIUUTzGqDP5J8Qdh0GpAcn9MaDHmUQ=" sparkle:edSignature="VwKnJHtjekZ/vojfhzrdbkj2VhAahL1eV+qaVP4cyoQO8RQ9O0Vb5k/At6snqaGobPmXs81yPSxQKlfSPxIQCA=="/>
-            <guid isPermaLink="false">551EC347-6D80-45C1-BFEB-298162D3A202</guid>
-            <sparkle:version>7.0</sparkle:version>
-            <sparkle:shortVersionString>Version 7.0</sparkle:shortVersionString>
         </item>
     </channel>
 </rss>
