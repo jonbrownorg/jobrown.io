@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-02'
 author: Jon Brown
 permalink: /blog/abm-warranty-0-4-1-walkthrough-introduction/
-published: false
+published: true
 title: "ABM Warranty 0.4.1 Walkthrough: Introduction"
 description: "An introduction to ABM Warranty 0.4.1 covering the dashboard, warranty lifecycle views, release-device logic, credential setup, local storage, and what the app solves for Apple admins."
 blogimgpath: 202408034Up
