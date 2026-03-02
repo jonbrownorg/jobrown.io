@@ -194,7 +194,7 @@ $.ajaxSetup({
 					return new Date(b.docdate).getTime() - new Date(a.docdate).getTime();				
 					};
 												
-					$.getJSON("../../staff/feed.json", function(data4) {
+					$.getJSON("../../portal/feed.json", function(data4) {
 								data4 = $(data4).sort(sortJsonNamedoc);
 								var html4 = '';
 								var tech = GetURLParameter('client');
