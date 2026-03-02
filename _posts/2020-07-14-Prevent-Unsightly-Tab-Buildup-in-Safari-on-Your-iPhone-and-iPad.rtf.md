@@ -30,4 +30,4 @@ choose from Manually, After One Day, After One Week, or After One Month.
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200702Pr/Safari-tab-closing.jpg" class="img-fluid rounded m-2" width="400" />
 
-{% include videos/video.html id="fZ894WAKjhw" header="Youtube-Header-Tab-Buildup.jpg" %}
+{% include videos/video.html id="fZ894WAKjhw" %}

@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2022/Header-macOSVentura.jpg
-thumbnail: /assets/images/covers/2022/Header-macOSVentura.jpg
+image: /assets/images/covers/2022/Header-VenturaAdvice.jpg
+thumbnail: /assets/images/covers/2022/Header-VenturaAdvice.jpg
 cta: 3
 comments: true
 ---

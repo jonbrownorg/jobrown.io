@@ -31,4 +31,4 @@ to reveal them.
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200803Wh/General-preferences-scroll-bars.png" class="img-fluid rounded m-2" width="400" />
 
-{% include videos/video.html id="jTUeZo7E81A" header="Where-Scrollbars-Go.jpg" %}
+{% include videos/video.html id="jTUeZo7E81A" %}

@@ -35,4 +35,4 @@ use only a single Lightning cable to charge, try another one.
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200501iP/Battery-not-charging.png" class="img-fluid rounded m-2" width="800" />
 
-{% include videos/video-blog.html id="5CkzKhV43Ps" header="Header-Clean-iPhone-Blog.png" %}
+{% include videos/video-blog.html id="5CkzKhV43Ps" %}

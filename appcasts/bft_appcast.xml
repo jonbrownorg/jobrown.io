@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>BeFit Trial Changelog</title>
+        <link>https://jonbrown.org/appcasts/bft_appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <generator>Feeder 4.8.3(6352) Mac App Store Version; Mac OS X Version 26.3 (Build 25D125) https://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <copyright>2026</copyright>
+        <pubDate>Sun, 01 Mar 2026 23:09:20 -0500</pubDate>
+        <lastBuildDate>Sun, 01 Mar 2026 23:09:20 -0500</lastBuildDate>
+        <atom:link href="https://jonbrown.org/appcasts/bft_appcast.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>BeFit Trial Version 7.3.0</title>
+            <description><![CDATA[<p>Sparkle Upgrade</p>
+
+<p>Bug Fixes</p>
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:28 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFitTracker73.zip" length="7731194" type="application/zip" sparkle:dsaSignature="MC0CFQCE5KIojy88BTd9Sz7BQIh89FYxAAIUScT8bb84Si9tzZr8MRO0fgBUgpU=" sparkle:edSignature="bpFrgbj7sseeM0mn/W6hT+NUMpMj929y62YdYt2ddAOBLjGQxvS3deumeZZ2Msvnv0zxMNOrB3gOjgYIa4LpDg=="/>
+            <guid isPermaLink="false">C24B5DF8-7EA3-4869-8AC3-1B7AF0F70028</guid>
+            <sparkle:version>7.3.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.3.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>BeFit Trial Version 7.1.0</title>
+            <description><![CDATA[<p>macOS Monterey Support</p>
+
+<p>Bug Fixes</p>
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:28 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFitTracker710.zip" length="7465544" type="application/zip" sparkle:dsaSignature="MC4CFQCKtHQ7k5ay7DB/0EPPjVSeSGU5/QIVANMOsl4Tk7j/Uczy/pT4c6zJcNbb" sparkle:edSignature="I94cP4qhZFD2bBlo88gWCiXOpICZyPETkuVURN5f8j4WrpAGXy4vIv41DcH3wa+O6PS/gszZQYzn1jKhEnPcAQ=="/>
+            <guid isPermaLink="false">A6212108-2ED0-4BBD-A45C-A8EFED983680</guid>
+            <sparkle:version>7.1.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.1.0</sparkle:shortVersionString>
+        </item>
+    </channel>
+</rss>

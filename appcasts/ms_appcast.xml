@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Interlaced.io Changelog</title>
+        <link>https://jonbrown.org/appcasts/ms_appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <generator>Feeder 4.8.3(6352) Mac App Store Version; Mac OS X Version 26.3 (Build 25D125) https://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <copyright>2023</copyright>
+        <pubDate>Sun, 01 Mar 2026 23:01:24 -0500</pubDate>
+        <lastBuildDate>Sun, 01 Mar 2026 23:01:24 -0500</lastBuildDate>
+        <atom:link href="https://jonbrown.org/appcasts/ms_appcast.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Interlaced.io Version 9.0.1</title>
+            <description><![CDATA[Bug Fixes]]></description>
+            <pubDate>Wed, 13 Mar 2024 00:10:25 -0400</pubDate>
+            <enclosure url="https://jonbrown.org/appcasts/latest.zip" length="1528867" type="application/zip" sparkle:dsaSignature="MCwCFHO0kjcGmdleZ+dzQBlYff7vZ0hrAhQqyD9eTdfB2ghI4NoCs8rdnZLsFg==" sparkle:edSignature="S33RudCNfPIyTwXSo13OeBc/qNpU7ATyV2B19Rp7Sy5CPtRvqPT25TGevL+ImJFr5wuZM7Pp5FyhzO5MOGdkDA=="/>
+            <guid isPermaLink="false">04A5D022-BEDD-44D4-8191-1A22AF102F0D</guid>
+            <sparkle:version>9.0.1</sparkle:version>
+            <sparkle:shortVersionString>Version 9.0.1</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>Interlaced.io Version 9.0</title>
+            <description><![CDATA[Grove is now Interlaced.io!]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:34 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/Interlaced.io.app.zip" length="2018877" type="application/zip" sparkle:dsaSignature="MC4CFQCcP0czUUeldkYmy6hSHtwp7LuPgwIVAJsZuXZE6dJearlWXcQVi/FgaVcG" sparkle:edSignature="8fzEn1iIIjZujewKbEo0185ia++iZtQhbKQEML2Pz57JCPOIcqSsL3ceSV541H2FPH9V6EyLFuhONMTInKgWBw=="/>
+            <guid isPermaLink="false">9BDC62E6-B72F-462F-98A2-92101C4C4DDD</guid>
+            <sparkle:version>9.0</sparkle:version>
+            <sparkle:shortVersionString>Version 9.0</sparkle:shortVersionString>
+        </item>
+    </channel>
+</rss>

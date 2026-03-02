@@ -87,7 +87,7 @@ voice. If you're giving it as a gift, remember that it's best when
 paired with an [Apple Music](https://www.apple.com/apple-music/)
 subscription.
 
-<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2021/20211101Th/image4.jpg" class="img-fluid rounded m-2" width="700" />
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2021/20211019Ne/image3.jpg" class="img-fluid rounded m-2" width="700" />
 
 ### iPad and iPad mini
 

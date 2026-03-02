@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2020/Header-iPhoneSharing.jpg
-thumbnail: /assets/images/covers/2020/Header-iPhoneSharing.jpg
+image: /assets/images/covers/2020/Header-Dock-iPad.jpg
+thumbnail: /assets/images/covers/2020/Header-Dock-iPad.jpg
 cta: 1
 comments: true
 ---

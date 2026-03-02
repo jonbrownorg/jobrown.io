@@ -1615,7 +1615,7 @@ button,
 
 #promo-wrapper {
   position: relative;
-  background-image: url("../../images/overlay.png"), url("../../images/bridge2.jpg");
+  background-image: url("images/overlay.png"), url("../../images/bridge2.jpg");
   background-size: 192px 192px, cover;
   background-position: top left, center center;
   color: #fff;
@@ -5164,7 +5164,7 @@ Main components
   background-color: rgba(211, 104, 104, 0.9);
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("../../images/cd-icon-controller.svg");
+  background-image: url("../img/cd-icon-controller.svg");
 }
 .no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
   background-color: #d36868;

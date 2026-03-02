@@ -42,4 +42,4 @@ Return to copy it to the clipboard for pasting into your document.
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200501Ev/Capitalize-My-Title.png" class="img-fluid rounded m-2" width="800" />
 
-{% include videos/video-blog.html id="-M6a7c5JXgg" header="Header-Dictionary-Blog.png" %}
+{% include videos/video-blog.html id="-M6a7c5JXgg" %}

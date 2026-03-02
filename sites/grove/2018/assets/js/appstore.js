@@ -21,12 +21,12 @@ $('img').each(function() {
     if((typeof this.naturalWidth != "undefined" &&
         this.naturalWidth == 0 ) 
         || this.readyState == 'uninitialized' ) {
-        $(this).attr('src', '/sites/grove/2018/assets/images/icons/modified/unknown.png');
+        $(this).attr('src', '/sites/grove/2018/assets/images/icons/modified/StatPlus:mac LE.png');
     }
 }); })
 
 $("img").on("error", function () {
-  $(this).unbind("error").attr("src", "/sites/grove/2018/assets/images/icons/modified/unknown.png");
+  $(this).unbind("error").attr("src", "/sites/grove/2018/assets/images/icons/modified/StatPlus:mac LE.png");
 });
 
 function sortJsonNamedoc(a,b){
