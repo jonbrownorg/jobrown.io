@@ -50,4 +50,4 @@ Phase 2’s largest building consists of a four-story, 300,000 square foot offic
 
 <img src="{{ site.site_cdn }}/assets/images/blog/2017/park/ApplePark_image_Phase2.jpg" class="img-fluid rounded m-2" width="600" />
 
-{% include videos/video.html id="eyzvBKnVw98" header="Header-ApplePark.png" %}
+{% include videos/video.html id="eyzvBKnVw98"%}

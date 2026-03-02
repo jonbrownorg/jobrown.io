@@ -35,4 +35,4 @@ trash button.
 
 <img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200501Do/Audit-friend-location-sharing.jpg" class="img-fluid rounded m-2" width="400" />
 
-{% include videos/video-blog.html id="iSvWr39QLHg" header="Header-Track-Location-Blog.png" %}
+{% include videos/video-blog.html id="iSvWr39QLHg" %}
