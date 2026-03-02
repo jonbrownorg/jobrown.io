@@ -63,7 +63,7 @@ This is where the standalone installers from Mr. Macintosh come into play. I dow
 
 With the package attached, I create or edit a Patch Policy for Safari and target the new version. In the General and Scope tabs I decide who gets the update and when. In User Interaction I decide how noisy I want to be about the update: quiet installation in the background, a gentle prompt, or something a little more insistent with deferrals and deadlines.
 
-![Safari Patch Management – Patch Policy General](/assets/images/blog/2025/2083490239/5.png)
+![Safari Patch Management – Patch Policy General](/assets/images/blog/2025/2083490239/4.png)
 
 Once that policy is enabled, Jamf Pro handles the rest. Clients check in, evaluate whether they meet the minimum OS requirement, download the standalone Safari installer, and move themselves forward. The Patch Report view becomes my source of truth for how far along the rollout is.
 

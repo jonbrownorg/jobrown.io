@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2020/Header-iPad-Pro-LiDAR.jpg
-thumbnail: /assets/images/covers/2020/Header-iPad-Pro-LiDAR.jpg
+image: /assets/images/blog/2020/20200319Ma/image4.jpg
+thumbnail: /assets/images/blog/2020/20200319Ma/image4.jpg
 link: /img/app-images/2020/Header-iPad-Pro-LiDAR.jpg
 cta: 2
 comments: true

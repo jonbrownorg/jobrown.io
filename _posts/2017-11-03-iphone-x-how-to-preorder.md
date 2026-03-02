@@ -2,8 +2,8 @@
 title: "How to Preorder the iPhone X"
 author: Jon Brown
 layout: post
-image: /assets/images/covers/2017/preorder.jpg
-thumbnail: /assets/images/covers/2017/preorder.jpg
+image: /assets/images/blog/2017/preorder/iPhoneX_image_3.jpg
+thumbnail: /assets/images/blog/2017/preorder/iPhoneX_image_3.jpg
 link: /assets/app-images/2017/preorder.jpg
 tagline: "<br>How to Preorder the iPhone X"
 permalink: /blog/iphone-x-how-to-preorder/
@@ -17,8 +17,8 @@ tags:
 ---
 Apple’s widely anticipated iPhone X is now available for purchase as a pre-order and will be available in stores Friday November 3rd.  The most innovative iPhone since the original iPhone debuted in 2007, iPhone X heralds the start of a new era with groundbreaking technology such as Face ID and an edge-to-edge OLED display with remarkable color resolution. iPhone X also features a glass and stainless steel design with its all-screen display.
 
-<img src="{{ site.site_cdn }}/assets/images/blog/2017/preorder/iPhoneX_image_1.jpg" class="img-fluid rounded m-2" width="450" />
-<img src="{{ site.site_cdn }}/assets/images/blog/2017/preorder/iPhoneX_image_2.jpg" class="img-fluid rounded m-2" width="450" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2017/iphonewins/iPhonewins_image_1.jpg" class="img-fluid rounded m-2" width="450" />
+<img src="{{ site.site_cdn }}/assets/images/blog/2017/iphonewins/iPhonewins_image_3.jpg" class="img-fluid rounded m-2" width="450" />
 
 Today you can order the new iPhone X via many outlets - direct from [Apple’s online store][1] as well as through carriers such as AT&T, Sprint, Verizon and T-Mobile as well as the [Apple Store app][2].
 

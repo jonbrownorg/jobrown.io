@@ -54,7 +54,7 @@ tapping the group of four small icons in the lower-right corner opens
 the folder. To see an alphabetical list of every app, tap the search
 field at the top. You can type to narrow the list.
 
-<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20201001iO/image2.jpg" class="img-fluid rounded m-2" width="700" />
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200921iO/image2.jpg" class="img-fluid rounded m-2" width="700" />
 
 The App Library is tremendously useful because it contains every app and
 is always in the same place. That enables you to more easily find apps
@@ -86,7 +86,7 @@ the Home screen, where you can continue to drag it to your desired
 position. When viewing the widget collection, tap a widget to see all
 its available sizes.
 
-<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20201001iO/image3.jpg" class="img-fluid rounded m-2" width="700" />
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200921iO/image3.jpg" class="img-fluid rounded m-2" width="700" />
 
 Right now, most widgets are from Apple apps, but we anticipate many
 developers adding widgets for their apps in the coming months. You can
@@ -111,7 +111,7 @@ swipe down the banner to reveal the full-screen call interface, where
 you can also tap to answer. Want to delay? Swipe up on the banner to
 shrink it to a button in the top-left corner of the screen.
 
-<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20201001iO/image4.jpg" class="img-fluid rounded m-2" width="700" />
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200921iO/image4.jpg" class="img-fluid rounded m-2" width="700" />
 
 These small changes make using Siri or answering phone calls feel much
 more fluid than the approach of taking over the entire screen.
@@ -126,7 +126,7 @@ last few messages and some commands. Then tap Pin to add the
 conversation to the top of the Messages screen as a circular icon. From
 then on, tap that icon to enter the conversation quickly.
 
-<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20201001iO/image5.jpg" class="img-fluid rounded m-2" width="400" />
+<img alt="Blog Photo" src="{{ site.site_cdn }}/assets/images/blog/2020/20200921iO/image5.jpg" class="img-fluid rounded m-2" width="400" />
 
 iOS 14 sports many other features as well, and we'll be sharing more
 about them in future articles. Remember, it's worth waiting a bit to

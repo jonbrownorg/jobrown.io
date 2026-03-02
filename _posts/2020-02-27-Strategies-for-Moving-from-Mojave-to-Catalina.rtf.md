@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2020/Header-Catalina-photo.jpg
-thumbnail: /assets/images/covers/2020/Header-Catalina-photo.jpg
+image: /assets/images/covers/2019/New-in-Catalina-photo.jpg
+thumbnail: /assets/images/covers/2019/New-in-Catalina-photo.jpg
 link: /img/app-images/2020/Header-Catalina-photo.jpg
 cta: 3
 comments: true

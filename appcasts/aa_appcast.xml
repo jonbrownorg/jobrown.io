@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Animal Age Changelog</title>
+        <link>https://jonbrown.org/appcasts/aa.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <generator>Feeder 4.8.3(6352) Mac App Store Version; Mac OS X Version 26.3 (Build 25D125) https://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <copyright>2023</copyright>
+        <pubDate>Sun, 01 Mar 2026 23:01:21 -0500</pubDate>
+        <lastBuildDate>Sun, 01 Mar 2026 23:01:21 -0500</lastBuildDate>
+        <atom:link href="https://jonbrown.org/appcasts/aa_appcast.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Animal Age 8.4.1</title>
+            <description><![CDATA[<p>Removed Carthage</p>
+
+<p>Replaced WKWebView with DGCharts</p>
+
+<p>Bug Fixes</p>
+]]></description>
+            <pubDate>Tue, 12 Mar 2024 23:56:28 -0400</pubDate>
+            <enclosure url="https://jonbrown.org/appcasts/latest.zip" length="2081451" type="application/zip" sparkle:dsaSignature="MC0CFF1QBpFad3EAHCatTqqcxhMN2utzAhUAtfL243B8x+LYQtA5ATKXtfPDPGY=" sparkle:edSignature="YEsdtW+3UG1etZagvq1QlPd2D+F3TWNWTsdGANLQjgoad3AlhG2PlWVlJitxmuwPDQ5D2JCI3Wy2Hl5jmADVDw=="/>
+            <guid isPermaLink="false">D7A17010-83C8-43C3-9669-7BEEF33E5F4D</guid>
+            <sparkle:version>8.4.1</sparkle:version>
+            <sparkle:shortVersionString>Version 8.4.1</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>Animal Age Version 8.4</title>
+            <description><![CDATA[<p>macOS Ventura Support</p>
+
+
+<p>Bug Fixes</p>
+
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Sat, 07 Jan 2023 11:00:00 -0500</pubDate>
+            <enclosure url="https://jonbrown.org/appcasts/AnimalAge_84.zip" length="1958035" type="application/zip" sparkle:dsaSignature="MC0CFQCZPa4GEqnapPVKOaC4VmfB29NSIQIULCVo9HB9BDEC83vrpF7ZqsENLRU=" sparkle:edSignature="Ft8lbNoLsB/BKCMEf4CZ7IiGiKOm7IBEuNk9yOfNsqDdF5Evss3oepUCdptrG+a90VgQCXWZVXEkBD5N+5aoCw=="/>
+            <guid isPermaLink="false">834EFF0F-CC88-4EF6-9716-0AC75442DD27</guid>
+            <sparkle:version>8.4</sparkle:version>
+            <sparkle:shortVersionString>Version 8.4</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>Animal Age Version 8.1.0</title>
+            <description><![CDATA[<p>macOS Monterey Support</p>
+
+
+<p>Bug Fixes</p>
+
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:15 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/AnimalAge-8.3.0.zip" length="1672362" type="application/zip" sparkle:dsaSignature="MC0CFDYnxRz2FmfzLK0S+X1o8sBLmQnXAhUAmaPw0ULYG5rAdSxlaS0ETqO1PnU=" sparkle:edSignature="G9diVdkkKuVrdfVQlTDSSlgMGXYS/cK7Tfnu7JkquGazyFYbsBrMtwWasdTAZF4qdWR5DU7LPL8C3DVYrSO2CA=="/>
+            <guid isPermaLink="false">D919D6A4-FF34-4987-B749-1BE8B21A0E7B</guid>
+            <sparkle:version>8.1.0</sparkle:version>
+            <sparkle:shortVersionString>Version 8.1.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>Animal Age Version 8.0.8</title>
+            <description><![CDATA[<p>macOS Monterey Support</p>
+
+
+<p>Bug Fixes</p>
+
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:15 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/AnimalAge808.zip" length="5101486" type="application/zip" sparkle:dsaSignature="MC0CFDKqJwuhbYyWLyrVSzcx5M2BXO6pAhUAkTBwEG4MTQc+85rTwPGUxKVOYC0=" sparkle:edSignature="XxzBuuD6qvxTAU2aC+JwSdWVloPlBGK54NMBKxQxAj7M5a9+KlEKKg1qjgaEtqWLQuxDLq8o7L/anZapt+EDBQ=="/>
+            <guid isPermaLink="false">61C6467F-3EA4-4ED5-903F-D427B59BFCD3</guid>
+            <sparkle:version>8.0.8</sparkle:version>
+            <sparkle:shortVersionString>Version 8.0.8</sparkle:shortVersionString>
+        </item>
+    </channel>
+</rss>

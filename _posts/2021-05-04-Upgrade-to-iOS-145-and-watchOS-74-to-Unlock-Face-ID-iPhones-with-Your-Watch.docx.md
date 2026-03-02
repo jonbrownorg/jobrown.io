@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2021/Header-AppleWatchMacUnlock.jpg
-thumbnail: /assets/images/covers/2021/Header-AppleWatchMacUnlock.jpg
+image: /assets/images/covers/2021/Header-AppleWatchFace.jpg
+thumbnail: /assets/images/covers/2021/Header-AppleWatchFace.jpg
 cta: 4
 comments: true
 ---

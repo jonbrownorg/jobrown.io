@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>BeFit Changelog</title>
+        <link>https://jonbrown.org/appcasts/bf_appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <generator>Feeder 4.8.3(6352) Mac App Store Version; Mac OS X Version 26.3 (Build 25D125) https://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <copyright>2023</copyright>
+        <pubDate>Sun, 01 Mar 2026 23:01:28 -0500</pubDate>
+        <lastBuildDate>Sun, 01 Mar 2026 23:01:28 -0500</lastBuildDate>
+        <atom:link href="https://jonbrown.org/appcasts/bf_appcast.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>BeFit Version 7.4</title>
+            <description><![CDATA[<p>- Fixed Graphing System</p>
+
+<p>- Focused on improving the quality of data </p>
+
+<p>- Imported updated USDA Dataset </p>
+
+<p>- Bug fixes and removed deprecated code.</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFitTracker74.zip" length="4087379" type="application/zip" sparkle:dsaSignature="MC0CFBmTjAEMATA5SsHcCroz1c2E1QzMAhUApH89V4nHs6Eg3HSIqNFimXOUyAw=" sparkle:edSignature="ZJo0WSRejhrGycjewzALP9RvdTyZm4yFkv/Ublnh365VXhWvE0phD5qRXyK921+F1NMKMKPt6iuOpMZ0e3gQDA=="/>
+            <guid isPermaLink="false">BA02AEB0-3A8F-4B84-B146-C16E4D6F511A</guid>
+            <sparkle:version>7.3.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.3.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>BeFit Version 7.30</title>
+            <description><![CDATA[<p>Sparkle Updates</p>
+
+<p>Bug Fixes</p>
+
+<p>M2 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFitTracker73.zip" length="7731194" type="application/zip" sparkle:dsaSignature="MC4CFQCoaXb+7it/cD3g1ma+6SG4jO2ksQIVALBrKFVFzVcdkaQCTlEh9qyk8BlB" sparkle:edSignature="bpFrgbj7sseeM0mn/W6hT+NUMpMj929y62YdYt2ddAOBLjGQxvS3deumeZZ2Msvnv0zxMNOrB3gOjgYIa4LpDg=="/>
+            <guid isPermaLink="false">5FFE49C1-FA85-4E78-A77E-137690A45A7C</guid>
+            <sparkle:version>7.3.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.3.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>BeFit Version 7.2.0</title>
+            <description><![CDATA[<p>macOS Monterey Support</p>
+
+<p>Bug Fixes</p>
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFit-7.2.0.zip" length="7216330" type="application/zip" sparkle:dsaSignature="MC4CFQDvX3/5JCS6NvTIN/kqIwJxsdoLVQIVAO/NALT/ETsMNaUdb9qQv/rvxiKG" sparkle:edSignature="/vR6AWvGuoyVdrKSc9Ti9vpqODIv/l/7Pa2u9AcUVUB16TMXHnL5+Hp1bO0Q3nDGOV+kImVbgSBV6BJYc3vGBg=="/>
+            <guid isPermaLink="false">C658CD1C-0C7F-4E46-89B7-97CE92711F20</guid>
+            <sparkle:version>7.2.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.2.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>BeFit Version 7.1.0</title>
+            <description><![CDATA[<p>macOS Monterey Support</p>
+
+<p>Bug Fixes</p>
+
+<p>M1 Support</p>
+]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFitTracker710.zip" length="7465544" type="application/zip" sparkle:dsaSignature="MCwCFFB8nfnDDk/S0PvHs9df7m5kPXMuAhRt6p41ETigY0+diVtT2Rnnl5sE2g==" sparkle:edSignature="I94cP4qhZFD2bBlo88gWCiXOpICZyPETkuVURN5f8j4WrpAGXy4vIv41DcH3wa+O6PS/gszZQYzn1jKhEnPcAQ=="/>
+            <guid isPermaLink="false">2E3F2386-331F-45C1-B040-AF5EEEAD71D4</guid>
+            <sparkle:version>7.1.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.1.0</sparkle:shortVersionString>
+        </item>
+        <item>
+            <title>BeFit Version 7.0</title>
+            <description><![CDATA[BeFit for Mac is now free. After many years trying to make money as a developer I am resigned to doing so as a hobby. I will continue to add new features and accept donations. I appreciate all those that supported us and paid for the software in the past.]]></description>
+            <pubDate>Thu, 29 Feb 2024 07:26:23 -0500</pubDate>
+            <enclosure url="http://breelabs.com/appcasts/BeFit-7.0.zip" length="11718295" type="application/zip" sparkle:dsaSignature="MC0CFQCITxgrL3riNBq+R7ugMCVKl0g5ZgIUUTzGqDP5J8Qdh0GpAcn9MaDHmUQ=" sparkle:edSignature="VwKnJHtjekZ/vojfhzrdbkj2VhAahL1eV+qaVP4cyoQO8RQ9O0Vb5k/At6snqaGobPmXs81yPSxQKlfSPxIQCA=="/>
+            <guid isPermaLink="false">551EC347-6D80-45C1-BFEB-298162D3A202</guid>
+            <sparkle:version>7.0</sparkle:version>
+            <sparkle:shortVersionString>Version 7.0</sparkle:shortVersionString>
+        </item>
+    </channel>
+</rss>

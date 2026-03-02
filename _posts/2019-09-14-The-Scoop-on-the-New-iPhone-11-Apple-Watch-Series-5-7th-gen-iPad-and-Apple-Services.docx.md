@@ -12,8 +12,8 @@ tags:
   - iOS
 categories:
   - tips
-image: /assets/images/covers/2019/iPhone-11-Night-mode.jpg
-thumbnail: /assets/images/covers/2019/iPhone-11-Night-mode.jpg
+image: /assets/images/blog/2019/20190913Th/image2.jpg
+thumbnail: /assets/images/blog/2019/20190913Th/image2.jpg
 link: /img/app-images/2019/iPhone-11-Night-mode.jpg
 cta: 2
 comments: true
