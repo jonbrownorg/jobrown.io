@@ -92,3 +92,4 @@ exclude:
   - .codex-backups
   - .DS_Store
   - .htaccess
+  - sites_dupes/
