@@ -8,8 +8,8 @@
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2026</copyright>
-        <pubDate>Sun, 01 Mar 2026 23:09:20 -0500</pubDate>
-        <lastBuildDate>Sun, 01 Mar 2026 23:09:20 -0500</lastBuildDate>
+        <pubDate>Tue, 03 Mar 2026 10:31:53 -0500</pubDate>
+        <lastBuildDate>Tue, 03 Mar 2026 10:31:53 -0500</lastBuildDate>
         <atom:link href="https://jonbrown.org/appcasts/bft_appcast.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>BeFit Trial Version 7.3.0</title>
@@ -24,20 +24,6 @@
             <guid isPermaLink="false">C24B5DF8-7EA3-4869-8AC3-1B7AF0F70028</guid>
             <sparkle:version>7.3.0</sparkle:version>
             <sparkle:shortVersionString>Version 7.3.0</sparkle:shortVersionString>
-        </item>
-        <item>
-            <title>BeFit Trial Version 7.1.0</title>
-            <description><![CDATA[<p>macOS Monterey Support</p>
-
-<p>Bug Fixes</p>
-
-<p>M1 Support</p>
-]]></description>
-            <pubDate>Thu, 29 Feb 2024 07:26:28 -0500</pubDate>
-            <enclosure url="http://breelabs.com/appcasts/BeFitTracker710.zip" length="7465544" type="application/zip" sparkle:dsaSignature="MC4CFQCKtHQ7k5ay7DB/0EPPjVSeSGU5/QIVANMOsl4Tk7j/Uczy/pT4c6zJcNbb" sparkle:edSignature="I94cP4qhZFD2bBlo88gWCiXOpICZyPETkuVURN5f8j4WrpAGXy4vIv41DcH3wa+O6PS/gszZQYzn1jKhEnPcAQ=="/>
-            <guid isPermaLink="false">A6212108-2ED0-4BBD-A45C-A8EFED983680</guid>
-            <sparkle:version>7.1.0</sparkle:version>
-            <sparkle:shortVersionString>Version 7.1.0</sparkle:shortVersionString>
         </item>
     </channel>
 </rss>

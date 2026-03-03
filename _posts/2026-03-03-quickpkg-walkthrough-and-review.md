@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-03'
 author: Jon Brown
 permalink: /blog/quickpkg-walkthrough-and-review/
-published: false
+published: true
 title: "QuickPKG Walkthrough and Review"
 description: "A practical QuickPKG walkthrough and review for Mac admins covering how it turns apps, DMGs, and ZIP files into installer packages quickly, where it fits in packaging workflows, and when to use it carefully."
 blogimgpath: 202408034Up

@@ -8,8 +8,8 @@
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2023</copyright>
-        <pubDate>Sun, 01 Mar 2026 23:01:21 -0500</pubDate>
-        <lastBuildDate>Sun, 01 Mar 2026 23:01:21 -0500</lastBuildDate>
+        <pubDate>Tue, 03 Mar 2026 10:29:29 -0500</pubDate>
+        <lastBuildDate>Tue, 03 Mar 2026 10:29:29 -0500</lastBuildDate>
         <atom:link href="https://jonbrown.org/appcasts/aa_appcast.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>Animal Age 8.4.1</title>
@@ -42,7 +42,7 @@
             <sparkle:shortVersionString>Version 8.4</sparkle:shortVersionString>
         </item>
         <item>
-            <title>Animal Age Version 8.1.0</title>
+            <title>Animal Age Version 8.3.0</title>
             <description><![CDATA[<p>macOS Monterey Support</p>
 
 
@@ -56,22 +56,6 @@
             <guid isPermaLink="false">D919D6A4-FF34-4987-B749-1BE8B21A0E7B</guid>
             <sparkle:version>8.1.0</sparkle:version>
             <sparkle:shortVersionString>Version 8.1.0</sparkle:shortVersionString>
-        </item>
-        <item>
-            <title>Animal Age Version 8.0.8</title>
-            <description><![CDATA[<p>macOS Monterey Support</p>
-
-
-<p>Bug Fixes</p>
-
-
-<p>M1 Support</p>
-]]></description>
-            <pubDate>Thu, 29 Feb 2024 07:26:15 -0500</pubDate>
-            <enclosure url="http://breelabs.com/appcasts/AnimalAge808.zip" length="5101486" type="application/zip" sparkle:dsaSignature="MC0CFDKqJwuhbYyWLyrVSzcx5M2BXO6pAhUAkTBwEG4MTQc+85rTwPGUxKVOYC0=" sparkle:edSignature="XxzBuuD6qvxTAU2aC+JwSdWVloPlBGK54NMBKxQxAj7M5a9+KlEKKg1qjgaEtqWLQuxDLq8o7L/anZapt+EDBQ=="/>
-            <guid isPermaLink="false">61C6467F-3EA4-4ED5-903F-D427B59BFCD3</guid>
-            <sparkle:version>8.0.8</sparkle:version>
-            <sparkle:shortVersionString>Version 8.0.8</sparkle:shortVersionString>
         </item>
     </channel>
 </rss>
