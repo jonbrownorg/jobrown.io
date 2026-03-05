@@ -19,7 +19,7 @@ cta: 2
 comments: true
 ---
 
-Today I’m walking through Low Profile, a utility from Nindi Gill that I use when I want to inspect profiles already installed on a Mac and figure out whether those profiles contain issues I need to clean up. The value of the app is not that it installs profiles for me. The value is that it gives me a much clearer way to inspect what is already there.
+Today I’m walking through Low Profile, a utility from [Nindi Gill](https://www.linkedin.com/in/nindigill/) that I use when I want to inspect profiles already installed on a Mac and figure out whether those profiles contain issues I need to clean up. The value is that Low Profile gives me a straightforward way to inspect profiles installed on any Mac.
 
 One of the most common profile problems in the real world is conflict. You can end up with multiple profiles pushing the same settings, old settings that have been deprecated, or machines that still carry profiles from an earlier management workflow. Low Profile helps me surface those problems faster.
 
@@ -32,31 +32,23 @@ If you want to use the utility yourself, start with the GitHub project and downl
 
 ## Start With a Real Profile to Inspect
 
-In the video, I start with Apple Configurator and a simple test profile. I create a profile with some generic restrictions, install it on the Mac, and use that as the profile I am going to inspect.
+In the video, I start with Apple Configurator and a simple test profile. Likely you will just be using Low Profile on a Mac with pre-installed profiles. 
 
-The reason I do that is simple: I want a known profile on the machine so I can show you exactly what Low Profile is detecting. In this example, the profile has a general payload and a restrictions payload, which gives me enough structure to show how the app breaks those sections apart.
+In many environments, profiles are pushed automatically through an MDM, and it’s not always obvious what settings they contain just by looking at the profile name. Low Profile makes it easy to open those installed profiles and inspect the payloads, keys, and values that are actually being applied to the system.
 
-This is not the only way to use the utility, but it is a clean way to demonstrate it. The same process applies whether the profile came from a manual install, an MDM, or a machine you are troubleshooting after the fact.
+This can be especially helpful when troubleshooting unexpected behavior, verifying that a policy was deployed correctly, or simply learning what a particular configuration profile is doing behind the scenes.
 
-## What Low Profile Detects First
+## What Low Profile Detects
 
-As soon as I open Low Profile, it detects the installed profile and lists it in the sidebar. Since I only have one profile installed in the example, I only see one profile in the list.
+As soon you open Low Profile, it detects the installed profiles on the Mac that your running it on and lists them in the sidebar. Since I only have one profile installed on my example Mac, I only see one profile in the list.
 
-That simple sidebar view is the first thing I want. I want to know what profiles are actually installed on the Mac before I start digging into payload details. If there are multiple profiles, this gives me a direct way to move through them and inspect each one.
+That simple sidebar view is exactly what I want to see first. Before digging into payload details, I want a clear picture of which profiles are actually installed on the Mac. When multiple profiles are present, the sidebar makes it easy to move between them and inspect each one.
 
 {% include videos/video.html id="xjpcGXRULCw" header="/assets/images/covers/2026/Low_Profile.png" %}
 
-## How I Inspect the Profile
+## Inspecting the Profile
 
-The useful part of the app is not just that it finds the profile. It lets me inspect the internal sections of that profile. In the example, that means I can move between the general section and the restrictions section and review the information in each one.
-
-Low Profile then lets me click through the different views for that section, including:
-
-- payload properties
-- available properties
-- the property list itself
-
-That is where the app becomes useful as a real inspection tool. I am not just confirming that a profile exists. I am looking at how the payload is actually structured and what values it contains.
+The useful part of the app is not just that it locates installed configuration profiles. It also lets me inspect the internal sections within them. In the example, I can move between areas like the general section and the restrictions section and review the details in each one. Low Profile also provides multiple ways to view the data for a given section, including the payload properties, the available properties, and the raw property list itself. That’s where the app becomes a true inspection tool: I’m not just confirming that a configuration profile exists, I’m examining how the payload is structured and what values it contains.
 
 ## What the Issues View Is Telling Me
 
@@ -64,9 +56,9 @@ At the top of the interface, Low Profile reports the issues it has detected. In 
 
 That is exactly the kind of feedback I want from a utility like this. Deprecated does not always mean the setting will instantly break the machine, but it does mean I should stop assuming that setting is the right one to keep pushing forward unchanged.
 
-When Low Profile flags those settings, it is telling me I should go back to the source profile and clean it up. That is the practical use of the app. It helps me catch outdated or questionable profile settings before they keep getting redeployed indefinitely.
+When Low Profile flags those settings, it is telling me I should go back to the source profile and clean it up.
 
-## How I Use It to Check for Duplicate Entries
+## Check for Duplicates
 
 Another reason I use Low Profile is to look for duplicate entries and overlapping configuration. Profile conflicts are one of the easiest ways to create confusing behavior on a managed Mac, especially when multiple profiles are involved.
 
@@ -85,7 +77,7 @@ If I find deprecated settings, duplicates, or conflicting payloads, the next ste
 - removing an older conflicting profile
 - re-deploying a corrected version
 
-That is how I use the app in practice. I use it to inspect what is on the Mac, identify the problem, and then go correct the actual profile source instead of guessing.
+That is how I use the app in practice. I use it to inspect what is on the Mac, identify the problem, and then go correct the actual profile source in my MDM. 
 
 ## Why This Utility Is Useful
 
@@ -93,4 +85,4 @@ What makes Low Profile useful is that it shortens the gap between “this Mac ha
 
 Instead of guessing which payload might be causing trouble, I can open the app, inspect the installed profile, read the detected issues, and get a much more direct view into what is happening on the system.
 
-If you work with profiles often, that kind of visibility saves time and makes troubleshooting cleaner. That is why this is a tool I like to keep around.
+If you work with profiles often or manage an MDM that deploys profiles, that kind of visibility saves time and makes troubleshooting cleaner.
