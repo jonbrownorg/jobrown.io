@@ -12,6 +12,7 @@ categories:
   - macadmins
   - video
   - tutorials
+  - reviews
 image: /assets/images/covers/2026/quickpkg_header.png
 thumbnail: /assets/images/covers/2026/quickpkg_header.png
 cta: 2

@@ -13,6 +13,7 @@ categories:
   - apps
   - video
   - abm-warranty
+  - reviews
 image: /assets/images/covers/2026/ABM_Creds.png
 thumbnail: /assets/images/covers/2026/ABM_Creds.png
 cta: 2
