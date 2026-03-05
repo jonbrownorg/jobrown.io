@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-04'
 author: Jon Brown
 permalink: /blog/abm-warranty-0-4-1-walkthrough-multiple-credentials/
-published: false
+published: true
 title: "ABM Warranty 0.4.1 Walkthrough: Multiple Credentials"
 description: "A walkthrough of the ABM Warranty 0.4.1 multiple credentials workflow covering how I remove a credential, add multiple ABM contexts, switch between them, and how the app stores each credential set separately."
 blogimgpath: 202408034Up

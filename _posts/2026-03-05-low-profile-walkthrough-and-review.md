@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-05'
 author: Jon Brown
 permalink: /blog/low-profile-walkthrough-and-review/
-published: false
+published: true
 title: "Low Profile Walkthrough and Review"
 description: "A practical Low Profile walkthrough and review for Mac admins covering how I use it to inspect installed profiles, detect deprecated settings, spot duplicate payload issues, and troubleshoot profile conflicts on managed Macs."
 blogimgpath: 202408034Up
