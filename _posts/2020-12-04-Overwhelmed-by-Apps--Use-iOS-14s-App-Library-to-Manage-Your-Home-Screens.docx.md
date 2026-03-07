@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-AppLibrary-fp.jpg
 image: /assets/images/covers/2020/Header-AppLibrary.jpg
 thumbnail: /assets/images/covers/2020/Header-AppLibrary.jpg
-link: /assets/img/app-images/2020/Header-AppLibrary.jpg
+link: /assets/images/covers/2020/Header-AppLibrary.jpg
 cta: 1
 comments: true
 ---

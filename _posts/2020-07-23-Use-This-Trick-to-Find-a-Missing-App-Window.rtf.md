@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Missing-Window-fp.jpg
 image: /assets/images/covers/2020/Header-Missing-Window.jpg
 thumbnail: /assets/images/covers/2020/Header-Missing-Window.jpg
-link: /assets/img/app-images/2020/Header-Missing-Window.jpg
+link: /assets/images/covers/2020/Header-Missing-Window.jpg
 cta: 4
 comments: true
 ---

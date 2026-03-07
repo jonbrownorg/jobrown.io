@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-AppleGifts-fp.jpg
 image: /assets/images/covers/2020/Header-AppleGifts.jpg
 thumbnail: /assets/images/covers/2020/Header-AppleGifts.jpg
-link: /assets/img/app-images/2020/Header-AppleGifts.jpg
+link: /assets/images/covers/2020/Header-AppleGifts.jpg
 cta: 4
 comments: true
 ---

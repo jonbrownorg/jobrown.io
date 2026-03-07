@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-iMac-Renew-fp.jpg
 image: /assets/images/covers/2020/Header-iMac-Renew.jpg
 thumbnail: /assets/images/covers/2020/Header-iMac-Renew.jpg
-link: /assets/img/app-images/2020/Header-iMac-Renew.jpg
+link: /assets/images/covers/2020/Header-iMac-Renew.jpg
 cta: 3
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-HomepodMini.jpg
 image: /assets/images/covers/2020/Header-HomepodMini.jpg
 thumbnail: /assets/images/covers/2020/Header-HomepodMini.jpg
-link: /assets/img/app-images/2020/Header-HomepodMini.jpg
+link: /assets/images/covers/2020/Header-HomepodMini.jpg
 cta: 4
 comments: true
 ---

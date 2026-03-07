@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-iPhonePhotos-fp.jpg
 image: /assets/images/covers/2020/Header-iPhonePhotos.jpg
 thumbnail: /assets/images/covers/2020/Header-iPhonePhotos.jpg
-link: /assets/img/app-images/2020/Header-iPhonePhotos.jpg
+link: /assets/images/covers/2020/Header-iPhonePhotos.jpg
 cta: 3
 comments: true
 ---

@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now-25.jpg
 image: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now.jpg
 thumbnail: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now.jpg
-link: /assets/img/app-images/2020/Header-Scroll-Bars-Show-Now.jpg
+link: /assets/images/covers/2020/Header-Scroll-Bars-Show-Now.jpg
 cta: 2
 comments: true
 ---

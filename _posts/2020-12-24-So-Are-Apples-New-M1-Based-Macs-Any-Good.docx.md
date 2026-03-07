@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-NewLaptop-fp.png
 image: /assets/images/covers/2020/Header-NewLaptop.png
 thumbnail: /assets/images/covers/2020/Header-NewLaptop.png
-link: /assets/img/app-images/2020/Header-NewLaptop.png
+link: /assets/images/covers/2020/Header-NewLaptop.png
 cta: 3
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Pages-Mac.jpg
 image: /assets/images/covers/2020/Header-Pages-Mac.jpg
 thumbnail: /assets/images/covers/2020/Header-Pages-Mac-alt.jpg
-link: /assets/img/app-images/2020/Header-Pages-Mac.jpg
+link: /assets/images/covers/2020/Header-Pages-Mac.jpg
 cta: 3
 comments: true
 ---

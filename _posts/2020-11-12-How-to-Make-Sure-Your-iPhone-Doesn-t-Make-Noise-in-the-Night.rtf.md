@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-DND-fp.jpg
 image: /assets/images/covers/2020/Header-DND.jpg
 thumbnail: /assets/images/covers/2020/Header-DND.jpg
-link: /assets/img/app-images/2020/Header-DND.jpg
+link: /assets/images/covers/2020/Header-DND.jpg
 cta: 2
 comments: true
 ---

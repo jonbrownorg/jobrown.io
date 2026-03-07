@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Recog.jpg
 image: /assets/images/covers/2020/Header-Recog.jpg
 thumbnail: /assets/images/covers/2020/Header-Recog.jpg
-link: /assets/img/app-images/2020/Header-Recog.jpg
+link: /assets/images/covers/2020/Header-Recog.jpg
 cta: 1
 comments: true
 ---

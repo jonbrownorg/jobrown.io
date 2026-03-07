@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-MacPhotos-fp.jpg
 image: /assets/images/covers/2020/Header-MacPhotos.jpg
 thumbnail: /assets/images/covers/2020/Header-MacPhotos.jpg
-link: /assets/img/app-images/2020/Header-MacPhotos.jpg
+link: /assets/images/covers/2020/Header-MacPhotos.jpg
 cta: 3
 comments: true
 ---

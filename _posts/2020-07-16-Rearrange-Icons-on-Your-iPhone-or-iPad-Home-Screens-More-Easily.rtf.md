@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Dock-iPad-fp.jpg
 image: /assets/images/covers/2020/Header-Dock-iPad.jpg
 thumbnail: /assets/images/covers/2020/Header-Dock-iPad.jpg
-link: /assets/img/app-images/2020/Header-Dock-iPad.jpg
+link: /assets/images/covers/2020/Header-Dock-iPad.jpg
 cta: 4
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-BackTap-fp.jpg
 image: /assets/images/covers/2020/Header-BackTap.jpg
 thumbnail: /assets/images/covers/2020/Header-BackTap.jpg
-link: /assets/img/app-images/2020/Header-BackTap.jpg
+link: /assets/images/covers/2020/Header-BackTap.jpg
 cta: 4
 comments: true
 ---

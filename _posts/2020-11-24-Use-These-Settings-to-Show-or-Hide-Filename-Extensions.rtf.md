@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-FilenameExt-fp.jpg
 image: /assets/images/covers/2020/Header-FilenameExt.jpg
 thumbnail: /assets/images/covers/2020/Header-FilenameExt.jpg
-link: /assets/img/app-images/2020/Header-FilenameExt.jpg
+link: /assets/images/covers/2020/Header-FilenameExt.jpg
 cta: 2
 comments: true
 ---

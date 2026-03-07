@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Scrollbar-fp.jpg
 image: /assets/images/covers/2020/Header-Scrollbar.jpg
 thumbnail: /assets/images/covers/2020/Header-Scrollbar.jpg
-link: /assets/img/app-images/2020/Header-Scrollbar.jpg
+link: /assets/images/covers/2020/Header-Scrollbar.jpg
 cta: 1
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Cloud-Downgrade-fp.jpg
 image: /assets/images/covers/2020/Header-Cloud-Downgrade.jpg
 thumbnail: /assets/images/covers/2020/Header-Cloud-Downgrade.jpg
-link: /assets/img/app-images/2020/Header-Cloud-Downgrade.jpg
+link: /assets/images/covers/2020/Header-Cloud-Downgrade.jpg
 cta: 1
 comments: true
 ---

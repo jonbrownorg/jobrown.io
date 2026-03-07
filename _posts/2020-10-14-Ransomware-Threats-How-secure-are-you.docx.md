@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Ransomware-fp.jpg
 image: /assets/images/covers/2020/Header-Ransomware.jpg
 thumbnail: /assets/images/covers/2020/Header-Ransomware.jpg
-link: /assets/img/app-images/2020/Header-Ransomware.jpg
+link: /assets/images/covers/2020/Header-Ransomware.jpg
 cta: 3
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-CMMC-Model-fp.jpg
 image: /assets/images/covers/2020/Header-CMMC-Model.jpg
 thumbnail: /assets/images/covers/2020/Header-CMMC-Model.jpg
-link: /assets/img/app-images/2020/Header-CMMC-Model.jpg
+link: /assets/images/covers/2020/Header-CMMC-Model.jpg
 cta: 3
 comments: true
 ---

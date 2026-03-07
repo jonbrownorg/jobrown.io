@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Private-Browsers.jpg
 image: /assets/images/covers/2020/Header-Private-Browsers.jpg
 thumbnail: /assets/images/covers/2020/Header-Private-Browsers.jpg
-link: /assets/img/app-images/2020/Header-Private-Browsers.jpg
+link: /assets/images/covers/2020/Header-Private-Browsers.jpg
 cta: 4
 comments: true
 ---

@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-ScanSnap-fp.jpg
 image: /assets/images/covers/2020/Header-ScanSnap.jpg
 thumbnail: /assets/images/covers/2020/Header-ScanSnap.jpg
-link: /assets/img/app-images/2020/Header-ScanSnap.jpg
+link: /assets/images/covers/2020/Header-ScanSnap.jpg
 cta: 3
 comments: true
 ---

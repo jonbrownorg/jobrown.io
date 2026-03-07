@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Apple-Watch-Bold-fp.jpg
 image: /assets/images/covers/2020/Header-Apple-Watch-Bold.jpg
 thumbnail: /assets/images/covers/2020/Header-Apple-Watch-Bold.jpg
-link: /assets/img/app-images/2020/Header-Apple-Watch-Bold.jpg
+link: /assets/images/covers/2020/Header-Apple-Watch-Bold.jpg
 cta: 1
 comments: true
 ---

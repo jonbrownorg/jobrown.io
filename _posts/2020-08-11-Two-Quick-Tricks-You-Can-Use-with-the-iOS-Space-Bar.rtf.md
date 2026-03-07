@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Space-bar-trackpad-mode-photo-fp.jpg
 image: /assets/images/covers/2020/Header-Space-bar-trackpad-mode-photo.jpg
 thumbnail: /assets/images/covers/2020/Header-Space-bar-trackpad-mode-photo.jpg
-link: /assets/img/app-images/2020/Header-Space-bar-trackpad-mode-photo.jpg
+link: /assets/images/covers/2020/Header-Space-bar-trackpad-mode-photo.jpg
 cta: 3
 comments: true
 ---

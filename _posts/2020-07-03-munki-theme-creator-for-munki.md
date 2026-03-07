@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-MTM-fp.jpg
 image: /assets/images/covers/2020/Header-MTM.jpg
 thumbnail: /assets/images/covers/2020/Header-MTM.jpg
-link: /assets/img/app-images/2020/Header-MTM.jpg
+link: /assets/images/covers/2020/Header-MTM.jpg
 cta: 4
 comments: true
 ---

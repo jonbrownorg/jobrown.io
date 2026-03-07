@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-BYOD-fp.jpg
 image: /assets/images/covers/2020/Header-BYOD.jpg
 thumbnail: /assets/images/covers/2020/Header-BYOD.jpg
-link: /assets/img/app-images/2020/Header-BYOD.jpg
+link: /assets/images/covers/2020/Header-BYOD.jpg
 cta: 4
 comments: true
 ---

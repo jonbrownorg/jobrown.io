@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-iOS-Updates-fp.jpg
 image: /assets/images/covers/2020/Header-iOS-Updates.jpg
 thumbnail: /assets/images/covers/2020/Header-iOS-Updates.jpg
-link: /assets/img/app-images/2020/Header-iOS-Updates.jpg
+link: /assets/images/covers/2020/Header-iOS-Updates.jpg
 cta: 2
 comments: true
 ---

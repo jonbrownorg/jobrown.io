@@ -14,7 +14,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-CloudSecurity-fp.jpg
 image: /assets/images/covers/2020/Header-CloudSecurity.jpg
 thumbnail: /assets/images/covers/2020/Header-CloudSecurity.jpg
-link: /assets/img/app-images/2020/Header-CloudSecurity.jpg
+link: /assets/images/covers/2020/Header-CloudSecurity.jpg
 cta: 2
 comments: true
 ---

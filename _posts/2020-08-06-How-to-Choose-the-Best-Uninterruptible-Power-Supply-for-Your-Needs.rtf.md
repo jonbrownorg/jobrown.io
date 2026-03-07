@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-CyberPower-fp.jpg
 image: /assets/images/covers/2020/Header-CyberPower.jpg
 thumbnail: /assets/images/covers/2020/Header-CyberPower.jpg
-link: /assets/img/app-images/2020/Header-CyberPower.jpg
+link: /assets/images/covers/2020/Header-CyberPower.jpg
 cta: 2
 comments: true
 ---

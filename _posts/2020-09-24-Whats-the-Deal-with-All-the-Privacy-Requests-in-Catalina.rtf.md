@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Catalina-Privacy-fp.jpg
 image: /assets/images/covers/2020/Header-Catalina-Privacy.jpg
 thumbnail: /assets/images/covers/2020/Header-Catalina-Privacy.jpg
-link: /assets/img/app-images/2020/Header-Catalina-Privacy.jpg
+link: /assets/images/covers/2020/Header-Catalina-Privacy.jpg
 cta: 1
 comments: true
 ---

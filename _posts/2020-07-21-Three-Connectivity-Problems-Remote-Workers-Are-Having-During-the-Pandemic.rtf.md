@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Router-fp.jpg
 image: /assets/images/covers/2020/Header-Router.jpg
 thumbnail: /assets/images/covers/2020/Header-Router.jpg
-link: /assets/img/app-images/2020/Header-Router.jpg
+link: /assets/images/covers/2020/Header-Router.jpg
 cta: 2
 comments: true
 ---

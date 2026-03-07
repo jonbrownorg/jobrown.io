@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Doodle-fp.jpg
 image: /assets/images/covers/2020/Header-Doodle.jpg
 thumbnail: /assets/images/covers/2020/Header-Doodle.jpg
-link: /assets/img/app-images/2020/Header-Doodle.jpg
+link: /assets/images/covers/2020/Header-Doodle.jpg
 cta: 2
 comments: true
 ---

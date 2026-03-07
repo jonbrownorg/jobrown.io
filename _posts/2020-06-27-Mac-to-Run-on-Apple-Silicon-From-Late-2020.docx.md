@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Mac-Silicon.jpg
 image: /assets/images/covers/2020/Header-Mac-Silicon.jpg
 thumbnail: /assets/images/covers/2020/Header-Mac-Silicon.jpg
-link: /assets/img/app-images/2020/Header-Mac-Silicon.jpg
+link: /assets/images/covers/2020/Header-Mac-Silicon.jpg
 cta: 4
 comments: true
 ---

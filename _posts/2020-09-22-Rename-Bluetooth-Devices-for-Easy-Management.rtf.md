@@ -16,7 +16,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Bluetooth-Headphones-fp.jpg
 image: /assets/images/covers/2020/Header-Bluetooth-Headphones.jpg
 thumbnail: /assets/images/covers/2020/Header-Bluetooth-Headphones.jpg
-link: /assets/img/app-images/2020/Header-Bluetooth-Headphones.jpg
+link: /assets/images/covers/2020/Header-Bluetooth-Headphones.jpg
 cta: 3
 comments: true
 ---

@@ -15,7 +15,7 @@ categories:
 fpimage: /assets/images/covers/2020/Header-Custom-icons.jpg
 image: /assets/images/covers/2020/Header-Custom-icons.jpg
 thumbnail: /assets/images/covers/2020/Header-Custom-icons.jpg
-link: /assets/img/app-images/2020/Header-Custom-icons.jpg
+link: /assets/images/covers/2020/Header-Custom-icons.jpg
 cta: 4
 comments: true
 ---
