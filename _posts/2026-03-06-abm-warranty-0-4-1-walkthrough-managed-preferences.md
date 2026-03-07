@@ -63,8 +63,8 @@ This managed-preferences flow depends on the ABM Warranty managed credential pac
 
 ### Resources and sources
 
-- [ABM Warranty Utilities](https://github.com/breelabs/ABM-Warranty-Utilities)
-- [How to Use the ABM Credential Packager](https://github.com/breelabs/ABM-Warranty-Utilities/wiki/How-to-Use-the-ABM-Credential-Packager)
+- [ABM Warranty Utilities](https://github.com/jonbrown21/ABM-Warranty-Utilities)
+- [How to Use the ABM Credential Packager](https://github.com/jonbrown21/ABM-Warranty-Utilities/wiki/How-to-Use-the-ABM-Credential-Packager)
 
 If you are the person building these managed credentials, that is where you should start. The workflow depends on that packager and the documented CSV format.
 

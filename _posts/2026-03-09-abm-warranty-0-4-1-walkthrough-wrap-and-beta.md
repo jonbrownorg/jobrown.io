@@ -57,9 +57,9 @@ The Help menu also includes quick links out to the GitHub resources and the wiki
 
 ### Resources and sources
 
-- [ABM Warranty Utilities](https://github.com/breelabs/ABM-Warranty-Utilities)
-- [ABM Warranty Utilities Wiki](https://github.com/breelabs/ABM-Warranty-Utilities/wiki)
-- [ABM Credential Packager Guide](https://github.com/breelabs/ABM-Warranty-Utilities/wiki/How-to-Use-the-ABM-Credential-Packager)
+- [ABM Warranty Utilities](https://github.com/jonbrown21/ABM-Warranty-Utilities)
+- [ABM Warranty Utilities Wiki](https://github.com/jonbrown21/ABM-Warranty-Utilities/wiki)
+- [ABM Credential Packager Guide](https://github.com/jonbrown21/ABM-Warranty-Utilities/wiki/How-to-Use-the-ABM-Credential-Packager)
 
 Those three resources all point you into the same support ecosystem, but they serve slightly different purposes depending on whether you need the script itself, the broader wiki, or the packager-specific documentation.
 
