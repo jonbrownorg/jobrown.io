@@ -7,3 +7,5 @@ AGENTS.md
 .DS_Store
 **/.DS_Store
 .codex-backups/
+Rakefile
+docker-compose.yml
