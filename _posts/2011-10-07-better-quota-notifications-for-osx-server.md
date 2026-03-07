@@ -4,8 +4,8 @@ author: Jon
 excerpt: OSX Server comes pre-packaged with Dovecot one of the best IMAP services out there and one of the most extensible and flexible in my opinion. That is its flexible and extensible as long as you know how to configure Dovecot which most OSX Server Administrators are not. I had a conversation with a co-worker not too long ago about being an OSX Server Administrator and I joked that Apple made great hardware and a great OS but most if not all of the services under the hood for Web, Mail, Mailing Lists, etc... were all borrowed open source technologies and that Apple really does not offer any sort of support base for the open source technologies that they use. However without these pieces of software their entire PR Campaign would hold no water. What I praise Apple for is taking these tools and utilizing them and making them easier to use while leaving the ability to tinker and improve these services.
 layout: post
 permalink: /blog/better-quota-notifications-for-osx-server/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - mail-server
   - osx-system-administration

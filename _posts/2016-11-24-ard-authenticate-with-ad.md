@@ -3,8 +3,8 @@ title: Authenticate with AD credentials via ARD / SSH
 author: Jon Brown
 layout: post
 permalink: /blog/authenticate-with-ad/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "Authenticate with AD credentials via ARD / SSH"
 categories:
   - bash-scripts

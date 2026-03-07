@@ -5,8 +5,8 @@ excerpt: Apple computers recently have exploded in popularity, Apple stock is so
   While looking at the options out there for laptop security and recovery, and reviewing all the options, it seemed wise to take a step back and ask the question, what is the end goal? What do you expect to happen when your precious laptop or desktop is lost or stolen? Do you expect to retrieve it? Will you claim it as a loss and report it with your insurance company? The answers to these questions will impact how you should consider the choice for what kind of solution to use to protect your computer.
   Almost all recovery software requires the lost or stolen computer to be used and connected to the internet to actually work. So security settings like setting a firmware password or having your computer encrypted with Filevault with no guest account would render the computer unusable, and at the same token untraceable. If laptop recovery is the goal, you need to make it easy for the thief to use the computer even if its only for a little while, else the computer may never register at all.
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: Protect your Mac!
 permalink: /blog/protect-your-mac/
 categories:

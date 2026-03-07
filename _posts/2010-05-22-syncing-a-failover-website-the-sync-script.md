@@ -3,7 +3,7 @@ title: 'II Syncing a failover website : The Sync script'
 author: Jon
 layout: post
 permalink: /blog/syncing-a-failover-website-the-sync-script/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/sync.png
 categories:

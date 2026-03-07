@@ -3,8 +3,8 @@ title: Migrate Open Directory 10.10
 author: Jon Brown
 layout: post
 permalink: /blog/migrate-open-directory/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "Migrate Open Directory 10.10"
 categories:
   - osx-server-configuration

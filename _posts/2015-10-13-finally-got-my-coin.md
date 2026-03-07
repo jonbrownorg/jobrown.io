@@ -3,8 +3,8 @@ title: COIN 1 - Lockitron 0
 author: Jon Brown
 layout: post
 permalink: /blog/coin-vs-lockitron/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "COIN 1 - Lockitron 0"
 categories:
   - rants

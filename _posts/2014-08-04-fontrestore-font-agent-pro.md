@@ -4,8 +4,8 @@ author: Jon Brown
 excerpt: FontAgent Pro is a great font management solution for OS X. One of the best things about it is that its 100% cloud based. You can run the entire thing hosted in their cloud instance or you can run it on your own server. Its a great solution for font management, and does everything from managing your font licenses, users, libraries and sets. The one problem however is the fact that when deploying a new font solution you find yourself in a quandary over the right way to deploy that kind of solution to a large number of computers.
 layout: post
 permalink: /blog/fontrestore-font-agent-pro/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: 'Fontrestore, Apple&#8217;s fix for your fonts'
 categories:
   - bash-scripts

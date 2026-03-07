@@ -2,8 +2,8 @@
 title: Roll your own DNS monitoring with DIG, Bash & CRON
 author: Jon Brown
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "Roll your own DNS monitoring with DIG, Bash & CRON"
 permalink: /blog/monitor-dns-bash-script/
 categories:

@@ -4,8 +4,8 @@ author: Jon
 excerpt: Over the years I have stored a file that has many of the day to day commands that I use to administer the computers at my workplace. After 4 years of saving these commands I am giving back and creating the ultimate post to aid all new sys admins out there.
 layout: post
 permalink: /blog/useful-commands-for-osx-administration/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - osx-system-administration

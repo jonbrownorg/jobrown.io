@@ -3,8 +3,8 @@ title: Migrate Outlook 2016 Profile from one Mac to another Mac
 author: Jon Brown
 layout: post
 permalink: /blog/migrate-2016-outlook/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "Migrate Outlook 2016 Profile from one Mac to another Mac"
 categories:
   - outlook-2016

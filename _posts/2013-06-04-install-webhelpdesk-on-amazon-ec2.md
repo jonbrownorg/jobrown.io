@@ -3,8 +3,8 @@ title: Web Help Desk on Amazon EC2
 author: Jon
 layout: post
 permalink: /blog/install-webhelpdesk-on-amazon-ec2/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - cloud-computing
   - Web-Server

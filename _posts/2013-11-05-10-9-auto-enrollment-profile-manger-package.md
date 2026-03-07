@@ -3,8 +3,8 @@ title: 10.9 Auto Enrollment Profile Manger Package
 author: Jon
 layout: post
 permalink: /blog/10-9-auto-enrollment-profile-manger-package/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - casper-munki

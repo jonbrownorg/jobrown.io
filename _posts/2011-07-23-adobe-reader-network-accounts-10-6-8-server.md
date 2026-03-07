@@ -3,8 +3,8 @@ title: 'Adobe Reader, Network Accounts &#038; 10.6.8 Server'
 author: Jon
 layout: post
 permalink: /blog/adobe-reader-network-accounts-10-6-8-server/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bug-fixes  
 tags:

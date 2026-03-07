@@ -3,7 +3,7 @@ title: 'Solr, WordPress &#038; OSX Server'
 author: Jon
 layout: post
 permalink: /blog/solr-wordpress-osx-server/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 related_posts:
   - 'a:3:{i:0;s:3:"182";i:1;s:3:"216";i:2;s:3:"191";}'
 img:

@@ -3,8 +3,8 @@ title: Migrating a Stubborn Wiki Server 10.7 / 10.8
 author: Jon
 layout: post
 permalink: /blog/migrating-a-stubborn-wiki-server-10-7-10-8/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - migration
   - wiki-server

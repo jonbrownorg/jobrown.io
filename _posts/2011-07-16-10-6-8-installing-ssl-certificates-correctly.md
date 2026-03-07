@@ -3,7 +3,7 @@ title: 10.6.8 Installing SSL Certificates Correctly
 author: Jon
 layout: post
 permalink: /blog/10-6-8-installing-ssl-certificates-correctly/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/ssl.png
 categories:

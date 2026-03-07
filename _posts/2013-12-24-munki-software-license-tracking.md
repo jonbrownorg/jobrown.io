@@ -3,8 +3,8 @@ title: Munki Software License Tracking
 author: Jon
 excerpt: "Beginning with the 0.9.1 builds of the munki tools, Munki can query a webserver to determine if there are available seats for licensed software (or any software you wish to make available via optional_installs, yet control the number of deployed copies). In order to use this wonderful new feature here are the things you need."
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/munki-software-license-tracking/
 categories:
   - casper-munki

@@ -3,7 +3,7 @@ title: 'III Syncing a failover website : Scheduling the sync'
 author: Jon
 layout: post
 permalink: /blog/iii-syncing-a-failover-website-scheduling-the-sync/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/sync.png
 docit_tax_admin_order:

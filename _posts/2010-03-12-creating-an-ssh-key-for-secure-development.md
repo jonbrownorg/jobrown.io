@@ -3,7 +3,7 @@ title: 'I Syncing a failover website : Creating an SSH key'
 author: Jon
 layout: post
 permalink: /blog/creating-an-ssh-key-for-secure-development/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/sync.png
 categories:

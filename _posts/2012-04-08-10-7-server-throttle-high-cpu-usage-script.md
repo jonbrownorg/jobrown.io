@@ -4,8 +4,8 @@ author: Jon
 excerpt: For the last two years, I have noticed a trend. From time to time Apple will release updates to its OSX Server environment, sometimes these updates go smoothly however the bulk of the time it causes several nasty side affects one of them being high CPU usage among rogue processes.
 layout: post
 permalink: /blog/10-7-server-throttle-high-cpu-usage-script/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - osx-system-administration

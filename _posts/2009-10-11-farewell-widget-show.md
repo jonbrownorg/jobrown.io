@@ -3,7 +3,7 @@ title: Farewell Widget Show
 author: Jon
 layout: post
 permalink: /blog/farewell-widget-show/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/text.png
 categories:

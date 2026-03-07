@@ -3,8 +3,8 @@ title: 'Stay off of blacklists: Limit postfix recipients'
 author: Jon
 layout: post
 permalink: /blog/stay-off-of-blacklists-limit-postfix-recipients/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/network.png
 categories:

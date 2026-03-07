@@ -3,8 +3,8 @@ title: Install Zenoss on 10.9 Mavericks with VMWare Fusion
 author: Jon
 excerpt: "If you are a network (or systems) administrator, you know how crucial it is to have the right tools for the job. One of the toughest tools to really nail down is a network monitoring tool. Although there are plenty of such tools out there, they range from the over-priced to the under-featured. Where do you look for any sort of middle ground where features don't lose out to price?"
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/install-zenoss-on-10-9-mavericks-with-vmware-fusion/
 categories:
   - bash-scripts

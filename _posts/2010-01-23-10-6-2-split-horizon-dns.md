@@ -3,7 +3,7 @@ title: 10.6.2 Split Horizon DNS
 author: Jon
 layout: post
 permalink: /blog/10-6-2-split-horizon-dns/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/xserve.png
 categories:

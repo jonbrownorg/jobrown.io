@@ -4,8 +4,8 @@ author: Jon
 excerpt: Recently our Organization has grown to immense size and we are starting to outgrow the 10.6 Wiki server that we use primarily for our intranet. I have been looking at the 10.7 wiki server however it is not much better, our intranet has been plagued with bouts of corruption and plist issues that have caused slow load times, and extreme data loss. Its pretty clear that we need to move to a more stable information storage media. We have looked at Wordpress and Drupal for this functionality  however the biggest issue is getting the data from the Wiki Server into one of these installations. I noticed that both Drupal and Wordpress have many plugins or modules that offer the ability to import content from CSV however getting a Wiki Server content set into CSV is not as easy as it sounds.
 layout: post
 permalink: /blog/export-osx-wiki-server-to-csv/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - wiki-server

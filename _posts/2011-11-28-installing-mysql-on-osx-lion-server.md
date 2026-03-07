@@ -4,8 +4,8 @@ author: Jon
 excerpt: It is a fact that Apple has migrated itself away from MYSQL. It is also a fact that most people who continue to buy Apple Servers have been using MYSQL for some time and have websites or other content that sill relies on this technology. Just because it is not endorsed or pre-configured by Apple however does not mean that it can not be used. On the contrary installing and configuring MYSQL to run on an OSX Lion server is moderately easy and gives greater insight as to how MYSQL works (If your a novice to intermediate MYSQL user like me). Lets get started with a brief walkthrough of how to install MYSQL on an OSX Lion Server.
 layout: post
 permalink: /blog/installing-mysql-on-osx-lion-server/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bug-fixes
   - reviews

@@ -3,7 +3,7 @@ title: 'Karl: Letter to the Editor'
 author: Jon
 layout: post
 permalink: /blog/letter-to-the-editor-karl/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/text.png
 categories:

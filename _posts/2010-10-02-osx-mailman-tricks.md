@@ -3,7 +3,7 @@ title: OSX Server Mailman Tricks
 author: Jon
 layout: post
 permalink: /blog/osx-mailman-tricks/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/xserve.png
 is_code:

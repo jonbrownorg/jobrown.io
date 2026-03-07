@@ -3,8 +3,8 @@ title: Manage your Macs on a budget
 author: Jon
 layout: post
 permalink: /blog/manage-macs-on-a-budget/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - cloud-computing
   - osx-system-administration

@@ -3,8 +3,8 @@ title: '10.8  to 10.9 Server Upgrade'
 author: Jon
 layout: post
 permalink: /blog/10-8-to-10-9-server-upgrade/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - dns-settings
   - migration

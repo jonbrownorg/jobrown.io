@@ -3,7 +3,7 @@ title: Backing up the OD Master
 author: Jon
 layout: post
 permalink: /blog/backing-up-the-od-master/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/backup.png
 is_code:

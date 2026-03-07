@@ -3,8 +3,8 @@ title: PXE Boot Clonezilla Live with Synology
 author: Jon
 excerpt: I was excited to see that Synology have recently integrated a PXE solution in their latest version of Diskstation Manager – DSM 4.2 beta. This makes their NAS devices even more ideal in a home virtualisation lab as they are both cheap to buy and to run (the DS212 unit that I own consumes less than 20W in use), but also easy to configure and they offer a wide range of storage and network services such as CIFS / AFP / NFS / iSCSI, LDAP, PXE, TFTP, VPN, DNS.
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/pxe-boot-clonezilla-live-with-synology/
 categories:
   - microsoft-imaging

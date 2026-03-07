@@ -3,7 +3,7 @@ title: Understanding Mobile Access Server
 author: Jon
 layout: post
 permalink: /blog/understanding-mobile-access-server/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/keys.png
 categories:

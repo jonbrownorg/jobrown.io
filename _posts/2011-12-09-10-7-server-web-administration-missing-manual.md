@@ -4,8 +4,8 @@ author: Jon
 excerpt: I just started using 10.7 Lion Server at my organization and I have to admit it is nice in some ways and infuriating in others. Apple has certainly fixed and introduced quite a few new features such as Profile Manager but have removed features like Mobile Access. The hardest hit service in my opinion when it comes to 10.7 server administration is the Web service. Apple has stripped this service completely out of the Server Admin app and has added a dumbed down version of the service to the Server app. If your unfamiliar the Server app is a program called "Server" that has the worst possible GUI interface and the least possible settings for all services that run through it which is a shame.
 layout: post
 permalink: /blog/10-7-server-web-administration-missing-manual/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - osx-system-administration
   - reviews

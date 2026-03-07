@@ -3,7 +3,7 @@ title: '10.6.2 Roundcube &#038; LDAP'
 author: Jon
 layout: post
 permalink: /blog/10-6-2-roundcube-ldap/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/add.png
 categories:

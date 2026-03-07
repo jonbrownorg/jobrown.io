@@ -3,8 +3,8 @@ title: Deploying Printers with Munki on 10.9 Mavericks
 author: Jon
 layout: post
 permalink: /blog/deploying-printers-with-munki-on-10-9-mavericks/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - casper-munki
   - osx-system-administration

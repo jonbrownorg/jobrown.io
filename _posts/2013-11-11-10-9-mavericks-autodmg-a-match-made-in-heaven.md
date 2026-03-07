@@ -3,8 +3,8 @@ title: 10.9 Mavericks, AutoDMG a match made in heaven
 author: Jon
 layout: post
 permalink: /blog/10-9-mavericks-autodmg-a-match-made-in-heaven/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - casper-munki

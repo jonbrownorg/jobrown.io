@@ -4,8 +4,8 @@ author: Jon
 excerpt: 'If your like me then your happy that Apple has made several of their wonderful software titles free recently, specifically iLife and iWork for Mavericks. Apple has a defined workflow for deployment of these systems. Their method is to have companies enroll into their <a href="https://www.apple.com/business/vpp/">Volume Licensing Program</a> once enrolled you can download apps from the app store and the iOS store and deploy these seamlessly to your devices with Profile Manager for Mavericks.'
 layout: post
 permalink: /blog/10-9-deploying-appstore-packages/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - casper-munki

@@ -4,8 +4,8 @@ author: Jon
 excerpt: 'Apple has changed decades ago by introducing to the world single window applications. Ever since we have seen tremendous applications all taking advantage of this form. Functionality that compliments that form are things like window sheets, those cool pop-under windows that slide up and down from the top of the application top bar. Sheets magically show us controls when we need them and then whoosh them away when we don’t. '
 layout: post
 permalink: /blog/cocoa-horizontal-graph-view/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: 'Cocoa Control: Horizontal Graph View'
 categories:
   - cocoa-code

@@ -1,8 +1,8 @@
 ---
 title: Munki Report-PHP, the new old kid on the block
 author: Jon
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: Munki Report-PHP, the new old kid on the block
 excerpt: |
   In my organization we use Microsoft SCCM for managing Windows clients and Munki for managins OS X clients.

@@ -4,8 +4,8 @@ author: Jon
 excerpt: VMware has introduced with the release of VMware Fusion 6 a new method to deploy the application and to set some default settings. This method doesn’t seem to be documented by VMware just yet and was found while searching how to set the serial number for the app before deploying.
 layout: post
 permalink: /blog/deploying-vmware-fusion-6/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - casper-munki
   - product-reviews

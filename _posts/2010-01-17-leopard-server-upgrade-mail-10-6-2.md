@@ -2,7 +2,7 @@
 title: '10.5.8 Server Upgrade : Mail'
 author: Jon
 layout: post
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/leopard-server-upgrade-mail-10-6-2/
 img:
   - /blog/flyout/xserve.png

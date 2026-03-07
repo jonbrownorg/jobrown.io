@@ -3,8 +3,8 @@ title: 'Cocoa App: Animal Age'
 author: Jon
 excerpt: In an effort to learn more about Objective-C programming I have created a simple OSX Application that mimics one of my more popular widgets the Dog Age Widget. Its a native Objective-C Animal Age calculator that allows you to convert the ages of various animals against human lifespans and see life expectancies based on different breeds of animals.
 layout: post
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/cocoa-app-animal-age/
 categories:
   - cocoa-code

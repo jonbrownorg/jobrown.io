@@ -3,7 +3,7 @@ title: 10.6.8 Server high CPU usage, hwmond culprit
 author: Jon
 layout: post
 permalink: /blog/10-6-8-server-high-cpu-usage-hwmond-culprit/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/cpu.png
 categories:

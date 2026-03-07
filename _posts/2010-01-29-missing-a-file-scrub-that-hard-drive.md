@@ -3,7 +3,7 @@ title: Missing a file? Scrub that hard drive
 author: Jon
 layout: post
 permalink: /blog/missing-a-file-scrub-that-hard-drive/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/disk.png
 categories:

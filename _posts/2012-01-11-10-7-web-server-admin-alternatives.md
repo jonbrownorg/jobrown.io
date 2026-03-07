@@ -4,8 +4,8 @@ author: Jon
 excerpt: 'If you are using 10.7 server to administer any sort of website then you may have noticed that Apple has removed the bulk of the administration capabilities once found in the Server Admin app, and shifted a tiny fraction of that functionality to the Server app. Now one could speculate that if indeed Apple is shifting to a home server market, and it is currently frowned upon to run a robust website over a shared internet connection from ones living room that Apple may have done this to discourage users from using their new OS for that reason, however for those of us who need to run websites on 10.7 for our job or because we absolutely love OSX Servers then there are a few alternatives. '
 layout: post
 permalink: /blog/10-7-web-server-admin-alternatives/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - Web-Server
   - reviews

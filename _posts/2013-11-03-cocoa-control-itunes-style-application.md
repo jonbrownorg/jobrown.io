@@ -4,8 +4,8 @@ author: Jon
 excerpt: Recently I have become more and more interested with the wonderful world of Objective-C and C. For the last couple years I have been a hobbyist developer and still am today. I never really felt that my development skills had reached any level of real skill and so I have been an active member on websites like Stack overflow, Apple Developer Forums and more asking over and over the answers to what were probably very simple issues and questions that I hurdled over while learning.
 layout: post
 permalink: /blog/cocoa-control-itunes-style-application/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - cocoa-code
 tags:

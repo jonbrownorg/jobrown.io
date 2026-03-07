@@ -4,8 +4,8 @@ author: Jon
 excerpt: "Your websites and your systems are only as good as the backup strategy that you have for them. While managing Mac's you may think that having a strategy for website data backup is not relevant or important. Until you realize all of the technologies that you use on a daily basis that are actually moving to the web platform or cloud. For example OSX Wiki Server and Profile Manager 2 are all 100% web based technologies. If you use a web based ticketing system like Web Help Desk or Spiceworks again you need a strategy. Hitting more to home if you use Munki with MunkiWebAdmin or Casper then you need some kind of web based backup strategy."
 layout: post
 permalink: /blog/backup-your-website-to-amazon-s3/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
   - casper-munki

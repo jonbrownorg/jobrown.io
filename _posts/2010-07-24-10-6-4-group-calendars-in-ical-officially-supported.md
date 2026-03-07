@@ -3,7 +3,7 @@ title: 10.6.4 Group Calendars in iCal officially supported
 author: Jon
 layout: post
 permalink: /blog/10-6-4-group-calendars-in-ical-officially-supported/
-thumbnail: /assets/img/covers/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/ical.png
 categories:

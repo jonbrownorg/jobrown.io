@@ -3,8 +3,8 @@ title: Improve webpage speed with Digital Ocean
 author: Jon
 layout: post
 permalink: /blog/improve-webpage-speed-with-digital-ocean/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: Improve webpage speed with Digital Ocean
 categories:
   - product-reviews

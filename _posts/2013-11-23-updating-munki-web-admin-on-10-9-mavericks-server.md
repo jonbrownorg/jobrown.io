@@ -4,8 +4,8 @@ author: Jon
 excerpt: 'If your a fan and a user of MUNKI then you know what a great product it is and what community is behind it. Its backed by some of the largest companies around *(Disney, Google, etc..) and has consistently worked with all versions of OSX that have been around since Munki was created. The Munki client and admin tools requires Python 2.5 or higher with Objective-C Python bindings, which is included by default in Mac OS X. Munki is supported on Leopard through Mavericks. '
 layout: post
 permalink: /blog/updating-munki-web-admin-on-10-9-mavericks-server/
-image: /assets/img/covers/cover-16.jpg
-thumbnail: /assets/img/covers/cover-16.jpg
+image: /assets/images/covers/2026/cover-16.jpg
+thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - casper-munki
   - osx-system-administration
