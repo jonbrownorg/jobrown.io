@@ -4,8 +4,7 @@ author: Jon
 layout: post
 permalink: /blog/missing-a-file-scrub-that-hard-drive/
 thumbnail: /assets/images/covers/2026/cover-16.jpg
-img:
-  - /blog/flyout/disk.png
+image: /assets/images/covers/2026/cover-16.jpg
 categories:
   - data-recovery
 tags:

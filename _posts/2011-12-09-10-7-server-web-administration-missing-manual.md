@@ -7,7 +7,7 @@ permalink: /blog/10-7-server-web-administration-missing-manual/
 image: /assets/images/covers/2026/cover-16.jpg
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
-  - osx-system-administration
+  - osx-sys-admin
   - reviews
 tags:
   - 10.7

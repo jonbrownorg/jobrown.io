@@ -9,7 +9,7 @@ thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bug-fixes
   - reviews
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - mysql
   - OSX-Lion

@@ -7,7 +7,7 @@ thumbnail: /assets/images/covers/2026/cover-16.jpg
 img:
   - /blog/flyout/sync.png
 categories:
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - backup
   - cronjob

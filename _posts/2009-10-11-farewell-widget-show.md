@@ -4,8 +4,7 @@ author: Jon
 layout: post
 permalink: /blog/farewell-widget-show/
 thumbnail: /assets/images/covers/2026/cover-16.jpg
-img:
-  - /blog/flyout/text.png
+image: /assets/images/covers/2026/cover-16.jpg
 categories:
   - leter-to-the-editor
 ---

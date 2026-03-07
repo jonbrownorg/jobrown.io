@@ -4,8 +4,7 @@ author: Jon
 layout: post
 permalink: /blog/10-6-2-dovecot-mail-backups/
 thumbnail: /assets/images/covers/2026/cover-16.jpg
-img:
-  - /blog/flyout/backup.png
+image: /assets/images/covers/2026/cover-16.jpg
 categories:
   - mail-server
   

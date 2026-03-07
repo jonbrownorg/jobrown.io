@@ -7,8 +7,8 @@ image: /assets/images/covers/2026/cover-16.jpg
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 tagline: "Migrate Open Directory 10.10"
 categories:
-  - osx-server-configuration
-  - osx-system-administration
+  - osx-server-config
+  - osx-sys-admin
 tags:
   - deployment
   - mac

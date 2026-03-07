@@ -8,7 +8,7 @@ img:
   - /blog/flyout/cpu.png
 categories:
   - mail-server
-  - osx-system-administration
+  - osx-sys-admin
   - rants
 tags:
   - cpu

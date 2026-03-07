@@ -7,8 +7,7 @@ image: /assets/images/covers/2026/cover-16.jpg
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - cloud-computing
-  - osx-system-administration
-  - product-reviews
+  - osx-sys-admin
   - Web-Server
   - reviews
 tags:

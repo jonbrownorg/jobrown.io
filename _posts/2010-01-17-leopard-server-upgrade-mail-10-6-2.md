@@ -4,12 +4,11 @@ author: Jon
 layout: post
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/leopard-server-upgrade-mail-10-6-2/
-img:
-  - /blog/flyout/xserve.png
+image: /assets/images/covers/2026/cover-16.jpg
 categories:
   - mail-server
   
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - mac
   - mail

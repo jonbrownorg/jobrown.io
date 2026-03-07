@@ -8,7 +8,7 @@ image: /assets/images/covers/2026/cover-16.jpg
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - mail-server
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - bash-script
   - dovecot

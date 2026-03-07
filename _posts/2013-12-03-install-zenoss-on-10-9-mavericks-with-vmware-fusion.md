@@ -8,7 +8,7 @@ thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/install-zenoss-on-10-9-mavericks-with-vmware-fusion/
 categories:
   - bash-scripts
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - appliance
   - network

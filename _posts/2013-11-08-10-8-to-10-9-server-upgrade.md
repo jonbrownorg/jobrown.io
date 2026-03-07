@@ -8,8 +8,7 @@ thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - dns-settings
   - migration
-  - osx-system-administration
-  - Web-Server
+  - osx-sys-admin
   - wiki-server
 tags:
   - 10.9

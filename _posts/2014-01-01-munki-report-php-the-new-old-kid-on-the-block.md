@@ -12,7 +12,7 @@ layout: post
 permalink: /blog/munki-report-php-the-new-old-kid-on-the-block/
 categories:
   - casper-munki
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - munki
   - munkireport

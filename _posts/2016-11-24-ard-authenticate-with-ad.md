@@ -9,7 +9,7 @@ tagline: "Authenticate with AD credentials via ARD / SSH"
 categories:
   - bash-scripts
   - microsoft
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - tutorials
   - mac

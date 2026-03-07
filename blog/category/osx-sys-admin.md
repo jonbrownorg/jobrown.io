@@ -4,9 +4,9 @@ title: OSX System Administration Articles | Jon Brown Blog
 description: Browse Jon Brown blog posts about OSX System Administration, including
   practical guides, lessons learned, and implementation insights.
 type: CollectionPage
-category: osx-system-administration
-permalink: "/blog/category/osx-system-administration/"
-canonical_url: https://jonbrown.org/blog/category/osx-system-administration/
+category: osx-sys-admin
+permalink: "/blog/category/osx-sys-admin/"
+canonical_url: https://jonbrown.org/blog/category/osx-sys-admin/
 image:
   path: "/assets/images/og/og_image_blog.png"
   width: 1200

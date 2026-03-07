@@ -8,7 +8,7 @@ tagline: "Roll your own DNS monitoring with DIG, Bash & CRON"
 permalink: /blog/monitor-dns-bash-script/
 categories:
   - bash-scripts
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - tutorials
   - mac

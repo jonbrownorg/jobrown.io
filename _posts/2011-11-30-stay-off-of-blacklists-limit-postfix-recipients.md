@@ -9,7 +9,7 @@ img:
   - /blog/flyout/network.png
 categories:
   - mail-server
-  - osx-system-administration
+  - osx-sys-admin
   - reviews
 tags:
   - mail

@@ -10,7 +10,7 @@ categories:
   - outlook-2016
   - migration
   - microsoft
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - tutorials
   - mac

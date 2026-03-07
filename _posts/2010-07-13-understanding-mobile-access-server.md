@@ -8,7 +8,7 @@ img:
   - /blog/flyout/keys.png
 categories:
   
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - mobile-access
   - server

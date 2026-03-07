@@ -8,7 +8,7 @@ thumbnail: /assets/images/covers/2026/cover-16.jpg
 permalink: /blog/munki-software-license-tracking/
 categories:
   - casper-munki
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - license-tracking
   - munki

@@ -9,7 +9,7 @@ img:
 docit_tax_admin_order:
   - 4
 categories:
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - backup
   - cronjob

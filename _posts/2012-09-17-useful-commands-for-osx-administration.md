@@ -8,7 +8,7 @@ image: /assets/images/covers/2026/cover-16.jpg
 thumbnail: /assets/images/covers/2026/cover-16.jpg
 categories:
   - bash-scripts
-  - osx-system-administration
+  - osx-sys-admin
 tags:
   - cheat-sheet
   - osx-administration
