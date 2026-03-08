@@ -79,9 +79,9 @@ The beta program is there for people who want access to builds that are still in
 
 That is the tradeoff. If you join the beta, you are getting access to work in progress, not just polished release builds. But for users who want to help shape the app and get earlier access to fixes, that is where the beta is valuable.
 
-The beta uses [TestFlight](https://apps.apple.com/us/app/testflight/id899247664?mt=8). To join the public beta directly, use the [ABM Warranty TestFlight link](https://testflight.apple.com/join/KGNj2cTd). The workflow is the standard Apple beta path:
+The beta uses [TestFlight](https://apps.apple.com/us/app/testflight/id899247664?mt=8). To join the public beta directly, use the [ABM Warranty TestFlight link](https://testflight.apple.com/join/tGnesmG1). The workflow is the standard Apple beta path:
 
-1. Open the [ABM Warranty TestFlight link](https://testflight.apple.com/join/KGNj2cTd).
+1. Open the [ABM Warranty TestFlight link](https://testflight.apple.com/join/tGnesmG1).
 2. Install [TestFlight](https://apps.apple.com/us/app/testflight/id899247664?mt=8) if you do not already have it.
 3. Open the beta in TestFlight.
 4. Accept the Apple terms.
