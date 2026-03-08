@@ -30,7 +30,7 @@ That kind of investment is not easy to ask for. It requires time, budget, and on
 
 When the goal is long-term protection, fear alone is not enough. People need clarity about the real risk, confidence in the path forward, and a realistic understanding of what it takes to stay secure. The best outcomes happen when security is presented as a shared responsibility, not a panic-driven purchase. That creates better decisions, stronger trust, and a far more sustainable approach to protecting the business.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>          
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

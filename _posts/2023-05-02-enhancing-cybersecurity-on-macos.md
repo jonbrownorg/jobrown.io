@@ -32,7 +32,7 @@ The larger lesson is that cybersecurity on macOS is strongest when the platform 
 
 For organizations and individual users alike, that is the real opportunity. macOS is already built on a solid security foundation, but the biggest gains often come from helping people respond well in uncertain environments. When security features are easier to understand and better aligned with real-world conditions, users are more likely to make the decisions that keep their systems and data safe.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

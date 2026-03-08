@@ -32,7 +32,7 @@ The real power of cybersecurity is not simply in the software itself. It is in h
 
 For businesses trying to improve security, that is the core lesson: invest in the tools, but do not mistake tools for the full solution. The strongest cybersecurity strategy is the one that combines capable systems with better habits, clearer accountability, and a team that understands security is part of the work, not someone else’s responsibility.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

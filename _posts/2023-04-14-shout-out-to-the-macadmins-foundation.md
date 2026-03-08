@@ -30,7 +30,7 @@ One of the best things about the MacAdmins world is that people are usually will
 
 So this is a simple public service message: if you care about the future of the Apple admin community, take the time to learn more about the MacAdmins Foundation. Join if you can. Donate if you are able. Share it with others in the community. The more support this foundation receives, the stronger the MacAdmins ecosystem becomes for everyone who depends on it.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896298225" %}
 
 [384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
 

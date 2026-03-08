@@ -30,7 +30,7 @@ Being forced to revisit the brand ended up being one of the most valuable correc
 
 That change was bigger than a logo or a new word on a website. It clarified the direction of the business. It made the company easier to position, easier to present professionally, and easier to grow into. Looking back, the early naming mistake was frustrating in the moment, but it forced a better decision. For founders, that is the real lesson: a strong brand is not just about what sounds clever on day one. It is about choosing a name that can carry the business where you want it to go next.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>          
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

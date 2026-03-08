@@ -32,7 +32,7 @@ For many service providers, adapting to that shift also requires letting go of o
 
 The broader lesson is that IT services evolve with the tools available. What once required travel, scheduling, and hands-on presence can now often be handled more efficiently from anywhere. The shift in on-site work is not about eliminating personal service. It is about recognizing that the best service is often the one that solves the problem with the least friction, regardless of where the technician is sitting.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

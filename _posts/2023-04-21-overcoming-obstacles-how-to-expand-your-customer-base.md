@@ -32,7 +32,7 @@ The early stage was still challenging. Building a business requires a different 
 
 Over time, that foundation turned into referrals, word of mouth, and broader opportunities. Once the first clients saw the benefit, growth became less about broad outreach and more about reputation. That is often how a strong customer base is built: by finding a real problem, serving a specific audience well, and turning early trust into momentum that compounds over time.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896298225" %}
 
 [384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
 

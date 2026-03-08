@@ -34,7 +34,7 @@ For owners, that is the core issue: knowing what you are actually trying to pres
 
 That is the real measure of business value. It is not just revenue, branding, or what someone is willing to pay in the moment. It is whether the company has enough structure, trust, and client loyalty to stand as something worth acquiring on its own terms. When you understand that, you make better decisions about growth, partnership, and what kind of future you are actually building toward.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896412319?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>      
+{% include videos/audio.html id="1836424896412319" %}
 
 [511: Interview With Jon Brown, VP Of Technology & Cybersecurity at Interlaced.io](https://commandcontrolpower.com/podcast/2023/4/11/511-interview-with-jon-brown-vp-of-technology-amp-cybersecurity-at-interlacedio)
 

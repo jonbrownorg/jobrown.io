@@ -32,7 +32,7 @@ Letting go of control is still difficult, even when the logic is sound. Sometime
 
 The consultant journey is complex because it sits at the intersection of identity, skill, and scale. There are moments when being purely technical again can sound appealing, just as there are moments when building something larger feels worth the challenge. Neither instinct is wrong. The point is to keep reflecting honestly enough to know what kind of role, business, and partnership structure will actually support the future you are trying to build.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896298225?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896298225" %}
 
 [384: Interview With Jon Brown, founder & CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2020/10/27/384-interview-with-jon-brown-founder-amp-ceo-of-grove-technologies)
 

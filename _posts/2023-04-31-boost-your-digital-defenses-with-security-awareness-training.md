@@ -32,7 +32,7 @@ That is often the real challenge. People tend to treat security as optional when
 
 The most effective security awareness efforts are practical, repetitive, and tied to real behavior. They help people understand what to look for, why certain safeguards matter, and how to respond when something does not seem right. That kind of training creates better habits over time, and better habits are still one of the strongest defenses any person or organization can build.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>    
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 

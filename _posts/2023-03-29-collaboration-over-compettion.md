@@ -34,7 +34,7 @@ The best collaborative relationships are built in stages. They often begin with 
 
 For consultants, that is the real opportunity. Strategic collaboration can help you extend your capabilities, serve clients more effectively, and avoid turning every business challenge into a hiring problem. Competition will always exist, but the firms that learn when and how to cooperate often create more resilience than the firms that insist on doing everything alone.
 
-<div style="height: 228px; width: 600px;"><iframe src="https://audio.com/embed/audio/1836424896752308?theme=light" style="display:block; border-radius: 1px; border: none; height: 204px; width: 600px;"></iframe><a href='https://audio.com/jon-brown' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">@jon-brown</a></div>          
+{% include videos/audio.html id="1836424896752308" %}
 
 [434: Interview With Jon Brown CEO of Grove Technologies](https://commandcontrolpower.com/podcast/2021/10/12/434-interview-with-jon-brown-ceo-of-grove-technologies)
 
