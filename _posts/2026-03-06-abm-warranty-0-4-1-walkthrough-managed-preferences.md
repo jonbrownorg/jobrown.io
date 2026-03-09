@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-06'
 author: Jon Brown
 permalink: /blog/abm-warranty-0-4-1-walkthrough-managed-preferences/
-published: false
+published: true
 title: "ABM Warranty 0.4.1 Walkthrough: Managed Preferences"
 description: "A walkthrough of managed preferences in ABM Warranty 0.4.1 covering how I package managed credentials, deploy them through MDM, import them into the app, and keep the credential workflow secure."
 blogimgpath: 202408034Up

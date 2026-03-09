@@ -71,6 +71,7 @@ homepage:
     published: 2025-01-28
     
 future: true
+excerpt_separator: "</div>"
 
 theme: null
 plugins:

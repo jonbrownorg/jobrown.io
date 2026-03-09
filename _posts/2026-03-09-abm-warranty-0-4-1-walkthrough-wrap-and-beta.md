@@ -3,7 +3,7 @@ layout: post
 date: '2026-03-09'
 author: Jon Brown
 permalink: /blog/abm-warranty-0-4-1-walkthrough-wrap-and-beta/
-published: false
+published: true
 title: "ABM Warranty 0.4.1 Walkthrough: Wrap-Up and Beta"
 description: "A wrap-up walkthrough for ABM Warranty 0.4.1 covering the last remaining features, support resources, the Mac Admins Slack community, how to join the public beta, and how to export logs for support."
 blogimgpath: 202408034Up
